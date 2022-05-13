@@ -24,7 +24,7 @@ export default function Solutions() {
                     <Row>
                         <Col sm={4} xs={12} className="solutions-section_div">
                             <div className="solutions-section_div-img">
-                                <Image src={check_blue.src} width={100}
+                                <Image src={check_blue.src} width={120}
                                     height={120} className={'img-fluid'} />
                             </div>
 
@@ -34,7 +34,7 @@ export default function Solutions() {
                         </Col>
                         <Col sm={4} xs={12} className="solutions-section_div">
                             <div className="solutions-section_div-img">
-                                <Image src={check_blue.src} width={100}
+                                <Image src={check_blue.src} width={120}
                                     height={120} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-section_title">
@@ -45,7 +45,7 @@ export default function Solutions() {
                         </Col>
                         <Col sm={4} xs={12} className="solutions-section_div">
                             <div className="solutions-section_div-img">
-                                <Image src={check_blue.src} width={100}
+                                <Image src={check_blue.src} width={120}
                                     height={120} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-section_title">
