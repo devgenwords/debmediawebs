@@ -1,0 +1,13 @@
+.map-section {
+    @media (min-width: 992px) {
+        padding-left: 10em !important;
+        padding-right: 10em !important;
+    }
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    &-maxMap {
+        max-width: 500px !important;
+    }
+}
