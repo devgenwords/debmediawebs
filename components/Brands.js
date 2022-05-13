@@ -17,19 +17,19 @@ import axios from "axios";
 export default function Brands() {
     const [images, setImages] = useState([]);
 
-    useEffect(() => {
-        async function searchItems() {
-            await axios
-                .get(`http://localhost:1337/api/tests?populate=*`)
-                .then((res) => {
-                    setImages(res.data.data);
-                })
-                .catch((err) => {
-                    console.error(err);
-                });
-        }
-        searchItems();
-    }, []);
+    // useEffect(() => {
+    //     async function searchItems() {
+    //         await axios
+    //             .get(`http://localhost:1337/api/tests?populate=*`)
+    //             .then((res) => {
+    //                 setImages(res.data.data);
+    //             })
+    //             .catch((err) => {
+    //                 console.error(err);
+    //             });
+    //     }
+    //     searchItems();
+    // }, []);
 
     return (
         <>
