@@ -3,11 +3,56 @@
         padding-left: 10em !important;
         padding-right: 10em !important;
     }
+
     margin-top: 4em;
     margin-bottom: 4em;
     padding-top: 5em;
     padding-bottom: 5em;
+
     &-maxMap {
         max-width: 500px !important;
     }
+
+    &_mapcontent {
+        position: relative;
+    }
+}
+
+.quntity {
+    color: #2F9FEE;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.type {
+    
+}
+
+
+.number1 {
+    position: absolute;
+    right: 15%;
+    top: 0;
+
+    span {
+        display: block;
+    }
+}
+
+.number2 {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+
+.number3 {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+}
+
+.number4 {
+    position: absolute;
+    right: 15%;
+    top: 80%;
 }
