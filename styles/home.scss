@@ -201,6 +201,7 @@
             margin-top: -18%;
         }
     }
+
     &_title {
         color: #232C61;
         font-weight: 500;
@@ -212,6 +213,7 @@
         padding-left: 10em !important;
         padding-right: 10em !important;
     }
+
     z-index: 1;
     border-bottom-left-radius: 90px;
     border-bottom-right-radius: 90px;
@@ -220,28 +222,34 @@
     padding-bottom: 2em;
     padding-top: 3em;
     max-height: 675px;
+
     &_title {
         margin-bottom: 2em;
         color: #fff;
         text-align: center;
-         b {
-             color: #2F9FEE;
-         }
+
+        b {
+            color: #2F9FEE;
+        }
     }
+
     &_content {
         margin-top: 2em !important;
+
         &-nav {
             color: #9195b0 !important;
             -webkit-transition: 0.2s ease-in-out;
             transition: 0.2s ease-in-out;
             cursor: pointer;
         }
+
         &-title {
             h2 {
                 margin-top: 2.5em;
-                color: #fff; 
+                color: #fff;
                 font-weight: 200;
                 font-size: 1.7rem;
+
                 b {
                     color: #2F9FEE;
                     font-weight: 500;
@@ -266,26 +274,34 @@
         padding-left: 10em !important;
         padding-right: 10em !important;
     }
+
     margin-top: 10em;
     margin-bottom: 5em;
+
     &_maintitle {
-        h3{
+        h3 {
             color: #404041;
             font-size: 2.3rem;
+
             b {
                 color: #232C61;
             }
         }
-        
+
     }
+
     &_div {
         margin-top: 2em !important;
-        &-text{ 
+
+        &-text {
             display: flex;
             align-items: center;
-            h4, p {
+
+            h4,
+            p {
                 display: block;
             }
+
             &-left {
                 display: flex;
                 align-items: center;
@@ -295,6 +311,39 @@
         }
     }
 
+}
+
+.partner-section {
+    position: relative;
+    background-color: #F6F7FB;
+    border-radius: 20px;
+    padding: 1.5em 3em !important;
+    margin-bottom: 3em;
+    &_title {
+        color: #232C61;
+        font-weight: 800;
+        font-size: 1.8rem;
+    }
+    &_parraf {
+        color: #404041;
+        font-size: 1.25rem;
+    }
+    &_btn {
+        border: 0;
+        box-shadow: none;
+        background-color: #2F9FEE;
+        color: #fff;
+        border-radius: 25px;
+        max-height: 45px;
+        padding: .5em .8em;
+    }
+    &_shape-left {
+        position: absolute;
+        width: 70px;
+        left: -3%;
+        z-index: -1;
+        top: -20%;
+    }
 }
 
 .grey-background {

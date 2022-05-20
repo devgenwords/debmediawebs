@@ -8,7 +8,7 @@ import Solutions from "../components/Solutions"
 import Modern from "../components/Modern"
 import Review from "../components/Review"
 import Map from "../components/Map"
-
+import Partner from "../components/Partner"
 
 export default function Home() {
 
@@ -29,6 +29,7 @@ export default function Home() {
       <Modern />
       <Review />
       <Map />
+      <Partner />
     </>
   );
 }
