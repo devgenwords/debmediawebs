@@ -1,4 +1,6 @@
 .review-section {
+    position: relative;
+    
     @media (min-width: 992px) {
         padding-left: 10em !important;
         padding-right: 10em !important;
@@ -12,8 +14,51 @@
         color: #2F9FEE;
         font-size: 2.4rem;
         font-weight: 700;
+        margin-top: 1.5em;
         span {
             color: #232C61;
+        }
+    }
+    &_slidersection {
+        background-color: #fff;
+        width: 100%;
+        height: 350px;
+        // box-shadow: 0px 4px 37px -3px #DFDFDF;
+        border-radius: 30px;
+        &-person {
+            position: absolute;
+            width: 180px;
+            height: 150px;
+            z-index: 1;
+            padding-top: 1em;
+            padding-left: 1em;
+        }
+        &-brand {
+            width: 100%;
+            max-width: 50px;
+            position: absolute;
+            left: 75px;
+            bottom: 15%;
+        }
+        &-text {
+            text-align: left;
+            width: 390px;
+            position: absolute;
+            right: 5px;
+            margin-top: 5em;
+            padding: 0 1.2em;
+            h4 {
+                color: #232C61;
+                font-weight: 700;
+            }
+            span {
+                color: #2C89E1;
+                margin-bottom: 1.2em;
+                display: block;
+            }
+            p {
+                color: #404041;
+            }
         }
     }
 }
