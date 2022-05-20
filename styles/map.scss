@@ -1,4 +1,17 @@
 .map-section {
+    position: relative;
+    &_leftshape {
+        position: absolute;
+        left: 0;
+        width: 45%;
+        top: 0%;
+    }
+    &_rightshape {
+        position: absolute;
+        right: 0;
+        bottom: 25%;
+        width: 35%;
+    }
     @media (min-width: 992px) {
         padding-left: 10em !important;
         padding-right: 10em !important;
@@ -10,11 +23,25 @@
     padding-bottom: 5em;
 
     &-maxMap {
-        max-width: 500px !important;
+        max-width: 600px !important;
+        margin-top: -18%;
     }
 
     &_mapcontent {
         position: relative;
+        &-text {
+            position: absolute;
+            max-width: 500px;
+            text-align: right;
+            bottom: 16%;
+            font-size: 1.4em;
+            color: #404041;
+            font-weight: 400;
+            padding-right: 2%;
+            b {
+                color: #232C61;
+            }
+        }
     }
 }
 
@@ -25,7 +52,9 @@
 }
 
 .type {
-    
+    background-color: #F6F7FB;
+    padding: 0.3em 0.5em;
+    border-radius: 15px;
 }
 
 
@@ -33,7 +62,6 @@
     position: absolute;
     right: 15%;
     top: 0;
-
     span {
         display: block;
     }
@@ -43,16 +71,30 @@
     position: absolute;
     right: 5%;
     top: 20%;
+    span {
+        display: block;
+    }
+
 }
 
 .number3 {
     position: absolute;
     right: 5%;
     top: 50%;
+    span {
+        display: block;
+    }
 }
 
 .number4 {
     position: absolute;
     right: 15%;
     top: 80%;
+    span {
+        display: block;
+    }
+}
+
+span.quntity span {
+    display: inline-block;
 }
