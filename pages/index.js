@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Head from "next/head";
-import Navbar from "../components/Navbar"
 import Header from "../components/Header"
 import Brands from "../components/Brands"
 import Market from "../components/Market"
@@ -14,14 +12,7 @@ export default function Home() {
 
 
   return (
-    <>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
-      <Navbar />
+    <React.Fragment>
       <Header />
       <Brands />
       <Market />
@@ -30,6 +21,6 @@ export default function Home() {
       <Review />
       <Map />
       <Partner />
-    </>
+    </React.Fragment>
   );
 }
