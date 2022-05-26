@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Brands />
+      {/* <Brands /> */}
       <Market />
       <Solutions />
       <Modern />
