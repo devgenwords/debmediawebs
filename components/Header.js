@@ -15,16 +15,26 @@ export default function Header() {
         <>
             <header>
                 <Container fluid className="header-home">
-                    <div className={'image-container'}>
-                        <Image src={mypic.src} layout="fill" className={'image'} />
-                    </div>
-                    <div>
-                        <img src={shape3.src} className="header-home_shape3" />
-                    </div>
-                    <div>
-                        <img src={shape1.src} className="header-home_shape1" />
-                        <img src={shape2.src} className="header-home_shape2" />
-                    </div>
+                    {
+                        !isMobile &&
+                        <div className={'image-container'}>
+                            <Image src={mypic.src} layout="fill" className={'image'} />
+                        </div>
+                    }
+                      {
+                        !isMobile &&
+                        <div>
+                            <img src={shape3.src} className="header-home_shape3" />
+                        </div>
+                    }
+                    {
+                        !isMobile &&
+                        <div>
+                            <img src={shape1.src} className="header-home_shape1" />
+                            <img src={shape2.src} className="header-home_shape2" />
+                        </div>
+                    }
+
                     <Container>
                         <Row>
                             <Col>
