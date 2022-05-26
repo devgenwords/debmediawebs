@@ -1,0 +1,106 @@
+[
+  {
+    "name": "movistar",
+    "image": {
+      "url": "movistar.png",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "lacaja",
+    "image": {
+      "url": "lacaja.jpg",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "davivienda",
+    "image": {
+      "url": "davivienda.jpg",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "coopaca",
+    "image": {
+      "url": "coopaca.jpg",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "zurich",
+    "image": {
+      "url": "zurich.jpg",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "aerolineas",
+    "image": {
+      "url": "aerolineas.jpg",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "mapfre",
+    "image": {
+      "url": "mapfre.jpg",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "seguridadlaboral",
+    "image": {
+      "url": "seguridadlaboral.jpg",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "comeva",
+    "image": {
+      "url": "comeva.jpg",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "banco-ciudad",
+    "image": {
+      "url": "banco-ciudad.png",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "almundo",
+    "image": {
+      "url": "almundo.png",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "onvacation",
+    "image": {
+      "url": "onvacation.jpg",
+      "width": 129,
+      "height": 49
+    }
+  },
+  {
+    "name": "huawei",
+    "image": {
+      "url": "huawei.png",
+      "width": 129,
+      "height": 49
+    }
+  }
+]

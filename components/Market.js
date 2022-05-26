@@ -54,7 +54,9 @@ export default function Market() {
                     </Row>
                 </Container>
                 <div className="market-section_arrow">
-                    <img src={arrow.src} alt="arrow" />
+                    <div className="market-section_arrow-circle">
+                        <img src={arrow.src} alt="arrow" />
+                    </div>
                 </div>
             </Container>
         </>

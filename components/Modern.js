@@ -29,28 +29,28 @@ export default function Modern() {
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Clientes insatisfechos
+                                            Integración Sencilla
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            por una atención ineficiente.
+                                            Integrable por API o iframe.
                                         </p>
                                     </div>
 
                                 </Col>
                             </Row>
                             <Row>
-                                <Col sm={6} xs={12} className="modern-section_div-text modern-section_div-text-left">
+                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-left">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Clientes insatisfechos
+                                            Métricas de performance
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            por una atención ineficiente.
+                                            Conoce el rendimiento de tus canales <br /> de atención.
                                         </p>
                                     </div>
 
                                 </Col>
-                                <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-start">
+                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-start">
                                     <Image src={performance.src} width={600}
                                         height={500} />
                                 </Col>
@@ -64,10 +64,10 @@ export default function Modern() {
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Clientes insatisfechos
+                                            Comunicación centralizada
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            por una atención ineficiente.
+                                            Envía el mensaje correcto a través de SMS, email, WhatsApp o pantallas.
                                         </p>
                                     </div>
 

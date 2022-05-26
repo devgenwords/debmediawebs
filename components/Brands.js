@@ -1,58 +1,76 @@
 import React, { useState, useEffect } from "react";
-
-var $ = require("jquery");
-if (typeof window !== "undefined") {
-    window.$ = window.jQuery = require("jquery");
-}
-import dynamic from "next/dynamic";
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-    ssr: false,
-});
+import BrandsData from '../json/brandsSlide.json';
 import { Row, Container, Col } from "react-bootstrap";
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
 import axios from "axios";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from 'next/image'
+
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+
+// import Swiper core and required modules
+import SwiperCore, { Autoplay, FreeMode, Pagination } from 'swiper';
+
+// install Swiper modules
+SwiperCore.use([Autoplay, FreeMode, Pagination]);
+
+const basePath = '/asset/imgs/brands'
 
 
 export default function Brands() {
+
     const [images, setImages] = useState([]);
 
-    // useEffect(() => {
-    //     async function searchItems() {
-    //         await axios
-    //             .get(`http://localhost:1337/api/tests?populate=*`)
-    //             .then((res) => {
-    //                 setImages(res.data.data);
-    //             })
-    //             .catch((err) => {
-    //                 console.error(err);
-    //             });
-    //     }
-    //     searchItems();
-    // }, []);
+    useEffect(() => {
+        setImages(BrandsData);
+    }, []);
 
     return (
         <>
             <Container className="brands-slider">
-                {/* <Row>
+                <Row>
                     <Col>
-                        <OwlCarousel
-                            className='owl-theme'
-                            loop
-                            nav={true}
+                        <Swiper
+                            spaceBetween={20}
+                            slidesPerView={2}
+                            freeMode={true}
+                            loop={true}
+                            pagination={{
+                                clickable: true,
+                                dynamicBullets: true,
+                            }}
                             autoplay={true}
-                            items={5}
-                            margin={20}
+                            breakpoints={{
+                                500: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 20,
+                                },
+                                768: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 30,
+                                },
+                                1024: {
+                                    slidesPerView: 5,
+                                    spaceBetween: 30,
+                                },
+                            }}
+                            className="mySwiper"
                         >
                             {images.map((item, index) => (
-                                    <div key={index} className="item">
-                                        <img src={"http://localhost:1337" + item.attributes.logo.data[0].attributes.url} />
-                                    </div>
+                                <SwiperSlide key={index}>
+                                     <img src={`/brands/${item.image.url}`} width={item.image.width} className="img-fluid" height={"auto"}/>
+                                </SwiperSlide>
                             ))}
-                        </OwlCarousel>
+                        </Swiper>
                     </Col>
-                </Row> */}
+                </Row>
             </Container>
         </>
     );
 }
+
+const Brand = ({ image, ...props }) => <Image src={image} layout='fill'/>

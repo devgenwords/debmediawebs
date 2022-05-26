@@ -4,6 +4,7 @@ import Image from 'next/image'
 import mypic from '../asset/imgs/home/videoShape.svg'
 import shape1 from '../asset/imgs/home/headershape1.svg'
 import shape2 from '../asset/imgs/home/headershape2.svg'
+import shape3 from '../asset/imgs/home/headershape3.svg'
 import { useMediaQuery } from 'react-responsive'
 
 
@@ -18,6 +19,12 @@ export default function Header() {
                         !isMobile &&
                         <div className={'image-container'}>
                             <Image src={mypic.src} layout="fill" className={'image'} />
+                        </div>
+                    }
+                      {
+                        !isMobile &&
+                        <div>
+                            <img src={shape3.src} className="header-home_shape3" />
                         </div>
                     }
                     {
