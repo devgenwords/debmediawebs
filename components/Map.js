@@ -12,65 +12,64 @@ export default function Map() {
     const isMobile = useMediaQuery({ query: '(max-width:899px)' })
     return (
         <>
-        {
-            !isMobile && 
-            <Container fluid className="map-section">
-                <img src={left.src} className="img-fluid map-section_leftshape" alt="Shape" />
-                <img src={right.src} className="img-fluid map-section_rightshape" alt="Shape" />
-            <Container>
-                <Row>
-                    <Col className="map-section_mapcontent text-center">
-                        <h3 className="map-section_mapcontent-text">
-                        Debmedia lleva más de 15 años desarrollando software para gestionar la experiencia del cliente en distintas compañías <b>en todo Latinoamérica.</b>
-                        </h3>
-                        <img src={map.src} className="img-fluid map-section-maxMap" alt="Mapa" />
-                        <div className="numbers number1 text-center">
-                            <span className="quntity">+ <CountUp end={300} redraw={true}>
-                                {({ countUpRef, start }) => (
-                                    <VisibilitySensor onChange={start} delayedCall>
-                                        <span ref={countUpRef} />
-                                    </VisibilitySensor>
-                                )}
-                            </CountUp></span>
-                            <span className="type">clientes</span>
-                        </div>
-                        <div className="numbers number2 text-center">
-                            <span className="quntity">+ <CountUp end={50} redraw={true}>
-                                {({ countUpRef, start }) => (
-                                    <VisibilitySensor onChange={start} delayedCall>
-                                        <span ref={countUpRef} />
-                                    </VisibilitySensor>
-                                )}
-                            </CountUp>M</span>
-                            <span className="type">interacciones</span>
-                        </div>
-                        <div className="numbers number3 text-center">
-                            <span className="quntity">+ <CountUp end={50} redraw={true}>
-                                {({ countUpRef, start }) => (
-                                    <VisibilitySensor onChange={start} delayedCall>
-                                        <span ref={countUpRef} />
-                                    </VisibilitySensor>
-                                )}
-                            </CountUp></span>
-                            <span className="type">Partners</span>
-                        </div>
-                        <div className="numbers number4 text-center">
-                            <span className="quntity">+ <CountUp end={2000} redraw={true}>
-                                {({ countUpRef, start }) => (
-                                    <VisibilitySensor onChange={start} delayedCall>
-                                        <span ref={countUpRef} />
-                                    </VisibilitySensor>
-                                )}
-                            </CountUp></span>
-                            <span className="type">sucursales implementadas</span>
-                        </div>
-                    </Col>
+        
+                <Container fluid className="map-section d-none d-sm-block">
+                    <img src={left.src} className="img-fluid map-section_leftshape" alt="Shape" />
+                    <img src={right.src} className="img-fluid map-section_rightshape" alt="Shape" />
+                    <Container>
+                        <Row>
+                            <Col className="map-section_mapcontent text-center">
+                                <h3 className="map-section_mapcontent-text">
+                                    Debmedia lleva más de 15 años desarrollando software para gestionar la experiencia del cliente en distintas compañías <b>en todo Latinoamérica.</b>
+                                </h3>
+                                <img src={map.src} className="img-fluid map-section-maxMap" alt="Mapa" />
+                                <div className="numbers number1 text-center">
+                                    <span className="quntity">+ <CountUp end={300} redraw={true}>
+                                        {({ countUpRef, start }) => (
+                                            <VisibilitySensor onChange={start} delayedCall>
+                                                <span ref={countUpRef} />
+                                            </VisibilitySensor>
+                                        )}
+                                    </CountUp></span>
+                                    <span className="type">clientes</span>
+                                </div>
+                                <div className="numbers number2 text-center">
+                                    <span className="quntity">+ <CountUp end={50} redraw={true}>
+                                        {({ countUpRef, start }) => (
+                                            <VisibilitySensor onChange={start} delayedCall>
+                                                <span ref={countUpRef} />
+                                            </VisibilitySensor>
+                                        )}
+                                    </CountUp>M</span>
+                                    <span className="type">interacciones</span>
+                                </div>
+                                <div className="numbers number3 text-center">
+                                    <span className="quntity">+ <CountUp end={50} redraw={true}>
+                                        {({ countUpRef, start }) => (
+                                            <VisibilitySensor onChange={start} delayedCall>
+                                                <span ref={countUpRef} />
+                                            </VisibilitySensor>
+                                        )}
+                                    </CountUp></span>
+                                    <span className="type">Partners</span>
+                                </div>
+                                <div className="numbers number4 text-center">
+                                    <span className="quntity">+ <CountUp end={2000} redraw={true}>
+                                        {({ countUpRef, start }) => (
+                                            <VisibilitySensor onChange={start} delayedCall>
+                                                <span ref={countUpRef} />
+                                            </VisibilitySensor>
+                                        )}
+                                    </CountUp></span>
+                                    <span className="type">sucursales implementadas</span>
+                                </div>
+                            </Col>
 
-                </Row>
-            </Container>
-        </Container>
-        }
-         
+                        </Row>
+                    </Container>
+                </Container>
+            
+
         </>
     );
 }

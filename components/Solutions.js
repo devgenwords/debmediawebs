@@ -66,10 +66,9 @@ export default function Solutions() {
                             </h2>
                         </Col>
                     </Row>
-                    {
-                        !isMobile &&
+
                         <Row>
-                            <Col className="solutions-tabs_content">
+                            <Col className="solutions-tabs_content d-none d-sm-block">
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="citas">
                                     <Row>
                                         <Col sm={3}>
@@ -202,20 +201,10 @@ export default function Solutions() {
                                 </Tab.Container>
                             </Col>
                         </Row>
-                    }
-
-
 
                 </Container>
             </Container>
-            {/* {
-                !isMobile &&
-                <div className="grey-background">
-
-                </div>
-
-            } */}
-
+          
         </>
     );
 }

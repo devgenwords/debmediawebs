@@ -12,7 +12,7 @@ export default function Home() {
 
 
   return (
-    <React.Fragment>
+    <>
       <Header />
       <Brands />
       <Market />
@@ -21,6 +21,6 @@ export default function Home() {
       <Review />
       <Map />
       <Partner />
-    </React.Fragment>
+    </>
   );
 }
