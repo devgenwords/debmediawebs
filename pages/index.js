@@ -8,6 +8,7 @@ import Review from "../components/Review"
 import Map from "../components/Map"
 import Partner from "../components/Partner"
 import Level from "../components/Level"
+import Contact from "../components/Contact"
 
 export default function Home() {
 
@@ -21,7 +22,9 @@ export default function Home() {
       <Modern />
       <Review />
       <Map />
+      <Partner />
       <Level />
+      <Contact />
     </>
   );
 }
