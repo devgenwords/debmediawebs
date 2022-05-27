@@ -44,7 +44,7 @@ export default function Brands() {
                         <Col sm={5} xs={12} >
                             <Col>
                                 <h3>
-                                    Más de 300<br /> organizaciones<br /><span> ya confían en<br /> Debmedia</span>
+                                    Más de 300<br className="d-none d-sm-block" /> organizaciones<br className="d-none d-sm-block"/><span> ya confían en<br className="d-none d-sm-block" /> Debmedia</span>
                                 </h3>
                             </Col>
                         </Col>
