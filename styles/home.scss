@@ -520,6 +520,89 @@ button.accordion-button {
     }
 }
 
+.level-section {
+    hr {
+        background-color: #2f9fee;
+        height: 4px !important;
+        opacity: 1;
+        position: absolute;
+        max-width: 100% !important;
+    }
+
+    position: relative;
+
+    @media (min-width: 992px) {
+        margin-top: 5em;
+        margin-bottom: 5em;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    &_line {
+        position: absolute;
+        height: 3px;
+        background-color: #2F9FEE;
+        width: 74% !important;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 46%;
+        z-index: 0;
+    }
+
+    &_relative {
+        position: relative;
+    }
+
+    background-color: #232C61;
+
+    &_mainTitle {
+        text-align: center;
+        color: #fff;
+
+        b {
+            color: #2F9FEE;
+            font-weight: 800;
+        }
+    }
+
+    &_step {
+
+        display: flex;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        
+        div {
+            width: 50px;
+            height: 50px;
+            color: #fff;
+            padding-top: .1em;
+            background-color: #2F9FEE;
+            text-align: center;
+            border-radius: 50%;
+            z-index:  1;
+        }
+    }
+
+    &_text {
+        p {
+            text-align: center;
+            color: #fff;
+            margin-top: 2em;
+            font-size: 1.1rem;
+
+            b {
+                color: #2F9FEE;
+            }
+        }
+    }
+}
+
 .grey-background {
     background-color: #F6F7FB;
     width: 100%;
