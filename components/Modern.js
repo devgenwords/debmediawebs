@@ -38,7 +38,7 @@ export default function Modern() {
 
                                 </Col>
                             </Row>
-                            <Row className="d-none d-sm-block">
+                            <Row className="d-none d-sm-flex">
                                 <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-left">
                                     <div>
                                         <h4 className="modern-section_title">

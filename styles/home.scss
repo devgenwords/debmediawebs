@@ -205,9 +205,18 @@
 
 .solutions-section {
     margin-top: 2em;
-    padding-bottom: 3em;
-    background-color: #F6F7FB;
+    background-color: #232C61;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-bottom: 1em;
 
+    @media (min-width: 992px) {
+        background-color: #F6F7FB;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        padding-bottom: 3em;
+
+    }
     &_maintitle {
         h3 {
             color: #132A67;
@@ -227,7 +236,7 @@
         &-img {
             margin-top: 1em;
             margin-bottom: 20px;
-
+            margin-top: -30%;
             @media (min-width: 992px) {
                 margin-top: -15%;
             }
@@ -235,8 +244,13 @@
     }
 
     &_title {
-        color: #232C61;
+        color: #fff;
         font-weight: 600;
+        font-size: .9rem;
+        @media (min-width: 992px) {
+            font-size: 1.1rem;
+            color: #232C61;
+        }
     }
 }
 
@@ -357,6 +371,7 @@ button.accordion-button.collapsed {
     text-align: center;
     font-weight: 600;
     padding: 1.5rem 1.25rem !important;
+    margin-bottom: 10px;
 }
 .solutions-accordion_content-nav.accordion-item {
     margin-bottom: 10px;

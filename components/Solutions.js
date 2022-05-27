@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Row, Container, Col, Tab, Nav, Accordion } from "react-bootstrap";
 import Image from 'next/image'
 import check_blue from '../asset/imgs/home/check_blue.svg'
+import check_white from '../asset/imgs/home/check-m.svg'
 import fila_virtual from '../asset/imgs/home/fila-virtual.png'
 import { useMediaQuery } from 'react-responsive'
 
@@ -22,20 +23,28 @@ export default function Solutions() {
             <Container fluid className="solutions-section">
                 <Container>
                     <Row>
-                        <Col sm={4} xs={12} className="solutions-section_div">
-                            <div className="solutions-section_div-img">
+                        <Col sm={4} xs={4} className="solutions-section_div">
+                            <div className="solutions-section_div-img  d-none d-sm-block">
                                 <Image src={check_blue.src} width={120}
                                     height={100} className={'img-fluid'} />
+                            </div>
+                            <div className="solutions-section_div-img  d-block d-sm-none">
+                                <Image src={check_white.src} width={60}
+                                    height={60} className={'img-fluid'} />
                             </div>
 
                             <h4 className="solutions-section_title">
                                 Mejora la atención y la experiencia
                             </h4>
                         </Col>
-                        <Col sm={4} xs={12} className="solutions-section_div">
-                            <div className="solutions-section_div-img">
+                        <Col sm={4} xs={4} className="solutions-section_div">
+                            <div className="solutions-section_div-img  d-none d-sm-block">
                                 <Image src={check_blue.src} width={120}
                                     height={100} className={'img-fluid'} />
+                            </div>
+                            <div className="solutions-section_div-img  d-block d-sm-none">
+                                <Image src={check_white.src} width={60}
+                                    height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-section_title">
                                 Direcciona a tus
@@ -43,10 +52,14 @@ export default function Solutions() {
                                 canal más eficiente
                             </h4>
                         </Col>
-                        <Col sm={4} xs={12} className="solutions-section_div">
-                            <div className="solutions-section_div-img">
+                        <Col sm={4} xs={4} className="solutions-section_div">
+                            <div className="solutions-section_div-img  d-none d-sm-block">
                                 <Image src={check_blue.src} width={120}
                                     height={100} className={'img-fluid'} />
+                            </div>
+                            <div className="solutions-section_div-img  d-block d-sm-none">
+                                <Image src={check_white.src} width={60}
+                                    height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-section_title">
                                 Diferénciate de
