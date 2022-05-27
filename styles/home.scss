@@ -217,6 +217,7 @@
         padding-bottom: 3em;
 
     }
+
     &_maintitle {
         h3 {
             color: #132A67;
@@ -237,6 +238,7 @@
             margin-top: 1em;
             margin-bottom: 20px;
             margin-top: -30%;
+
             @media (min-width: 992px) {
                 margin-top: -15%;
             }
@@ -247,6 +249,7 @@
         color: #fff;
         font-weight: 600;
         font-size: .9rem;
+
         @media (min-width: 992px) {
             font-size: 1.1rem;
             color: #232C61;
@@ -270,7 +273,7 @@
     margin-bottom: 2em;
     padding-bottom: 2em;
     padding-top: 3em;
-    
+
 
     &_title {
         margin-bottom: 2em;
@@ -298,16 +301,19 @@
                 color: #404041;
                 font-weight: 400;
                 font-size: 1em;
+
                 @media (min-width: 992px) {
                     font-size: 1.7em;
                     color: #fff;
-                    }
+                }
+
                 b {
                     @media (min-width: 992px) {
-                    color: #2F9FEE;
-                    font-weight: 500;
-                    font-size: 2rem
+                        color: #2F9FEE;
+                        font-weight: 500;
+                        font-size: 2rem
                     }
+
                     color: #2F9FEE;
                     font-weight: 500;
                 }
@@ -373,9 +379,11 @@ button.accordion-button.collapsed {
     padding: 1.5rem 1.25rem !important;
     margin-bottom: 10px;
 }
+
 .solutions-accordion_content-nav.accordion-item {
     margin-bottom: 10px;
 }
+
 .accordion-button:not(.collapsed) {
     color: #0c63e4 !important;
     background-color: #F6F7FB !important;
@@ -415,15 +423,21 @@ button.accordion-button {
     @media (min-width: 992px) {
         padding-left: 10em !important;
         padding-right: 10em !important;
+        margin-top: 10em;
+        margin-bottom: 5em;
     }
 
-    margin-top: 10em;
-    margin-bottom: 5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
 
     &_maintitle {
         h3 {
             color: #404041;
-            font-size: 2.3rem;
+            font-size: 1.7rem;
+
+            @media (min-width: 992px) {
+                font-size: 2.3rem;
+            }
 
             b {
                 color: #232C61;

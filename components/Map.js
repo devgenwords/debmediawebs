@@ -13,9 +13,9 @@ export default function Map() {
     return (
         <>
         
-                <Container fluid className="map-section d-none d-sm-block">
-                    <img src={left.src} className="img-fluid map-section_leftshape" alt="Shape" />
-                    <img src={right.src} className="img-fluid map-section_rightshape" alt="Shape" />
+                <Container fluid className="map-section">
+                    <img src={left.src} className="img-fluid map-section_leftshape  d-none d-sm-block" alt="Shape" />
+                    <img src={right.src} className="img-fluid map-section_rightshape  d-none d-sm-block" alt="Shape" />
                     <Container>
                         <Row>
                             <Col className="map-section_mapcontent text-center">
