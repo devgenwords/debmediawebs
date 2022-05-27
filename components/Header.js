@@ -15,34 +15,24 @@ export default function Header() {
         <>
             <header>
                 <Container fluid className="header-home">
-                    {
-                        !isMobile &&
-                        <div className={'image-container'}>
-                            <Image src={mypic.src} layout="fill" className={'image'} />
-                        </div>
-                    }
-                      {
-                        !isMobile &&
-                        <div>
-                            <img src={shape3.src} className="header-home_shape3" />
-                        </div>
-                    }
-                    {
-                        !isMobile &&
-                        <div>
-                            <img src={shape1.src} className="header-home_shape1" />
-                            <img src={shape2.src} className="header-home_shape2" />
-                        </div>
-                    }
-
+                    <div className={'image-container'}>
+                        <Image src={mypic.src} layout="fill" className={'image'} />
+                    </div>
+                    <div className="d-none d-sm-block">
+                        <img src={shape3.src} className="header-home_shape3" />
+                    </div>
+                    <div className="d-none d-sm-block">
+                        <img src={shape1.src} className="header-home_shape1" />
+                        <img src={shape2.src} className="header-home_shape2" />
+                    </div>
                     <Container>
                         <Row>
                             <Col>
                                 <h1 className="header-home_title">
-                                    Haz más eficientes tus<br /> canales de atención
+                                    Haz más eficientes tus<br  className="d-none d-sm-block" /> canales de atención
                                 </h1>
                                 <p className="header-home_parraf">
-                                    Software para <b>gestionar la atención<br /> al cliente virtual</b> y presencial.
+                                    Software para <b>gestionar la atención<br  className="d-none d-sm-block" /> al cliente virtual</b> y presencial.
                                 </p>
                                 <button className="header-home_demobutton">
                                     Solicitá una demo
@@ -55,7 +45,7 @@ export default function Header() {
             <Container className="d-flex justify-content-center header-home_text">
                 <Row>
                     <Col>
-                        <h3><b>Organizaciones líderes</b> ya gestionan la <br />
+                        <h3><b>Organizaciones líderes</b> ya gestionan la <br className="d-block d-sm-none"/>
                             experiencia de sus clientes con <b> Debmedia</b></h3>
                     </Col>
                 </Row>

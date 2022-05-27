@@ -62,7 +62,7 @@ export default function Brands() {
                         >
                             {images.map((item, index) => (
                                 <SwiperSlide key={index}>
-                                     <img src={`/brands/${item.image.url}`} width={item.image.width} className="img-fluid" height={"auto"}/>
+                                     <Image src={`/brands/${item.image.url}`} width={item.image.width} className="img-fluid" height={item.image.height}/>
                                 </SwiperSlide>
                             ))}
                         </Swiper>
@@ -73,4 +73,3 @@ export default function Brands() {
     );
 }
 
-const Brand = ({ image, ...props }) => <Image src={image} layout='fill'/>
