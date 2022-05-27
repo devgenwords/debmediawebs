@@ -34,7 +34,7 @@ export default function Solutions() {
                             </div>
 
                             <h4 className="solutions-section_title">
-                                Mejora la atención y la experiencia
+                                Mejora la atención <br className="d-none d-sm-block" /> y la experiencia
                             </h4>
                         </Col>
                         <Col sm={4} xs={4} className="solutions-section_div">
@@ -47,8 +47,8 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-section_title">
-                                Direcciona a tus
-                                clientes hacia el
+                                Direcciona a tus <br className="d-none d-sm-block" />
+                                clientes hacia el <br className="d-none d-sm-block" />
                                 canal más eficiente
                             </h4>
                         </Col>
@@ -62,7 +62,7 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-section_title">
-                                Diferénciate de
+                                Diferénciate de  <br className="d-none d-sm-block" />
                                 la competencia
                             </h4>
                         </Col>

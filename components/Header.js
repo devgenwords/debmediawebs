@@ -45,7 +45,7 @@ export default function Header() {
             <Container className="d-flex justify-content-center header-home_text">
                 <Row>
                     <Col>
-                        <h3><b>Organizaciones líderes</b> ya gestionan la <br className="d-block d-sm-none"/>
+                        <h3><b>Organizaciones líderes</b> ya gestionan la <br className="d-none d-sm-block"/>
                             experiencia de sus clientes con <b> Debmedia</b></h3>
                     </Col>
                 </Row>
