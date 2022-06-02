@@ -10,6 +10,7 @@ import Partner from "../components/Partner"
 import Level from "../components/Level"
 import Contact from "../components/Contact"
 import Posts from "../components/Posts"
+import Footer from "../components/Footer"
 
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <Level />
       <Contact />
       <Posts />
+      <Footer />
     </>
   );
 }

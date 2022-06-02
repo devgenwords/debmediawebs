@@ -5,11 +5,20 @@
     padding-bottom: 4em;
 
     &_content {
-        height: 320px;
+        height: 500px;
+        display: flex;
+        align-items: end;
+        @media (min-width: 992px) {
+            height: 320px;  
+        }
         &-post {
+            @media (min-width: 992px) {
+                width: 50%;
+                height: 100%;
+            }
             display: flex;
-            width: 50%;
-            height: 100%;
+            width: 100%;
+            height: 50%;
             background: rgb(6 100 166 / 54%);
             align-items: center;
             padding: 1.5em;

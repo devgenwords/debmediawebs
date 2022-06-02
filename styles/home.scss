@@ -493,7 +493,7 @@ button.accordion-button {
     background-size: cover;
     border-radius: 20px;
     padding: 1.5em 3em !important;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
 
     &_title {
         color: #232C61;
@@ -527,6 +527,17 @@ button.accordion-button {
     }
 }
 
+.border-level {
+    background-image: url("../asset/imgs/home/border.svg");
+    min-height: 200px;
+    background-size: cover;
+    margin-bottom: -1px;
+    margin-top: 3em;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
 .level-section {
     hr {
         background-color: #2f9fee;
@@ -537,11 +548,9 @@ button.accordion-button {
     }
 
     position: relative;
-
+    padding-bottom: 3em;
     @media (min-width: 992px) {
-        margin-top: 5em;
         margin-bottom: 5em;
-        padding-top: 5em;
         padding-bottom: 5em;
     }
 
