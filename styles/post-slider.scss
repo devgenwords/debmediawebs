@@ -1,0 +1,33 @@
+.posts-slider {
+    background-color: #F6F7FB;
+    margin-top: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+
+    &_content {
+        height: 320px;
+        &-post {
+            display: flex;
+            width: 50%;
+            height: 100%;
+            background: rgb(6 100 166 / 54%);
+            align-items: center;
+            padding: 1.5em;
+            h1 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #fff;
+            }
+            a {
+                color: #232C61;
+                background-color: #fff;
+                text-decoration: none;
+                padding: .5em 1.4em;
+                display: inline-block;
+                font-weight: 800;
+                border-radius: 25px;
+                margin-top: 1em;
+            }
+        }
+    }
+}

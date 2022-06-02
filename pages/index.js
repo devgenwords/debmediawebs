@@ -9,6 +9,8 @@ import Map from "../components/Map"
 import Partner from "../components/Partner"
 import Level from "../components/Level"
 import Contact from "../components/Contact"
+import Posts from "../components/Posts"
+
 
 export default function Home() {
 
@@ -25,6 +27,7 @@ export default function Home() {
       <Partner />
       <Level />
       <Contact />
+      <Posts />
     </>
   );
 }
