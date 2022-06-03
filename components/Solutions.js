@@ -121,6 +121,9 @@ export default function Solutions() {
                                                         <h2>
                                                             <b> Deja que tus clientes hagan fila desde su móvil</b> <br /> y reduce el tiempo de espera que permanecen dentro de tu sucursal.
                                                         </h2>
+                                                        <button className="header-home_demobutton">
+                                                            Ver más
+                                                        </button>
                                                     </Col>
                                                 </Row>
                                             </Tab.Pane>
