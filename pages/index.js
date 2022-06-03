@@ -29,7 +29,6 @@ export default function Home() {
       <Level />
       <Contact />
       <Posts />
-      <Footer />
     </>
   );
 }

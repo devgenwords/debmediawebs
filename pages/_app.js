@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from "next/head";
 import Layout from "../components/layout";
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 
 
 function MyApp({ Component, pageProps }) {
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </Layout>
   );
 }

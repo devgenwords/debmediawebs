@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Mobile/Header"
 import Brands from "../components/Brands"
 import Market from "../components/Mobile/Market"
-import Solutions from "../components/Mobile/Solutions"
+import Steps from "../components/Mobile/Steps"
 import Modern from "../components/Mobile/Modern"
 import Review from "../components/Review"
 import Map from "../components/Map"
@@ -21,12 +21,12 @@ export default function Mobile() {
       <Header /> 
       <Brands />
       <Market />
+      <Steps />
       <Review />
       <Map />
       <Level />
       <Contact />
       <Posts />
-      <Footer />
     </>
   );
 }
