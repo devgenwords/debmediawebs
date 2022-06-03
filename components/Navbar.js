@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 import Image from 'next/image'
 import mypic from '../asset/imgs/logo.png'
+import Link from 'next/link'
 export default function Home() {
     const [scroll, setScroll] = useState(false);
  useEffect(() => {
@@ -14,19 +15,24 @@ export default function Home() {
             <Navbar fixed="top" expand="lg" className={scroll ? "navScroll" : ""}>
                 <Container>
                     <Navbar.Brand href="#home">
+                    <Link href="/">
                         <Image
                             src={mypic}
                             alt="Picture of the author"
                             className="img-fluid"
                         />
+                    </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav className="ml-auto">
                             <Nav.Link href="#home">Home</Nav.Link>
                             <NavDropdown title="Soluciones" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.2">
-                                    Solucion 1
+                                <NavDropdown.Item>
+                                <Link href="/mobile">
+                                Solucion 1
+                                    </Link>
+                                    
                                 </NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.3">
                                     Solucion 2
