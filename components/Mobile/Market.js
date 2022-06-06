@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
 import mypic from '../../asset/imgs/home/videoShape.svg'
-import pepole from '../../asset/imgs/home/pepole.svg'
-import connect from '../../asset/imgs/home/connect.svg'
-import stats from '../../asset/imgs/home/stats.svg'
+import aglo from '../../asset/imgs/mobile/aglo.svg'
+import incerti from '../../asset/imgs/mobile/incerti.svg'
+import cliente from '../../asset/imgs/mobile/cliente.svg'
 import arrow from '../../asset/imgs/home/arrow.svg'
 
 
@@ -16,40 +16,43 @@ export default function Market() {
                     <Row>
                         <Col className="market-mobile-section_maintitle text-center">
                             <h3>
-                            Esperas innecesarias dentro de las sucursales
+                                Esperas innecesarias dentro de las sucursales
                             </h3>
                             <p>que generan una mala experiencia </p>
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={4} xs={12} className="market-mobile-section_div">
-                            <Image src={pepole.src} width={90}
+                            <Image src={aglo.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-mobile-section_title">
-                                Clientes insatisfechos
+                                Aglomeraciones
                             </h4>
                             <p className="market-mobile-section_parraf">
-                                por una atención ineficiente.
+                                dentro de las instalaciones.
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-mobile-section_div">
-                            <Image src={connect.src} width={90}
+                            <Image src={incerti.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-mobile-section_title">
-                                Desconexión entre canales
+                                Usuarios con<br />
+                                incertidumbre
                             </h4>
                             <p className="market-mobile-section_parraf">
-                                presenciales y virtuales.
+                                sobre
+                                la espera.
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-mobile-section_div">
-                            <Image src={stats.src} width={65}
+                            <Image src={cliente.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-mobile-section_title">
-                                Nuevos competidores
+                                Clientes que permanecen
                             </h4>
                             <p className="market-mobile-section_parraf">
-                                con ventajas tecnológicas.
+                                en sala de espera para
+                                ser atendidos
                             </p>
                         </Col>
                     </Row>

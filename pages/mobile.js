@@ -3,7 +3,7 @@ import Header from "../components/Mobile/Header"
 import Brands from "../components/Brands"
 import Market from "../components/Mobile/Market"
 import Steps from "../components/Mobile/Steps"
-import Modern from "../components/Mobile/Modern"
+import Channels from "../components/Mobile/Channels"
 import Review from "../components/Review"
 import Map from "../components/Map"
 import Partner from "../components/Partner"
@@ -22,6 +22,7 @@ export default function Mobile() {
       <Brands />
       <Market />
       <Steps />
+      <Channels />
       <Review />
       <Map />
       <Level />

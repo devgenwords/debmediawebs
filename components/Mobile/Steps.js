@@ -36,8 +36,13 @@ export default function Solutions() {
                             </div>
 
                             <h4 className="setps-section_title">
-                                Mejora la atención <br className="d-none d-sm-block" /> y la experiencia
+                            Controla la afluencia 
+ <br className="d-none d-sm-block" /> en salas de espera
                             </h4>
+                            <p className="setps-section_parraf">
+                            Descongestiona tus sucursales 
+                            y reduce el flujo innecesario.
+                            </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-section_div">
                             <div className="setps-section_div-img  d-none d-sm-block">
@@ -49,10 +54,12 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_title">
-                                Direcciona a tus <br className="d-none d-sm-block" />
-                                clientes hacia el <br className="d-none d-sm-block" />
-                                canal más eficiente
+                            Entrega una experiencia <br className="d-none d-sm-block" />
+                            sin roces a tus clientes
                             </h4>
+                            <p className="setps-section_parraf">
+                            Con menos espera y más simple.
+                            </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-section_div">
                             <div className="setps-section_div-img  d-none d-sm-block">
@@ -61,12 +68,16 @@ export default function Solutions() {
                             </div>
                             <div className="setps-section_div-img  d-block d-sm-none">
                                 <Image src={check_white.src} width={60}
-                                    height={60} className={'img-fluid'} />
+                                    height={50} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_title">
-                                Diferénciate de  <br className="d-none d-sm-block" />
-                                la competencia
+                            Mide indicadores clave  <br className="d-none d-sm-block" />
+                            de la atención al cliente
                             </h4>
+                            <p className="setps-section_parraf">
+                            Adopta mejores prácticas y 
+mejora la experiencia
+                            </p>
                         </Col>
                     </Row>
                 </Container>
