@@ -130,7 +130,7 @@
         max-width: 700px;
         width: 80%;
         height: 105vh;
-        max-width: 640px;
+        max-width: 615px;
         position: absolute;
         right: 0;
         top: 0;
@@ -171,6 +171,7 @@
 
             font-weight: 700;
         }
+
         p {
             color: #404041;
             font-size: 1.6rem;
@@ -298,7 +299,7 @@
 
     &_shape1 {
         display: none;
-    
+
         @media (min-width: 992px) {
             display: block;
             max-width: 700px;
@@ -309,7 +310,7 @@
             left: 0;
             top: 10px;
         }
-    
+
         .left {
             width: 100%;
             height: 100%;
@@ -329,6 +330,7 @@
             display: flex !important;
             margin-bottom: 2em;
             font-size: 1.1rem;
+
             .numberStep {
                 font-weight: 700;
                 margin-right: 40px;
@@ -348,6 +350,7 @@
                 z-index: 1;
 
             }
+
             .textStep {
                 display: inline-flex;
                 align-items: center;
@@ -507,12 +510,24 @@ button.accordion-button {
 .channel-mobile-section {
     margin-bottom: 3em;
     margin-top: 3em;
+    
+    &_shape2 {
+        display: block;
+        max-width: 700px;
+        width: 30%;
+        height: 700px;
+        max-width: 611px;
+        position: absolute;
+        right: 0;
+        top: -45px;
+    }
 
     @media (min-width: 992px) {
-        margin-bottom: 5em;
+        margin-bottom: 12em;
         margin-top: 5em;
         padding-left: 10em !important;
         padding-right: 10em !important;
+        height: 50vh;
     }
 
     padding-top: 4em;
@@ -523,11 +538,16 @@ button.accordion-button {
         margin-bottom: 2em;
 
         h3 {
-            color: #232C61;
-            font-size: 1.8rem;
+            color: #404041;
+            font-size: 1.7rem;
+            padding-top: 1em;
 
-            font-weight: 700;
+            b {
+                color: #232C61;
+                font-weight: 700;
+            }
         }
+
         p {
             color: #404041;
             font-size: 1.6rem;
