@@ -58,7 +58,7 @@ export default function Brands() {
                                     spaceBetween: 30,
                                 },
                             }}
-                            className="mySwiper"
+                            className="swiper-brand"
                         >
                             {images.map((item, index) => (
                                 <SwiperSlide key={index}>

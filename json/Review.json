@@ -1,0 +1,26 @@
+[
+  {
+    "name": "testimonio2",
+    "image": "person.png",
+    "company": "itau.png",
+    "comment": "Con Debmedia logramos optimizar la atención de nuestros clientes para poder brindarles una atención más eficiente y personalizada, y así aumentar su satisfacción.",
+    "person": "Lionel Baragaño",
+    "job": "Gerente de Banco Digital & Transformación"
+  },
+  {
+    "name": "testimonio1",
+    "image": "person.png",
+    "company": "itau.png",
+    "comment": "Acérquese más que nunca a sus clientes. Tan cerca que les dices lo que necesitan antes de que se den cuenta ellos mismos.",
+    "person": "Tatiana Vásquez 1",
+    "job": "Directora Ejecutiva Fundación Viva Air"
+  },
+  {
+    "name": "testimonio1",
+    "image": "person.png",
+    "company": "itau.png",
+    "comment": "Acérquese más que nunca a sus clientes. Tan cerca que les dices lo que necesitan antes de que se den cuenta ellos mismos.",
+    "person": "Tatiana Vásquez 3",
+    "job": "Directora Ejecutiva Fundación Viva Air"
+  }
+]

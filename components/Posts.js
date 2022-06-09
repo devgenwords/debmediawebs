@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import BlogData from '../json/blog.json';
 import { Row, Container, Col } from "react-bootstrap";
 import axios from "axios";
@@ -11,9 +11,12 @@ import Link from 'next/link'
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
+import "swiper/css/navigation";
 
 // import Swiper core and required modules
 import SwiperCore, { Autoplay, FreeMode, Pagination } from 'swiper';
+import { Navigation } from "swiper";
+
 
 // install Swiper modules
 SwiperCore.use([Autoplay, FreeMode, Pagination]);
@@ -22,13 +25,15 @@ const basePath = '/asset/imgs/brands'
 
 
 export default function Brands() {
-
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
         setPosts(BlogData);
     }, []);
 
+
+    const prevRef = useRef(null);
+    const nextRef = useRef(null);
     return (
         <>
             <Container fluid className="posts-slider">
@@ -38,7 +43,9 @@ export default function Brands() {
                             <Swiper
                                 spaceBetween={20}
                                 slidesPerView={1}
-                                freeMode={true}
+                                freeMode={false}
+                                navigation={false}
+                                modules={[Navigation]}
                                 loop={true}
                                 pagination={{
                                     clickable: true,
@@ -59,7 +66,13 @@ export default function Brands() {
                                         spaceBetween: 30,
                                     },
                                 }}
-                                className="mySwiper"
+                                onInit={(swiper) => {
+                                    swiper.params.navigation.prevEl = prevRef.current;
+                                    swiper.params.navigation.nextEl = nextRef.current;
+                                    swiper.navigation.init();
+                                    swiper.navigation.update();
+                                }}
+                                className="posts-slider_swipper"
                             >
                                 {posts.map((item, index) => (
                                     <SwiperSlide key={index}>
@@ -89,7 +102,10 @@ export default function Brands() {
                                         </div>
 
                                     </SwiperSlide>
-                                ))}
+                                )
+                                )}
+                                <div ref={prevRef}>Prev</div>
+                                <div ref={nextRef}>Next</div>
                             </Swiper>
                         </Col>
                     </Row>
