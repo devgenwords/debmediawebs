@@ -7,6 +7,8 @@ import Channels from "../components/Mobile/Channels"
 import Review from "../components/Review"
 import Map from "../components/Map"
 import Partner from "../components/Partner"
+import Modern from "../components/Mobile/Modern"
+import Services from "../components/Services"
 import Level from "../components/Mobile/Level"
 import Contact from "../components/Contact"
 import Posts from "../components/Posts"
@@ -23,11 +25,15 @@ export default function Mobile() {
       <Market />
       <Steps />
       <Channels />
+      <Modern />
       <Review />
       <Map />
+      <Partner />
+      <Services />
       <Level />
       <Contact />
       <Posts />
+      <Footer />
     </>
   );
 }

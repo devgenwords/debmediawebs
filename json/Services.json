@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Fila Virtual",
+    "url": "/",
+    "image": {
+      "url": "icon.png",
+      "width": 65,
+      "height": 120
+    }
+  },
+  {
+    "name": "Citas online",
+    "url": "/",
+    "image": {
+      "url": "icon.png",
+      "width": 65,
+      "height": 120
+    }
+  },
+  {
+    "name": "Atención Virtual",
+    "url": "/",
+    "image": {
+      "url": "icon.png",
+      "width": 65,
+      "height": 120
+    }
+  },
+  {
+    "name": "Encuestas",
+    "url": "/",
+    "image": {
+      "url": "icon.png",
+      "width": 65,
+      "height": 120
+    }
+  }
+]

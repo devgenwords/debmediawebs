@@ -1,6 +1,7 @@
 @import "./home";
 @import "./mobile";
 @import "./brands-slider";
+@import "./services-slider";
 @import "./review-slider";
 @import "./post-slider";
 @import "./map";
@@ -47,4 +48,11 @@ nav.navbar.navbar-expand-lg {
 
 .relative {
     position: relative;
+}
+
+.reverseXs  {
+    flex-flow: column-reverse;
+    @media (min-width: 992px) {
+        flex-flow: initial;
+    }
 }

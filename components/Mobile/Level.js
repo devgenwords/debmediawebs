@@ -24,7 +24,7 @@ export default function Modern() {
 
                         <Col xs={6} sm={3}>
                             <div className="text-center mb-3">
-                                <Image src={demo.src} width={130}
+                                <Image src={moduleimg.src} width={130}
                                     height={90} />
                             </div>
                             <div className="level-section_step">
@@ -40,7 +40,7 @@ export default function Modern() {
                         </Col>
                         <Col xs={6} sm={3}>
                             <div className="text-center mb-3">
-                                <Image src={moduleimg.src} width={130}
+                                <Image src={demo.src} width={130}
                                     height={90} />
                             </div>
                             <div className="level-section_step">

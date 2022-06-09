@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
-import api from '../../asset/imgs/home/api.svg'
 import performance from '../../asset/imgs/home/performance.svg'
 import channel from '../../asset/imgs/home/channels.svg'
+import chatbot from '../../asset/imgs/mobile/modern1.png'
+import api from '../../asset/imgs/mobile/modern2.png'
 
 
 export default function Modern() {
@@ -14,68 +15,75 @@ export default function Modern() {
                     <Row>
                         <Col className="modern-section_maintitle">
                             <h3 className="text-center">
-                                Una solución <br />
-                                <b>moderna y escalable</b>
+                                <b>Agiliza los tiempos de espera </b><br />
+                                dentro de tus sucursales
+
                             </h3>
                         </Col>
                     </Row>
                     <Row>
                         <Col className="modern-section_div">
                             <Row>
-                                <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-end">
-                                    <Image src={api.src} width={600}
-                                        height={500} />
+                                <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
+                                    <Image src={chatbot.src} width={400}
+                                        height={450} />
+
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Integración Sencilla
+                                            El sistema de fila virtual es<br />
+                                            integrable con un Chatbot
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            Integrable por API o iframe.
+                                            Para que el cliente pueda hacer <br />
+                                            fila desde WhatsApp.
+
                                         </p>
                                     </div>
 
                                 </Col>
                             </Row>
-                            <Row className="d-none d-sm-flex">
-                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-left">
+                            <Row className="d-sm-flex reverseXs">
+                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Métricas de performance
+                                        Integrable por API 
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            Conoce el rendimiento de tus canales <br /> de atención.
+                                        De esta forma se automatiza 
+el viaje del cliente.
                                         </p>
                                     </div>
 
                                 </Col>
-                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-start">
-                                    <Image src={performance.src} width={600}
-                                        height={500} />
+                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-center">
+                                    <Image src={api.src} width={300}
+                                        height={300} />
                                 </Col>
 
                             </Row>
-                            <Row className="d-block d-sm-none">
-                               
-                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-start">
-                                    <Image src={performance.src} width={600}
+                            {/* <Row className="d-block d-sm-none">
+
+                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-center">
+                                    <Image src={api.src} width={600}
                                         height={500} />
                                 </Col>
-                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-left">
+                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Métricas de performance
+                                        Integrable por API 
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            Conoce el rendimiento de tus canales <br /> de atención.
+                                        De esta forma se automatiza 
+el viaje del cliente.
                                         </p>
                                     </div>
 
                                 </Col>
-                            </Row>
+                            </Row> */}
                             <Row>
-                                <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-end">
+                                <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
                                     <Image src={channel.src} width={600}
                                         height={500} />
                                 </Col>
