@@ -1,106 +1,130 @@
 import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
-import performance from '../../asset/imgs/home/performance.svg'
-import channel from '../../asset/imgs/home/channels.svg'
-import chatbot from '../../asset/imgs/mobile/modern1.png'
-import api from '../../asset/imgs/mobile/modern2.png'
+import spec1 from '../../asset/imgs/debq/spec1.svg'
+import spec2 from '../../asset/imgs/debq/spec2.svg'
+import spec3 from '../../asset/imgs/debq/spec3.svg'
+import spec4 from '../../asset/imgs/debq/spec4.svg'
+import spec5 from '../../asset/imgs/debq/spec5.svg'
 
 
 export default function Modern() {
     return (
         <>
-            <Container fluid className="modern-section">
+            <Container fluid className="specs-section">
                 <Container>
-                    <Row>
-                        <Col className="modern-section_maintitle">
-                            <h3 className="text-center">
-                                <b>Agiliza los tiempos de espera </b><br />
-                                dentro de tus sucursales
-
-                            </h3>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col className="modern-section_div">
+                    <Row className=" d-flex justify-content-center">
+                        <Col sm={4}>
                             <Row>
-                                <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={chatbot.src} width={400}
-                                        height={450} />
+                                <Col xs={12} className="specs-section_div-img d-flex justify-content-center">
+                                    <Image src={spec1.src} width={200}
+                                        height={250} />
 
                                 </Col>
-                                <Col sm={6} xs={12} className="modern-section_div-text">
+                                <Col xs={12} className="specs-section_div-text text-center d-flex justify-content-center my-3">
                                     <div>
-                                        <h4 className="modern-section_title">
-                                            El sistema de fila virtual es<br />
-                                            integrable con un Chatbot
+                                        <h4 className="specs-section_title">
+                                            Algoritmos de <br />
+                                            llamado y priorización
                                         </h4>
-                                        <p className="modern-section_parraf">
-                                            Para que el cliente pueda hacer <br />
-                                            fila desde WhatsApp.
+                                        <p className="specs-section_parraf">
+                                            Por orden de llegada, prioridad <br /> por trámite, cliente o la <br /> combinación de ambos
 
-                                        </p>
-                                    </div>
-
-                                </Col>
-                            </Row>
-                            <Row className="d-sm-flex reverseXs">
-                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
-                                    <div>
-                                        <h4 className="modern-section_title">
-                                        Integrable por API 
-                                        </h4>
-                                        <p className="modern-section_parraf">
-                                        De esta forma se automatiza 
-el viaje del cliente.
-                                        </p>
-                                    </div>
-
-                                </Col>
-                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={api.src} width={300}
-                                        height={300} />
-                                </Col>
-
-                            </Row>
-                            {/* <Row className="d-block d-sm-none">
-
-                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={api.src} width={600}
-                                        height={500} />
-                                </Col>
-                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
-                                    <div>
-                                        <h4 className="modern-section_title">
-                                        Integrable por API 
-                                        </h4>
-                                        <p className="modern-section_parraf">
-                                        De esta forma se automatiza 
-el viaje del cliente.
-                                        </p>
-                                    </div>
-
-                                </Col>
-                            </Row> */}
-                            <Row>
-                                <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={channel.src} width={600}
-                                        height={500} />
-                                </Col>
-                                <Col sm={6} xs={12} className="modern-section_div-text">
-                                    <div>
-                                        <h4 className="modern-section_title">
-                                            Comunicación centralizada
-                                        </h4>
-                                        <p className="modern-section_parraf">
-                                            Envía el mensaje correcto a través de SMS, email, WhatsApp o pantallas.
                                         </p>
                                     </div>
 
                                 </Col>
                             </Row>
                         </Col>
+                        <Col sm={4}>
+                            <Row>
+                                <Col xs={12} className="specs-section_div-img d-flex justify-content-center">
+                                    <Image src={spec2.src} width={200}
+                                        height={250} />
 
+                                </Col>
+                                <Col xs={12} className="specs-section_div-text text-center d-flex justify-content-center my-3">
+                                    <div>
+                                        <h4 className="specs-section_title">
+                                            Inteligencia Artificial
+                                        </h4>
+                                        <p className="specs-section_parraf">
+                                            para que de forma automática
+                                            se establezcan modelos de atención dinámicos
+
+                                        </p>
+                                    </div>
+
+                                </Col>
+                            </Row>
+                        </Col>
+                        <Col sm={4}>
+                            <Row>
+                                <Col xs={12} className="specs-section_div-img d-flex justify-content-center">
+                                    <Image src={spec3.src} width={200}
+                                        height={250} />
+
+                                </Col>
+                                <Col xs={12} className="specs-section_div-text text-center d-flex justify-content-center my-3">
+                                    <div>
+                                        <h4 className="specs-section_title">
+                                            Visualización de métricas y <br />exportación de reportes
+                                        </h4>
+                                        <p className="specs-section_parraf">
+                                            Para medir eficiencia y comparar estadísticas entre usuarios, sucursales, trámites, etc.
+
+                                        </p>
+                                    </div>
+
+                                </Col>
+                            </Row>
+                        </Col>
+                        <Col sm={4}>
+                            <Row>
+                                <Col xs={12} className="specs-section_div-img d-flex justify-content-center">
+                                    <Image src={spec4.src} width={200}
+                                        height={250} />
+
+                                </Col>
+                                <Col xs={12} className="specs-section_div-text text-center d-flex justify-content-center my-3">
+                                    <div>
+                                        <h4 className="specs-section_title">
+                                            Integraciones con <br />
+                                            otros sistemas
+                                        </h4>
+                                        <p className="specs-section_parraf">
+                                            Cuenta con API documentada
+                                            o integraciones de sistemas preexistentes.
+
+                                        </p>
+                                    </div>
+
+                                </Col>
+                            </Row>
+                        </Col>
+                        <Col sm={4}>
+                            <Row>
+                                <Col xs={12} className="specs-section_div-img d-flex justify-content-center">
+                                    <Image src={spec5.src} width={200}
+                                        height={250} />
+
+                                </Col>
+                                <Col xs={12} className="specs-section_div-text text-center d-flex justify-content-center my-3">
+                                    <div>
+                                        <h4 className="specs-section_title">
+                                            Herramientas BI <br />
+                                            para visualizar datos
+                                        </h4>
+                                        <p className="specs-section_parraf">
+                                            Para desarrollar estrategias y herramientas que mejoren el
+                                            proceso de toma de decisiones.
+
+                                        </p>
+                                    </div>
+
+                                </Col>
+                            </Row>
+                        </Col>
 
                     </Row>
                 </Container>

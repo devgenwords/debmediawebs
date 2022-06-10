@@ -23,6 +23,7 @@ export default function Mobile() {
       <Brands />
       <Market />
       <Steps />
+      <Modern />
       <Review />
       <Map />
       <Partner />

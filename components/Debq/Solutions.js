@@ -4,11 +4,9 @@ import Image from 'next/image'
 import check_blue from '../../asset/imgs/home/check_blue.svg'
 import check_white from '../../asset/imgs/home/check-m.svg'
 import fila_virtual from '../../asset/imgs/home/fila-virtual.png'
-import { useMediaQuery } from 'react-responsive'
 
 
 export default function Solutions() {
-    const isMobile = useMediaQuery({ query: '(max-width:899px)' })
     return (
         <>
             <Container className="solutions-top">
