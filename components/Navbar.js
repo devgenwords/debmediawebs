@@ -30,7 +30,7 @@ export default function Home() {
                             <NavDropdown title="Soluciones" id="basic-nav-dropdown">
                                 <NavDropdown.Item>
                                 <Link href="/mobile">
-                                Solucion 1
+                                Fila Virtual
                                     </Link>
                                     
                                 </NavDropdown.Item>

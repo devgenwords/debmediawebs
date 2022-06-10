@@ -15,7 +15,7 @@ export default function Header() {
         <>
             <header>
                 <Container fluid className="mobile-home">
-                    <div className={'image-container'}>
+                    <div className={'image-container-mobile'}>
                         <Image src={mypic.src} layout="fill" className={'image'} />
                     </div>
                     <div className="d-none d-sm-block">
