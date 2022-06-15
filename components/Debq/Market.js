@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
-import mypic from '../../asset/imgs/home/videoShape.svg'
-import aglo from '../../asset/imgs/mobile/aglo.svg'
-import incerti from '../../asset/imgs/mobile/incerti.svg'
-import cliente from '../../asset/imgs/mobile/cliente.svg'
+import gestion from '../../asset/imgs/debq/gestion.svg'
+import clientes from '../../asset/imgs/debq/cliente.svg'
+import falta from '../../asset/imgs/debq/falta.svg'
 import arrow from '../../asset/imgs/home/arrow.svg'
 
 
@@ -16,43 +15,41 @@ export default function Market() {
                     <Row>
                         <Col className="market-mobile-section_maintitle text-center">
                             <h3>
-                                Esperas innecesarias dentro de las sucursales
+                            Empresas que desconocen cómo optimizar proceos.
                             </h3>
-                            <p>que generan una mala experiencia </p>
+                            <p>Como consecuencia tienen
+</p>
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={4} xs={12} className="market-mobile-section_div">
-                            <Image src={aglo.src} width={70}
+                            <Image src={gestion.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-mobile-section_title">
-                                Aglomeraciones
+                            Gestión ineficiente
                             </h4>
                             <p className="market-mobile-section_parraf">
-                                dentro de las instalaciones.
+                            y recursos desaprovechados
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-mobile-section_div">
-                            <Image src={incerti.src} width={70}
+                            <Image src={clientes.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-mobile-section_title">
-                                Usuarios con<br />
-                                incertidumbre
+                            Clientes descontentos
                             </h4>
                             <p className="market-mobile-section_parraf">
-                                sobre
-                                la espera.
+                            que exigen una mejor <br/>atención.
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-mobile-section_div">
-                            <Image src={cliente.src} width={70}
+                            <Image src={falta.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-mobile-section_title">
-                                Clientes que permanecen
+                            Falta de métricas
                             </h4>
                             <p className="market-mobile-section_parraf">
-                                en sala de espera para
-                                ser atendidos
+                            para tomar mejores<br/> decisiones.
                             </p>
                         </Col>
                     </Row>

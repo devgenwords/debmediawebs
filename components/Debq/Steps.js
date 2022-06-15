@@ -16,8 +16,7 @@ export default function Solutions() {
                 <Row>
                     <Col className="setps-section_maintitle">
                         <h3 className="text-center">
-                            <b>Permite a tus clientes aprovechar <br />
-                                el tiempo</b> como mejor prefieran.
+                            <b>Mejora la atención</b> <br/>y obtén el máximo de tus equipos de trabajo
                         </h3>
                     </Col>
                 </Row>

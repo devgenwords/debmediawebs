@@ -15,7 +15,7 @@ import Posts from "../components/Posts"
 import Footer from "../components/Footer"
 
 
-export default function Mobile() {
+export default function debQ() {
 
 
   return (

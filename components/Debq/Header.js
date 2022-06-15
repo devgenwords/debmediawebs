@@ -5,6 +5,7 @@ import mypic from '../../asset/imgs/debq/main.png'
 import shape1 from '../../asset/imgs/home/headershape1.svg'
 import shape2 from '../../asset/imgs/home/headershape2.svg'
 import shape3 from '../../asset/imgs/home/headershape3.svg'
+import mainNoti from '../../asset/imgs/debq/main-noti.png'
 import { useMediaQuery } from 'react-responsive'
 
 
@@ -20,6 +21,9 @@ export default function Header() {
                     </div>
                     <div className="d-none d-sm-block">
                         <img src={shape3.src} className="debq-home_shape3" />
+                    </div>
+                    <div className="d-none d-sm-block">
+                        <img src={mainNoti.src} className="debq-home_mainNoti" />
                     </div>
                     <div className="d-none d-sm-block">
                         <img src={shape1.src} className="debq-home_shape1" />

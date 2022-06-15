@@ -48,7 +48,7 @@ export default function Brands() {
                 <Row>
                     <Col>
                         <Swiper
-                            spaceBetween={190}
+                            spaceBetween={120}
                             slidesPerView={3}
                             freeMode={true}
                             loop={true}
