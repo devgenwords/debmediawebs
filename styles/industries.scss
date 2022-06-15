@@ -1,0 +1,65 @@
+.industries-section {
+    position: relative;
+    background-image: url("../asset/imgs/background-ind.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 10em;
+    padding-bottom: 10em;
+
+    @media (min-width: 992px) {
+        padding-top: 13em;
+        padding-bottom: 13em;
+    }
+
+    &_divs {
+        &-indu {
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            border-radius: 15px;
+            @media (min-width: 992px) {
+                margin: 1.5% !important;
+                width: 47% !important;
+            }
+
+            padding: 1.5em 1.3em !important;
+            color: #fff;
+
+            h4 {
+                font-weight: 700;
+                margin-top: 10px;
+            }
+
+            p {
+                margin-bottom: 0;
+
+            }
+        }
+
+        &-banca {
+            background-color: #1945B6;
+        }
+        &-salud {
+            background-color: #69B8EF;
+        }
+        &-servi {
+            background-color: #D38F0A;
+        }
+        &-gob {
+            background-color: #5826E7;
+        }
+    }
+
+    &_mainTitle {
+        padding-left: 2em !important;
+        h2 {
+            color: #404041;
+            font-size: 1.8rem;
+
+            b {
+                font-weight: 700;
+                color: #232C61;
+            }
+        }
+    }
+
+}

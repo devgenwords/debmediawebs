@@ -6,6 +6,7 @@ import Steps from "../components/Debq/Steps"
 import Review from "../components/Review"
 import Map from "../components/Map"
 import Partner from "../components/Partner"
+import Industries from "../components/Industries"
 import Modern from "../components/Debq/Modern"
 import Services from "../components/Services"
 import Level from "../components/Debq/Level"
@@ -25,6 +26,7 @@ export default function Mobile() {
       <Steps />
       <Modern />
       <Review />
+      <Industries />
       <Map />
       <Partner />
       <Services />

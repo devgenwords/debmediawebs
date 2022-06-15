@@ -4,6 +4,11 @@ import Image from 'next/image'
 import check_blue from '../../asset/imgs/home/check_blue.svg'
 import check_white from '../../asset/imgs/home/check-m.svg'
 import fila_virtual from '../../asset/imgs/home/fila-virtual.png'
+import mobile1 from '../../asset/imgs/mobile/mobile1.png'
+import mobile2 from '../../asset/imgs/mobile/mobile2.png'
+import mobile3 from '../../asset/imgs/mobile/mobile3.png'
+import mobile4 from '../../asset/imgs/mobile/mobile4.png'
+
 import { useMediaQuery } from 'react-responsive'
 import shape1 from '../../asset/imgs/mobile/shapeTabs.svg'
 
@@ -36,12 +41,12 @@ export default function Solutions() {
                             </div>
 
                             <h4 className="setps-section_title">
-                            Controla la afluencia 
- <br className="d-none d-sm-block" /> en salas de espera
+                                Controla la afluencia
+                                <br className="d-none d-sm-block" /> en salas de espera
                             </h4>
                             <p className="setps-section_parraf">
-                            Descongestiona tus sucursales 
-                            y reduce el flujo innecesario.
+                                Descongestiona tus sucursales
+                                y reduce el flujo innecesario.
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-section_div">
@@ -54,11 +59,11 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_title">
-                            Entrega una experiencia <br className="d-none d-sm-block" />
-                            sin roces a tus clientes
+                                Entrega una experiencia <br className="d-none d-sm-block" />
+                                sin roces a tus clientes
                             </h4>
                             <p className="setps-section_parraf">
-                            Con menos espera y más simple.
+                                Con menos espera y más simple.
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-section_div">
@@ -71,19 +76,19 @@ export default function Solutions() {
                                     height={50} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_title">
-                            Mide indicadores clave  <br className="d-none d-sm-block" />
-                            de la atención al cliente
+                                Mide indicadores clave  <br className="d-none d-sm-block" />
+                                de la atención al cliente
                             </h4>
                             <p className="setps-section_parraf">
-                            Adopta mejores prácticas y 
-mejora la experiencia
+                                Adopta mejores prácticas y
+                                mejora la experiencia
                             </p>
                         </Col>
                     </Row>
                 </Container>
             </Container>
             <Container fluid className="setps-tabs relative">
-            <div className={'setps-tabs_shape1'}>
+                <div className={'setps-tabs_shape1'}>
                     <Image src={shape1.src} layout="fill" className={'left'} />
                 </div>
                 <Container>
@@ -96,7 +101,7 @@ mejora la experiencia
                                             <Tab.Pane eventKey="1">
                                                 <Row>
                                                     <Col className="text-center">
-                                                        <Image src={fila_virtual.src} width={210}
+                                                        <Image src={mobile1.src} width={220}
                                                             height={400} className={'img-fluid'} />
                                                     </Col>
 
@@ -105,7 +110,7 @@ mejora la experiencia
                                             <Tab.Pane eventKey="2">
                                                 <Row>
                                                     <Col className="text-center">
-                                                        <Image src={fila_virtual.src} width={210}
+                                                        <Image src={mobile2.src} width={210}
                                                             height={400} className={'img-fluid'} />
                                                     </Col>
 
@@ -114,7 +119,7 @@ mejora la experiencia
                                             <Tab.Pane eventKey="3">
                                                 <Row>
                                                     <Col className="text-center">
-                                                        <Image src={fila_virtual.src} width={210}
+                                                        <Image src={mobile3.src} width={245}
                                                             height={400} className={'img-fluid'} />
                                                     </Col>
 
@@ -123,8 +128,8 @@ mejora la experiencia
                                             <Tab.Pane eventKey="4">
                                                 <Row>
                                                     <Col className="text-center">
-                                                        <Image src={fila_virtual.src} width={210}
-                                                            height={400} className={'img-fluid'} />
+                                                        <Image src={mobile4.src} width={600}
+                                                            height={600} className={'img-fluid'} />
                                                     </Col>
 
                                                 </Row>

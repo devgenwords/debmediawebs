@@ -5,6 +5,11 @@ import performance from '../../asset/imgs/home/performance.svg'
 import channel from '../../asset/imgs/home/channels.svg'
 import chatbot from '../../asset/imgs/mobile/modern1.png'
 import api from '../../asset/imgs/mobile/modern2.png'
+import modern1 from '../../asset/imgs/mobile/modern1.png'
+import modern2 from '../../asset/imgs/mobile/modern2.png'
+import modern3 from '../../asset/imgs/mobile/modern3.png'
+import modern4 from '../../asset/imgs/mobile/modern4.png'
+
 
 
 export default function Modern() {
@@ -25,7 +30,7 @@ export default function Modern() {
                         <Col className="modern-section_div">
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={chatbot.src} width={400}
+                                    <Image src={modern1.src} width={400}
                                         height={450} />
 
                                 </Col>
@@ -48,17 +53,17 @@ export default function Modern() {
                                 <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
                                     <div>
                                         <h4 className="modern-section_title">
-                                        Integrable por API 
+                                            Integrable por API
                                         </h4>
                                         <p className="modern-section_parraf">
-                                        De esta forma se automatiza 
-el viaje del cliente.
+                                            De esta forma se automatiza
+                                            el viaje del cliente.
                                         </p>
                                     </div>
 
                                 </Col>
                                 <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={api.src} width={300}
+                                    <Image src={modern2.src} width={300}
                                         height={300} />
                                 </Col>
 
@@ -84,20 +89,39 @@ el viaje del cliente.
                             </Row> */}
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={channel.src} width={600}
-                                        height={500} />
+                                    <Image src={modern3.src} width={380}
+                                        height={300} />
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Comunicación centralizada
+                                            Trámites configurables <br />
+                                            dentro de la compañía.
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            Envía el mensaje correcto a través de SMS, email, WhatsApp o pantallas.
+                                            Con disponibilidad para ser agendados de acuerdo a las necesidades de las empresas.
                                         </p>
                                     </div>
 
                                 </Col>
+                            </Row>
+                            <Row className="d-sm-flex reverseXs">
+                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
+                                    <div>
+                                        <h4 className="modern-section_title">
+                                            Identidad con el look and <br />feel de las empresas
+                                        </h4>
+                                        <p className="modern-section_parraf">
+                                            Para mantener su identidad corporativa.
+                                        </p>
+                                    </div>
+
+                                </Col>
+                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-center">
+                                    <Image src={modern4.src} width={400}
+                                        height={450} />
+                                </Col>
+
                             </Row>
                         </Col>
 
