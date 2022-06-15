@@ -26,7 +26,7 @@ export default function Home() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav className="ml-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
                             <NavDropdown title="Soluciones" id="basic-nav-dropdown">
                                 <NavDropdown.Item>
                                     <Link href="/mobile">
@@ -37,6 +37,11 @@ export default function Home() {
                                 <NavDropdown.Item>
                                 <Link href="/debq">
                                        Gestion de filas
+                                    </Link>
+                                </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                <Link href="/citas">
+                                       Citas
                                     </Link>
                                 </NavDropdown.Item>
                             </NavDropdown>
