@@ -5,7 +5,7 @@ import mypic from '../../asset/imgs/citas/main.png'
 import shape1 from '../../asset/imgs/home/headershape1.svg'
 import shape2 from '../../asset/imgs/home/headershape2.svg'
 import shape3 from '../../asset/imgs/home/headershape3.svg'
-import mainNoti from '../../asset/imgs/debq/main-noti.png'
+import mainNoti from '../../asset/imgs/citas/main-noti.svg'
 import { useMediaQuery } from 'react-responsive'
 
 
@@ -33,11 +33,10 @@ export default function Header() {
                         <Row>
                             <Col>
                                 <h1 className="citas-home_title">
-                                    Mejora la eficiencia<br className="d-none d-sm-block" />  y experiencia en tus<br className="d-none d-sm-block" />
-                                    sucursales
+                                Ordena el flujo de <br className="d-none d-sm-block" />clientes en sucursales 
                                 </h1>
                                 <p className="citas-home_parraf">
-                                    Sistema de <b>gestión de turnos</b>
+                                 <b>Software de citas </b>para empresas con <br/> múltiples trámites y tipos de atención
                                 </p>
                                 <button className="citas-home_demobutton">
                                     Solicitá una demo

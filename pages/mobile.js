@@ -10,7 +10,7 @@ import Partner from "../components/Partner"
 import Industries from "../components/Industries"
 import Modern from "../components/Mobile/Modern"
 import Services from "../components/Services"
-import Level from "../components/Mobile/Level"
+import Level from "../components/Level"
 import Contact from "../components/Contact"
 import Posts from "../components/Posts"
 import Footer from "../components/Footer"
@@ -35,7 +35,6 @@ export default function Mobile() {
       <Level />
       <Contact />
       <Posts />
-      <Footer />
     </>
   );
 }

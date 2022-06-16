@@ -278,7 +278,7 @@
     }
 }
 
-.setps-tabs {
+.setps-tabs_debq {
     @media (min-width: 992px) {
         padding-left: 10em !important;
         padding-right: 10em !important;
@@ -291,7 +291,6 @@
     border-bottom-right-radius: 30px;
     background-color: #fff;
     margin-bottom: 2em;
-    padding-bottom: 5em;
     padding-top: 5em;
 
 
@@ -305,7 +304,7 @@
         }
     }
 
-    &_shape1 {
+    &_shape1-debq {
         display: none;
 
         @media (min-width: 992px) {
@@ -315,7 +314,7 @@
             max-width: 335px;
             position: absolute;
             left: 0;
-            top: 10px;
+            top: 40px;
         }
 
         .left {
@@ -483,7 +482,7 @@ button.accordion-button {
 
 
 
-.setps-tabs_content-nav.active {
+.setps-tabs_debq_content-nav.active {
     background-color: transparent !important;
     color: #2F9FEE !important;
     font-weight: 600;
@@ -491,12 +490,12 @@ button.accordion-button {
     transition: 0.2s ease-in-out;
 }
 
-.setps-tabs_content-nav.active .numberStep {
+.setps-tabs_debq_content-nav.active .numberStep {
     background-color: #2F9FEE;
     color: #fff;
 }
 
-.setps-tabs_content-nav.active .textStep {
+.setps-tabs_debq_content-nav.active .textStep {
     background-color: #2F9FEE;
     color: #fff;
     padding: 10px 20px;

@@ -9,7 +9,7 @@ import Partner from "../components/Partner"
 import Industries from "../components/Industries"
 import Modern from "../components/Debq/Modern"
 import Services from "../components/Services"
-import Level from "../components/Debq/Level"
+import Level from "../components/Level"
 import Contact from "../components/Contact"
 import Posts from "../components/Posts"
 import Footer from "../components/Footer"
@@ -33,7 +33,6 @@ export default function debQ() {
       <Level />
       <Contact />
       <Posts />
-      <Footer />
     </>
   );
 }

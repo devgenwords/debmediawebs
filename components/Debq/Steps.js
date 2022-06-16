@@ -86,13 +86,13 @@ export default function Solutions() {
                     </Row>
                 </Container>
             </Container>
-            <Container fluid className="setps-tabs relative">
-            <div className={'setps-tabs_shape1'}>
+            <Container fluid className="setps-tabs_debq relative">
+            <div className={'setps-tabs_debq_shape1-debq'}>
                     <Image src={shape1.src} layout="fill" className={'left'} />
                 </div>
                 <Container>
                     <Row>
-                        <Col className="setps-tabs_content d-none d-sm-block">
+                        <Col className="setps-tabs_debq_content d-none d-sm-block">
                             <Tab.Container id="left-tabs-example" defaultActiveKey="1">
                                 <Row>
                                     <Col sm={{ span: 5}} className="mt-5">
@@ -142,19 +142,19 @@ export default function Solutions() {
                                         <span className="lineSteps-debq"></span>
                                         <Nav variant="pills" className="flex-column">
                                             <Nav.Item>
-                                                <Nav.Link eventKey="1" className="setps-tabs_content-nav"><div className="numberStep">1</div> <div className="textStep">Tu cliente hace el check in <br />
+                                                <Nav.Link eventKey="1" className="setps-tabs_debq_content-nav"><div className="numberStep">1</div> <div className="textStep">Tu cliente hace el check in <br />
                                                     desde el Kiosko, Totem o móvil.</div> </Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="2" className="setps-tabs_content-nav"><div className="numberStep">2</div> <div className="textStep">Es llamado por voz, pantallas,  <br />WhastApp o SMS.
+                                                <Nav.Link eventKey="2" className="setps-tabs_debq_content-nav"><div className="numberStep">2</div> <div className="textStep">Es llamado por voz, pantallas,  <br />WhastApp o SMS.
                                                 </div></Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="3" className="setps-tabs_content-nav"><div className="numberStep">3</div> <div className="textStep">Es atendido por un colaborador, <br /> que conoce al cliente.</div>
+                                                <Nav.Link eventKey="3" className="setps-tabs_debq_content-nav"><div className="numberStep">3</div> <div className="textStep">Es atendido por un colaborador, <br /> que conoce al cliente.</div>
                                                 </Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="4" className="setps-tabs_content-nav"><div className="numberStep">4</div> <div className="textStep">El cliente valora el servicio a
+                                                <Nav.Link eventKey="4" className="setps-tabs_debq_content-nav"><div className="numberStep">4</div> <div className="textStep">El cliente valora el servicio a
                                                     <br />través del sistema de encuestas.</div></Nav.Link>
                                             </Nav.Item>
                                         </Nav>
@@ -176,7 +176,7 @@ export default function Solutions() {
                                             <Image src={fila_virtual.src} width={300}
                                                 height={580} className={'img-fluid'} />
                                         </Col>
-                                        <Col xs={6} className="setps-tabs_content-title">
+                                        <Col xs={6} className="setps-tabs_debq_content-title">
                                             <h2>
                                                 <b>Anticípate a las necesidades</b> de tus clientes <br />
                                                 y optimiza su flujo con nuestras soluciones
@@ -193,7 +193,7 @@ export default function Solutions() {
                                             <Image src={fila_virtual.src} width={300}
                                                 height={580} className={'img-fluid'} />
                                         </Col>
-                                        <Col xs={6} className="setps-tabs_content-title">
+                                        <Col xs={6} className="setps-tabs_debq_content-title">
                                             <h2>
                                                 <b>Anticípate a las necesidades</b> de tus clientes <br />
                                                 y optimiza su flujo con nuestras soluciones
@@ -210,7 +210,7 @@ export default function Solutions() {
                                             <Image src={fila_virtual.src} width={300}
                                                 height={580} className={'img-fluid'} />
                                         </Col>
-                                        <Col xs={6} className="setps-tabs_content-title">
+                                        <Col xs={6} className="setps-tabs_debq_content-title">
                                             <h2>
                                                 <b>Anticípate a las necesidades</b> de tus clientes <br />
                                                 y optimiza su flujo con nuestras soluciones
@@ -227,7 +227,7 @@ export default function Solutions() {
                                             <Image src={fila_virtual.src} width={300}
                                                 height={580} className={'img-fluid'} />
                                         </Col>
-                                        <Col xs={6} className="setps-tabs_content-title">
+                                        <Col xs={6} className="setps-tabs_debq_content-title">
                                             <h2>
                                                 <b>Anticípate a las necesidades</b> de tus clientes <br />
                                                 y optimiza su flujo con nuestras soluciones
@@ -244,7 +244,7 @@ export default function Solutions() {
                                             <Image src={fila_virtual.src} width={300}
                                                 height={580} className={'img-fluid'} />
                                         </Col>
-                                        <Col xs={6} className="setps-tabs_content-title">
+                                        <Col xs={6} className="setps-tabs_debq_content-title">
                                             <h2>
                                                 <b>Anticípate a las necesidades</b> de tus clientes <br />
                                                 y optimiza su flujo con nuestras soluciones
@@ -261,7 +261,7 @@ export default function Solutions() {
                                             <Image src={fila_virtual.src} width={300}
                                                 height={580} className={'img-fluid'} />
                                         </Col>
-                                        <Col xs={6} className="setps-tabs_content-title">
+                                        <Col xs={6} className="setps-tabs_debq_content-title">
                                             <h2>
                                                 <b>Anticípate a las necesidades</b> de tus clientes <br />
                                                 y optimiza su flujo con nuestras soluciones
@@ -278,7 +278,7 @@ export default function Solutions() {
                                             <Image src={fila_virtual.src} width={300}
                                                 height={580} className={'img-fluid'} />
                                         </Col>
-                                        <Col xs={6} className="setps-tabs_content-title">
+                                        <Col xs={6} className="setps-tabs_debq_content-title">
                                             <h2>
                                                 <b>Anticípate a las necesidades</b> de tus clientes <br />
                                                 y optimiza su flujo con nuestras soluciones
