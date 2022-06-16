@@ -44,6 +44,11 @@ export default function Home() {
                                        Citas
                                     </Link>
                                 </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                <Link href="/atencion-virtual">
+                                       Atención virtual
+                                    </Link>
+                                </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="#link">Clientes</Nav.Link>
                             <Nav.Link href="#link">Partnets</Nav.Link>
