@@ -48,7 +48,7 @@ export default function Brands() {
                 <Row>
                     <Col>
                         <Swiper
-                            spaceBetween={120}
+                            spaceBetween={110}
                             slidesPerView={3}
                             freeMode={true}
                             loop={true}
@@ -68,7 +68,7 @@ export default function Brands() {
                                 },
                                 1024: {
                                     slidesPerView: 3,
-                                    spaceBetween: 190,
+                                    spaceBetween: 130,
                                 },
                             }}
                             className="mySwiper"

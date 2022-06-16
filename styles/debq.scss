@@ -291,8 +291,8 @@
     border-bottom-right-radius: 30px;
     background-color: #fff;
     margin-bottom: 2em;
-    padding-bottom: 2em;
-    padding-top: 3em;
+    padding-bottom: 5em;
+    padding-top: 5em;
 
 
     &_title {
@@ -413,7 +413,7 @@
 
     &_content {
         margin-top: 2em !important;
-
+        
         &-nav {
             color: #9195b0 !important;
             -webkit-transition: 0.2s ease-in-out;
@@ -503,13 +503,13 @@ button.accordion-button {
     border-radius: 35px;
 }
 
-.lineSteps {
+.lineSteps-debq {
     width: 4px;
     background-color: #2F9FEE;
-    height: 335px;
+    height: 310px;
     display: block;
     position: absolute;
-    top: 3%;
+    top: 23%;
     left: 46px;
 }
 

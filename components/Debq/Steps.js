@@ -95,7 +95,7 @@ export default function Solutions() {
                         <Col className="setps-tabs_content d-none d-sm-block">
                             <Tab.Container id="left-tabs-example" defaultActiveKey="1">
                                 <Row>
-                                    <Col sm={{ span: 5}}>
+                                    <Col sm={{ span: 5}} className="mt-5">
                                         <Tab.Content>
                                             <Tab.Pane eventKey="1">
                                                 <Row>
@@ -136,7 +136,10 @@ export default function Solutions() {
                                         </Tab.Content>
                                     </Col>
                                     <Col sm={7} className="relative">
-                                        <span className="lineSteps"></span>
+                                    <h3 className="text-left mb-4">
+                            <b>Define el Customer journey </b> <br />y mejora el proceso.
+                        </h3>
+                                        <span className="lineSteps-debq"></span>
                                         <Nav variant="pills" className="flex-column">
                                             <Nav.Item>
                                                 <Nav.Link eventKey="1" className="setps-tabs_content-nav"><div className="numberStep">1</div> <div className="textStep">Tu cliente hace el check in <br />
