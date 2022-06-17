@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Videollamada/Header"
 import Brands from "../components/Brands"
 import Market from "../components/Videollamada/Market"
-import Steps from "../components/Videollamada/Steps"
+import Flow from "../components/Videollamada/Flow"
 import Review from "../components/Review"
 import Map from "../components/Map"
 import Partner from "../components/Partner"
@@ -19,10 +19,10 @@ export default function Videocall() {
 
   return (
     <>
-      <Header /> 
+      <Header />
       <Brands />
       <Market />
-      {/* <Steps /> */}
+      <Flow />
       {/* <Modern /> */}
       <Review />
       <Industries />
