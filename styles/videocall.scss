@@ -200,6 +200,63 @@
         }
     }
 
+    &_div1 {
+        position: absolute;
+        bottom: 5%;
+        left: 12.3%;
+        text-align: center;
+        margin-top: 10px;
+        display: block;
+
+        p {
+            color: #fff;
+            font-size: .9rem;
+        }
+
+        h5 {
+            color: #2F9FEE;
+            font-weight: 500;
+        }
+    }
+
+    &_div2 {
+        position: absolute;
+        bottom: 24%;
+        left: 42.6%;
+        text-align: center;
+        margin-top: 10px;
+        display: block;
+
+        p {
+            color: #fff;
+            font-size: .9rem;
+        }
+
+        h5 {
+            color: #2F9FEE;
+            font-weight: 500;
+        }
+    }
+
+    &_div3 {
+        position: absolute;
+        bottom: 5%;
+        right: 12.3%;
+        text-align: center;
+        margin-top: 10px;
+        display: block;
+
+        p {
+            color: #fff;
+            font-size: .9rem;
+        }
+
+        h5 {
+            color: #2F9FEE;
+            font-weight: 500;
+        }
+    }
+
     &_title {
         color: #404041;
         font-size: 1.4rem;
@@ -227,47 +284,37 @@
     }
 }
 
+.flow-videocall-section {
+    &_floatdiv {
 
+        @media (min-width: 992px) {
+            position: absolute;
+        }
 
-.partner-section {
-    position: relative;
-    background-image: url("../asset/imgs/partner-background.jpg");
-    background-size: cover;
-    border-radius: 20px;
-    padding: 1.5em 3em !important;
-    margin-bottom: 5em;
+        &-title {
+            padding: 2.3em;
+        }
 
-    &_title {
-        color: #232C61;
-        font-weight: 800;
-        font-size: 1.8rem;
-    }
+        &-div {
+            width: 100%;
 
-    &_parraf {
-        color: #404041;
-        font-size: 1.25rem;
-    }
+            @media (min-width: 992px) {
+                max-width: 630px;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+            }
 
-    &_btn {
-        border: 0;
-        box-shadow: none;
-        background-color: #2F9FEE;
-        color: #fff;
-        border-radius: 25px;
-        max-height: 45px;
-        padding: .5em .8em;
-        font-weight: 700;
-        font-size: 1.2rem;
-    }
+            padding: 2.3em;
+            margin-top: 1em;
+            background-color: #232C61;
 
-    &_shape-left {
-        position: absolute;
-        width: 70px;
-        left: -3%;
-        z-index: -1;
-        top: -20%;
+            color: #fff;
+        }
     }
 }
+
+
+
 
 .border-level {
     background-image: url("../asset/imgs/home/border.svg");

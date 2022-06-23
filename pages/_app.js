@@ -10,7 +10,8 @@ import Footer from "../components/Footer"
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <>
+     <Layout>
       <Head>
         <title>Debmedia</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -23,6 +24,8 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
     </Layout>
+    </>
+   
   );
 }
 

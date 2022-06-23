@@ -8,8 +8,8 @@
     padding-bottom: 10em;
 
     @media (min-width: 992px) {
-        padding-top: 13em;
-        padding-bottom: 13em;
+        padding-top: 6em;
+        padding-bottom: 6em;
     }
 
     &_divs {
@@ -18,7 +18,7 @@
             border-radius: 15px;
             @media (min-width: 992px) {
                 margin: 1.5% !important;
-                width: 47% !important;
+                width: 30% !important;
             }
 
             padding: 1.5em 1.3em !important;
@@ -46,6 +46,12 @@
         }
         &-gob {
             background-color: #5826E7;
+        }
+        &-uti {
+            background-color: #b6b6b6;
+        }
+        &-teleco {
+            background-color: #69B8EF;
         }
     }
 
