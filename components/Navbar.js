@@ -54,6 +54,11 @@ export default function Home() {
                                       Debsign
                                     </Link>
                                 </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                <Link href="/encuestas">
+                                      Encuestas
+                                    </Link>
+                                </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="#link">Clientes</Nav.Link>
                             <Nav.Link href="#link">Partnets</Nav.Link>
