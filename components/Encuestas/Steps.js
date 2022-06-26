@@ -3,9 +3,10 @@ import { Row, Container, Col, Tab, Nav, Accordion } from "react-bootstrap";
 import Image from 'next/image'
 import check_blue from '../../asset/imgs/home/check_blue.svg'
 import check_white from '../../asset/imgs/home/check-m.svg'
-import step1 from '../../asset/imgs/citas/step1.png'
-import step2 from '../../asset/imgs/citas/step2.png'
-import step3 from '../../asset/imgs/citas/step3.png'
+import step1 from '../../asset/imgs/encuestas/step1.png'
+import step2 from '../../asset/imgs/encuestas/step2.png'
+import step3 from '../../asset/imgs/encuestas/step3.png'
+import step4 from '../../asset/imgs/encuestas/step4.png'
 import { useMediaQuery } from 'react-responsive'
 import shape1 from '../../asset/imgs/mobile/shapeTabs.svg'
 
@@ -90,13 +91,13 @@ export default function Solutions() {
                         <Col className="setps-tabs_encuestas_content d-none d-sm-block">
                             <Tab.Container id="left-tabs-example" defaultActiveKey="1">
                                 <Row>
-                                    <Col sm={{ span: 5}}>
+                                    <Col sm={{ span: 5, offset:1}}>
                                         <Tab.Content>
                                             <Tab.Pane eventKey="1">
                                                 <Row>
                                                     <Col className="text-center mt-5">
-                                                        <Image src={step1.src} width={780}
-                                                            height={600} className={'img-fluid'} />
+                                                        <Image src={step1.src} width={600}
+                                                            height={380} className={'img-fluid'} />
                                                     </Col>
 
                                                 </Row>
@@ -105,7 +106,7 @@ export default function Solutions() {
                                                 <Row>
                                                     <Col className="text-center">
                                                         <Image src={step2.src} width={620}
-                                                            height={550} className={'img-fluid'} />
+                                                            height={500} className={'img-fluid'} />
                                                     </Col>
 
                                                 </Row>
@@ -113,8 +114,8 @@ export default function Solutions() {
                                             <Tab.Pane eventKey="3">
                                                 <Row>
                                                     <Col className="text-center mt-5">
-                                                        <Image src={step3.src} width={400}
-                                                            height={280} className={'img-fluid'} />
+                                                        <Image src={step3.src} width={800}
+                                                            height={660} className={'img-fluid'} />
                                                     </Col>
 
                                                 </Row>
@@ -122,31 +123,31 @@ export default function Solutions() {
                                             <Tab.Pane eventKey="4">
                                                 <Row>
                                                     <Col className="text-center mt-5">
-                                                        <Image src={step3.src} width={400}
-                                                            height={280} className={'img-fluid'} />
+                                                        <Image src={step4.src} width={400}
+                                                            height={260} className={'img-fluid'} />
                                                     </Col>
 
                                                 </Row>
                                             </Tab.Pane>
                                         </Tab.Content>
                                     </Col>
-                                    <Col sm={7} className="relative">
+                                    <Col sm={6} className="relative">
                                         <span className="lineSteps-citas"></span>
                                         <Nav variant="pills" className="flex-column">
                                             <Nav.Item>
-                                                <Nav.Link eventKey="1" className="setps-tabs_encuestas_content-nav"><div className="numberStep">1</div> <div className="textStep">Obtiene una cita.</div> </Nav.Link>
+                                                <Nav.Link eventKey="1" className="setps-tabs_encuestas_content-nav"><div className="numberStep">1</div> <div className="textStep">Puntuación</div> </Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="2" className="setps-tabs_encuestas_content-nav"><div className="numberStep">2</div> <div className="textStep">Hace el check in en la sucursal.
+                                                <Nav.Link eventKey="2" className="setps-tabs_encuestas_content-nav"><div className="numberStep">2</div> <div className="textStep">Selección múltiple
                                                 </div></Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="3" className="setps-tabs_encuestas_content-nav"><div className="numberStep">3</div> <div className="textStep">Ingresa al flujo interno para
+                                                <Nav.Link eventKey="3" className="setps-tabs_encuestas_content-nav"><div className="numberStep">3</div> <div className="textStep">Texto líbre
                                                     ser atendido.</div>
                                                 </Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="4" className="setps-tabs_encuestas_content-nav mb-0"><div className="numberStep">4</div> <div className="textStep">Ingresa al flujo interno para
+                                                <Nav.Link eventKey="4" className="setps-tabs_encuestas_content-nav mb-0"><div className="numberStep">4</div> <div className="textStep">Emoticones
                                                     ser atendido.</div>
                                                 </Nav.Link>
                                             </Nav.Item>

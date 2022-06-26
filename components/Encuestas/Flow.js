@@ -1,28 +1,62 @@
 import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
-import mypic from '../../asset/imgs/mobile/mainbanner.png'
-import aglo from '../../asset/imgs/mobile/aglo.svg'
-import incerti from '../../asset/imgs/mobile/incerti.svg'
-import cliente from '../../asset/imgs/mobile/cliente.svg'
-import arrow from '../../asset/imgs/home/arrow.svg'
-import shape2 from '../../asset/imgs/mobile/shapebanner.svg'
+import how1 from '../../asset/imgs/encuestas/how1.png'
+import how2 from '../../asset/imgs/encuestas/how2.png'
+import how3 from '../../asset/imgs/encuestas/how3.png'
+
 
 
 export default function Market() {
     return (
         <>
-            <Container fluid className="channel-mobile-section relative">
+            <Container fluid className="flow-encuestas-section relative">
                 <Container>
                     <Row>
-                        <Col sm="12" className="channel-mobile-section_maintitle text-center">
+                        <Col sm="12" className="flow-encuestas-section_maintitle text-center">
                             <h3>
-                            <b>Crea encuestas en pocos pasos
-</b>
+                                <b>Crea encuestas en pocos pasos
+                                </b><br/>
+                                en pocos pasos
+
                             </h3>
                         </Col>
-                        <Col  sm="12">
-                        {/* <Image src={mypic.src} width={800} height={500}  /> */}
+                        <Col sm="4" xs="12" className="text-center flow-encuestas-section_how">
+                            <img src={how1.src} className="img-fluid" />
+                            <figure>
+                                <h5>
+                                    Crea
+                                </h5>
+                                <p>
+                                    la encuesta
+                                </p>
+                            </figure>
+                        </Col>
+                        <Col sm="4" xs="12" className="text-center flow-encuestas-section_how">
+                            <img src={how2.src} className="img-fluid" />
+                            <figure>
+                                <h5>
+                                Asocia
+                                </h5>
+                                <p>
+                                el trámite
+                                </p>
+                            </figure>
+                        </Col>
+                        <Col sm="4" xs="12" className="text-center flow-encuestas-section_how">
+                            <img src={how3.src} className="img-fluid" />
+                            <figure>
+                                <h5>
+                                Escoge la acción
+                                </h5>
+                                <p>que dispara el envío.
+                                </p>
+                            </figure>
+                        </Col>
+                        <Col className="text-center mt-4">
+                        <button className="citas-home_demobutton">
+                                    Solicitá una demo
+                                </button>
                         </Col>
                     </Row>
                 </Container>
