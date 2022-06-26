@@ -59,6 +59,11 @@ export default function Home() {
                                       Encuestas
                                     </Link>
                                 </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                <Link href="/preatendedor">
+                                      Preatendedor
+                                    </Link>
+                                </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="#link">Clientes</Nav.Link>
                             <Nav.Link href="#link">Partnets</Nav.Link>
