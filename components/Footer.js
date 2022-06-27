@@ -102,7 +102,7 @@ export default function Footer() {
                                 <hr />
                                 <ListGroup className="footer-section_list">
                                     <ListGroup.Item>
-                                        <Link href="/debq">
+                                        <Link href="/bancosyfinanzas">
                                             Banca y aseguradoras
                                         </Link>
                                     </ListGroup.Item>
