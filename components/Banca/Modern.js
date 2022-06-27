@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
 import api from '../../asset/imgs/banca/api.svg'
-import performance from '../../asset/imgs/home/performance.svg'
-import channel from '../../asset/imgs/home/channels.svg'
+import metricas from '../../asset/imgs/banca/metricas.svg'
+import comu from '../../asset/imgs/banca/comu.svg'
 
 
 export default function Modern() {
@@ -24,17 +24,17 @@ export default function Modern() {
                         <Col sm="4" xs="12" className="modern-banca-section_feature">
                             <Row>
                                 <Col xs="12" className="modern-banca-section_feature-img d-flex justify-content-center">
-                                <Image src={api.src} width={100}
-                                height={100} className={'img-fluid'} />   
+                                    <Image src={api.src} width={100}
+                                        height={100} className={'img-fluid'} />
                                 </Col>
                                 <Col xs="12" className="modern-banca-section_feature-text text-center">
                                     <h5>
-                                    Integración <br/>
-Sencilla
+                                        Integración <br />
+                                        Sencilla
                                     </h5>
                                     <p>
-                                    Integrable por API <br/>
-o iframe.
+                                        Integrable por API <br />
+                                        o iframe.
                                     </p>
                                 </Col>
                             </Row>
@@ -42,17 +42,17 @@ o iframe.
                         <Col sm="4" xs="12" className="modern-banca-section_feature">
                             <Row>
                                 <Col xs="12" className="modern-banca-section_feature-img d-flex justify-content-center">
-                                <Image src={api.src} width={100}
-                                height={100} className={'img-fluid'} />   
+                                    <Image src={metricas.src} width={100}
+                                        height={100} className={'img-fluid'} />
                                 </Col>
                                 <Col xs="12" className="modern-banca-section_feature-text text-center">
                                     <h5>
-                                    Integración <br/>
-Sencilla
+                                    Métricas de <br/>
+performance
                                     </h5>
                                     <p>
-                                    Integrable por API <br/>
-o iframe.
+                                    Conoce el rendimiento de <br/>
+tus canales de atención.
                                     </p>
                                 </Col>
                             </Row>
@@ -60,22 +60,23 @@ o iframe.
                         <Col sm="4" xs="12" className="modern-banca-section_feature">
                             <Row>
                                 <Col xs="12" className="modern-banca-section_feature-img d-flex justify-content-center">
-                                <Image src={api.src} width={100}
-                                height={100} className={'img-fluid'} />   
+                                    <Image src={comu.src} width={100}
+                                        height={100} className={'img-fluid'} />
                                 </Col>
                                 <Col xs="12" className="modern-banca-section_feature-text text-center">
                                     <h5>
-                                    Integración <br/>
-Sencilla
+                                    Comunicación<br/>
+centralizada
                                     </h5>
                                     <p>
-                                    Integrable por API <br/>
-o iframe.
+                                    Envía el mensaje correcto <br/>
+a través de SMS, email, <br/>
+WhatsApp o pantallas.
                                     </p>
                                 </Col>
                             </Row>
                         </Col>
-                        
+
                     </Row>
                 </Container>
             </Container>

@@ -104,8 +104,8 @@ export default function Brands() {
                                     </SwiperSlide>
                                 )
                                 )}
-                                <div ref={prevRef}>Prev</div>
-                                <div ref={nextRef}>Next</div>
+                                {/* <div ref={prevRef}>Prev</div>
+                                <div ref={nextRef}>Next</div> */}
                             </Swiper>
                         </Col>
                     </Row>

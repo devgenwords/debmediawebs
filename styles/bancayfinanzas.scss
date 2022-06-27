@@ -505,7 +505,14 @@ button.accordion-button {
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
             color: #fff;
-
+            min-height: 167px;
+            h5 {
+                font-weight: 700;
+                margin-bottom: 0;
+            }
+            p {
+                margin-bottom: 0;
+            }
         }
     }
 
