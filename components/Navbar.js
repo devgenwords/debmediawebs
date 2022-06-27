@@ -29,7 +29,7 @@ export default function Home() {
                             <Nav.Link href="/">Home</Nav.Link>
                             <NavDropdown title="Soluciones" id="basic-nav-dropdown">
                                 <NavDropdown.Item>
-                                    <Link href="/mobile">
+                                    <Link href="/fila-virtual">
                                         Fila Virtual
                                     </Link>
 
@@ -40,7 +40,7 @@ export default function Home() {
                                     </Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                <Link href="/citas">
+                                <Link href="/citasonline">
                                        Citas
                                     </Link>
                                 </NavDropdown.Item>
