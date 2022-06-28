@@ -4,11 +4,17 @@ import Image from 'next/image'
 import check_blue from '../../asset/imgs/home/check_blue.svg'
 import check_white from '../../asset/imgs/home/check-m.svg'
 import fila_virtual from '../../asset/imgs/home/fila-virtual.png'
-import { useMediaQuery } from 'react-responsive'
+import Data from '../../json/solutions-home.json';
 
 
 export default function Solutions() {
-    const isMobile = useMediaQuery({ query: '(max-width:899px)' })
+
+    const [dataJson, setData] = useState([]);
+
+    useEffect(() => {
+        setData(Data);
+    }, []);
+
     return (
         <>
             <Container className="solutions-top">
@@ -86,131 +92,33 @@ export default function Solutions() {
                                 <Row>
                                     <Col sm={3}>
                                         <Nav variant="pills" className="flex-column">
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="citas" className="solutions-tabs_content-nav">Citas Online</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="debq" className="solutions-tabs_content-nav">Gestión de filas</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="mobile" className="solutions-tabs_content-nav">Fila Virtual</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="sign" className="solutions-tabs_content-nav">Cartelería digital</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="videocall" className="solutions-tabs_content-nav">Atención virtual</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="encuesta" className="solutions-tabs_content-nav">Encuestas</Nav.Link>
-                                            </Nav.Item>
-                                            <Nav.Item>
-                                                <Nav.Link eventKey="pre" className="solutions-tabs_content-nav">Preatendedor</Nav.Link>
-                                            </Nav.Item>
+                                            {dataJson.map((item, index) => (
+                                                <Nav.Item key={index}>
+                                                    <Nav.Link eventKey={item.key} className="solutions-tabs_content-nav">{item.title}</Nav.Link>
+                                                </Nav.Item>
+                                            ))}
                                         </Nav>
                                     </Col>
                                     <Col sm={9}>
                                         <Tab.Content>
-                                            <Tab.Pane eventKey="citas">
-                                                <Row>
-                                                    <Col className="text-center">
-                                                        <Image src={fila_virtual.src} width={300}
-                                                            height={580} className={'img-fluid'} />
-                                                    </Col>
-                                                    <Col className="solutions-tabs_content-title">
-                                                        <h2>
-                                                            <b> Deja que tus clientes hagan fila desde su móvil</b> <br /> y reduce el tiempo de espera que permanecen dentro de tu sucursal.
-                                                        </h2>
-                                                        <button className="header-home_demobutton">
-                                                            Ver más
-                                                        </button>
-                                                    </Col>
-                                                </Row>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="debq">
-                                                <Row>
-                                                    <Col className="text-center">
-                                                        <Image src={fila_virtual.src} width={300}
-                                                            height={580} className={'img-fluid'} />
-                                                    </Col>
-                                                    <Col className="solutions-tabs_content-title">
-                                                        <h2>
-                                                            <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                            y optimiza su flujo con nuestras soluciones
-                                                        </h2>
-                                                    </Col>
-                                                </Row>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="mobile">
-                                                <Row>
-                                                    <Col className="text-center">
-                                                        <Image src={fila_virtual.src} width={300}
-                                                            height={580} className={'img-fluid'} />
-                                                    </Col>
-                                                    <Col className="solutions-tabs_content-title">
-                                                        <h2>
-                                                            <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                            y optimiza su flujo con nuestras soluciones
-                                                        </h2>
-                                                    </Col>
-                                                </Row>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="sign">
-                                                <Row>
-                                                    <Col className="text-center">
-                                                        <Image src={fila_virtual.src} width={300}
-                                                            height={580} className={'img-fluid'} />
-                                                    </Col>
-                                                    <Col className="solutions-tabs_content-title">
-                                                        <h2>
-                                                            <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                            y optimiza su flujo con nuestras soluciones
-                                                        </h2>
-                                                    </Col>
-                                                </Row>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="videocall">
-                                                <Row>
-                                                    <Col className="text-center">
-                                                        <Image src={fila_virtual.src} width={300}
-                                                            height={580} className={'img-fluid'} />
-                                                    </Col>
-                                                    <Col className="solutions-tabs_content-title">
-                                                        <h2>
-                                                            <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                            y optimiza su flujo con nuestras soluciones
-                                                        </h2>
-                                                    </Col>
-                                                </Row>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="encuesta">
-                                                <Row>
-                                                    <Col className="text-center">
-                                                        <Image src={fila_virtual.src} width={300}
-                                                            height={580} className={'img-fluid'} />
-                                                    </Col>
-                                                    <Col className="solutions-tabs_content-title">
-                                                        <h2>
-                                                            <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                            y optimiza su flujo con nuestras soluciones
-                                                        </h2>
-                                                    </Col>
-                                                </Row>
-                                            </Tab.Pane>
-                                            <Tab.Pane eventKey="pre">
-                                                <Row>
-                                                    <Col className="text-center">
-                                                        <Image src={fila_virtual.src} width={300}
-                                                            height={580} className={'img-fluid'} />
-                                                    </Col>
-                                                    <Col className="solutions-tabs_content-title">
-                                                        <h2>
-                                                            <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                            y optimiza su flujo con nuestras soluciones
-                                                        </h2>
-                                                    </Col>
-                                                </Row>
-                                            </Tab.Pane>
+                                            {dataJson.map((item, index) => (
+                                                <Tab.Pane key={index} eventKey={item.key}>
+                                                    <Row>
+                                                        <Col className="text-center">
+                                                            <Image src={`/hometabs/${item.image.url}`} width={item.image.width}
+                                                                height={item.image.height} className={'img-fluid'} />
+                                                        </Col>
+                                                        <Col className="solutions-tabs_content-title">
+                                                            <h2>
+                                                                <b>{item.main}</b>{item.secu}
+                                                            </h2>
+                                                            <button className="header-home_demobutton">
+                                                                Ver más
+                                                            </button>
+                                                        </Col>
+                                                    </Row>
+                                                </Tab.Pane>
+                                            ))}
                                         </Tab.Content>
                                     </Col>
                                 </Row>
@@ -219,125 +127,24 @@ export default function Solutions() {
                     </Row>
                     <Row className="solutions-accordion_content d-block d-sm-none">
                         <Accordion defaultActiveKey="0">
-                            <Accordion.Item eventKey="0" className="solutions-accordion_content-nav">
-                                <Accordion.Header >Citas Online</Accordion.Header>
-                                <Accordion.Body>
-                                    <Row>
-                                        <Col xs={6} className="text-center">
-                                            <Image src={fila_virtual.src} width={300}
-                                                height={580} className={'img-fluid'} />
-                                        </Col>
-                                        <Col xs={6} className="solutions-tabs_content-title">
-                                            <h2>
-                                                <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                y optimiza su flujo con nuestras soluciones
-                                            </h2>
-                                        </Col>
-                                    </Row>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="1">
-                                <Accordion.Header className="solutions-accordion_content-nav">Gestión de filas</Accordion.Header>
-                                <Accordion.Body>
-                                    <Row>
-                                        <Col xs={6} className="text-center">
-                                            <Image src={fila_virtual.src} width={300}
-                                                height={580} className={'img-fluid'} />
-                                        </Col>
-                                        <Col xs={6} className="solutions-tabs_content-title">
-                                            <h2>
-                                                <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                y optimiza su flujo con nuestras soluciones
-                                            </h2>
-                                        </Col>
-                                    </Row>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="2">
-                                <Accordion.Header className="solutions-accordion_content-nav">Fila Vitual</Accordion.Header>
-                                <Accordion.Body>
-                                    <Row>
-                                        <Col xs={6} className="text-center">
-                                            <Image src={fila_virtual.src} width={300}
-                                                height={580} className={'img-fluid'} />
-                                        </Col>
-                                        <Col xs={6} className="solutions-tabs_content-title">
-                                            <h2>
-                                                <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                y optimiza su flujo con nuestras soluciones
-                                            </h2>
-                                        </Col>
-                                    </Row>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="3">
-                                <Accordion.Header className="solutions-accordion_content-nav">Cartelería digital</Accordion.Header>
-                                <Accordion.Body>
-                                    <Row>
-                                        <Col xs={6} className="text-center">
-                                            <Image src={fila_virtual.src} width={300}
-                                                height={580} className={'img-fluid'} />
-                                        </Col>
-                                        <Col xs={6} className="solutions-tabs_content-title">
-                                            <h2>
-                                                <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                y optimiza su flujo con nuestras soluciones
-                                            </h2>
-                                        </Col>
-                                    </Row>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="4">
-                                <Accordion.Header className="solutions-accordion_content-nav">Atención Virtual</Accordion.Header>
-                                <Accordion.Body>
-                                    <Row>
-                                        <Col xs={6} className="text-center">
-                                            <Image src={fila_virtual.src} width={300}
-                                                height={580} className={'img-fluid'} />
-                                        </Col>
-                                        <Col xs={6} className="solutions-tabs_content-title">
-                                            <h2>
-                                                <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                y optimiza su flujo con nuestras soluciones
-                                            </h2>
-                                        </Col>
-                                    </Row>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="5">
-                                <Accordion.Header className="solutions-accordion_content-nav">Enuestas</Accordion.Header>
-                                <Accordion.Body>
-                                    <Row>
-                                        <Col xs={6} className="text-center">
-                                            <Image src={fila_virtual.src} width={300}
-                                                height={580} className={'img-fluid'} />
-                                        </Col>
-                                        <Col xs={6} className="solutions-tabs_content-title">
-                                            <h2>
-                                                <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                y optimiza su flujo con nuestras soluciones
-                                            </h2>
-                                        </Col>
-                                    </Row>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="6">
-                                <Accordion.Header className="solutions-accordion_content-nav">Preatendedor</Accordion.Header>
-                                <Accordion.Body>
-                                    <Row>
-                                        <Col xs={6} className="text-center">
-                                            <Image src={fila_virtual.src} width={300}
-                                                height={580} className={'img-fluid'} />
-                                        </Col>
-                                        <Col xs={6} className="solutions-tabs_content-title">
-                                            <h2>
-                                                <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                                y optimiza su flujo con nuestras soluciones
-                                            </h2>
-                                        </Col>
-                                    </Row>
-                                </Accordion.Body>
-                            </Accordion.Item>
+                            {dataJson.map((item, index) => (
+                                <Accordion.Item key={index} eventKey={item.key} className="solutions-accordion_content-nav">
+                                    <Accordion.Header >{item.title}</Accordion.Header>
+                                    <Accordion.Body>
+                                        <Row>
+                                            <Col xs={6} className="text-center">
+                                                <Image src={`/hometabs/${item.image.url}`} width={item.image.width}
+                                                    height={item.image.height} className={'img-fluid'} />
+                                            </Col>
+                                            <Col xs={6} className="solutions-tabs_content-title">
+                                                <h2>
+                                                    <b>{item.main}</b>{item.secu}
+                                                </h2>
+                                            </Col>
+                                        </Row>
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                            ))}
                         </Accordion>
                     </Row>
 
