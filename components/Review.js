@@ -51,7 +51,7 @@ export default function Brands() {
                                 <div ref={nextRef} className="iconReview iconReview_next"><i className="bi bi-chevron-right "></i></div>
                             </Col>
                         </Col>
-                        <Col sm={7} xs={12} className="market-section_div">
+                        <Col sm={7} xs={12} className="text-center review-section_slider">
                             <Swiper
                                 spaceBetween={20}
                                 slidesPerView={1}
@@ -60,6 +60,10 @@ export default function Brands() {
                                 modules={[Navigation]}
                                 loop={true}
                                 autoplay={true}
+                                pagination={{
+                                    clickable: true,
+                                    dynamicBullets: false,
+                                }}
                                 breakpoints={{
                                     500: {
                                         slidesPerView: 1,
@@ -84,7 +88,25 @@ export default function Brands() {
                             >
                                 {review.map((item, index) => (
                                     <SwiperSlide key={index}>
-                                        <div className="item">
+                                        <Col className="review-section_slidersection">
+                                            <Row>
+                                                <Col xs="12">
+                                                    <img src={`/review/${item.image}`} className="review-section_slidersection-client img-fluid" />
+                                                </Col>
+                                                <Col sm={{ span: 10, offset: 1 }} className="relative">
+                                                    <h4>{item.person}</h4>
+                                                    <span>{item.job}</span>
+                                                    <img src={quote1.src} className="quote1" />
+
+                                                    <p>{item.comment}</p>
+                                                    <img src={quote2.src} className="quote2" />
+                                                </Col>
+                                                <Col xs="12">
+                                                    <img src={`/review/${item.company}`} className="img-fluid" />
+                                                </Col>
+                                            </Row>
+                                        </Col>
+                                        {/* <div className="item">
                                             <div className="review-section_slidersection">
                                                 <div className="review-section_slidersection-person">
                                                     <img src={`/review/${item.image}`} className="img-fluid" />
@@ -101,7 +123,7 @@ export default function Brands() {
                                                     <img src={quote2.src} className="quote2" />
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
 
                                     </SwiperSlide>
                                 )
