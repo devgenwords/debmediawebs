@@ -8,6 +8,7 @@
 @import "./videocall";
 @import "./bancayfinanzas";
 @import "./gobierno";
+@import "./retail";
 @import "./salud";
 @import "./tabsIndus";
 @import "./brands-slider";
@@ -119,4 +120,8 @@ nav.navbar.navbar-expand-lg {
 
 .gobierno {
     background-color: #5826E7;
+}
+
+.retail {
+    background-color: #F48700;
 }

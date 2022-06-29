@@ -117,17 +117,17 @@ export default function Footer() {
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
-                                        <Link href="/fila-virtual">
+                                        <Link href="/">
                                             Utilities y corporaciones
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
-                                        <Link href="/debsign">
+                                        <Link href="/retail">
                                             Servicios y retail
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
-                                        <Link href="/atencion-virtual">
+                                        <Link href="/">
                                             Telecomunicaciones
                                         </Link>
                                     </ListGroup.Item>

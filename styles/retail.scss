@@ -1,5 +1,5 @@
-.header-salud {
-    background-image: url("../asset/imgs/salud/main.jpg");
+.header-retail {
+    background-image: url("../asset/imgs/retail/main.jpg");
     padding-top: 5em;
     padding-bottom: 5em;
     height: 80vh;
@@ -55,8 +55,8 @@
 
     &_demobutton {
         border: 0;
-        background-color: #69B8EF;
-        color: #232C61;
+        background-color: #F48700;
+        color: #fff;
         border-radius: 10px;
         font-size: 1.1rem;
         padding: .5em 1.7em;
@@ -113,7 +113,7 @@
 
 
 
-.market-salud-section {
+.market-retail-section {
     margin-bottom: 3em;
 
     @media (min-width: 992px) {
@@ -172,7 +172,7 @@
 
 
 
-.modern-salud-section {
+.modern-retail-section {
     @media (min-width: 992px) {
         padding-left: 10em !important;
         padding-right: 10em !important;
