@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
-import inter from '../../asset/imgs/banca/inter.svg'
-import resp from '../../asset/imgs/banca/resp.svg'
-import banco from '../../asset/imgs/banca/banco.svg'
+import alto from '../../asset/imgs/salud/alto.svg'
+import exp from '../../asset/imgs/salud/exp.svg'
+import des from '../../asset/imgs/salud/des.svg'
 import arrow from '../../asset/imgs/home/arrow.svg'
 
 
@@ -22,7 +22,7 @@ export default function Market() {
                     </Row>
                     <Row>
                         <Col sm={4} xs={12} className="market-banca-section_div">
-                            <Image src={inter.src} width={90}
+                            <Image src={alto.src} width={90}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-banca-section_title">
                             Quieren interactuar 
@@ -33,7 +33,7 @@ cómo quieran.
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-banca-section_div">
-                            <Image src={resp.src} width={90}
+                            <Image src={exp.src} width={90}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-banca-section_title">
                             Necesitan respuestas 
@@ -43,7 +43,7 @@ cómo quieran.
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-banca-section_div">
-                            <Image src={banco.src} width={65}
+                            <Image src={des.src} width={65}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-banca-section_title">
                             Se cambiarían de banco 

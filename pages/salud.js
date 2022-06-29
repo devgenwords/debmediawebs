@@ -21,7 +21,6 @@ export default function Salud() {
       <Solutions />
       <Modern />
       <Review />
-      <Map />
       <Partner />
       <Level />
       <Contact />

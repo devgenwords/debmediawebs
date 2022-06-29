@@ -22,7 +22,6 @@ export default function Banca() {
       <Solutions />
       <Modern />
       <Review />
-      <Map />
       <Partner />
       <Level />
       <Contact />

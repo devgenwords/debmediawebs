@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
-import api from '../../asset/imgs/banca/api.svg'
-import metricas from '../../asset/imgs/banca/metricas.svg'
-import comu from '../../asset/imgs/banca/comu.svg'
+import api from '../../asset/imgs/salud/api.svg'
+import metricas from '../../asset/imgs/salud/metricas.svg'
+import comu from '../../asset/imgs/salud/comu.svg'
 
 
 export default function Modern() {
