@@ -7,6 +7,7 @@
 @import "./encuestas";
 @import "./videocall";
 @import "./bancayfinanzas";
+@import "./gobierno";
 @import "./salud";
 @import "./tabsIndus";
 @import "./brands-slider";
@@ -114,4 +115,8 @@ nav.navbar.navbar-expand-lg {
 
 .salud {
     background-color: #69B8EF;
+}
+
+.gobierno {
+    background-color: #5826E7;
 }
