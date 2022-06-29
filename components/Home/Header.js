@@ -18,9 +18,9 @@ export default function Header() {
                     <div className={'image-container'}>
                         <Image src={mypic.src} layout="fill" className={'image'} />
                     </div>
-                    <div className="d-none d-sm-block">
+                    {/* <div className="d-none d-sm-block">
                         <img src={shape3.src} className="header-home_shape3" />
-                    </div>
+                    </div> */}
                     <div className="d-none d-sm-block">
                         <img src={shape1.src} className="header-home_shape1" />
                         <img src={shape2.src} className="header-home_shape2" />
