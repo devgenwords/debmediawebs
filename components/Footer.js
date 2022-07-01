@@ -117,7 +117,7 @@ export default function Footer() {
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
-                                        <Link href="/">
+                                        <Link href="/utilities">
                                             Utilities y corporaciones
                                         </Link>
                                     </ListGroup.Item>

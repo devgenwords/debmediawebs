@@ -10,6 +10,7 @@
 @import "./gobierno";
 @import "./retail";
 @import "./telcos";
+@import "./utilities";
 @import "./salud";
 @import "./tabsIndus";
 @import "./brands-slider";
@@ -159,4 +160,8 @@ nav.navbar.navbar-expand-lg {
 
 .telcos {
     background-color: #1B8CF4;
+}
+
+.utilities {
+    background-color: #86BE55;
 }
