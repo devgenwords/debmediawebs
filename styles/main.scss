@@ -9,6 +9,7 @@
 @import "./bancayfinanzas";
 @import "./gobierno";
 @import "./retail";
+@import "./telcos";
 @import "./salud";
 @import "./tabsIndus";
 @import "./brands-slider";
@@ -154,4 +155,8 @@ nav.navbar.navbar-expand-lg {
 
 .retail {
     background-color: #F48700;
+}
+
+.telcos {
+    background-color: #1B8CF4;
 }

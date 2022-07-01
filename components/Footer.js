@@ -127,7 +127,7 @@ export default function Footer() {
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
-                                        <Link href="/">
+                                        <Link href="/telcos">
                                             Telecomunicaciones
                                         </Link>
                                     </ListGroup.Item>
