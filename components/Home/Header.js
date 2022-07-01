@@ -54,7 +54,7 @@ export default function Header() {
                 </Row>
             </Container>
         </>
-        
+
     );
 }
 
@@ -67,7 +67,7 @@ function MyVerticallyCenteredModal(props) {
             centered
         >
             <Modal.Body>
-                <iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/Kqr77nXvcXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {/* <iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/Kqr77nXvcXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             </Modal.Body>
         </Modal>
     );
