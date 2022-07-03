@@ -39,8 +39,8 @@
     "title": "Cartelería digital",
     "image": {
       "url": "debsign.png",
-      "width": 300,
-      "height": 580
+      "width": 400,
+      "height": 300
     },
     "key": "sign", 
     "main": "Personaliza y administra contenido",

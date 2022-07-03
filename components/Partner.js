@@ -8,27 +8,27 @@ import channel from '../asset/imgs/home/channels.svg'
 
 export default function Modern() {
     return (
-        <>    
-                <Container className="partner-section">
-                    <img src={shape.src} className="partner-section_shape-left"/>
-                    <Row>
-                        <Col className="partner-section_div">
-                            <Row>
-                                <Col sm={9} xs={12}>
-                                        <h4 className="partner-section_title">
-                                        ¿Quieres ser partner de Debmedia?
-                                        </h4>
-                                        <p className="partner-section_parraf">
-                                        Conoce cómo generar nuevos negocios a través de nuestro programa.
-                                        </p>
-                                </Col>
-                                <Col sm={3} xs={12} className="d-flex justify-content-center align-items-center">
-                                    <button className="partner-section_btn">Como ser partner</button>
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
-                </Container>
+        <>
+            <Container className="partner-section">
+                <img src={shape.src} className="partner-section_shape-left" />
+                <Row>
+                    <Col className="partner-section_div">
+                        <Row>
+                            <Col sm={9} xs={12}>
+                                <h4 className="partner-section_title">
+                                    ¿Quieres ser partner de Debmedia?
+                                </h4>
+                                <p className="partner-section_parraf">
+                                    Conoce cómo generar nuevos negocios a través de nuestro programa.
+                                </p>
+                            </Col>
+                            <Col sm={3} xs={12} className="d-flex justify-content-center align-items-center">
+                                <button className="partner-section_btn">Quiero ser partner</button>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
         </>
     );
 }

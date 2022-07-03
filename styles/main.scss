@@ -74,7 +74,10 @@ nav.navbar.navbar-expand-lg {
     border-radius: 20px;
     padding: 1.5em 3em !important;
     margin-bottom: 5em;
-
+    max-width: 90%;
+    @media (min-width: 992px) {
+        max-width: inherit;
+    }
     &_title {
         color: #232C61;
         font-weight: 800;

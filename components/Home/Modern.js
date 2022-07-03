@@ -23,8 +23,8 @@ export default function Modern() {
                         <Col className="modern-section_div">
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-end">
-                                    <Image src={api.src} width={600}
-                                        height={500} />
+                                    <Image src={api.src} width={500}
+                                        height={400} />
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
@@ -38,41 +38,23 @@ export default function Modern() {
 
                                 </Col>
                             </Row>
-                            <Row className="d-none d-sm-flex">
-                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-left">
+                            <Row className="d-sm-flex reverseXs">
+                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Métricas de performance
+                                        Métricas de performance
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            Conoce el rendimiento de tus canales <br /> de atención.
+                                        Conoce el rendimiento de tus canales <br /> de atención.
                                         </p>
                                     </div>
 
                                 </Col>
-                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-start">
-                                    <Image src={performance.src} width={600}
-                                        height={500} />
+                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-center">
+                                    <Image src={performance.src} width={400}
+                                        height={400} />
                                 </Col>
 
-                            </Row>
-                            <Row className="d-block d-sm-none">
-                               
-                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-start">
-                                    <Image src={performance.src} width={600}
-                                        height={500} />
-                                </Col>
-                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-left">
-                                    <div>
-                                        <h4 className="modern-section_title">
-                                            Métricas de performance
-                                        </h4>
-                                        <p className="modern-section_parraf">
-                                            Conoce el rendimiento de tus canales <br /> de atención.
-                                        </p>
-                                    </div>
-
-                                </Col>
                             </Row>
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-end">
@@ -82,7 +64,8 @@ export default function Modern() {
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Comunicación centralizada
+                                        Comunicación centralizada con tus clientes
+
                                         </h4>
                                         <p className="modern-section_parraf">
                                             Envía el mensaje correcto a través de SMS, email, WhatsApp o pantallas.

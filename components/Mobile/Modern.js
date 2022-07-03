@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
-import performance from '../../asset/imgs/home/performance.svg'
-import channel from '../../asset/imgs/home/channels.svg'
-import chatbot from '../../asset/imgs/mobile/modern1.png'
-import api from '../../asset/imgs/mobile/modern2.png'
 import modern1 from '../../asset/imgs/mobile/modern1.png'
 import modern2 from '../../asset/imgs/mobile/modern2.png'
 import modern3 from '../../asset/imgs/mobile/modern3.png'

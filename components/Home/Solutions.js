@@ -80,8 +80,7 @@ export default function Solutions() {
                     <Row>
                         <Col className="solutions-tabs_title">
                             <h2>
-                                <b>Anticípate a las necesidades</b> de tus clientes <br />
-                                y optimiza su flujo con nuestras soluciones
+                                <b>Anticípate a las necesidades</b> y optimiza el <br/>flujo de atención de tus clientes
                             </h2>
                         </Col>
                     </Row>

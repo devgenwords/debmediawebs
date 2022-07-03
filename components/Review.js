@@ -46,7 +46,7 @@ export default function Brands() {
                                     Más de 300<br className="d-none d-sm-block" /> organizaciones<br className="d-none d-sm-block" /><span> ya confían en<br className="d-none d-sm-block" /> Debmedia</span>
                                 </h3>
                             </Col>
-                            <Col>
+                            <Col className=" d-none d-sm-block">
                                 <div ref={prevRef} className="iconReview iconReview_prev"><i className="bi bi-chevron-left"></i></div>
                                 <div ref={nextRef} className="iconReview iconReview_next"><i className="bi bi-chevron-right "></i></div>
                             </Col>
@@ -96,35 +96,16 @@ export default function Brands() {
                                                 <Col sm={{ span: 10, offset: 1 }} className="relative">
                                                     <h4>{item.person}</h4>
                                                     <span>{item.job}</span>
-                                                    <img src={quote1.src} className="quote1" />
+                                                    <img src={quote1.src} className="quote1 d-none d-sm-block" />
 
                                                     <p>{item.comment}</p>
-                                                    <img src={quote2.src} className="quote2" />
+                                                    <img src={quote2.src} className="quote2 d-none d-sm-block" />
                                                 </Col>
                                                 <Col xs="12">
                                                     <img src={`/review/${item.company}`} className="img-fluid" />
                                                 </Col>
                                             </Row>
                                         </Col>
-                                        {/* <div className="item">
-                                            <div className="review-section_slidersection">
-                                                <div className="review-section_slidersection-person">
-                                                    <img src={`/review/${item.image}`} className="img-fluid" />
-                                                </div>
-                                                <div className="review-section_slidersection-brand">
-                                                    <img src={`/review/${item.company}`} className="img-fluid" />
-                                                </div>
-                                                <div className="review-section_slidersection-text">
-                                                    <h4>{item.person}</h4>
-                                                    <span>{item.job}</span>
-                                                    <img src={quote1.src} className="quote1" />
-
-                                                    <p>{item.comment}</p>
-                                                    <img src={quote2.src} className="quote2" />
-                                                </div>
-                                            </div>
-                                        </div> */}
-
                                     </SwiperSlide>
                                 )
                                 )}
