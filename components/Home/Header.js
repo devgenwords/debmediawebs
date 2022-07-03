@@ -31,6 +31,7 @@ export default function Header() {
                     <Container>
                         <Row>
                             <Col>
+                            <span className="header-home_product">Customer Journey Manager</span>
                                 <h1 className="header-home_title">
                                     Haz más eficientes tus<br className="d-none d-sm-block" /> canales de atención
                                 </h1>
@@ -38,7 +39,7 @@ export default function Header() {
                                     Software para <b>gestionar la atención<br className="d-none d-sm-block" /> al cliente virtual</b> y presencial.
                                 </p>
                                 <button className="header-home_demobutton">
-                                    Solicitá una demo
+                                Solicita un demo
                                 </button>
                             </Col>
                         </Row>
@@ -67,7 +68,7 @@ function MyVerticallyCenteredModal(props) {
             centered
         >
             <Modal.Body>
-                <iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/Kqr77nXvcXY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                <iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/Kqr77nXvcXY?autoplay=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </Modal.Body>
         </Modal>
     );
