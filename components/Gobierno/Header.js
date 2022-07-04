@@ -22,7 +22,7 @@ export default function Header() {
                                 </h1>
 
                                 <button className="header-gobierno_demobutton">
-                                    Solicitá una demo
+                                    Solicita una demo
                                 </button>
                             </Col>
                         </Row>

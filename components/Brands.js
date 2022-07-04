@@ -37,7 +37,7 @@ export default function Brands() {
                         <Swiper
                             spaceBetween={20}
                             slidesPerView={2}
-                            freeMode={true}
+                            freeMode={false}
                             loop={true}
                             pagination={{
                                 clickable: true,

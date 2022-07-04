@@ -20,7 +20,7 @@ export default function Header() {
                                 </h1>
 
                                 <button className="header-telcos_demobutton">
-                                    Solicitá una demo
+                                    Solicita una demo
                                 </button>
                             </Col>
                         </Row>

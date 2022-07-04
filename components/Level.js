@@ -12,13 +12,13 @@ export default function Modern() {
         <>
             <Col>
                 <img src={top.src} className="img-fluid" alt="" />
-                </Col>
+            </Col>
             <Container fluid className="level-section">
-            
+
                 <Container>
                     <Row>
                         <Col className="level-section_mainTitle mb-4">
-                            <h2>Lleva la experiencia de tus <br /> clientes al <b>siguiente nivel</b></h2>
+                            <h2>Lleva la experiencia de tus <br className="d-none d-sm-block" /> clientes al <b>siguiente nivel</b></h2>
                         </Col>
                     </Row>
 
@@ -53,9 +53,8 @@ export default function Modern() {
 
                             </div>
                             <div className="level-section_text">
-                                <p> <b> Selecciona los <br className="d-none d-sm-block" />
-                                    módulos</b> según <br className="d-none d-sm-block" />
-                                    tu necesidad</p>
+                                <p> <b> Selecciona</b>  <br className="d-none d-sm-block" /> los módulos
+                                </p>
                             </div>
                         </Col>
                         <Col xs={6} sm={3}>
@@ -70,8 +69,8 @@ export default function Modern() {
 
                             </div>
                             <div className="level-section_text">
-                                <p>  <b>Configura el sistema</b><br className="d-none d-sm-block" />
-                                    de acuerdo a  <br className="d-none d-sm-block" /> tu modelo de atención</p>
+                                <p> <b> Configura</b>  <br className="d-none d-sm-block" /> el sistema
+                                </p>
 
                             </div>
                         </Col>
@@ -87,17 +86,16 @@ export default function Modern() {
 
                             </div>
                             <div className="level-section_text">
-                                <p> Atiende a tus <br className="d-none d-sm-block" />
-                                    clientes de forma <br className="d-none d-sm-block" />
-                                    <b>más eficiente</b></p>
+                                <p> Atiende  de   <br className="d-none d-sm-block" />
+                                    <b>forma eficiente</b></p>
 
                             </div>
                         </Col>
                     </Row>
                     <Row>
                         <Col className="text-center mt-4">
-                            <button className="header-home_demobutton">
-                                Solicitá una demo
+                            <button className="level-section_demobutton">
+                                Solicita una demo
                             </button>
                         </Col>
                     </Row>

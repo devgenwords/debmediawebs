@@ -35,7 +35,7 @@ export default function Header() {
                                     Sistema de <b>fila virtual</b>
                                 </p>
                                 <button className="mobile-home_demobutton">
-                                    Solicitá una demo
+                                    Solicita una demo
                                 </button>
                             </Col>
                         </Row>

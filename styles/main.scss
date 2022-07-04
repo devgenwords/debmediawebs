@@ -81,12 +81,19 @@ nav.navbar.navbar-expand-lg {
     &_title {
         color: #232C61;
         font-weight: 800;
-        font-size: 1.8rem;
+        font-size: 1.3rem;
+        @media (min-width: 992px) {
+            font-size: 1.8rem;
+        }
     }
 
     &_parraf {
         color: #404041;
-        font-size: 1.25rem;
+        font-size: .9rem;
+        @media (min-width: 992px) {
+            
+            font-size: 1.25rem;
+        }
     }
 
     &_btn {
@@ -98,7 +105,10 @@ nav.navbar.navbar-expand-lg {
         max-height: 45px;
         padding: .5em .8em;
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 1rem;
+        @media (min-width: 992px) {
+            font-size: 1.33rem;
+        }
     }
 
     &_shape-left {

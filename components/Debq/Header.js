@@ -40,7 +40,7 @@ sucursales
                                     Sistema de <b>gestión de turnos</b>
                                 </p>
                                 <button className="debq-home_demobutton">
-                                    Solicitá una demo
+                                    Solicita una demo
                                 </button>
                             </Col>
                         </Row>

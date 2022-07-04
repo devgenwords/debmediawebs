@@ -94,15 +94,15 @@ export default function Brands() {
                                                     <img src={`/review/${item.image}`} className="review-section_slidersection-client img-fluid" />
                                                 </Col>
                                                 <Col sm={{ span: 10, offset: 1 }} className="relative">
-                                                    <h4>{item.person}</h4>
-                                                    <span>{item.job}</span>
+                                                    <h4 className="review-section_slidersection-client-name">{item.person}</h4>
+                                                    <span className="review-section_slidersection-client-work">{item.job}</span>
                                                     <img src={quote1.src} className="quote1 d-none d-sm-block" />
 
-                                                    <p>{item.comment}</p>
+                                                    <p className="review-section_slidersection-client-parraf">{item.comment}</p>
                                                     <img src={quote2.src} className="quote2 d-none d-sm-block" />
                                                 </Col>
                                                 <Col xs="12">
-                                                    <img src={`/review/${item.company}`} className="img-fluid" />
+                                                    <img src={`/review/${item.company}`} className="img-fluid logoCliente" />
                                                 </Col>
                                             </Row>
                                         </Col>

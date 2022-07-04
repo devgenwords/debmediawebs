@@ -36,7 +36,7 @@ export default function Header() {
                                     Sistema de <b>cartelería digital</b>
                                 </p>
                                 <button className="debsign-home_demobutton">
-                                    Solicitá una demo
+                                    Solicita una demo
                                 </button>
                             </Col>
                         </Row>

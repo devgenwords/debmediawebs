@@ -20,28 +20,28 @@ export default function Map() {
                         <Row>
                             <Col className="map-section_mapcontent text-center">
                                 <h3 className="map-section_mapcontent-text">
-                                    Debmedia lleva más de 15 años desarrollando software para gestionar la experiencia del cliente en distintas compañías <b>en todo Latinoamérica.</b>
+                                Debemedia lleva más de 15 años desarrollando software para gestionar la experiencia del cliente en distintas compañías <b>en todo Latinoamérica.</b>
                                 </h3>
                                 <img src={map.src} className="img-fluid map-section-maxMap" alt="Mapa" />
                                 <div className="numbers number1 text-center">
-                                    <span className="quntity">+ <CountUp end={300} redraw={true}>
+                                    <span className="quntity">+ <CountUp end={350} redraw={true}>
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start} delayedCall>
                                                 <span ref={countUpRef} />
                                             </VisibilitySensor>
                                         )}
                                     </CountUp></span>
-                                    <span className="type">clientes</span>
+                                    <span className="type">Clientes</span>
                                 </div>
                                 <div className="numbers number2 text-center">
-                                    <span className="quntity">+ <CountUp end={50} redraw={true}>
+                                    <span className="quntity">+ <CountUp end={100} redraw={true}>
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start} delayedCall>
                                                 <span ref={countUpRef} />
                                             </VisibilitySensor>
                                         )}
                                     </CountUp>M</span>
-                                    <span className="type">interacciones</span>
+                                    <span className="type">Interacciones</span>
                                 </div>
                                 <div className="numbers number3 text-center">
                                     <span className="quntity">+ <CountUp end={50} redraw={true}>
@@ -54,14 +54,14 @@ export default function Map() {
                                     <span className="type">Partners</span>
                                 </div>
                                 <div className="numbers number4 text-center">
-                                    <span className="quntity">+ <CountUp end={2000} redraw={true}>
+                                    <span className="quntity">+ <CountUp end={3000} redraw={true}>
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start} delayedCall>
                                                 <span ref={countUpRef} />
                                             </VisibilitySensor>
                                         )}
                                     </CountUp></span>
-                                    <span className="type">sucursales implementadas</span>
+                                    <span className="type">Sucursales implementadas</span>
                                 </div>
                             </Col>
 

@@ -35,7 +35,7 @@ export default function Header() {
                                  <b>Software de citas </b>para empresas con <br/> múltiples trámites y tipos de atención
                                 </p> */}
                                 <button className="preatendedor-home_demobutton">
-                                    Solicitá una demo
+                                    Solicita una demo
                                 </button>
                             </Col>
                         </Row>

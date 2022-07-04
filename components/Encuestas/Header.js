@@ -39,7 +39,7 @@ export default function Header() {
                                     Sistema de  <b>encuestas automatizas</b>  <br />  para el flujo de atención
                                 </p>
                                 <button className="encuestas-home_demobutton">
-                                    Solicitá una demo
+                                    Solicita una demo
                                 </button>
                             </Col>
                         </Row>
