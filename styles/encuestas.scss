@@ -126,12 +126,12 @@
     }
 }
 
-.image-container-citas {
+.image-container-encuestas {
     position: absolute;
-    width: 70%;
-    height: 60vh;
+    width: 335px;
+    height: 472px;
     right: 0;
-    bottom: -10%;
+    bottom: -65px;
     z-index: 0;
 
     @media (min-width: 992px) {
@@ -504,7 +504,7 @@ button.accordion-button {
     border-radius: 35px;
 }
 
-.lineSteps-citas {
+.lineSteps-encuestas {
     width: 4px;
     background-color: #2F9FEE;
     height: 330px;

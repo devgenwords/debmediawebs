@@ -128,10 +128,10 @@
 
 .image-container-citas {
     position: absolute;
-    width: 70%;
-    height: 60vh;
+    width: 390px;
+    height: 472px;
     right: 0;
-    bottom: -10%;
+    bottom: -65px;
     z-index: 0;
 
     @media (min-width: 992px) {
@@ -198,13 +198,21 @@
 
     &_title {
         color: #404041;
-        font-size: 1.4rem;
+        font-size: .9rem;
         font-weight: 600;
+        @media (min-width: 992px) {
+            font-size: 1.35rem;
+
+        }
     }
 
     &_parraf {
         color: #404041;
-        font-size: 1.1rem;
+        font-size: .75em;
+        @media (min-width: 992px) {
+            font-size: 1.1rem;
+
+        }
     }
 
     &_arrow {
@@ -337,7 +345,7 @@
             transition: 0.2s ease-in-out;
             cursor: pointer;
             display: flex !important;
-            margin-bottom: 5.2em;
+            margin-bottom: 3.2em;
             font-size: 1.1rem;
 
             .numberStep {
@@ -363,6 +371,7 @@
             .textStep {
                 display: inline-flex;
                 align-items: center;
+                max-width: 340px;
             }
         }
 
@@ -508,10 +517,10 @@ button.accordion-button {
 .lineSteps-citas {
     width: 4px;
     background-color: #2F9FEE;
-    height: 330px;
+    height: 300px;
     display: block;
     position: absolute;
-    top: 3%;
+    top: 19%;
     left: 46px;
 }
 

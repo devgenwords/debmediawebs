@@ -15,15 +15,15 @@ export default function Market() {
                     <Row>
                         <Col className="market-citas-section_maintitle text-center">
                             <h3>
-                                Empresas con modelos de atención <br />
-                                obsoletos y desconectados
+                                Muchas organizaciones gestionan sus <br />
+                                procesos de atención de forma desordenada.
                             </h3>
-                            <p>Que no saben cómo personalizar la atención
-                            </p>
+                            {/* <p>Que no saben cómo personalizar la atención
+                            </p> */}
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm={4} xs={12} className="market-citas-section_div">
+                        <Col sm={4} xs={4} className="market-citas-section_div">
                             <Image src={desco.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-citas-section_title">
@@ -33,25 +33,24 @@ export default function Market() {
                                 de los clientes y sus necesidades.
                             </p>
                         </Col>
-                        <Col sm={4} xs={12} className="market-citas-section_div">
+                        <Col sm={4} xs={4} className="market-citas-section_div">
                             <Image src={espera.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-citas-section_title">
-                                Falta de datos para tener
+                                Falta de información
                             </h4>
                             <p className="market-citas-section_parraf">
-                                la cantidad correcta de operadores
+                                para asignar la cantidad correcta de ejecutivos.
                             </p>
                         </Col>
-                        <Col sm={4} xs={12} className="market-citas-section_div">
+                        <Col sm={4} xs={4} className="market-citas-section_div">
                             <Image src={falta.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-citas-section_title">
-                                Esperas y mala
-                                experiencia
+                                Largas esperas
                             </h4>
                             <p className="market-citas-section_parraf">
-                                para los clientes.
+                                y mala experiencia para los clientes.
                             </p>
                         </Col>
                     </Row>

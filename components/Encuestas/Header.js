@@ -16,7 +16,7 @@ export default function Header() {
         <>
             <header>
                 <Container fluid className="encuestas-home">
-                    <div className={'image-container-citas'}>
+                    <div className={'image-container-encuestas'}>
                         <Image src={mypic.src} layout="fill" className={'image'} />
                     </div>
                     <div className="d-none d-sm-block">
