@@ -29,45 +29,79 @@ export default function Home() {
                             <Nav.Link href="/">Home</Nav.Link>
                             <NavDropdown title="Soluciones" id="basic-nav-dropdown">
                                 <NavDropdown.Item>
+                                    <Link href="/atencion-virtual">
+                                        Atención virtual
+                                    </Link>
+                                </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                    <Link href="/preatendedor">
+                                        Chatbot de WhatsApp
+                                    </Link>
+                                </NavDropdown.Item>
+                                <NavDropdown.Item>
                                     <Link href="/fila-virtual">
                                         Fila Virtual
                                     </Link>
 
                                 </NavDropdown.Item>
+
                                 <NavDropdown.Item>
-                                <Link href="/debq">
-                                       Gestion de filas
+                                    <Link href="/citasonline">
+                                        Citas
                                     </Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                <Link href="/citasonline">
-                                       Citas
+                                    <Link href="/debq">
+                                        Gestion de filas
                                     </Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                <Link href="/atencion-virtual">
-                                       Atención virtual
+                                    <Link href="/debsign">
+                                        Cartelería digital
+
                                     </Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                <Link href="/debsign">
-                                      Debsign
+                                    <Link href="/preatendedor">
+                                        Pre atendedor
                                     </Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
-                                <Link href="/encuestas">
-                                      Encuestas
+                                    <Link href="/encuestas">
+                                        Encuestas
                                     </Link>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item>
-                                <Link href="/preatendedor">
-                                      Preatendedor
-                                    </Link>
-                                </NavDropdown.Item>
+
                             </NavDropdown>
                             <Nav.Link href="#link">Clientes</Nav.Link>
                             <Nav.Link href="#link">Partnets</Nav.Link>
-                            <Nav.Link href="#link">Recursos</Nav.Link>
+                            <NavDropdown title="Recursos" id="basic-nav-dropdown">
+                                <NavDropdown.Item>
+                                    <Link href="https://debmedia.com/blog/">
+                                        Blog
+                                    </Link>
+
+                                </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                    <Link href="/">
+                                        Casos de éxito
+                                    </Link>
+
+                                </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                    <Link href="/">
+                                        Recursos descargarbles
+                                    </Link>
+
+                                </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                    <Link href="/">
+                                        Centro de ayuda
+                                    </Link>
+
+                                </NavDropdown.Item>
+
+                            </NavDropdown>
                             <Nav.Link href="#link" className="demo">Solicita una demo</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
