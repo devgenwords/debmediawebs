@@ -37,11 +37,12 @@ export default function Brands() {
                     <Col className="services-section_maintitle text-center">
                         <h3>
 
-                            <b>Anticípate a las necesidades</b> <br />
-                            de tus clientes y optimiza su flujo.
+                            <b>Tecnología que mejora</b> <br />
+                            la experiencia de tus clientes
                         </h3>
                         <p className="services-section_parraf">
-                            Usa canales digitales y presenciales para llevarlos por el camino correcto.
+                        Explora otras soluciones
+
                         </p>
                     </Col>
                 </Row>
@@ -49,12 +50,12 @@ export default function Brands() {
                     <Col>
                         <Swiper
                             spaceBetween={110}
-                            slidesPerView={3}
-                            freeMode={true}
+                            slidesPerView={1}
+                            freeMode={false}
                             loop={true}
                             pagination={{
                                 clickable: true,
-                                dynamicBullets: true,
+                                dynamicBullets: false,
                             }}
                             autoplay={false}
                             breakpoints={{
@@ -63,7 +64,7 @@ export default function Brands() {
                                     spaceBetween: 50,
                                 },
                                 768: {
-                                    slidesPerView: 2,
+                                    slidesPerView: 1,
                                     spaceBetween: 50,
                                 },
                                 1024: {

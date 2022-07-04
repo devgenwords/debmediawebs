@@ -16,12 +16,12 @@ export default function Header() {
         <>
             <header>
                 <Container fluid className="debq-home">
-                    <div className={'image-container-mobile'}>
+                    <div className={'image-container-debq'}>
                         <Image src={mypic.src} layout="fill" className={'image'} />
                     </div>
-                    <div className="d-none d-sm-block">
+                    {/* <div className="d-none d-sm-block">
                         <img src={shape3.src} className="debq-home_shape3" />
-                    </div>
+                    </div> */}
                     <div className="d-none d-sm-block">
                         <img src={mainNoti.src} className="debq-home_mainNoti" />
                     </div>
@@ -32,12 +32,13 @@ export default function Header() {
                     <Container>
                         <Row>
                             <Col>
+
                                 <h1 className="debq-home_title">
-                                Mejora la eficiencia<br  className="d-none d-sm-block" />  y experiencia en tus<br  className="d-none d-sm-block" /> 
-sucursales
+                                Haz más eficiente y  <br  className="d-none d-sm-block" />  ordenado el flujo de <br  className="d-none d-sm-block" /> 
+                                atención en <br  className="d-none d-sm-block" /> tus sucursales
                                 </h1>
                                 <p className="debq-home_parraf">
-                                    Sistema de <b>gestión de turnos</b>
+                                    Sistema de <b>gestión de filas</b>
                                 </p>
                                 <button className="debq-home_demobutton">
                                     Solicita una demo

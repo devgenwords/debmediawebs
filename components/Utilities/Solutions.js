@@ -127,7 +127,7 @@ export default function Solutions() {
                                                                 <b>{item.main}</b>{item.secu}
                                                             </p>
                                                             <button>
-                                                                Conóce más
+                                                                Conoce más
                                                             </button>
                                                         </Col>
                                                     </Row>

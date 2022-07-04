@@ -14,8 +14,8 @@ export default function Modern() {
             <Container fluid className="industries-section my-5">
                 <Container>
                     <Row>
-                    <Col sm={12} className="industries-section_mainTitle d-flex align-items-center text-center mb-5">
-                            <h2>Organizaciones de múltiples industrias <b>gestionan su atención con Debmedia </b></h2>
+                        <Col sm={12} className="industries-section_mainTitle d-flex align-items-center text-center mb-5">
+                            <h2>Organizaciones de múltiples industrias <b>gestionan la experiencia de los clientes con Debmedia.</b></h2>
                         </Col>
                         <Col sm={12} className="industries-section_divs">
                             <Row>
@@ -26,8 +26,7 @@ export default function Modern() {
                                         Banca y Seguros
                                     </h4>
                                     <p>
-                                        Instituciones financieras,
-                                        cooperativas y aseguradoras.
+                                    Instituciones financieras, aseguradoras, cooperativas.
                                     </p>
                                 </Col>
                                 <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-salud">
@@ -37,30 +36,28 @@ export default function Modern() {
                                         Salud
                                     </h4>
                                     <p>
-                                        Prepagas, laboratorios, clínicas y hospitales.
+                                    Clínicas, hospitales, laboratorios, farmacias, prepagadas.
                                     </p>
                                 </Col>
-                             
+
                                 <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-uti">
                                     <Image src={gob.src} width={70}
                                         height={70} className={'img-fluid'} />
                                     <h4>
-                                    Utilities y <br/>
-corporaciones
+                                        Utilities 
                                     </h4>
                                     <p>
-                                    Prepagas, laboratorios, clínicas y hospitales.
+                                    Asociaciones, servicios públicos.
                                     </p>
                                 </Col>
                                 <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-servi">
                                     <Image src={servi.src} width={70}
                                         height={70} className={'img-fluid'} />
                                     <h4>
-                                        Servicios y retail
+                                    Retail y servicios
                                     </h4>
                                     <p>
-                                        Utilities, telcos, retail, y compañías de atención
-                                        al cliente.
+                                    Tiendas retail, cajas de compensación, logística.
                                     </p>
                                 </Col>
                                 <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-gob">
@@ -70,23 +67,23 @@ corporaciones
                                         Gobierno
                                     </h4>
                                     <p>
-                                        Instituciones públicas, municipios y entidades, estatales
+                                    Instituciones públicas, municipios, ONGs
                                     </p>
                                 </Col>
                                 <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-teleco">
                                     <Image src={gob.src} width={70}
                                         height={70} className={'img-fluid'} />
                                     <h4>
-                                    Telecos
+                                    Telecomunicaciones
                                     </h4>
                                     <p>
-                                    Instituciones públicas, municipios y entidades, estatales
+                                    Telefonía móvil, operadores de cable.
                                     </p>
                                 </Col>
                             </Row>
 
                         </Col>
-                        
+
                     </Row>
                     <Row>
 

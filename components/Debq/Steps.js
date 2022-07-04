@@ -29,7 +29,7 @@ export default function Solutions() {
                 <Row>
                     <Col className="setps-section_maintitle">
                         <h3 className="text-center">
-                            <b>Mejora la atención</b> <br />y obtén el máximo de tus equipos de trabajo
+                            <b>Automatiza y personaliza el modelo de atención</b>
                         </h3>
                     </Col>
                 </Row>
@@ -48,12 +48,11 @@ export default function Solutions() {
                             </div>
 
                             <h4 className="setps-section_title">
-                                Aprovecha tus recursos
-                                <br className="d-none d-sm-block" /> de forma eficiente
+                            Haz más eficientes
+                                <br className="d-none d-sm-block" /> tus recursos
                             </h4>
                             <p className="setps-section_parraf">
-                                Para ofrecer un servicio ágil
-                                y personalizado
+                            Para ofrecer un servicio ágil 
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-section_div">
@@ -66,11 +65,10 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_title">
-                                Entrega una experiencia  <br className="d-none d-sm-block" />
-                                sin roces a tus clientes
+                            Ofrece una experiencia simple
                             </h4>
                             <p className="setps-section_parraf">
-                                Con menos espera y más simple.
+                            Sin roces y con menos espera.
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-section_div">
@@ -83,11 +81,10 @@ export default function Solutions() {
                                     height={50} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_title">
-                                Mide indicadores clave  <br className="d-none d-sm-block" />
-                                de la atención al cliente
+                            Mide indicadores clave
                             </h4>
                             <p className="setps-section_parraf">
-                                Adopta mejores prácticas y
+                            Para gestionar mejor a tus equipos.
 
                             </p>
                         </Col>
@@ -121,7 +118,7 @@ export default function Solutions() {
                                     </Col>
                                     <Col sm={7} className="relative">
                                         <h3 className="text-left mb-4">
-                                            <b>Define el Customer journey </b> <br />y mejora el proceso.
+                                            <b>Define el Customer Journey y  </b> <br />mejora la atención.
                                         </h3>
                                         <span className="lineSteps-debq"></span>
                                         <Nav variant="pills" className="flex-column">
