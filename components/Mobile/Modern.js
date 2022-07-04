@@ -33,12 +33,11 @@ export default function Modern() {
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            El sistema de fila virtual es<br />
-                                            integrable con un Chatbot
+                                            Integrable con chatbot
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            Para que el cliente pueda hacer <br />
-                                            fila desde WhatsApp.
+                                            El cliente puede ingresar y<br /> seguir la fila desde WhatsApp.
+
 
                                         </p>
                                     </div>
@@ -49,11 +48,11 @@ export default function Modern() {
                                 <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Integrable por API
+                                            Integrable por API o Iframe
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            De esta forma se automatiza
-                                            el viaje del cliente.
+                                            A una aplicación o web pre existente.
+
                                         </p>
                                     </div>
 
@@ -64,25 +63,6 @@ export default function Modern() {
                                 </Col>
 
                             </Row>
-                            {/* <Row className="d-block d-sm-none">
-
-                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={api.src} width={600}
-                                        height={500} />
-                                </Col>
-                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
-                                    <div>
-                                        <h4 className="modern-section_title">
-                                        Integrable por API 
-                                        </h4>
-                                        <p className="modern-section_parraf">
-                                        De esta forma se automatiza 
-el viaje del cliente.
-                                        </p>
-                                    </div>
-
-                                </Col>
-                            </Row> */}
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
                                     <Image src={modern3.src} width={380}
@@ -91,11 +71,11 @@ el viaje del cliente.
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Trámites configurables <br />
-                                            dentro de la compañía.
+                                            Configuración de trámites
+
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            Con disponibilidad para ser agendados de acuerdo a las necesidades de las empresas.
+                                            Para seleccionar a cuáles los clientes se pueden encolar a través de fila virtual.
                                         </p>
                                     </div>
 
@@ -105,10 +85,12 @@ el viaje del cliente.
                                 <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Identidad con el look and <br />feel de las empresas
+                                            Look and feel personalizado.
+
                                         </h4>
                                         <p className="modern-section_parraf">
-                                            Para mantener su identidad corporativa.
+                                            Para mantener la identidad de la organización
+
                                         </p>
                                     </div>
 

@@ -18,11 +18,11 @@ export default function Market() {
                             <h3>
                                 Esperas innecesarias dentro de las sucursales
                             </h3>
-                            <p>que generan una mala experiencia </p>
+                            <p>generan una mala experiencia </p>
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm={4} xs={12} className="market-mobile-section_div">
+                        <Col sm={4} xs={4} className="market-mobile-section_div">
                             <Image src={aglo.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-mobile-section_title">
@@ -32,27 +32,24 @@ export default function Market() {
                                 dentro de las instalaciones.
                             </p>
                         </Col>
-                        <Col sm={4} xs={12} className="market-mobile-section_div">
+                        <Col sm={4} xs={4} className="market-mobile-section_div">
                             <Image src={incerti.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-mobile-section_title">
-                                Usuarios con<br />
-                                incertidumbre
+                            Clientes con<br/> incertidumbre 
                             </h4>
                             <p className="market-mobile-section_parraf">
-                                sobre
-                                la espera.
+                            e sobre el tiempo de espera para ser atendidos.
                             </p>
                         </Col>
-                        <Col sm={4} xs={12} className="market-mobile-section_div">
+                        <Col sm={4} xs={4} className="market-mobile-section_div">
                             <Image src={cliente.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-mobile-section_title">
-                                Clientes que permanecen
+                            Altas tasas de abandono
                             </h4>
                             <p className="market-mobile-section_parraf">
-                                en sala de espera para
-                                ser atendidos
+                            de clientes insatisfechos sin ser atendidos.
                             </p>
                         </Col>
                     </Row>

@@ -1,0 +1,38 @@
+[
+  {
+    "text": "El cliente elige el trámite ",
+    "key":"1",
+    "image": {
+      "url": "mobile1.png",
+      "width": 230,
+      "height": 430
+    }
+  },
+  {
+    "text": "Selecciona la sucursal y toma un turno desde tu web.  ",
+    "key":"2",
+    "image": {
+      "url": "mobile2.png",
+      "width": 230,
+      "height": 430
+    }
+  },
+  {
+    "text": "Monitorea el avance de la fila desde su móvil.",
+    "key":"3",
+    "image": {
+      "url": "mobile3.png",
+      "width": 230,
+      "height": 430
+    }
+  },
+  {
+    "text": "Recibe un SMS o WhatsApp minutos antes de ser atendido. ",
+    "key":"4",
+    "image": {
+      "url": "mobile4.png",
+      "width": 600,
+      "height": 600
+    }
+  }
+]
