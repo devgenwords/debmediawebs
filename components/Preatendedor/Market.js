@@ -15,8 +15,8 @@ export default function Market() {
                     <Row>
                         <Col className="market-preatendedor-section_maintitle text-center">
                             <h3>
-                                Dificultad para dirigir a tus clientes al <br />
-                                canal adecuado que se traduce en
+                            La dificultad para dirigir a tus clientes <br />
+                            al canal adecuado se traduce en 
                             </h3>
                         </Col>
                     </Row>
@@ -25,30 +25,30 @@ export default function Market() {
                             <Image src={humanos.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-preatendedor-section_title">
-                                Procesos humanos
+                            Procesos humanos
                             </h4>
                             <p className="market-preatendedor-section_parraf">
-                                más costosos para la empresa
+                            más costosos para tu organización
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-preatendedor-section_div">
                             <Image src={atencion.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-preatendedor-section_title">
-                                Procesos de atención
+                            Procesos de atención 
                             </h4>
                             <p className="market-preatendedor-section_parraf">
-                                complejos para el cliente
+                            complejos para tus cliente
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-preatendedor-section_div">
                             <Image src={tardia.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-preatendedor-section_title">
-                                Respuestas tardías
+                            Respuestas tardías
                             </h4>
                             <p className="market-preatendedor-section_parraf">
-                                a los clientes
+                            a tus clientes
                             </p>
                         </Col>
                     </Row>

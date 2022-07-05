@@ -129,10 +129,10 @@
 
 .image-container-preatendedor {
     position: absolute;
-    width: 70%;
-    height: 60vh;
+    width: 335px;
+    height: 472px;
     right: 0;
-    bottom: -10%;
+    bottom: -65px;
     z-index: 0;
 
     @media (min-width: 992px) {
@@ -369,7 +369,12 @@
     &_title {
         color: #2C89E1;
         font-weight: 600;
+        font-size: 1rem;
+        @media (min-width: 992px) {
+            color: #2C89E1;
+        font-weight: 600;
         font-size: 1.3rem;
+        }
     }
 
     &_div {
@@ -382,6 +387,15 @@
             h4,
             p {
                 display: block;
+              
+            }
+
+            p {
+                font-size: .8rem;
+                @media (min-width: 992px) {
+
+                font-size: 1rem;
+                }
             }
 
             &-left {

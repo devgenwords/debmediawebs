@@ -12,11 +12,11 @@ export default function Market() {
         <>
             <Container fluid className="flow-encuestas-section relative">
                 <Container>
-                    <Row>
+                    <Row >
                         <Col sm="12" className="flow-encuestas-section_maintitle text-center">
                             <h3>
                                 <b>Crea encuestas en pocos pasos
-                                </b><br/>
+                                </b><br />
                                 en pocos pasos
 
                             </h3>
@@ -36,10 +36,10 @@ export default function Market() {
                             <img src={how2.src} className="img-fluid" />
                             <figure>
                                 <h5>
-                                Asocia
+                                    Asocia
                                 </h5>
                                 <p>
-                                el trámite
+                                    el trámite
                                 </p>
                             </figure>
                         </Col>
@@ -47,16 +47,16 @@ export default function Market() {
                             <img src={how3.src} className="img-fluid" />
                             <figure>
                                 <h5>
-                                Escoge la acción
+                                    Escoge la acción
                                 </h5>
                                 <p>que dispara el envío.
                                 </p>
                             </figure>
                         </Col>
                         <Col className="text-center mt-4">
-                        <button className="citas-home_demobutton">
-                                    Solicita una demo
-                                </button>
+                            <button className="citas-home_demobutton">
+                                Solicita una demo
+                            </button>
                         </Col>
                     </Row>
                 </Container>

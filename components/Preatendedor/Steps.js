@@ -16,8 +16,8 @@ export default function Solutions() {
                 <Row>
                     <Col className="setps-section_preatendedor_maintitle">
                         <h3 className="text-center">
-                            <b>Direcciona a tus clientes
-                            </b>al canal de<br /> atención más rápido e indicado
+                            <b>Direcciona a tus clientes 
+                            </b>más rápido <br />al canal de atención indicado
                         </h3>
                     </Col>
                 </Row>
@@ -85,8 +85,8 @@ export default function Solutions() {
                     <Row>
                         <Col sm="12" className="wapp-preatendedor-section_maintitle">
                             <h3 className="text-center">
-                                <b>o a través de Whatsapp direcciónalos</b> para que <br />
-                                escojan canal de atención más adecuado
+                                <b>A través de WhatsApp direcciona a tus clientes </b><br />
+                                para que escojan el canal de atención más adecuado
                             </h3>
                         </Col>
                         <Col sm={{ span: 10, offset: 1 }} className="text-center  mt-5">

@@ -16,7 +16,7 @@ export default function Modern() {
                         <Col className="modern-section_maintitle">
                             <h3 className="text-center">
                                 <b>Eleva la tasa de respuesta hasta 10 veces </b><br />
-                                enviando encuestas luego de su atención
+                                luego de prestar la atención
 
                             </h3>
                         </Col>
@@ -32,12 +32,12 @@ export default function Modern() {
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
                                         <h4 className="modern-section_title">
-                                        Personaliza diferentes <br/>
-encuestas
+                                            Personaliza diferentes <br />
+                                            encuestas
                                         </h4>
                                         <p className="modern-section_parraf">
-                                        para cada tipo 
-de trámite.
+                                            para cada tipo
+                                            de trámite.
 
                                         </p>
                                     </div>
@@ -48,11 +48,11 @@ de trámite.
                                 <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
                                     <div>
                                         <h4 className="modern-section_title">
-                                        Envía encuestas
+                                            Envía encuestas
                                         </h4>
                                         <p className="modern-section_parraf">
-                                        en diferentes momentos 
-del viaje del cliente.
+                                            en diferentes momentos
+                                            del viaje del cliente.
                                         </p>
                                     </div>
 
@@ -71,10 +71,10 @@ del viaje del cliente.
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
                                         <h4 className="modern-section_title">
-                                        Compara los resultados
+                                            Compara los resultados
                                         </h4>
                                         <p className="modern-section_parraf">
-                                        por periodos de tiempo, usuario, atención y más.
+                                            por periodos de tiempo, usuario, atención y más.
                                         </p>
                                     </div>
 

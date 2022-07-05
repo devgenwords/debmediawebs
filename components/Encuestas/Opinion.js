@@ -8,7 +8,7 @@ import mypic from '../../asset/imgs/encuestas/img.png'
 export default function Market() {
     return (
         <>
-            <Container fluid className="opinion-encuestas-section relative">
+            <Container fluid className="opinion-encuestas-section relative d-none d-sm-block">
                 <div className="opinion-encuestas-section_img">
                     <img src={mypic.src} className="img-fluid" />
                 </div>
@@ -26,8 +26,8 @@ export default function Market() {
                 </Container>
                 <div className="opinion-encuestas-section_div">
                     <h3>
-                    Que <b>permite asociar el resultado</b> de cada encuesta<br/> <b>al usuario y proceso <br/>
-de atención</b>
+                        Que <b>permite asociar el resultado</b> de cada encuesta<br /> <b>al usuario y proceso <br />
+                            de atención.</b>
                     </h3>
                 </div>
             </Container>

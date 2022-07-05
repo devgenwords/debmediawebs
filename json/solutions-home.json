@@ -3,7 +3,7 @@
     "title": "Citas online",
     "image": {
       "url": "citas.png",
-      "width": 400,
+      "width": 360,
       "height": 400
     },
     "key": "citas", 
@@ -27,8 +27,8 @@
     "title": "Fila Virtual",
     "image": {
       "url": "fila-virtual.png",
-      "width": 300,
-      "height": 580
+      "width": 240,
+      "height": 480
     },
     "key": "filavirtual", 
     "main": "Deja que tus clientes hagan fila desde su móvil  ",
@@ -39,8 +39,8 @@
     "title": "Cartelería digital",
     "image": {
       "url": "debsign.png",
-      "width": 400,
-      "height": 300
+      "width": 380,
+      "height": 290
     },
     "key": "sign", 
     "main": "Personaliza y administra contenido",
@@ -51,8 +51,8 @@
     "title": "Atención virtual",
     "image": {
       "url": "videocall.png",
-      "width": 300,
-      "height": 580
+      "width": 280,
+      "height": 480
     },
     "key": "videocall", 
     "main": "Atiende más clientes a través de videollamadas ",
@@ -63,8 +63,8 @@
     "title": "Encuestas",
     "image": {
       "url": "encuestas.png",
-      "width": 300,
-      "height": 580
+      "width": 260,
+      "height": 480
     },
     "key": "encuestas", 
     "main": "Consigue la opinión de tus clientes al instante ",
@@ -75,8 +75,8 @@
     "title": "Chatbot WhatsApp",
     "image": {
       "url": "wapp.png",
-      "width": 300,
-      "height": 580
+      "width": 320,
+      "height": 480
     },
     "key": "wapp", 
     "main": "Encamina a tus clientes para que escojan el canal de atención correcto ",

@@ -35,20 +35,21 @@ export default function Market() {
                             <Image src={connect.src} width={90}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-section_title">
-                                Desconexión entre canales
+                            Procesos
                             </h4>
                             <p className="market-section_parraf">
-                                presenciales y virtuales.
+                            de atención costos
+
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-section_div">
                             <Image src={stats.src} width={65}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-section_title">
-                                Nuevos competidores
+                            Desconexión entre canales 
                             </h4>
                             <p className="market-section_parraf">
-                                con ventajas tecnológicas.
+                            digitales y presenciales.
                             </p>
                         </Col>
                     </Row>

@@ -3,104 +3,96 @@
     "name": "movistar",
     "image": {
       "url": "movistar.png",
-      "width": 170,
-      "height": 55
+      "width": 250,
+      "height": 110
     }
   },
   {
     "name": "lacaja",
     "image": {
-      "url": "lacaja.jpg",
-      "width": 150,
-      "height": 60
+      "url": "lacaja.png",
+      "width": 250,
+      "height": 110
     }
   },
   {
     "name": "davivienda",
     "image": {
-      "url": "davivienda.jpg",
-      "width": 150,
-      "height": 65
+      "url": "davivienda.png",
+      "width": 250,
+      "height": 110
     }
   },
   {
     "name": "coopaca",
     "image": {
-      "url": "coopaca.jpg",
-      "width": 150,
-      "height": 55
+      "url": "coopaca.png",
+      "width": 250,
+      "height": 110
     }
   },
   {
     "name": "zurich",
     "image": {
-      "url": "zurich.jpg",
-      "width": 150,
-      "height": 55
+      "url": "Zurich-logo.png",
+      "width": 250,
+      "height": 110
     }
   },
   {
     "name": "aerolineas",
     "image": {
-      "url": "aerolineas.jpg",
-      "width": 150,
-      "height": 55
+      "url": "aerolineasargentinas.png",
+      "width": 250,
+      "height": 110
     }
   },
   {
     "name": "mapfre",
     "image": {
-      "url": "mapfre.jpg",
-      "width": 150,
-      "height": 55
-    }
-  },
-  {
-    "name": "seguridadlaboral",
-    "image": {
-      "url": "seguridadlaboral.jpg",
-      "width": 150,
-      "height": 55
+      "url": "mapfre.png",
+      "width": 250,
+      "height": 110
     }
   },
   {
     "name": "comeva",
     "image": {
-      "url": "comeva.jpg",
-      "width": 150,
-      "height": 55
+      "url": "comeva.png",
+      "width": 250,
+      "height": 110
     }
   },
   {
     "name": "banco-ciudad",
     "image": {
-      "url": "banco-ciudad.png",
-      "width": 159,
-      "height": 55
+      "url": "bancociudad.png",
+      "width": 250,
+      "height": 110
     }
   },
   {
     "name": "almundo",
     "image": {
       "url": "almundo.png",
-      "width": 150,
-      "height": 55
+      "width": 250,
+      "height": 110
     }
   },
   {
     "name": "onvacation",
     "image": {
-      "url": "onvacation.jpg",
-      "width": 150,
-      "height": 55
+      "url": "onvacation.png",
+      "width": 250,
+      "height": 110
     }
   },
   {
     "name": "huawei",
     "image": {
       "url": "huawei.png",
-      "width": 170,
-      "height": 55
+      "width": 250,
+      "height": 110
     }
   }
 ]

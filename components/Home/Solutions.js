@@ -31,8 +31,8 @@ export default function Solutions() {
                     <Row>
                         <Col sm={4} xs={4} className="solutions-section_div">
                             <div className="solutions-section_div-img  d-none d-sm-block">
-                                <Image src={check_blue.src} width={120}
-                                    height={100} className={'img-fluid'} />
+                                <Image src={check_blue.src} width={110}
+                                    height={90} className={'img-fluid'} />
                             </div>
                             <div className="solutions-section_div-img  d-block d-sm-none">
                                 <Image src={check_white.src} width={60}
@@ -45,8 +45,8 @@ export default function Solutions() {
                         </Col>
                         <Col sm={4} xs={4} className="solutions-section_div">
                             <div className="solutions-section_div-img  d-none d-sm-block">
-                                <Image src={check_blue.src} width={120}
-                                    height={100} className={'img-fluid'} />
+                            <Image src={check_blue.src} width={110}
+                                    height={90} className={'img-fluid'} />
                             </div>
                             <div className="solutions-section_div-img  d-block d-sm-none">
                                 <Image src={check_white.src} width={60}
@@ -60,8 +60,8 @@ export default function Solutions() {
                         </Col>
                         <Col sm={4} xs={4} className="solutions-section_div">
                             <div className="solutions-section_div-img  d-none d-sm-block">
-                                <Image src={check_blue.src} width={120}
-                                    height={100} className={'img-fluid'} />
+                            <Image src={check_blue.src} width={110}
+                                    height={90} className={'img-fluid'} />
                             </div>
                             <div className="solutions-section_div-img  d-block d-sm-none">
                                 <Image src={check_white.src} width={60}

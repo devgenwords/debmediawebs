@@ -29,7 +29,8 @@ export default function Header() {
                         <Row>
                             <Col>
                                 <h1 className="preatendedor-home_title">
-                                Agiliza la atención desde <br className="d-none d-sm-block" /> WhatsApp  un portal web
+                                Agiliza la atención desde <br className="d-none d-sm-block" /> WhatsApp  o
+un portal web
                                 </h1>
                                 {/* <p className="preatendedor-home_parraf">
                                  <b>Software de citas </b>para empresas con <br/> múltiples trámites y tipos de atención

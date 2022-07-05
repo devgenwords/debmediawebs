@@ -15,7 +15,7 @@ export default function Market() {
                     <Row>
                         <Col className="market-encuestas-section_maintitle text-center">
                             <h3>
-                                Clientes que se pierden por un mal servicio
+                            Puede que estés perdiendo clientes por un mal servicio
                             </h3>
 
                         </Col>
