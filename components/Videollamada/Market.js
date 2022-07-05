@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
-import desco from '../../asset/imgs/citas/desco.svg'
-import espera from '../../asset/imgs/citas/espera.svg'
-import falta from '../../asset/imgs/citas/falta.svg'
+import valore from '../../asset/imgs/videollamada/valore.svg'
+import aprovecha from '../../asset/imgs/videollamada/aprovecha.svg'
+import dif from '../../asset/imgs/videollamada/dif.svg'
 import arrow from '../../asset/imgs/home/arrow.svg'
 import market from '../../asset/imgs/videollamada/market.svg'
 
@@ -25,16 +25,21 @@ export default function Market() {
                     <Row>
                         <Col xs={12}>
                             <div className="market-videocall-section_div1">
+                            <Image src={valore.src} width={120}
+                                        height={120} className="d-block d-sm-none img-fluid" />
                                 <h5>Valora su tiempo </h5>
                                 <p>Ofrece una atención<br />
                                     ágil y eficiente.</p>
                             </div>
                             <div className="market-videocall-section_div2">
-                                <h5>Aprovecha tus <br />
-                                    recursos al máximo </h5>
-                                <p>Permite a tus equipos<br /> atender desde cualquier <br />lugar.</p>
+                            <Image src={aprovecha.src} width={120}
+                                        height={120} className="d-block d-sm-none img-fluid" />
+                                <h5>Humaniza la atención </h5>
+                                <p>A través de encuentros<br /> especializados y cercanos.</p>
                             </div>
                             <div className="market-videocall-section_div3">
+                            <Image src={dif.src} width={120}
+                                        height={120} className="d-block d-sm-none img-fluid" />
                                 <h5>Diferénciate de<br />
                                     la competencia</h5>
                                 <p>Consigue una ventaja <br />
@@ -43,7 +48,7 @@ export default function Market() {
                         </Col>
                     </Row>
                 </Container>
-                <div className="mb-5 pb-5">
+                <div className="mb-5 pb-5 d-none d-sm-block">
                     <img src={market.src} className="img-fluid" alt="arrow" />
                 </div>
                 <div className="market-videocall-section_arrow">

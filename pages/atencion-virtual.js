@@ -7,7 +7,7 @@ import Review from "../components/Review"
 import Map from "../components/Map"
 import Partner from "../components/Partner"
 import Industries from "../components/Industries"
-import Modern from "../components/Videollamada/Modern"
+import Specs from "../components/Videollamada/Specs"
 import Services from "../components/Services"
 import Level from "../components/Level"
 import Contact from "../components/Contact"
@@ -23,7 +23,7 @@ export default function Videocall() {
       <Brands />
       <Market />
       <Flow />
-      {/* <Modern /> */}
+      <Specs />
       <Review />
       <Industries />
       <Map />
