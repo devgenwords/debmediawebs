@@ -22,8 +22,10 @@ export default function Market() {
                     </Row>
                     <Row>
                         <Col sm={4} xs={4} className="market-section_div">
-                            <Image src={pepole.src} width={90}
-                                height={135} className={'img-fluid'} />
+                            <div className="imagenXS">
+                                <Image src={pepole.src} width={90}
+                                    height={135} className={'img-fluid'} />
+                            </div>
                             <h4 className="market-section_title">
                                 Clientes insatisfechos
                             </h4>
@@ -32,24 +34,29 @@ export default function Market() {
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-section_div">
-                            <Image src={connect.src} width={90}
-                                height={135} className={'img-fluid'} />
+                            <div className="imagenXS">
+                                <Image src={stats.src} width={80}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-section_title">
-                            Procesos
+                                Procesos
                             </h4>
                             <p className="market-section_parraf">
-                            de atención costos
+                                de atención costos
 
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-section_div">
-                            <Image src={stats.src} width={65}
-                                height={135} className={'img-fluid'} />
+                            <div className="imagenXS">
+                                <Image src={connect.src} width={90}
+                                    height={135} className={'img-fluid'} />
+                            </div>
                             <h4 className="market-section_title">
-                            Desconexión entre canales 
+                                Desconexión entre canales
                             </h4>
                             <p className="market-section_parraf">
-                            digitales y presenciales.
+                                digitales y presenciales.
                             </p>
                         </Col>
                     </Row>

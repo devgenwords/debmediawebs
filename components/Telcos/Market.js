@@ -15,41 +15,50 @@ export default function Market() {
                     <Row>
                         <Col className="market-retail-section_maintitle">
                             <h3 className="text-center">
-                            Los clientes hoy <b>no se <br />
-                            conforman con cualquier cosa </b>
+                                Los clientes hoy <b>no se <br />
+                                    conforman con cualquier cosa </b>
                             </h3>
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={4} xs={12} className="market-retail-section_div">
-                            <Image src={modelos.src} width={120}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={modelos.src} width={120}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-retail-section_title">
-                            Modelos de <br/>
- atención 
+                                Modelos de <br />
+                                atención
                             </h4>
                             <p className="market-retail-section_parraf">
-                            obsoletos
+                                obsoletos
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-retail-section_div">
-                            <Image src={difi.src} width={90}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={difi.src} width={90}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-retail-section_title">
-                            Dificultad para dirigir
+                                Dificultad para dirigir
                             </h4>
                             <p className="market-retail-section_parraf">
-                            un canal de interacción a <br/>cada cliente
+                                un canal de interacción a <br />cada cliente
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-retail-section_div">
-                            <Image src={cambian.src} width={60}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={cambian.src} width={60}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-retail-section_title">
-                            Cambiarían de marca  
-                            </h4>   
+                                Cambiarían de marca
+                            </h4>
                             <p className="market-retail-section_parraf">
-                            si consiguen una experiencia<br/> más consistente.
+                                si consiguen una experiencia<br /> más consistente.
                             </p>
                         </Col>
                     </Row>

@@ -15,40 +15,49 @@ export default function Market() {
                     <Row>
                         <Col className="market-utilities-section_maintitle">
                             <h3 className="text-center">
-                            Los clientes hoy <b>no se <br />
-                            conforman con cualquier cosa </b>
+                                Los clientes hoy <b>no se <br />
+                                    conforman con cualquier cosa </b>
                             </h3>
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={4} xs={12} className="market-utilities-section_div">
-                            <Image src={intera.src} width={120}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={intera.src} width={120}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-utilities-section_title">
-                            Quieren interactuar 
+                                Quieren interactuar
                             </h4>
                             <p className="market-utilities-section_parraf">
-                            cuándo, dónde y cómo quieran.
+                                cuándo, dónde y cómo quieran.
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-utilities-section_div">
-                            <Image src={toleran.src} width={90}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={toleran.src} width={90}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-utilities-section_title">
-                            No toleran
+                                No toleran
                             </h4>
                             <p className="market-utilities-section_parraf">
-                            procesos ineficientes
+                                procesos ineficientes
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-utilities-section_div">
-                            <Image src={mayoria.src} width={60}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={mayoria.src} width={60}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-utilities-section_title">
-                            Evitan en su mayoría 
-                            </h4>   
+                                Evitan en su mayoría
+                            </h4>
                             <p className="market-utilities-section_parraf">
-                            todos los procesos manuales
+                                todos los procesos manuales
                             </p>
                         </Col>
                     </Row>

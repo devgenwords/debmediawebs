@@ -506,7 +506,7 @@ button.accordion-button {
         font-size: 1.5rem;
 
         @media (min-width: 992px) {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
 
         }
     }
@@ -515,27 +515,27 @@ button.accordion-button {
         font-size: .9rem;
 
         @media (min-width: 992px) {
-            font-size: 1rem;
+            font-size: 1.1rem;
 
         }
     }
 
     &_div {
         margin-top: 2em !important;
-
+        @media (min-width: 992px) {
+            padding-right: 4em !important;
+            padding-left: 4em !important;
+        }
         &-text {
             display: flex;
             margin-bottom: 2em;
             align-items: center;
             justify-content: center;
+            margin-top: -15px !important;
             text-align: center;
-
             @media (min-width: 992px) {
-                justify-content: flex-start;
                 text-align: left;
-                font-size: 1.2rem;
             }
-
             h4,
             p {
                 display: block;

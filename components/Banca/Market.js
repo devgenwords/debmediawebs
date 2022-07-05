@@ -22,34 +22,43 @@ export default function Market() {
                     </Row>
                     <Row>
                         <Col sm={4} xs={12} className="market-banca-section_div">
-                            <Image src={inter.src} width={90}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={inter.src} width={90}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-banca-section_title">
-                            Quieren interactuar 
+                                Quieren interactuar
                             </h4>
                             <p className="market-banca-section_parraf">
-                            cuándo, dónde y <br/>
-cómo quieran.
+                                cuándo, dónde y <br />
+                                cómo quieran.
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-banca-section_div">
-                            <Image src={resp.src} width={90}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={resp.src} width={90}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-banca-section_title">
-                            Necesitan respuestas 
+                                Necesitan respuestas
                             </h4>
                             <p className="market-banca-section_parraf">
-                            rápidas y efectivas.
+                                rápidas y efectivas.
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-banca-section_div">
-                            <Image src={banco.src} width={65}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={banco.src} width={65}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-banca-section_title">
-                            Se cambiarían de banco 
-                            </h4>   
+                                Se cambiarían de banco
+                            </h4>
                             <p className="market-banca-section_parraf">
-                            si consiguen una experiencia<br/> más consistente.
+                                si consiguen una experiencia<br /> más consistente.
                             </p>
                         </Col>
                     </Row>

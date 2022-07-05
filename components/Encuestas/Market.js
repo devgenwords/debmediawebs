@@ -15,15 +15,18 @@ export default function Market() {
                     <Row>
                         <Col className="market-encuestas-section_maintitle text-center">
                             <h3>
-                            Puede que estés perdiendo clientes por un mal servicio
+                                Puede que estés perdiendo clientes por un mal servicio
                             </h3>
 
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={4} xs={12} className="market-encuestas-section_div">
-                            <Image src={falsas.src} width={70}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={falsas.src} width={70}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-encuestas-section_title">
                                 Falsas métricas
                             </h4>
@@ -33,8 +36,11 @@ export default function Market() {
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-encuestas-section_div">
-                            <Image src={equivo.src} width={70}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={equivo.src} width={70}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-encuestas-section_title">
                                 Decisiones equivocadas
                             </h4>
@@ -44,13 +50,16 @@ export default function Market() {
                             </p>
                         </Col>
                         <Col sm={4} xs={12} className="market-encuestas-section_div">
-                            <Image src={rendimiento.src} width={70}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={rendimiento.src} width={70}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-encuestas-section_title">
-                            Desconocimiento del<br/> rendimiento
+                                Desconocimiento del<br /> rendimiento
                             </h4>
                             <p className="market-encuestas-section_parraf">
-                            de los colaboradores
+                                de los colaboradores
                             </p>
                         </Col>
                     </Row>

@@ -15,42 +15,51 @@ export default function Market() {
                     <Row>
                         <Col className="market-mobile-section_maintitle text-center">
                             <h3>
-                            Empresas que desconocen cómo optimizar proceos.
+                                Empresas que desconocen cómo optimizar proceos.
                             </h3>
                             <p>Como consecuencia tienen
-</p>
+                            </p>
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={4} xs={4} className="market-mobile-section_div">
-                            <Image src={gestion.src} width={70}
-                                height={135} className={'img-fluid'} />
+                            <div className="imagenXS">
+                                <Image src={gestion.src} width={70}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-mobile-section_title">
-                            Gestión ineficiente
+                                Gestión ineficiente
                             </h4>
                             <p className="market-mobile-section_parraf">
-                            Con recursos desaprovechados
+                                Con recursos desaprovechados
 
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-mobile-section_div">
-                            <Image src={clientes.src} width={70}
-                                height={135} className={'img-fluid'} />
+                            <div className="imagenXS">
+                                <Image src={clientes.src} width={70}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-mobile-section_title">
-                            Clientes descontentos
+                                Clientes descontentos
                             </h4>
                             <p className="market-mobile-section_parraf">
-                            Que piden mejor atención
+                                Que piden mejor atención
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-mobile-section_div">
-                            <Image src={falta.src} width={70}
-                                height={135} className={'img-fluid'} />
+                            <div className="imagenXS">
+                                <Image src={falta.src} width={70}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-mobile-section_title">
-                            Falta de métricas
+                                Falta de métricas
                             </h4>
                             <p className="market-mobile-section_parraf">
-                            Para decidir mejor.
+                                Para decidir mejor.
                             </p>
                         </Col>
                     </Row>

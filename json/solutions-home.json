@@ -14,9 +14,9 @@
   {
     "title": "Gestión de filas",
     "image": {
-      "url": "filas.png",
+      "url": "filas_new.png",
       "width": 400,
-      "height": 350
+      "height": 500
     },
     "key": "debq", 
     "main": "Mejora la atención y obtén el máximo de tu equipo.  ",
@@ -26,7 +26,7 @@
   {
     "title": "Fila Virtual",
     "image": {
-      "url": "fila-virtual.png",
+      "url": "fila-virtual_new.png",
       "width": 240,
       "height": 480
     },
@@ -70,6 +70,18 @@
     "main": "Consigue la opinión de tus clientes al instante ",
     "secu": "de ser atendidos y mide el rendimiento de los colaboladores.",
     "url": "/encuestas"
+  },
+  {
+    "title": "Pre atendedor",
+    "image": {
+      "url": "preatendedor.png",
+      "width": 240,
+      "height": 480
+    },
+    "key": "preatendedor", 
+    "main": "Encamina a tus clientes para que escojan el canal de atención correcto",
+    "secu": "y maximiza su experiencia.",
+    "url": "/preatendedor"
   },
   {
     "title": "Chatbot WhatsApp",

@@ -24,8 +24,11 @@ export default function Market() {
                     </Row>
                     <Row>
                         <Col sm={4} xs={4} className="market-citas-section_div">
-                            <Image src={desco.src} width={70}
+                            <div className="imageXs">
+                                  <Image src={desco.src} width={70}
                                 height={135} className={'img-fluid'} />
+                            </div>
+                          
                             <h4 className="market-citas-section_title">
                                 Desconocimiento
                             </h4>
@@ -34,8 +37,11 @@ export default function Market() {
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-citas-section_div">
-                            <Image src={espera.src} width={70}
+                            <div className="imageXs">
+                                <Image src={espera.src} width={70}
                                 height={135} className={'img-fluid'} />
+                            </div>
+                            
                             <h4 className="market-citas-section_title">
                                 Falta de información
                             </h4>
@@ -44,8 +50,11 @@ export default function Market() {
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-citas-section_div">
-                            <Image src={falta.src} width={70}
+                        <div className="imageXs">
+                                  <Image src={falta.src} width={70}
                                 height={135} className={'img-fluid'} />
+                                </div>
+                          
                             <h4 className="market-citas-section_title">
                                 Largas esperas
                             </h4>

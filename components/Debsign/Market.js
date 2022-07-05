@@ -22,8 +22,11 @@ export default function Market() {
                     </Row>
                     <Row>
                         <Col sm={4} xs={4} className="market-mobile-section_div">
-                            <Image src={mensaje.src} width={70}
+                        <div className="imageXs">
+                                 <Image src={mensaje.src} width={70}
                                 height={135} className={'img-fluid'} />
+                                </div>
+                           
                                 <h4 className="market-mobile-section_title">
                                     Mensajes <br />desactualizados
                                 </h4>
@@ -32,8 +35,11 @@ export default function Market() {
                                 </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-mobile-section_div">
-                            <Image src={perju.src} width={70}
+                        <div className="imageXs">
+                                 <Image src={perju.src} width={70}
                                 height={135} className={'img-fluid'} />
+                                </div>
+                           
                             <h4 className="market-mobile-section_title">
                                 Uso de componentes<br /> perjudiciales
                             </h4>
@@ -42,8 +48,11 @@ export default function Market() {
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-mobile-section_div">
-                            <Image src={imagen.src} width={70}
+                        <div className="imageXs">
+                                 <Image src={imagen.src} width={70}
                                 height={135} className={'img-fluid'} />
+                                </div>
+                           
                             <h4 className="market-mobile-section_title">
                                 Imagen de marca <br />anticuada
                             </h4>

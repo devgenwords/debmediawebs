@@ -23,8 +23,11 @@ export default function Market() {
                     </Row>
                     <Row>
                         <Col sm={4} xs={4} className="market-mobile-section_div">
-                            <Image src={aglo.src} width={70}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={aglo.src} width={70}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-mobile-section_title">
                                 Aglomeraciones
                             </h4>
@@ -33,23 +36,29 @@ export default function Market() {
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-mobile-section_div">
-                            <Image src={incerti.src} width={70}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={incerti.src} width={70}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-mobile-section_title">
-                            Clientes con<br/> incertidumbre 
+                                Clientes con<br /> incertidumbre
                             </h4>
                             <p className="market-mobile-section_parraf">
-                            e sobre el tiempo de espera para ser atendidos.
+                                e sobre el tiempo de espera para ser atendidos.
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-mobile-section_div">
-                            <Image src={cliente.src} width={70}
-                                height={135} className={'img-fluid'} />
+                            <div className="imageXs">
+                                <Image src={cliente.src} width={70}
+                                    height={135} className={'img-fluid'} />
+                            </div>
+
                             <h4 className="market-mobile-section_title">
-                            Altas tasas de abandono
+                                Altas tasas de abandono
                             </h4>
                             <p className="market-mobile-section_parraf">
-                            de clientes insatisfechos sin ser atendidos.
+                                de clientes insatisfechos sin ser atendidos.
                             </p>
                         </Col>
                     </Row>

@@ -23,8 +23,8 @@ export default function Modern() {
                         <Col className="modern-section_div">
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-end">
-                                    <Image src={api.src} width={500}
-                                        height={400} />
+                                    <Image src={api.src} width={450}
+                                        height={350} />
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
@@ -39,7 +39,7 @@ export default function Modern() {
                                 </Col>
                             </Row>
                             <Row className="d-sm-flex reverseXs">
-                                <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
+                                <Col sm={6} xs={12} className="modern-section_div-text modern-section_div-text-center">
                                     <div>
                                         <h4 className="modern-section_title">
                                         Métricas de performance
@@ -50,16 +50,16 @@ export default function Modern() {
                                     </div>
 
                                 </Col>
-                                <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={performance.src} width={400}
-                                        height={400} />
+                                <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
+                                    <Image src={performance.src} width={450}
+                                        height={350} />
                                 </Col>
 
                             </Row>
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-end">
-                                    <Image src={channel.src} width={600}
-                                        height={500} />
+                                    <Image src={channel.src} width={450}
+                                        height={350} />
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>

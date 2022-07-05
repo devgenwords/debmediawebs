@@ -34,7 +34,7 @@
 nav.navScroll {
     z-index: 10 !important;
     margin-top: 0 !important;
-    background-color: #f6f7fb  !important;
+    background-color: #f6f7fb !important;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
@@ -45,6 +45,7 @@ nav.navbar.navbar-expand-lg {
     margin-top: 1rem;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
+
     @media (min-width: 992px) {
         background-color: transparent;
     }
@@ -60,8 +61,9 @@ nav.navbar.navbar-expand-lg {
     position: relative;
 }
 
-.reverseXs  {
+.reverseXs {
     flex-flow: column-reverse;
+
     @media (min-width: 992px) {
         flex-flow: initial;
     }
@@ -75,13 +77,16 @@ nav.navbar.navbar-expand-lg {
     padding: 1.5em 3em !important;
     margin-bottom: 5em;
     max-width: 90%;
+
     @media (min-width: 992px) {
         max-width: inherit;
     }
+
     &_title {
         color: #232C61;
         font-weight: 800;
         font-size: 1.3rem;
+
         @media (min-width: 992px) {
             font-size: 1.8rem;
         }
@@ -90,8 +95,9 @@ nav.navbar.navbar-expand-lg {
     &_parraf {
         color: #404041;
         font-size: .9rem;
+
         @media (min-width: 992px) {
-            
+
             font-size: 1.25rem;
         }
     }
@@ -106,8 +112,9 @@ nav.navbar.navbar-expand-lg {
         padding: .5em .8em;
         font-weight: 700;
         font-size: 1rem;
+
         @media (min-width: 992px) {
-            font-size: 1.33rem;
+            font-size: 1.2rem;
         }
     }
 
@@ -135,11 +142,13 @@ nav.navbar.navbar-expand-lg {
     background-clip: padding-box;
     border-radius: 0.25rem;
     box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px, rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+
     a {
         color: #404041 !important;
         text-decoration: none !important;
         margin-left: 0 !important;
     }
+
     border: 0 !important;
 }
 
@@ -177,4 +186,36 @@ nav.navbar.navbar-expand-lg {
 
 .utilities {
     background-color: #86BE55;
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1200px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1100px !important;
+    }
+}
+
+.imagenXS {
+    @media (min-width: 992px) {
+        width: 100%;
+    }
+
+    width: 60%;
+    margin: 0 auto;
 }

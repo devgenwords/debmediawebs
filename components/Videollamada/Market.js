@@ -25,21 +25,30 @@ export default function Market() {
                     <Row>
                         <Col xs={12}>
                             <div className="market-videocall-section_div1">
-                            <Image src={valore.src} width={120}
+                                <div className="imageXs">
+                                    <Image src={valore.src} width={120}
                                         height={120} className="d-block d-sm-none img-fluid" />
+                                </div>
+
                                 <h5>Valora su tiempo </h5>
                                 <p>Ofrece una atención<br />
                                     ágil y eficiente.</p>
                             </div>
                             <div className="market-videocall-section_div2">
-                            <Image src={aprovecha.src} width={120}
+                                <div className="imageXs">
+                                    <Image src={aprovecha.src} width={120}
                                         height={120} className="d-block d-sm-none img-fluid" />
+                                </div>
+
                                 <h5>Humaniza la atención </h5>
                                 <p>A través de encuentros<br /> especializados y cercanos.</p>
                             </div>
                             <div className="market-videocall-section_div3">
-                            <Image src={dif.src} width={120}
+                                <div className="imageXs">
+                                    <Image src={dif.src} width={120}
                                         height={120} className="d-block d-sm-none img-fluid" />
+                                </div>
+
                                 <h5>Diferénciate de<br />
                                     la competencia</h5>
                                 <p>Consigue una ventaja <br />
