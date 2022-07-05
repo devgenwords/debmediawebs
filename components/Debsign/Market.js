@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
-import mypic from '../../asset/imgs/home/videoShape.svg'
 import mensaje from '../../asset/imgs/debsign/mensaje.svg'
 import perju from '../../asset/imgs/debsign/perju.svg'
 import imagen from '../../asset/imgs/debsign/imagen.svg'
@@ -16,23 +15,23 @@ export default function Market() {
                     <Row>
                         <Col className="market-mobile-section_maintitle text-center">
                             <h3>
-                                Sucursales sin herramientas para <br />
-                                comunicar mensajes efectivos
+                                Sin las herramientas adecuadas puede que no<br />
                             </h3>
+                            <p>estes comunicado correctamente con tus clientes   </p>
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm={4} xs={12} className="market-mobile-section_div">
+                        <Col sm={4} xs={4} className="market-mobile-section_div">
                             <Image src={mensaje.src} width={70}
                                 height={135} className={'img-fluid'} />
-                            <h4 className="market-mobile-section_title">
-                                Mensajes <br />desactualizados
-                            </h4>
-                            <p className="market-mobile-section_parraf">
-                                en sucursales.
-                            </p>
+                                <h4 className="market-mobile-section_title">
+                                    Mensajes <br />desactualizados
+                                </h4>
+                                <p className="market-mobile-section_parraf">
+                                    en sucursales.
+                                </p>
                         </Col>
-                        <Col sm={4} xs={12} className="market-mobile-section_div">
+                        <Col sm={4} xs={4} className="market-mobile-section_div">
                             <Image src={perju.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-mobile-section_title">
@@ -42,11 +41,11 @@ export default function Market() {
                                 para el medioambiente.
                             </p>
                         </Col>
-                        <Col sm={4} xs={12} className="market-mobile-section_div">
+                        <Col sm={4} xs={4} className="market-mobile-section_div">
                             <Image src={imagen.src} width={70}
                                 height={135} className={'img-fluid'} />
                             <h4 className="market-mobile-section_title">
-                                Imagen de marca <br />anticuada 
+                                Imagen de marca <br />anticuada
                             </h4>
                             <p className="market-mobile-section_parraf">
                                 que no atrae

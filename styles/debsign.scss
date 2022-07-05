@@ -119,10 +119,10 @@
 
 .image-container-debsign {
     position: absolute;
-    width: 70%;
-    height: 60vh;
+    width: 335px;
+    height: 472px;
     right: 0;
-    bottom: -10%;
+    bottom: -65px;
     z-index: 0;
 
     @media (min-width: 992px) {
@@ -267,6 +267,14 @@
             color: #232C61;
         }
     }
+
+    &_parraf {
+        color: #fff;
+
+        @media (min-width: 992px) {
+            color: #232C61;
+        }
+    }
 }
 
 .setps-debsign-tabs {
@@ -320,7 +328,11 @@
 
     &_content {
         margin-top: 2em !important;
+        margin-bottom: 3em;
 
+        @media (min-width: 992px) {
+            margin-bottom: 4em;
+        }
         &-nav {
             color: #9195b0 !important;
             -webkit-transition: 0.2s ease-in-out;
@@ -499,10 +511,10 @@ button.accordion-button {
 .lineSteps-debsign {
     width: 4px;
     background-color: #2F9FEE;
-    height: 495px;
+    height: 462px;
     display: block;
     position: absolute;
-    top: 3%;
+    top: 16.1%;
     left: 46px;
 }
 
