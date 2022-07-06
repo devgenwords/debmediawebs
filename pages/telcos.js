@@ -17,7 +17,7 @@ export default function Telcos() {
     <>
       <Header />
       <Market />
-      <Solutions />
+      <Solutions color="telcos" />
       <Modern />
       <Review />
       <Partner />

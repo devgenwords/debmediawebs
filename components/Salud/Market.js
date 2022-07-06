@@ -55,10 +55,10 @@ export default function Market() {
                             </div>
 
                             <h4 className="market-banca-section_title">
-                                Se cambiarían de banco
+                            Desconocimiento de 
                             </h4>
                             <p className="market-banca-section_parraf">
-                                si consiguen una experiencia<br /> más consistente.
+                            la performance de los profesionales.
                             </p>
                         </Col>
                     </Row>

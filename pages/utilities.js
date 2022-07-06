@@ -17,7 +17,7 @@ export default function Utilities() {
     <>
       <Header />
       <Market />
-      <Solutions />
+      <Solutions color="utilities" />
       <Modern />
       <Review />
       <Partner />

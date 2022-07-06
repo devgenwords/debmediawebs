@@ -5,9 +5,10 @@ import check from '../../asset/imgs/salud/check.svg'
 import logosbanca from '../../asset/imgs/salud/logos-salud.png'
 import check_white from '../../asset/imgs/home/check-m.svg'
 import Data from '../../json/services-salud.json';
+import Link from 'next/link'
 
 
-export default function Solutions() {
+export default function Solutions(props) {
     const [dataJson, setData] = useState([]);
 
     useEffect(() => {
@@ -93,10 +94,10 @@ export default function Solutions() {
             <Container fluid className="solutions-indus-tabs">
                 <Container>
                     <Row>
-                        <Col className="solutions-indus-tabs_title">
+                        <Col className="solutions-indus-tabs_title mb-5">
                             <h2>
-                                <b> Personaliza</b> cada punto de interacción <br />
-                                y <b>ofrece una atención omnicanal</b>
+                                <b> Personaliza</b> cada punto de interacción  <br />
+                                con tus pacientes y <b>ofrece una atención omnicanal</b>
                             </h2>
                         </Col>
                     </Row>
@@ -109,7 +110,7 @@ export default function Solutions() {
                                         <Nav variant="pills" className="flex-column">
                                             {dataJson.map((item, index) => (
                                                 <Nav.Item key={index}>
-                                                    <Nav.Link eventKey={item.key} className="solutions-tabs_content-nav">{item.title}</Nav.Link>
+                                                    <Nav.Link eventKey={item.key} className={"solutions-tabs_content-nav " + props.color}>{item.title}</Nav.Link>
                                                 </Nav.Item>
                                             ))}
                                         </Nav>
@@ -120,16 +121,18 @@ export default function Solutions() {
                                                 <Tab.Pane key={index} eventKey={item.key}>
                                                     <Row>
                                                         <Col xs="12" className="d-flex justify-content-center solutions-indus-tabs_content-img">
-                                                        <Image src={`/bancatabs/${item.image.url}`} width={520}
-                                                                height={340} className={'img-fluid'} />
+                                                        <Image src={`/saludtabs/${item.image.url}`} width={item.image.width}
+                                                                height={item.image.height} className={'img-fluid'} />
                                                         </Col>
                                                         <Col xs={{ span: 10, offset: 1 }} className="solutions-indus-tabs_content-text">
                                                             <p>
                                                                 <b>{item.main}</b>{item.secu}
                                                             </p>
+                                                            <Link href={item.url}>
                                                             <button>
                                                                 Conoce más
                                                             </button>
+                                                            </Link>
                                                         </Col>
                                                     </Row>
                                                 </Tab.Pane>

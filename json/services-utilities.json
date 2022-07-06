@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Atención Virtual",
+    "image": {
+      "url": "videocall.png",
+      "width": 520,
+      "height": 340
+    },
+    "key": "videocall", 
+    "main": "Conecta a tus clientes con los ejecutivos por videollamada para que no deban acercarse a una sucursal. ",
+    "secu": "Mantén el contacto humano y mejora los tiempos de atención sin descargar una APP adicional.",
+    "url": "/atencion-virtual"
+  },
+  {
+    "title": "Chatbot de WhatsApp",
+    "image": {
+      "url": "wapp.png",
+      "width": 540,
+      "height": 380
+    },
+    "key": "wapp", 
+    "main": "Automatiza conversaciones con tus clientes, agiliza la comunicación, ",
+    "secu": " aumenta la capacidad de respuesta y atiende consultas de forma rápida, personalizada y en cualquier horario.",
+    "url": "/preatendedor"
+  },
+  {
+    "title": "Citas",
+    "image": {
+      "url": "citas.png",
+      "width": 540,
+      "height": 380
+    },
+    "key": "citas", 
+    "main": "Normaliza y organiza el flujo de clientes que llegan a tus sucursales. ",
+    "secu": "Permíteles agendar su cita desde canales digitales para una fecha y hora determinada a través de una experiencia simple.",
+    "url": "/citasonline"
+  },
+  {
+    "title": "Fila virtual",
+    "image": {
+      "url": "filavirtual.png",
+      "width": 540,
+      "height": 380
+    },
+    "key": "filavirtual", 
+    "main": "Reduce el tiempo que tus clientes pasan dentro de las sucursales a través del sistema de fila virtual.  ",
+    "secu": "Administra mejor el flujo, reduce la tasa de abandono y haz más eficiente la labor de tu personal.",
+    "url": "/fila-virtual"
+  },
+  {
+    "title": "Cartelería",
+    "image": {
+      "url": "debsign.png",
+      "width": 540,
+      "height": 350
+    },
+    "key": "debsign", 
+    "main": "Controla lo que comunicas en tus sucursales y gestiona el contenido de forma centralizada.",
+    "secu": " Planifica el contenido, segmenta por locación, grupos de pantallas o sucursales y actualízalo en tiempo real.",
+    "url": "/debsign"
+  },
+  {
+    "title": "Encuestas ",
+    "image": {
+      "url": "encuesta.png",
+      "width": 540,
+      "height": 380
+    },
+    "key": "encuesta", 
+    "main": "Obtén el feedback de tus clientes luego de ser atendidos o durante el proceso de atención.",
+    "secu": "Mantente al tanto de su opinión y del rendimiento de tu equipo para mejorar el proceso de atención según los resultados.",
+    "url": "/encuestas"
+  },
+  {
+    "title": "Pre atendedor",
+    "image": {
+      "url": "pre.png",
+      "width": 540,
+      "height": 380
+    },
+    "key": "preaten", 
+    "main": "Deriva a tus clientes a un portal de pre atención personalizable que los guía a la elección de su trámite fácilmente. ",
+    "secu": " Configura el recorrido que deben atravesar con botones, imágenes, pop ups y textos.",
+    "url": "/preatendedor"
+  }
+]

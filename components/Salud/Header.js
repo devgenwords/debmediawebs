@@ -22,7 +22,7 @@ export default function Header() {
                         <Row>
                             <Col>
                                 <h1 className="header-salud_title">
-                               <b>Mejora la experiencia<br/> de los pacientes</b> dentro y <br/>fuera de las sucursales
+                               <b>Mejora la experiencia<br/> de los pacientes</b> dentro<br/> de los centros.
                                 </h1>
 
                                 <button className="header-salud_demobutton">

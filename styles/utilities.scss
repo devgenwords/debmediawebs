@@ -6,19 +6,18 @@
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-
-    @media (min-width: 992px) {
+@media (min-width: 992px) {
         padding-top: 10em;
         padding-bottom: 10em;
-        height: 700px;
+        height: 800px;
     }
 
-    @media (max-height: 700px) {
-        margin-bottom: 5.1em;
-        padding-top: 8em;
-        padding-bottom: 10em;
-        height: 90vh;
-    }
+    // @media (max-height: 700px) {
+    //     margin-bottom: 5.1em;
+    //     padding-top: 8em;
+    //     padding-bottom: 10em;
+    //     height: 90vh;
+    // }
 
     &_videoshape {
         position: absolute;

@@ -19,7 +19,7 @@ export default function Banca() {
     <>
       <Header />
       <Market />
-      <Solutions />
+      <Solutions color="banca" />
       <Modern />
       <Review />
       <Partner />

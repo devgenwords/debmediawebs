@@ -4,10 +4,11 @@ import Image from 'next/image'
 import check from '../../asset/imgs/utilities/check.svg'
 // import logosretail from '../../asset/imgs/retail/logos-retail.png'
 import check_white from '../../asset/imgs/home/check-m.svg'
-import Data from '../../json/services-gob.json';
+import Data from '../../json/services-utilities.json';
+import Link from 'next/link'
 
 
-export default function Solutions() {
+export default function Solutions(props) {
     const [dataJson, setData] = useState([]);
 
     useEffect(() => {
@@ -108,7 +109,7 @@ export default function Solutions() {
                                         <Nav variant="pills" className="flex-column">
                                             {dataJson.map((item, index) => (
                                                 <Nav.Item key={index}>
-                                                    <Nav.Link eventKey={item.key} className="solutions-tabs_content-nav">{item.title}</Nav.Link>
+                                                    <Nav.Link eventKey={item.key} className={"solutions-tabs_content-nav " + props.color}>{item.title}</Nav.Link>
                                                 </Nav.Item>
                                             ))}
                                         </Nav>
@@ -119,16 +120,18 @@ export default function Solutions() {
                                                 <Tab.Pane key={index} eventKey={item.key}>
                                                     <Row>
                                                         <Col xs="12" className="d-flex justify-content-center solutions-indus-tabs_content-img">
-                                                            <Image src={`/bancatabs/${item.image.url}`} width={520}
-                                                                height={340} className={'img-fluid'} />
+                                                            <Image src={`/utitabs/${item.image.url}`} width={item.image.width}
+                                                                height={item.image.height}  className={'img-fluid'} />
                                                         </Col>
                                                         <Col xs={{ span: 10, offset: 1 }} className="solutions-indus-tabs_content-text">
                                                             <p>
                                                                 <b>{item.main}</b>{item.secu}
                                                             </p>
+                                                            <Link href={item.url}>
                                                             <button>
                                                                 Conoce más
                                                             </button>
+                                                            </Link>
                                                         </Col>
                                                     </Row>
                                                 </Tab.Pane>

@@ -17,7 +17,7 @@ export default function Retail() {
     <>
       <Header />
       <Market />
-      <Solutions />
+      <Solutions color="retail"/>
       <Modern />
       <Review />
       <Partner />
