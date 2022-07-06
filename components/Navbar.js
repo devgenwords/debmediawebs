@@ -10,9 +10,14 @@ export default function Home() {
             setScroll(window.scrollY > 50);
         });
     }, []);
+
+    const [expanded, setExpanded] = useState(false);
+
     return (
         <>
-            <Navbar fixed="top" expand="lg" className={scroll ? "navScroll" : ""}>
+
+        
+            <Navbar expanded={expanded} fixed="top" expand="lg" className={scroll ? "navScroll" : ""}>
                 <Container>
                     <Navbar.Brand href="#home">
                         <Link href="/">
@@ -23,13 +28,13 @@ export default function Home() {
                             />
                         </Link>
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                    <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse  id="basic-navbar-nav" className="justify-content-end">
                         <Nav className="ml-auto">
                             <Nav.Link href="/">Home</Nav.Link>
                             <NavDropdown title="Soluciones" id="basic-nav-dropdown">
                                 <NavDropdown.Item>
-                                    <Link href="/atencion-virtual">
+                                    <Link onClick={() => setExpanded(false)} href="/atencion-virtual">
                                         Atención virtual
                                     </Link>
                                 </NavDropdown.Item>
@@ -107,6 +112,7 @@ export default function Home() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            
         </>
     );
 }

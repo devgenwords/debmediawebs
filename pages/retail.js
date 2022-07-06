@@ -21,7 +21,7 @@ export default function Retail() {
       <Modern />
       <Review />
       <Partner />
-      <Level />
+      <Level color="industriasColor" />
       <Contact />
       <Posts />
     </>

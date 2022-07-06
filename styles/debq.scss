@@ -284,6 +284,17 @@
             color: #232C61;
         }
     }
+
+    &_parraf {
+        color: #fff;
+        font-size: .8rem;
+
+        @media (min-width: 992px) {
+            font-size: 1rem;
+            color: #404041;
+        }
+    }
+
 }
 
 .setps-tabs_debq {
@@ -706,16 +717,7 @@ button.accordion-button {
     }
 }
 
-.border-level {
-    background-image: url("../asset/imgs/home/border.svg");
-    min-height: 200px;
-    background-size: cover;
-    margin-bottom: -1px;
-    margin-top: 3em;
-    position: relative;
-    display: block;
-    width: 100%;
-}
+
 
 .level-section {
     hr {

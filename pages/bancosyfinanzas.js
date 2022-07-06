@@ -23,7 +23,7 @@ export default function Banca() {
       <Modern />
       <Review />
       <Partner />
-      <Level />
+      <Level color="industriasColor" />
       <Contact />
       <Posts />
     </>

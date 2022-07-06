@@ -106,3 +106,34 @@
         }
     }
 }
+
+.level-section.greyBk.container-fluid {
+    background-color: #f6f7fb;
+}
+
+.level-section_mainTitle.mb-4.greyColor.col h2 {
+    color: #404041;
+}
+
+.level-section_mainTitle.mb-4.greyColor.col h2 b {
+    color: #232C61;
+}
+
+.level-section_text.greyColor p {
+    color: #404041;
+    b {
+        color: #232C61;
+    }
+}
+
+.level-section_step.greyColor div {
+    background-color: #232C61;
+}
+
+span.level-section_line.d-none.d-sm-block.greyColor {
+    background-color: #232C61;
+}
+
+button.level-section_demobutton.greyColor {
+    background-color: #232C61;
+}

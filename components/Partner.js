@@ -22,7 +22,7 @@ export default function Modern() {
                                     Conoce cómo generar nuevos negocios a través de nuestro programa.
                                 </p>
                             </Col>
-                            <Col sm={3} xs={12} className="d-flex justify-content-center align-items-center">
+                            <Col sm={3} xs={12} className="d-flex justify-content-start justify-content-sm-center align-items-center">
                                 <button className="partner-section_btn">Quiero ser partner</button>
                             </Col>
                         </Row>

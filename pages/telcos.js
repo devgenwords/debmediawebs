@@ -21,7 +21,7 @@ export default function Telcos() {
       <Modern />
       <Review />
       <Partner />
-      <Level />
+      <Level color="industriasColor" />
       <Contact />
       <Posts />
     </>

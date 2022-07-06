@@ -5,6 +5,7 @@ import check_blue from '../../asset/imgs/home/check_blue.svg'
 import check_white from '../../asset/imgs/home/check-m.svg'
 import fila_virtual from '../../asset/imgs/home/fila-virtual.png'
 import Data from '../../json/solutions-home.json';
+import Link from 'next/link'
 
 
 export default function Solutions() {
@@ -45,7 +46,7 @@ export default function Solutions() {
                         </Col>
                         <Col sm={4} xs={4} className="solutions-section_div">
                             <div className="solutions-section_div-img  d-none d-sm-block">
-                            <Image src={check_blue.src} width={110}
+                                <Image src={check_blue.src} width={110}
                                     height={90} className={'img-fluid'} />
                             </div>
                             <div className="solutions-section_div-img  d-block d-sm-none">
@@ -60,7 +61,7 @@ export default function Solutions() {
                         </Col>
                         <Col sm={4} xs={4} className="solutions-section_div">
                             <div className="solutions-section_div-img  d-none d-sm-block">
-                            <Image src={check_blue.src} width={110}
+                                <Image src={check_blue.src} width={110}
                                     height={90} className={'img-fluid'} />
                             </div>
                             <div className="solutions-section_div-img  d-block d-sm-none">
@@ -80,7 +81,7 @@ export default function Solutions() {
                     <Row>
                         <Col className="solutions-tabs_title">
                             <h2>
-                                <b>Anticípate a las necesidades</b> y optimiza el <br/>flujo de atención de tus clientes
+                                <b>Anticípate a las necesidades</b> y optimiza el <br />flujo de atención de tus clientes
                             </h2>
                         </Col>
                     </Row>
@@ -111,9 +112,11 @@ export default function Solutions() {
                                                             <h2>
                                                                 <b>{item.main}</b>{item.secu}
                                                             </h2>
-                                                            <button className="header-home_demobutton">
-                                                                Ver más
-                                                            </button>
+                                                            <Link href={item.url}>
+                                                                <button className="header-home_demobutton">
+                                                                    Ver más
+                                                                </button>
+                                                            </Link>
                                                         </Col>
                                                     </Row>
                                                 </Tab.Pane>
@@ -139,6 +142,11 @@ export default function Solutions() {
                                                 <h2>
                                                     <b>{item.main}</b>{item.secu}
                                                 </h2>
+                                                <Link href={item.url}>
+                                                    <button className="header-home_demobutton">
+                                                        Ver más
+                                                    </button>
+                                                </Link>
                                             </Col>
                                         </Row>
                                     </Accordion.Body>

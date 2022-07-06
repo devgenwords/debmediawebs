@@ -270,11 +270,14 @@
 
     &_parraf {
         color: #fff;
+        font-size: .8rem;
 
         @media (min-width: 992px) {
-            color: #232C61;
+            font-size: 1rem;
+            color: #404041;
         }
     }
+
 }
 
 .setps-debsign-tabs {

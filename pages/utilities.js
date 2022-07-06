@@ -21,8 +21,8 @@ export default function Utilities() {
       <Modern />
       <Review />
       <Partner />
-      <Level />
-      <Contact />
+      <Level color="industriasColor" />
+      <Contact  />
       <Posts />
     </>
   );

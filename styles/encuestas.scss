@@ -277,6 +277,17 @@
             color: #232C61;
         }
     }
+    &_parraf {
+        color: #fff;
+        font-weight: 600;
+        font-size: .8rem;
+
+        @media (min-width: 992px) {
+            font-size: 1rem;
+            color: #404041;
+        }
+    }
+
 }
 
 .setps-tabs_encuestas {

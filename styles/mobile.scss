@@ -268,6 +268,16 @@
             color: #232C61;
         }
     }
+
+    &_parraf {
+        color: #fff;
+        font-size: .8rem;
+
+        @media (min-width: 992px) {
+            font-size: 1rem;
+            color: #404041;
+        }
+    }
 }
 
 .setps-tabs {
@@ -691,24 +701,3 @@ button.accordion-button {
 //     }
 // }
 
-// .border-level {
-//     background-image: url("../asset/imgs/home/border.svg");
-//     min-height: 200px;
-//     background-size: cover;
-//     margin-bottom: -1px;
-//     margin-top: 3em;
-//     position: relative;
-//     display: block;
-//     width: 100%;
-// }
-
-
-// .grey-background {
-//     background-color: #F6F7FB;
-//     width: 100%;
-//     display: flex;
-//     height: 150px;
-//     margin-bottom: 2em;
-//     margin-top: -5em;
-//     z-index: -1;
-// }

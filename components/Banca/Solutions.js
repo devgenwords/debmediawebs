@@ -69,10 +69,9 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-indus-section_title">
-                                Mejora los tiempos
+                            Mejora su experiencia
                             </h4>
-                            <p> de respuesta y agiliza <br />
-                                la atención.</p>
+                            <p>  en cada punto de contacto.</p>
                         </Col>
                     </Row>
                 </Container>
