@@ -35,7 +35,7 @@ export default function Solutions() {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="setps-debsign-section mb-5">
+            <Container fluid className="setps-debsign-section mb-2 mb-sm-5">
                 <Container className="mb-5">
                     <Row>
                         <Col sm={4} xs={4} className="setps-debsign-section_div">
@@ -96,7 +96,7 @@ export default function Solutions() {
                     </Row>
                 </Container>
             </Container>
-            <Container fluid className="setps-debsign-tabs relative mb-5">
+            <Container fluid className="setps-debsign-tabs relative mb-2 mb-sm-5">
                 <div className={'setps-debsign-tabs_shape1'}>
                     <Image src={shape1.src} layout="fill" className={'left'} />
                 </div>
@@ -141,11 +141,11 @@ export default function Solutions() {
                             </Tab.Container>
                         </Col>
                     </Row>
-                    <Row className="setps-accordion_content d-block d-sm-none">
+                    <Row className="setps-accordion_content intern2 d-block d-sm-none">
                         <Accordion defaultActiveKey="0">
                             {dataJson.map((item, index) => (
                                 <Accordion.Item key={index} eventKey={item.key} className="setps-accordion_content-nav">
-                                    <Accordion.Header >{index + 1} {item.text}</Accordion.Header>
+                                    <Accordion.Header className="inter2_button"><div className="inter2_button-step">{index + 1}</div> <div className="inter2_button-text">{item.text}</div></Accordion.Header>
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
@@ -163,7 +163,7 @@ export default function Solutions() {
             </Container>
             <Container className="mb-4">
                 <Row>
-                    
+
                 </Row>
             </Container>
         </>

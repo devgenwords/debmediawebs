@@ -17,12 +17,12 @@ export default function Solutions() {
                     <Col className="setps-section_preatendedor_maintitle">
                         <h3 className="text-center">
                             <b>Direcciona a tus clientes 
-                            </b>más rápido <br />al canal de atención indicado
+                            </b> más rápido <br />al canal de atención indicado
                         </h3>
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="setps-section_citas">
+            <Container fluid className="setps-section_preatendedor">
                 <Container>
                     <Row>
                         <Col sm={4} xs={4} className="setps-section_preatendedor_div">

@@ -12,7 +12,6 @@ import Services from "../components/Services"
 import Level from "../components/Level"
 import Contact from "../components/Contact"
 import Posts from "../components/Posts"
-import Footer from "../components/Footer"
 
 
 export default function Citas() {

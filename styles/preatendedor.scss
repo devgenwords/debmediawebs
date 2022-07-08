@@ -129,10 +129,10 @@
 
 .image-container-preatendedor {
     position: absolute;
-    width: 335px;
-    height: 472px;
+    width: 395px;
+    height: 490px;
     right: 0;
-    bottom: -65px;
+    bottom: -5px;
     z-index: 0;
 
     @media (min-width: 992px) {
@@ -201,15 +201,24 @@
         }
     }
 
-    &_title {
-        color: #404041;
-        font-size: 1.4rem;
-        font-weight: 600;
+    &_div {
+        text-align: center;
+        margin-bottom: 1.5em;
+
+        @media (min-width: 992px) {
+            margin-bottom: 0;
+        }
     }
 
-    &_parraf {
+    &_title {
         color: #404041;
-        font-size: 1.1rem;
+        font-size: .9rem;
+        font-weight: 600;
+
+        @media (min-width: 992px) {
+            font-size: 1.35rem;
+
+        }
     }
 
     &_arrow {
@@ -236,6 +245,7 @@
     margin-top: 2em;
     background-color: #232C61;
     padding-bottom: 1em;
+    margin-bottom: 2em;
 
     @media (min-width: 992px) {
         background-color: #F6F7FB;
@@ -300,6 +310,7 @@
         margin-top: 5em;
         margin-bottom: 5em;
     }
+    margin-bottom: 2em;
     &_maintitle {
         h3 {
             color: #404041;

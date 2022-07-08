@@ -46,14 +46,14 @@ export default function Market() {
                 </Container>
             </Container>
             <Container>
-                <Row className="setps-accordion_content d-block d-sm-none">
+                <Row className="setps-accordion_content intern1 d-block d-sm-none">
                     <Accordion defaultActiveKey="0">
                         {dataJson.map((item, index) => (
                             <Accordion.Item key={index} eventKey={item.key} className="setps-accordion_content-nav">
-                                <Accordion.Header >{index + 1} {item.text}</Accordion.Header>
+                                <Accordion.Header className="inter1_button" > <div className="inter1_button-step">{index + 1}</div> {item.text}</Accordion.Header>
                                 <Accordion.Body>
                                     <Row>
-                                        <Col xs={12} className="text-center">
+                                        <Col xs={12} className="text-center">as
                                             <Image src={`/videocalltabs/${item.image.url}`} width={300}
                                                 height={760} className={'img-fluid'} />
                                         </Col>
