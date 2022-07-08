@@ -28,14 +28,14 @@ export default function Header() {
                     </div>
                     <Container>
                         <Row>
-                            <Col>
+                            <Col className="mainTitles">
                                 <h1 className="videocall-home_title">
-                                Digitaliza la atención 
- <br className="d-none d-sm-block" />de tus clientes
+                                    Digitaliza la atención
+                                    <br className="d-none d-sm-block" />de tus clientes
                                 </h1>
                                 <p className="videocall-home_parraf">
-                                Software para brindar <b>atención <br/>
-por videollamada </b>
+                                    Software para brindar <b>atención <br />
+                                        por videollamada </b>
                                 </p>
                                 <button className="videocall-home_demobutton">
                                     Solicita una demo

@@ -27,7 +27,7 @@ export default function Header() {
                     </div>
                     <Container>
                         <Row>
-                            <Col>
+                            <Col className="mainTitles">
                                 <h1 className="preatendedor-home_title">
                                 Agiliza la atención desde <br className="d-none d-sm-block" /> WhatsApp  o
 un portal web

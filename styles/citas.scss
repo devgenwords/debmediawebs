@@ -22,12 +22,12 @@
         height: 665px;
     }
 
-    @media (max-height: 700px) {
-        margin-bottom: 5.1em;
-        padding-top: 8em;
-        padding-bottom: 10em;
-        height: 90vh;
-    }
+    // @media (max-height: 700px) {
+    //     margin-bottom: 5.1em;
+    //     padding-top: 8em;
+    //     padding-bottom: 10em;
+    //     height: 90vh;
+    // }
 
     &_videoshape {
         position: absolute;
@@ -136,13 +136,17 @@
 
     @media (min-width: 992px) {
         display: block;
-        max-width: 700px;
-        width: 650px;
+        width: 680px;
         height: 815px;
-        max-width: 650px;
         position: absolute;
         right: 0;
         top: 0;
+    }
+
+    @media (min-width: 1400px) {
+        width: 785px;
+        height: 990px;
+        top: -70px;
     }
 
     .image {
@@ -200,6 +204,7 @@
         color: #404041;
         font-size: .9rem;
         font-weight: 600;
+
         @media (min-width: 992px) {
             font-size: 1.35rem;
 
@@ -209,6 +214,7 @@
     &_parraf {
         color: #404041;
         font-size: .75em;
+
         @media (min-width: 992px) {
             font-size: 1.1rem;
 
@@ -554,10 +560,12 @@ button.accordion-button {
             font-weight: 600;
             font-size: 2rem;
             margin-bottom: 0;
+
             span {
                 font-size: 1.9rem;
             }
         }
+
         p {
             color: #404041;
             font-size: 1.6rem;
@@ -613,4 +621,3 @@ button.accordion-button {
     }
 
 }
-

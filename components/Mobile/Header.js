@@ -27,7 +27,7 @@ export default function Header() {
                     </div>
                     <Container>
                         <Row>
-                            <Col>
+                            <Col className="mainTitles">
                                 <h1 className="mobile-home_title">
                                     Permite a tus clientes<br  className="d-none d-sm-block" /> seguir su turno desde<br  className="d-none d-sm-block" /> el celular
                                 </h1>

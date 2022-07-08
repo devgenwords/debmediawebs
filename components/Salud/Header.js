@@ -20,7 +20,7 @@ export default function Header() {
                     </div>
                     <Container>
                         <Row>
-                            <Col>
+                            <Col className="mainTitles">
                                 <h1 className="header-salud_title">
                                <b>Mejora la experiencia<br/> de los pacientes</b> dentro<br/> de los centros.
                                 </h1>

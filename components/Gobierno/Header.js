@@ -16,7 +16,7 @@ export default function Header() {
                     </div>
                     <Container>
                         <Row>
-                            <Col>
+                            <Col className="mainTitles">
                                 <h1 className="header-gobierno_title">
                                <b>Mejora la experiencia<br/> de los ciudadanos</b> dentro y <br/>fuera de las sucursales
                                 </h1>

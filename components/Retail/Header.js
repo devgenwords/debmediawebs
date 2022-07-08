@@ -14,7 +14,7 @@ export default function Header() {
                     </div>
                     <Container>
                         <Row>
-                            <Col>
+                            <Col className="mainTitles">
                                 <h1 className="header-retail_title">
                                <b>Mejora la experiencia<br/> de los clientes</b> dentro y <br/>fuera de las sucursales
                                 </h1>

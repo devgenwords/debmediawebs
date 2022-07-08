@@ -28,7 +28,7 @@ export default function Header() {
                     </div>
                     <Container>
                         <Row>
-                            <Col>
+                            <Col className="mainTitles">
                                 <h1 className="encuestas-home_title">
                                     Conoce la opinión  <br className="d-none d-sm-block" />
                                     de tus clientes y  <br className="d-none d-sm-block" />

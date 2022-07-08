@@ -13,12 +13,12 @@
         height: 665px;
     }
 
-    @media (max-height: 700px) {
-        margin-bottom: 5.1em;
-        padding-top: 8em;
-        padding-bottom: 10em;
-        height: 90vh;
-    }
+    // @media (max-height: 700px) {
+    //     margin-bottom: 5.1em;
+    //     padding-top: 8em;
+    //     padding-bottom: 10em;
+    //     height: 90vh;
+    // }
 
     &_videoshape {
         position: absolute;
@@ -127,12 +127,17 @@
 
     @media (min-width: 992px) {
         display: block;
-        width: 680px;
+        width: 670px;
         height: 815px;
-        max-width: 680px;
         position: absolute;
         right: 0;
         top: 0;
+    }
+
+    @media (min-width: 1400px) {
+        width: 775px;
+        height: 980px;
+        top: -40px;
     }
 
     .image {

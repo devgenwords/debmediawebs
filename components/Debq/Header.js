@@ -31,7 +31,7 @@ export default function Header() {
                     </div>
                     <Container>
                         <Row>
-                            <Col>
+                            <Col className="mainTitles">
 
                                 <h1 className="debq-home_title">
                                 Haz más eficiente y  <br  className="d-none d-sm-block" />  ordenado el flujo de <br  className="d-none d-sm-block" /> 

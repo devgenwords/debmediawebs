@@ -27,7 +27,7 @@ export default function Header() {
                     </div>
                     <Container>
                         <Row>
-                            <Col>
+                            <Col className="mainTitles">
                                 <h1 className="debsign-home_title">
                                     Centraliza la<br className="d-none d-sm-block" /> comunicación de <br className="d-none d-sm-block" />
                                     las pantallas en tus<br className="d-none d-sm-block" /> sucursales.

@@ -31,9 +31,9 @@ export default function Header() {
                     </div>
                     <Container>
                         <Row>
-                            <Col>
+                            <Col className="mainTitles">
                                 <h1 className="citas-home_title">
-                                Ordena el flujo de clientes<br className="d-none d-sm-block" /> que llegan a las sucursales
+                                Ordena el flujo<br className="d-none d-sm-block" /> de clientes<br className="d-none d-sm-block" /> que llegan a <br className="d-none d-sm-block d-xxl-none" />las sucursales
                                 </h1>
                                 <p className="citas-home_parraf">
                                  <b>Software de citas </b>para empresas con <br/> múltiples trámites y tipos de atención
