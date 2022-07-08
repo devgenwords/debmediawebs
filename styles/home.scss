@@ -526,8 +526,8 @@ button.accordion-button {
     &_div {
         margin-top: 2em !important;
         @media (min-width: 992px) {
-            padding-right: 4em !important;
-            padding-left: 4em !important;
+            padding-right: 6em  !important;
+            padding-left: 6em  !important;
         }
         &-text {
             display: flex;

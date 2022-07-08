@@ -54,9 +54,7 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-section_title">
-                                Direcciona a tus <br className="d-none d-sm-block" />
-                                clientes hacia el <br className="d-none d-sm-block" />
-                                canal más eficiente
+                            Aumenta la productividad<br/> de tus equipos
                             </h4>
                         </Col>
                         <Col sm={4} xs={4} className="solutions-section_div">

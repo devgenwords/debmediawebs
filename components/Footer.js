@@ -65,30 +65,30 @@ export default function Footer() {
                                 <hr />
                                 <ListGroup className="footer-section_list">
                                     <ListGroup.Item>
-                                        <Link href="/debq">
+                                        <Link href="/">
                                             Clientes
 
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
-                                        <Link href="/citasonline">
+                                        <Link href="/">
                                             Nosotros
 
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
-                                        <Link href="/fila-virtual">
+                                        <Link href="/">
                                             Partners
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
-                                        <Link href="/debsign">
+                                        <Link href="https://blog.debmedia.com">
                                             Blog
 
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
-                                        <Link href="/atencion-virtual">
+                                        <Link href="/">
                                             Política de calidad
                                             y seguridad
                                         </Link>

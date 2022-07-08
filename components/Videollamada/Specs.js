@@ -30,7 +30,6 @@ export default function Modern() {
         <>
             <Container fluid className="specs-section_videocall">
                 <Container className="d-none d-sm-block">
-                    <Row className=" d-flex justify-content-center">
                         <Col xs={12} className="d-flex justify-content-center align-items-center">
                             <Row>
                                 <Col xs={12} className="specs-section_videocall_text">
@@ -41,7 +40,8 @@ export default function Modern() {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col sm={4}>
+                        <Row>
+                        <Col sm={3}>
                             <Row>
                                 <Col xs={12} className="specs-section_videocall_div-img d-flex justify-content-center">
                                     <Image src={spec1.src} width={200}
@@ -65,7 +65,7 @@ export default function Modern() {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col sm={4}>
+                        <Col sm={3}>
                             <Row>
                                 <Col xs={12} className="specs-section_videocall_div-img d-flex justify-content-center">
                                     <Image src={spec2.src} width={200}
@@ -88,9 +88,7 @@ export default function Modern() {
                                 </Col>
                             </Row>
                         </Col>
-                    </Row>
-                    <Row className=" d-flex justify-content-center">
-                        <Col sm={4}>
+                        <Col sm={3}>
                             <Row>
                                 <Col xs={12} className="specs-section_videocall_div-img d-flex justify-content-center">
                                     <Image src={spec3.src} width={200}
@@ -111,7 +109,7 @@ export default function Modern() {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col sm={4}>
+                        <Col sm={3}>
                             <Row>
                                 <Col xs={12} className="specs-section_videocall_div-img d-flex justify-content-center">
                                     <Image src={spec4.src} width={200}
@@ -133,7 +131,8 @@ export default function Modern() {
                                 </Col>
                             </Row>
                         </Col>
-                    </Row>
+                        </Row>
+                     
                 </Container>
                 <Container className="d-block d-sm-none">
                     <Row>

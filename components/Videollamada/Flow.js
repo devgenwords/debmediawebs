@@ -39,8 +39,8 @@ export default function Market() {
                 </div>
                 <Container className="py-5 d-none d-sm-block">
                     <Row className="d-flex justify-content-center">
-                        <Col xs={10}>
-                            <img src={flow.src} className="img-fluid mt-5" alt="" />
+                        <Col xl={11} sm={10} xs={10}>
+                            <img src={flow.src} className="img-fluid mt-2" alt="" />
                         </Col>
                     </Row>
                 </Container>
@@ -54,7 +54,7 @@ export default function Market() {
                                 <Accordion.Body>
                                     <Row>
                                         <Col xs={12} className="text-center">
-                                            <Image  src={`/videocalltabs/${item.image.url}`} width={300}
+                                            <Image src={`/videocalltabs/${item.image.url}`} width={300}
                                                 height={760} className={'img-fluid'} />
                                         </Col>
                                     </Row>
@@ -67,15 +67,14 @@ export default function Market() {
             <Container fluid className="relative d-none d-sm-block">
                 <Row className="d-flex justify-content-end">
                     <div className="totem p-0">
-                        <img src={totem.src} className="img-fluid mt-5" alt="" />
+                        <img src={totem.src} className="img-fluid" alt="" />
                     </div>
                     <div className="greyBlock">
                         <div className="greyBlock_text">
-                            <h3>Puedes utilizar el
-                                sistema también
-                                desde tus sucursales</h3>
-                            <p>Si tus clientes ya están en
-                                tus sucursales <b>permíteles conectarse con representante a la videollamada desde un  Kiosko </b> y  disminuir el tiempo de espera.</p>
+                            <h3>También puedes utilizar el sistema dentro de tus sucursales</h3>
+                            <p><b> Permite a tus clientes conectarse a la videollamada con un representante desde un kiosko</b> para disminuir el tiempo dentro de tus sucursales.
+
+                            </p>
                         </div>
                     </div>
 
@@ -100,7 +99,7 @@ export default function Market() {
             <Container className=" d-block d-sm-none">
                 <Row>
                     <Col className="p-0">
-                    <img src={sistematotemmobie.src} className="img-fluid w-100 mt-5" alt="" />
+                        <img src={sistematotemmobie.src} className="img-fluid w-100 mt-5" alt="" />
 
                     </Col>
                 </Row>

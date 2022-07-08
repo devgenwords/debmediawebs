@@ -11,6 +11,8 @@ import configG from '../asset/imgs/configG.svg'
 import clientG from '../asset/imgs/clientsG.svg'
 import top from '../asset/imgs/border.svg'
 import topG from '../asset/imgs/borderG.svg'
+import Link from 'next/link'
+
 
 export default function Level(props) {
     return (
@@ -25,7 +27,7 @@ export default function Level(props) {
 
                 <Container>
                     <Row>
-                        <Col  className={props.color === "industriasColor" ? "level-section_mainTitle mb-4 greyColor" : "level-section_mainTitle mb-4"}>
+                        <Col className={props.color === "industriasColor" ? "level-section_mainTitle mb-4 greyColor" : "level-section_mainTitle mb-4"}>
                             <h2>Lleva la experiencia de tus <br className="d-none d-sm-block" /> clientes al <b>siguiente nivel</b></h2>
                         </Col>
                     </Row>
@@ -53,7 +55,7 @@ export default function Level(props) {
                             </div>
                         </Col>
                         <Col xs={6} sm={3}>
-                            <div  className={props.color === "industriasColor" ? "text-center mb-3 d-none" : "text-center mb-3 d-block"}>
+                            <div className={props.color === "industriasColor" ? "text-center mb-3 d-none" : "text-center mb-3 d-block"}>
                                 <Image src={demo.src} width={130}
                                     height={90} />
                             </div>
@@ -61,7 +63,7 @@ export default function Level(props) {
                                 <Image src={demoG.src} width={130}
                                     height={90} />
                             </div>
-                            <div  className={props.color === "industriasColor" ? "level-section_step greyColor" : "level-section_step"}>
+                            <div className={props.color === "industriasColor" ? "level-section_step greyColor" : "level-section_step"}>
                                 <div>
                                     2
                                 </div>
@@ -73,7 +75,7 @@ export default function Level(props) {
                             </div>
                         </Col>
                         <Col xs={6} sm={3}>
-                            <div  className={props.color === "industriasColor" ? "text-center mb-3 d-none" : "text-center mb-3 d-block"}>
+                            <div className={props.color === "industriasColor" ? "text-center mb-3 d-none" : "text-center mb-3 d-block"}>
                                 <Image src={config.src} width={130}
                                     height={90} />
                             </div>
@@ -87,14 +89,14 @@ export default function Level(props) {
                                 </div>
 
                             </div>
-                            <div  className={props.color === "industriasColor" ? "level-section_text greyColor" : "level-section_text"}>
+                            <div className={props.color === "industriasColor" ? "level-section_text greyColor" : "level-section_text"}>
                                 <p> <b> Configura</b>  <br className="d-none d-sm-block" /> el sistema
                                 </p>
 
                             </div>
                         </Col>
                         <Col xs={6} sm={3}>
-                            <div  className={props.color === "industriasColor" ? "text-center mb-3 d-none" : "text-center mb-3 d-block"}>
+                            <div className={props.color === "industriasColor" ? "text-center mb-3 d-none" : "text-center mb-3 d-block"}>
                                 <Image src={client.src} width={130}
                                     height={90} />
                             </div>
@@ -117,9 +119,11 @@ export default function Level(props) {
                     </Row>
                     <Row>
                         <Col className="text-center mt-4">
-                            <button className={props.color === "industriasColor" ? "level-section_demobutton greyColor" : "level-section_demobutton"}>
-                                Solicita una demo
-                            </button>
+                            <Link href="/contacto">
+                                <button className={props.color === "industriasColor" ? "level-section_demobutton greyColor" : "level-section_demobutton"}>
+                                    Solicita una demo
+                                </button>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>
