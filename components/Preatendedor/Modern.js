@@ -4,7 +4,7 @@ import Image from 'next/image'
 import spec1 from '../../asset/imgs/preatendedor/spec1.svg'
 import spec2 from '../../asset/imgs/preatendedor/spec2.svg'
 import spec3 from '../../asset/imgs/preatendedor/spec3.svg'
-
+import Link from 'next/link'
 
 
 export default function Modern() {
@@ -87,9 +87,11 @@ export default function Modern() {
                     </Row>
                     <Row>
                         <Col className="text-center mt-4">
+                        <Link href="/contacto">
                             <button className="header-home_demobutton">
                                 Solicita una demo
                             </button>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>

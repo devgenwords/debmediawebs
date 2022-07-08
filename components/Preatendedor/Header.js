@@ -5,11 +5,9 @@ import mypic from '../../asset/imgs/preatendedor/main.png'
 import shape1 from '../../asset/imgs/home/headershape1.svg'
 import shape2 from '../../asset/imgs/home/headershape2.svg'
 import shape3 from '../../asset/imgs/home/headershape3.svg'
-import { useMediaQuery } from 'react-responsive'
-
+import Link from 'next/link'
 
 export default function Header() {
-    const isMobile = useMediaQuery({ query: '(max-width:899px)' })
 
     return (
         <>
@@ -35,9 +33,10 @@ un portal web
                                 {/* <p className="preatendedor-home_parraf">
                                  <b>Software de citas </b>para empresas con <br/> múltiples trámites y tipos de atención
                                 </p> */}
+                                 <Link href="/contacto">
                                 <button className="preatendedor-home_demobutton">
                                     Solicita una demo
-                                </button>
+                                </button></Link>
                             </Col>
                         </Row>
                     </Container>

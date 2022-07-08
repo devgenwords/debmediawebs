@@ -4,10 +4,9 @@ import Image from 'next/image'
 import mypic from '../../asset/imgs/debq/main.png'
 import shape1 from '../../asset/imgs/home/headershape1.svg'
 import shape2 from '../../asset/imgs/home/headershape2.svg'
-import shape3 from '../../asset/imgs/home/headershape3.svg'
 import mainNoti from '../../asset/imgs/debq/main-noti.png'
 import { useMediaQuery } from 'react-responsive'
-
+import Link from 'next/link'
 
 export default function Header() {
     const isMobile = useMediaQuery({ query: '(max-width:899px)' })
@@ -40,9 +39,11 @@ export default function Header() {
                                 <p className="debq-home_parraf">
                                     Sistema de <b>gestión de filas</b>
                                 </p>
+                                <Link href="/contacto">
                                 <button className="debq-home_demobutton">
                                     Solicita una demo
                                 </button>
+                                </Link>
                             </Col>
                         </Row>
                     </Container>

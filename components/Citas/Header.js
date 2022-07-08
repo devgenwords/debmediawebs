@@ -7,7 +7,7 @@ import shape2 from '../../asset/imgs/home/headershape2.svg'
 import shape3 from '../../asset/imgs/home/headershape3.svg'
 import mainNoti from '../../asset/imgs/citas/main-noti.svg'
 import { useMediaQuery } from 'react-responsive'
-
+import Link from 'next/link'
 
 export default function Header() {
     const isMobile = useMediaQuery({ query: '(max-width:899px)' })
@@ -38,9 +38,11 @@ export default function Header() {
                                 <p className="citas-home_parraf">
                                  <b>Software de citas </b>para empresas con <br/> múltiples trámites y tipos de atención
                                 </p>
+                                <Link href="/contacto">
                                 <button className="citas-home_demobutton">
                                     Solicita una demo
                                 </button>
+                                </Link>
                             </Col>
                         </Row>
                     </Container>

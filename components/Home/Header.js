@@ -4,8 +4,7 @@ import Image from 'next/image'
 import mypic from '../../asset/imgs/home/videoShape.svg'
 import shape1 from '../../asset/imgs/home/headershape1.svg'
 import shape2 from '../../asset/imgs/home/headershape2.svg'
-import shape3 from '../../asset/imgs/home/headershape3.svg'
-
+import Link from 'next/link'
 
 export default function Header() {
     const [modalShow, setModalShow] = React.useState(false);
@@ -38,9 +37,11 @@ export default function Header() {
                                 <p className="header-home_parraf">
                                     Software para <b>gestionar la atención<br className="d-none d-sm-block" /> al cliente virtual</b> y presencial.
                                 </p>
+                                <Link href="/contacto">
                                 <button className="header-home_demobutton">
                                 Solicita un demo
                                 </button>
+                                </Link>
                             </Col>
                         </Row>
                     </Container>

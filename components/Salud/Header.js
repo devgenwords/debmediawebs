@@ -1,15 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
-import Image from 'next/image'
-import mypic from '../../asset/imgs/home/videoShape.svg'
-import shape1 from '../../asset/imgs/home/headershape1.svg'
-import shape2 from '../../asset/imgs/home/headershape2.svg'
-import shape3 from '../../asset/imgs/home/headershape3.svg'
-import { useMediaQuery } from 'react-responsive'
-
+import Link from 'next/link'
 
 export default function Header() {
-    const isMobile = useMediaQuery({ query: '(max-width:899px)' })
 
     return (
         <>
@@ -24,10 +17,11 @@ export default function Header() {
                                 <h1 className="header-salud_title">
                                <b>Mejora la experiencia<br/> de los pacientes</b> dentro<br/> de los centros.
                                 </h1>
-
+                                <Link href="/contacto">
                                 <button className="header-salud_demobutton">
                                     Solicita una demo
                                 </button>
+                                </Link>
                             </Col>
                         </Row>
                     </Container>

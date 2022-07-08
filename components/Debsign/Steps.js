@@ -3,16 +3,9 @@ import { Row, Container, Col, Tab, Nav, Accordion } from "react-bootstrap";
 import Image from 'next/image'
 import check_blue from '../../asset/imgs/home/check_blue.svg'
 import check_white from '../../asset/imgs/home/check-m.svg'
-import step1 from '../../asset/imgs/debsign/step1.png'
-import step2 from '../../asset/imgs/debsign/step2.png'
-import step3 from '../../asset/imgs/debsign/step3.png'
-import step4 from '../../asset/imgs/debsign/step4.png'
-import step5 from '../../asset/imgs/debsign/step5.png'
-import step6 from '../../asset/imgs/debsign/step6.png'
 import shape1 from '../../asset/imgs/mobile/shapeTabs.svg'
-
 import Data from '../../json/setps-debsign.json';
-
+import Link from 'next/link'
 
 
 export default function Solutions() {
@@ -133,9 +126,11 @@ export default function Solutions() {
                                                 </Nav.Item>
                                             ))}
                                         </Nav>
+                                        <Link href="/contacto">
                                         <button className="citas-home_demobutton">
                                             Solicita una demo
                                         </button>
+                                        </Link>
                                     </Col>
                                 </Row>
                             </Tab.Container>

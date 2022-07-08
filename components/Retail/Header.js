@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import shape2 from '../../asset/imgs/home/headershape2.svg'
-
+import Link from 'next/link'
 
 export default function Header() {
 
@@ -18,10 +18,11 @@ export default function Header() {
                                 <h1 className="header-retail_title">
                                <b>Mejora la experiencia<br/> de los clientes</b> dentro y <br/>fuera de las sucursales
                                 </h1>
-
+                                <Link href="/contacto">
                                 <button className="header-retail_demobutton">
                                     Solicita una demo
                                 </button>
+                                </Link>
                             </Col>
                         </Row>
                     </Container>

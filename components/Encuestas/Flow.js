@@ -4,7 +4,7 @@ import Image from 'next/image'
 import how1 from '../../asset/imgs/encuestas/how1.png'
 import how2 from '../../asset/imgs/encuestas/how2.png'
 import how3 from '../../asset/imgs/encuestas/how3.png'
-
+import Link from 'next/link'
 
 
 export default function Market() {
@@ -54,9 +54,11 @@ export default function Market() {
                             </figure>
                         </Col>
                         <Col className="text-center mt-4">
+                        <Link href="/contacto">
                             <button className="citas-home_demobutton">
                                 Solicita una demo
                             </button>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>

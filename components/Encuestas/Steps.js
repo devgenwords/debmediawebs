@@ -4,8 +4,8 @@ import Image from 'next/image'
 import check_blue from '../../asset/imgs/home/check_blue.svg'
 import check_white from '../../asset/imgs/home/check-m.svg'
 import shape1 from '../../asset/imgs/mobile/shapeTabs.svg'
-
 import Data from '../../json/setps-encuestas.json';
+import Link from 'next/link'
 
 export default function Solutions() {
     const [dataJson, setData] = useState([]);
@@ -19,8 +19,8 @@ export default function Solutions() {
                 <Row>
                     <Col className="setps-section_encuestas_maintitle">
                         <h3 className="text-center">
-                            <b>Recibe feedback de tus clientes </b><br/>
-                            al finalizar su atención y aumenta la satisfacción.<br/><br/>
+                            <b>Recibe feedback de tus clientes </b><br />
+                            al finalizar su atención y aumenta la satisfacción.<br /><br />
                         </h3>
                     </Col>
                 </Row>
@@ -39,11 +39,11 @@ export default function Solutions() {
                             </div>
 
                             <h4 className="setps-section_encuestas_title">
-                            Conoce la opinión real 
+                                Conoce la opinión real
 
                             </h4>
                             <p className="setps-section_encuestas_parraf">
-                            de lo que perciben tus clientes
+                                de lo que perciben tus clientes
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-section_encuestas_div">
@@ -56,11 +56,11 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_encuestas_title">
-                            Decide mejor
+                                Decide mejor
 
                             </h4>
                             <p className="setps-section_encuestas_parraf">
-                            con base en los datos
+                                con base en los datos
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-section_encuestas_div">
@@ -73,10 +73,10 @@ export default function Solutions() {
                                     height={50} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_encuestas_title">
-                            Conoce el rendimiento
+                                Conoce el rendimiento
                             </h4>
                             <p className="setps-section_encuestas_parraf">
-                            de tus equipos de trabajo
+                                de tus equipos de trabajo
                             </p>
                         </Col>
                     </Row>
@@ -88,10 +88,17 @@ export default function Solutions() {
                 </div>
                 <Container>
                     <Row>
-                    <Col className="setps-tabs_content d-none d-sm-block">
+                        <Col sm="12" className="flow-encuestas-section_maintitle text-center">
+                            <h3>
+                                <b>Envía diferentes
+                                </b><br />
+                                tipos de encuestas
+                            </h3>
+                        </Col>
+                        <Col className="setps-tabs_content d-none d-sm-block">
                             <Tab.Container id="left-tabs-example" defaultActiveKey="1">
                                 <Row>
-                                    <Col sm={{ span: 5, offset:1 }} >
+                                    <Col sm={{ span: 5, offset: 1 }} >
                                         <Tab.Content>
                                             {dataJson.map((item, index) => (
                                                 <Tab.Pane key={index} eventKey={item.key}>
@@ -134,7 +141,7 @@ export default function Solutions() {
                                         <Row>
                                             <Col xs={12} className="text-center">
                                                 <Image src={`/encuestastabs/${item.image.url}`} width={item.image.width}
-                                                                height={item.image.height} className={'img-fluid'} />
+                                                    height={item.image.height} className={'img-fluid'} />
 
                                             </Col>
                                         </Row>

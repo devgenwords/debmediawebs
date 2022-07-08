@@ -106,7 +106,9 @@ export default function Home() {
                                 </NavDropdown.Item>
 
                             </NavDropdown>
+                            <Link href="/contacto">
                             <Nav.Link href="#link" className="demo">Solicita una demo</Nav.Link>
+                            </Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

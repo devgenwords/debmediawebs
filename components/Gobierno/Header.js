@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import shape2 from '../../asset/imgs/home/headershape2.svg'
 import { useMediaQuery } from 'react-responsive'
-
+import Link from 'next/link'
 
 export default function Header() {
     const isMobile = useMediaQuery({ query: '(max-width:899px)' })
