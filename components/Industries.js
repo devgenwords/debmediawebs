@@ -34,7 +34,7 @@ export default function Modern() {
                                         </p>
                                     </Col>
                                 </Link>
-                                <Link >
+                                <Link href="/salud">
                                     <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-salud">
                                         <Image src={salud.src} width={70}
                                             height={70} className={'img-fluid'} />
