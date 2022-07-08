@@ -72,7 +72,7 @@ export default function Brands() {
                                     spaceBetween: 130,
                                 },
                             }}
-                            className="mySwiper"
+                            className="services-section_swipper"
                         >
                             {services.map((item, index) => (
                                 <SwiperSlide key={index}>

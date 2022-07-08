@@ -21,6 +21,8 @@
     //     height: 90vh;
     // }
 
+ 
+
     &_videoshape {
         position: absolute;
         width: 40%;
@@ -150,6 +152,11 @@
         position: absolute;
         right: 0;
         top: -10px;
+    }
+
+    @media (min-width: 1400px) {
+        width: 800px;
+        height: 1000px;
     }
 
     .image {

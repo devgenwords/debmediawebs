@@ -30,7 +30,7 @@ export default function Header() {
                     />
                     <Container>
                         <Row>
-                            <Col>
+                            <Col className="mainTitles">
                             <span className="header-home_product">Customer Journey Manager</span>
                                 <h1 className="header-home_title">
                                     Haz más eficientes tus<br className="d-none d-sm-block" /> canales de atención

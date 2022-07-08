@@ -211,6 +211,13 @@ nav.navbar.navbar-expand-lg {
     }
 }
 
+// @media (min-width: 1400px) {
+//     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+//         max-width: 1320px !important;
+//     }
+// }
+
+
 .imagenXS {
     @media (min-width: 992px) {
         width: 100%;
@@ -218,4 +225,13 @@ nav.navbar.navbar-expand-lg {
 
     width: 60%;
     margin: 0 auto;
+}
+
+
+
+@media (min-width: 1400px) {
+    .mainTitles {
+        margin-left: 10%;
+    }
+    
 }
