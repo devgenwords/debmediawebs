@@ -26,8 +26,8 @@ export default function Modern() {
                         <Col className="modern-section_div">
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={modern1.src} width={400}
-                                        height={450} />
+                                    <Image src={modern1.src} width={330}
+                                        height={420} />
 
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">
@@ -85,7 +85,7 @@ export default function Modern() {
                                 <Col sm={5} xs={12} className="modern-section_div-text modern-section_div-text-center">
                                     <div>
                                         <h4 className="modern-section_title">
-                                            Look and feel personalizado.
+                                            Look and feel personalizado
 
                                         </h4>
                                         <p className="modern-section_parraf">

@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <>
 
-        
+
             <Navbar expanded={expanded} fixed="top" expand="lg" className={scroll ? "navScroll" : ""}>
                 <Container>
                     <Navbar.Brand href="#home">
@@ -29,12 +29,12 @@ export default function Home() {
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse  id="basic-navbar-nav" className="justify-content-end">
+                    <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav className="ml-auto">
                             <Nav.Link href="/">Home</Nav.Link>
                             <NavDropdown title="Soluciones" id="basic-nav-dropdown">
                                 <NavDropdown.Item>
-                                    <Link onClick={() => setExpanded(false)} href="/atencion-virtual">
+                                    <Link className="fulllink" onClick={() => setExpanded(false)} href="/atencion-virtual">
                                         Atención virtual
                                     </Link>
                                 </NavDropdown.Item>
@@ -79,13 +79,12 @@ export default function Home() {
 
                             </NavDropdown>
                             <Nav.Link href="#link">Clientes</Nav.Link>
-                            <Nav.Link href="#link">Partnets</Nav.Link>
+                            <Nav.Link href="#link">Partners</Nav.Link>
                             <NavDropdown title="Recursos" id="basic-nav-dropdown">
-                                <NavDropdown.Item>
+                                <NavDropdown.Item href="https://debmedia.com/blog/">
                                     <Link href="https://debmedia.com/blog/">
                                         Blog
                                     </Link>
-
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
                                     <Link href="/">
@@ -95,7 +94,7 @@ export default function Home() {
                                 </NavDropdown.Item>
                                 <NavDropdown.Item>
                                     <Link href="/">
-                                        Recursos descargarbles
+                                        Recursos descargables
                                     </Link>
 
                                 </NavDropdown.Item>
@@ -112,7 +111,7 @@ export default function Home() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            
+
         </>
     );
 }

@@ -143,8 +143,8 @@ export default function Solutions() {
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
-                                                <Image src={fila_virtual.src} width={300}
-                                                    height={580} className={'img-fluid'} />
+                                            <Image src={`/debqtabs/${item.image.url}`} width={item.image.width}
+                                                                height={item.image.height} className={'img-fluid'} />
                                             </Col>
                                         </Row>
                                     </Accordion.Body>

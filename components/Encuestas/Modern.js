@@ -10,7 +10,7 @@ import modern3 from '../../asset/imgs/encuestas/modern3.png'
 export default function Modern() {
     return (
         <>
-            <Container fluid className="modern-section">
+            <Container fluid className="modern-section mb-5">
                 <Container>
                     <Row>
                         <Col className="modern-section_maintitle">
@@ -25,8 +25,8 @@ export default function Modern() {
                         <Col className="modern-section_div">
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={modern1.src} width={400}
-                                        height={400} />
+                                    <Image src={modern1.src} width={350}
+                                        height={350} />
 
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">
@@ -58,14 +58,14 @@ export default function Modern() {
 
                                 </Col>
                                 <Col sm={7} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={modern3.src} width={400}
-                                        height={400} />
+                                    <Image src={modern3.src} width={350}
+                                        height={350} />
                                 </Col>
 
                             </Row>
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={modern2.src} width={400}
+                                    <Image src={modern2.src} width={450}
                                         height={400} />
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">

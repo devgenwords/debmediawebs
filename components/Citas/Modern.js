@@ -145,7 +145,7 @@ export default function Modern() {
                                 <Col xs={12} className="specs-section_citas_div-text text-center d-flex justify-content-center my-3">
                                     <div>
                                         <h4 className="specs-section_citas_title">
-                                            Integrable por API,<br /> iframe o embebido <br />en tu web
+                                            Integrable por API, iframe<br />  o embebido en tu web
 
                                         </h4>
                                         <p className="specs-section_citas_parraf">

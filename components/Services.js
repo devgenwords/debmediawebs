@@ -40,10 +40,10 @@ export default function Brands() {
                             <b>Tecnología que mejora</b> <br />
                             la experiencia de tus clientes
                         </h3>
-                        <p className="services-section_parraf">
+                        {/* <p className="services-section_parraf">
                         Explora otras soluciones
 
-                        </p>
+                        </p> */}
                     </Col>
                 </Row>
                 <Row>

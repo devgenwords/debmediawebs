@@ -38,7 +38,7 @@ export default function Market() {
                         </Col>
                         <Col sm={4} xs={4} className="market-citas-section_div">
                             <div className="imageXs">
-                                <Image src={espera.src} width={70}
+                                <Image src={falta.src} width={70}
                                 height={135} className={'img-fluid'} />
                             </div>
                             
@@ -51,7 +51,7 @@ export default function Market() {
                         </Col>
                         <Col sm={4} xs={4} className="market-citas-section_div">
                         <div className="imageXs">
-                                  <Image src={falta.src} width={70}
+                                  <Image src={espera.src} width={70}
                                 height={135} className={'img-fluid'} />
                                 </div>
                           

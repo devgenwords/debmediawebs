@@ -5,6 +5,9 @@ import banca from '../asset/imgs/banca.svg'
 import salud from '../asset/imgs/salud.svg'
 import servi from '../asset/imgs/servicios.svg'
 import gob from '../asset/imgs/gob.svg'
+import telcos from '../asset/imgs/telcos.svg'
+import uti from '../asset/imgs/uti.svg'
+import Link from 'next/link'
 
 
 
@@ -19,67 +22,78 @@ export default function Modern() {
                         </Col>
                         <Col sm={12} className="industries-section_divs">
                             <Row>
-                                <Col sm={4} offset={1} xs={12} className="industries-section_divs-indu industries-section_divs-banca">
-                                    <Image src={banca.src} width={70}
-                                        height={70} className={'img-fluid'} />
-                                    <h4>
-                                        Banca y Seguros
-                                    </h4>
-                                    <p>
-                                    Instituciones financieras, aseguradoras, cooperativas.
-                                    </p>
-                                </Col>
-                                <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-salud">
-                                    <Image src={salud.src} width={70}
-                                        height={70} className={'img-fluid'} />
-                                    <h4>
-                                        Salud
-                                    </h4>
-                                    <p>
-                                    Clínicas, hospitales, laboratorios, farmacias, prepagadas.
-                                    </p>
-                                </Col>
-
-                                <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-uti">
-                                    <Image src={gob.src} width={70}
-                                        height={70} className={'img-fluid'} />
-                                    <h4>
-                                        Utilities 
-                                    </h4>
-                                    <p>
-                                    Asociaciones, servicios públicos.
-                                    </p>
-                                </Col>
-                                <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-servi">
-                                    <Image src={servi.src} width={70}
-                                        height={70} className={'img-fluid'} />
-                                    <h4>
-                                    Retail y servicios
-                                    </h4>
-                                    <p>
-                                    Tiendas retail, cajas de compensación, logística.
-                                    </p>
-                                </Col>
-                                <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-gob">
-                                    <Image src={gob.src} width={70}
-                                        height={70} className={'img-fluid'} />
-                                    <h4>
-                                        Gobierno
-                                    </h4>
-                                    <p>
-                                    Instituciones públicas, municipios, ONGs
-                                    </p>
-                                </Col>
-                                <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-teleco">
-                                    <Image src={gob.src} width={70}
-                                        height={70} className={'img-fluid'} />
-                                    <h4>
-                                    Telecomunicaciones
-                                    </h4>
-                                    <p>
-                                    Telefonía móvil, operadores de cable.
-                                    </p>
-                                </Col>
+                                <Link href="/bancosyfinanzas">
+                                    <Col sm={4} offset={1} xs={12} className="industries-section_divs-indu industries-section_divs-banca">
+                                        <Image src={banca.src} width={70}
+                                            height={70} className={'img-fluid'} />
+                                        <h4>
+                                            Banca y Seguros
+                                        </h4>
+                                        <p>
+                                            Instituciones financieras, aseguradoras, cooperativas.
+                                        </p>
+                                    </Col>
+                                </Link>
+                                <Link href="/salud">
+                                    <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-salud">
+                                        <Image src={salud.src} width={70}
+                                            height={70} className={'img-fluid'} />
+                                        <h4>
+                                            Salud
+                                        </h4>
+                                        <p>
+                                            Clínicas, hospitales, laboratorios, farmacias, prepagadas.
+                                        </p>
+                                    </Col>
+                                </Link>
+                                <Link href="/gobierno">
+                                    <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-gob">
+                                        <Image src={gob.src} width={70}
+                                            height={70} className={'img-fluid'} />
+                                        <h4>
+                                            Gobierno
+                                        </h4>
+                                        <p>
+                                            Instituciones públicas, municipios, ONGs
+                                        </p>
+                                    </Col>
+                                </Link>
+                                <Link href="/retail">
+                                    <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-servi">
+                                        <Image src={servi.src} width={70}
+                                            height={70} className={'img-fluid'} />
+                                        <h4>
+                                            Retail y servicios
+                                        </h4>
+                                        <p>
+                                            Tiendas retail, cajas de compensación, logística.
+                                        </p>
+                                    </Col>
+                                </Link>
+                                <Link href="/telcos">
+                                    <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-teleco">
+                                        <Image src={telcos.src} width={70}
+                                            height={70} className={'img-fluid'} />
+                                        <h4>
+                                            Telecomunicaciones
+                                        </h4>
+                                        <p>
+                                            Telefonía móvil, operadores de cable.
+                                        </p>
+                                    </Col>
+                                </Link>
+                                <Link href="/utilities">
+                                    <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-uti">
+                                        <Image src={uti.src} width={70}
+                                            height={70} className={'img-fluid'} />
+                                        <h4>
+                                            Utilities
+                                        </h4>
+                                        <p>
+                                            Asociaciones, servicios públicos.
+                                        </p>
+                                    </Col>
+                                </Link>
                             </Row>
 
                         </Col>

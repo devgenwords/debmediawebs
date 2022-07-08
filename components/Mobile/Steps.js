@@ -3,10 +3,6 @@ import { Row, Container, Col, Tab, Nav, Accordion } from "react-bootstrap";
 import Image from 'next/image'
 import check_blue from '../../asset/imgs/home/check_blue.svg'
 import check_white from '../../asset/imgs/home/check-m.svg'
-import mobile1 from '../../asset/imgs/mobile/mobile1.png'
-import mobile2 from '../../asset/imgs/mobile/mobile2.png'
-import mobile3 from '../../asset/imgs/mobile/mobile3.png'
-import mobile4 from '../../asset/imgs/mobile/mobile4.png'
 
 import { useMediaQuery } from 'react-responsive'
 import shape1 from '../../asset/imgs/mobile/shapeTabs.svg'
@@ -51,7 +47,7 @@ export default function Solutions() {
                                 <br className="d-none d-sm-block" />  en salas de espera
                             </h4>
                             <p className="setps-section_parraf">
-                                Y reduce el flujo innecesario de clientes.
+                                Y reduce el flujo innecesario<br className="d-none d-sm-block" /> de clientes.
 
                             </p>
                         </Col>
@@ -144,8 +140,8 @@ export default function Solutions() {
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
-                                                <Image src={mobile1.src} width={300}
-                                                    height={580} className={'img-fluid'} />
+                                            <Image src={`/mobiletabs/${item.image.url}`} width={item.image.width}
+                                                                height={item.image.height} className={'img-fluid'} />
                                             </Col>
                                         </Row>
                                     </Accordion.Body>

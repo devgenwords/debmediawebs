@@ -203,13 +203,23 @@
 
     &_title {
         color: #404041;
-        font-size: 1.4rem;
+        font-size: .9rem;
         font-weight: 600;
+
+        @media (min-width: 992px) {
+            font-size: 1.35rem;
+
+        }
     }
 
     &_parraf {
         color: #404041;
-        font-size: 1.1rem;
+        font-size: .75em;
+
+        @media (min-width: 992px) {
+            font-size: 1.1rem;
+
+        }
     }
 
     &_arrow {
@@ -518,7 +528,7 @@ button.accordion-button {
     @media (min-width: 992px) {
         padding-left: 10em !important;
         padding-right: 10em !important;
-        margin-top: 10em;
+        margin-top: 5em;
         margin-bottom: 5em;
     }
 
@@ -699,8 +709,6 @@ button.accordion-button {
 
 .flow-encuestas-section {
     margin-top: 3em;
-
-
     @media (min-width: 992px) {
         margin-top: 5em;
         margin-bottom: 10em;

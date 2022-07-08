@@ -42,10 +42,10 @@ export default function Market() {
                             </div>
 
                             <h4 className="market-mobile-section_title">
-                                Clientes con<br /> incertidumbre
+                                Clientes con incertidumbre
                             </h4>
                             <p className="market-mobile-section_parraf">
-                                e sobre el tiempo de espera para ser atendidos.
+                                sobre el tiempo de espera para ser atendidos.
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-mobile-section_div">

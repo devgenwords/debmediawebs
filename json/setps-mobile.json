@@ -1,6 +1,6 @@
 [
   {
-    "text": "El cliente elige el trámite ",
+    "text": "El cliente elige el trámite. ",
     "key":"1",
     "image": {
       "url": "mobile1.png",
@@ -31,8 +31,8 @@
     "key":"4",
     "image": {
       "url": "mobile4.png",
-      "width": 600,
-      "height": 600
+      "width": 800,
+      "height": 800
     }
   }
 ]

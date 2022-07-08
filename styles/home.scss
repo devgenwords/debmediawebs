@@ -541,7 +541,7 @@ button.accordion-button {
             margin-bottom: 2em;
             align-items: center;
             justify-content: center;
-            margin-top: -15px !important;
+            margin-top: 5px !important;
             text-align: center;
             @media (min-width: 992px) {
                 text-align: left;
@@ -578,4 +578,9 @@ button.accordion-button {
     margin-bottom: 2em;
     margin-top: -5em;
     z-index: -1;
+}
+
+a.dropdown-item a {
+    width: 100%;
+    display: block;
 }
