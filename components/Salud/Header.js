@@ -15,12 +15,12 @@ export default function Header() {
                         <Row>
                             <Col className="mainTitles">
                                 <h1 className="header-salud_title">
-                               <b>Mejora la experiencia<br/> de los pacientes</b> dentro<br/> de los centros.
+                                    <b>Mejora la experiencia<br /> de los pacientes</b> dentro<br /> de los centros.
                                 </h1>
                                 <Link href="/contacto">
-                                <button className="header-salud_demobutton">
-                                    Solicita una demo
-                                </button>
+                                    <button className="header-salud_demobutton">
+                                        Solicita una demo
+                                    </button>
                                 </Link>
                             </Col>
                         </Row>

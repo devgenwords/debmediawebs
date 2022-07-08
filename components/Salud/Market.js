@@ -55,10 +55,10 @@ export default function Market() {
                             </div>
 
                             <h4 className="market-banca-section_title">
-                            Desconocimiento de 
+                                Desconocimiento de
                             </h4>
                             <p className="market-banca-section_parraf">
-                            la performance de los profesionales.
+                                la performance de los profesionales.
                             </p>
                         </Col>
                     </Row>
