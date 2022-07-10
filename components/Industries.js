@@ -18,14 +18,17 @@ export default function Modern() {
                 <Container>
                     <Row>
                         <Col sm={12} className="industries-section_mainTitle d-flex align-items-center text-center mb-5">
-                            <h2>Organizaciones de múltiples industrias <b>gestionan la experiencia de los clientes con Debmedia.</b></h2>
+                            <h2>Organizaciones de múltiples industrias <br/><b>gestionan la experiencia de los clientes con Debmedia.</b></h2>
                         </Col>
                         <Col sm={12} className="industries-section_divs">
                             <Row>
                                 <Link href="/bancosyfinanzas">
                                     <Col sm={4} offset={1} xs={12} className="industries-section_divs-indu industries-section_divs-banca">
-                                        <Image src={banca.src} width={70}
-                                            height={70} className={'img-fluid'} />
+                                        <div>
+                                        <Image src={banca.src} width={50}
+                                            height={50} className={'img-fluid'} />
+                                        </div>
+                                        
                                         <h4>
                                             Banca y Seguros
                                         </h4>
@@ -36,8 +39,8 @@ export default function Modern() {
                                 </Link>
                                 <Link href="/salud">
                                     <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-salud">
-                                        <Image src={salud.src} width={70}
-                                            height={70} className={'img-fluid'} />
+                                        <Image src={salud.src} width={50}
+                                            height={50} className={'img-fluid'} />
                                         <h4>
                                             Salud
                                         </h4>
@@ -48,8 +51,8 @@ export default function Modern() {
                                 </Link>
                                 <Link href="/gobierno">
                                     <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-gob">
-                                        <Image src={gob.src} width={70}
-                                            height={70} className={'img-fluid'} />
+                                        <Image src={gob.src} width={50}
+                                            height={50} className={'img-fluid'} />
                                         <h4>
                                             Gobierno
                                         </h4>
@@ -60,8 +63,8 @@ export default function Modern() {
                                 </Link>
                                 <Link href="/retail">
                                     <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-servi">
-                                        <Image src={servi.src} width={70}
-                                            height={70} className={'img-fluid'} />
+                                        <Image src={servi.src} width={50}
+                                            height={50} className={'img-fluid'} />
                                         <h4>
                                             Retail y servicios
                                         </h4>
@@ -72,8 +75,8 @@ export default function Modern() {
                                 </Link>
                                 <Link href="/telcos">
                                     <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-teleco">
-                                        <Image src={telcos.src} width={70}
-                                            height={70} className={'img-fluid'} />
+                                        <Image src={telcos.src} width={50}
+                                            height={50} className={'img-fluid'} />
                                         <h4>
                                             Telecomunicaciones
                                         </h4>
@@ -84,8 +87,8 @@ export default function Modern() {
                                 </Link>
                                 <Link href="/utilities">
                                     <Col sm={4} xs={12} className="industries-section_divs-indu industries-section_divs-uti">
-                                        <Image src={uti.src} width={70}
-                                            height={70} className={'img-fluid'} />
+                                        <Image src={uti.src} width={50}
+                                            height={50} className={'img-fluid'} />
                                         <h4>
                                             Utilities
                                         </h4>

@@ -34,12 +34,12 @@
         b {
             font-weight: 700;
             color: #232C61;
-            font-size: 3rem;
+        font-size: 2.8rem;
         }
 
         @media (min-width: 992px) {
             margin-top: .9em;
-            font-size: 2.8rem;
+            font-size: 2.6rem;
         }
     }
 
@@ -144,13 +144,23 @@
 
     &_title {
         color: #404041;
-        font-size: 1.4rem;
+        font-size: .9rem;
         font-weight: 600;
+        margin-bottom: 2px;
+        @media (min-width: 992px) {
+            font-size: 1.35rem;
+
+        }
     }
 
     &_parraf {
         color: #404041;
-        font-size: 1.1rem;
+        font-size: .75em;
+
+        @media (min-width: 992px) {
+            font-size: 1.1rem;
+
+        }
     }
 
     &_arrow {

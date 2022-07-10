@@ -32,7 +32,7 @@ export default function Modern() {
                                 <Col xs={12} className="specs-section_preatendedor_div-text text-center d-flex justify-content-center my-3">
                                     <div>
                                         <h4 className="specs-section_preatendedor_title">
-                                            Incluir<br />
+                                            <span>Incluir</span><br />
                                             pop ups
 
                                         </h4>
@@ -52,7 +52,7 @@ export default function Modern() {
                                 <Col xs={12} className="specs-section_preatendedor_div-text text-center d-flex justify-content-center my-3">
                                     <div>
                                         <h4 className="specs-section_preatendedor_title">
-                                            Agregar<br />
+                                            <span>Agregar</span><br />
                                             Formularios
                                         </h4>
 
@@ -88,7 +88,7 @@ export default function Modern() {
                     <Row>
                         <Col className="text-center mt-4">
                         <Link href="/contacto">
-                            <button className="header-home_demobutton">
+                            <button className="header-home_demobutton fullbutton">
                                 Solicita una demo
                             </button>
                             </Link>
