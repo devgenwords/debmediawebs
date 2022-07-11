@@ -103,7 +103,7 @@ export default function Solutions(props) {
             <Container fluid className="solutions-indus-tabs">
                 <Container>
                     <Row>
-                        <Col className="solutions-indus-tabs_title mb-5">
+                        <Col className="solutions-indus-tabs_title mb-sm-5 mb-3">
                             <h2>
                                 <b> Personaliza</b> cada punto de interacción <br />
                                 y <b>ofrece una atención omnicanal</b>
@@ -155,8 +155,8 @@ export default function Solutions(props) {
                     <Row className="solutions-accordion_content d-block d-sm-none">
                         <Accordion defaultActiveKey="0">
                             {dataJson.map((item, index) => (
-                                <Accordion.Item key={index} eventKey={item.key} className="solutions-accordion_content-nav">
-                                    <Accordion.Header >{item.title}</Accordion.Header>
+                                <Accordion.Item key={index} eventKey={item.key} className={"solutions-accordion_content-nav " + props.color}>
+                                    <Accordion.Header>{item.title}</Accordion.Header>
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">

@@ -235,7 +235,9 @@ nav.navbar.navbar-expand-lg {
 //         max-width: 1320px !important;
 //     }
 // }
-
+div#basic-navbar-nav .dropdown-item:active {
+    background-color: transparent !important;
+}
 
 .imagenXS {
     @media (min-width: 992px) {

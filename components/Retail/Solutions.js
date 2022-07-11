@@ -155,7 +155,7 @@ export default function Solutions(props) {
                     <Row className="solutions-accordion_content d-block d-sm-none">
                         <Accordion defaultActiveKey="0">
                             {dataJson.map((item, index) => (
-                                <Accordion.Item key={index} eventKey={item.key} className="solutions-accordion_content-nav">
+                               <Accordion.Item key={index} eventKey={item.key} className={"solutions-accordion_content-nav " + props.color}>
                                     <Accordion.Header >{item.title}</Accordion.Header>
                                     <Accordion.Body>
                                         <Row>

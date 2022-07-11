@@ -59,6 +59,15 @@
             font-size: 1.3rem;
             color: #232C61;
         }
+        
+    }
+    p {
+        color: #fff ;
+        font-size: .9rem;
+        @media (min-width: 992px) {
+         color: #404041;
+         font-size: 1rem;
+        }
     }
 }
 
@@ -322,4 +331,28 @@ button.accordion-button {
 
 .solutions-tabs_content-nav.utilities.active::after {
     content: url("data:image/svg+xml; utf8, <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='%2386BE55' class='bi bi-caret-right-fill' viewBox='0 0 16 16'><path d='m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z'/></svg>") !important; 
+}
+
+.solutions-accordion_content-nav.banca.accordion-item button {
+    background-color: #173EA3;
+}
+
+.solutions-accordion_content-nav.salud.accordion-item button {
+    background-color: #69B8EF;
+}
+
+.solutions-accordion_content-nav.gobierno.accordion-item button {
+    background-color: #5826E7;
+}
+
+.solutions-accordion_content-nav.retail.accordion-item button {
+    background-color: #F48700;
+}
+
+.solutions-accordion_content-nav.telcos.accordion-item button {
+    background-color: #1B8CF4;
+}
+
+.solutions-accordion_content-nav.utilities.accordion-item button {
+    background-color: #86BE55;
 }

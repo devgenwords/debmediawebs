@@ -105,7 +105,7 @@ export default function Solutions(props) {
             <Container fluid className="solutions-indus-tabs">
                 <Container>
                     <Row>
-                        <Col className="solutions-indus-tabs_title mb-5">
+                        <Col className="solutions-indus-tabs_title mb-sm-5 mb-3">
                             <h2>
                                 <b> Personaliza</b> cada punto de interacción  <br />
                                 con tus pacientes y <b>ofrece una atención omnicanal</b>
@@ -132,7 +132,7 @@ export default function Solutions(props) {
                                                 <Tab.Pane key={index} eventKey={item.key}>
                                                     <Row>
                                                         <Col xs="12" className="d-flex justify-content-center solutions-indus-tabs_content-img">
-                                                        <Image src={`/saludtabs/${item.image.url}`} width={item.image.width}
+                                                            <Image src={`/saludtabs/${item.image.url}`} width={item.image.width}
                                                                 height={item.image.height} className={'img-fluid'} />
                                                         </Col>
                                                         <Col xs={{ span: 10, offset: 1 }} className="solutions-indus-tabs_content-text">
@@ -140,9 +140,9 @@ export default function Solutions(props) {
                                                                 <b>{item.main}</b>{item.secu}
                                                             </p>
                                                             <Link href={item.url}>
-                                                            <button>
-                                                                Conoce más
-                                                            </button>
+                                                                <button>
+                                                                    Conoce más
+                                                                </button>
                                                             </Link>
                                                         </Col>
                                                     </Row>
@@ -157,7 +157,7 @@ export default function Solutions(props) {
                     <Row className="solutions-accordion_content d-block d-sm-none">
                         <Accordion defaultActiveKey="0">
                             {dataJson.map((item, index) => (
-                                <Accordion.Item key={index} eventKey={item.key} className="solutions-accordion_content-nav">
+                                <Accordion.Item key={index} eventKey={item.key} className={"solutions-accordion_content-nav " + props.color}>
                                     <Accordion.Header >{item.title}</Accordion.Header>
                                     <Accordion.Body>
                                         <Row>

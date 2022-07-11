@@ -21,7 +21,7 @@ export default function Market() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm={4} xs={12} className="market-utilities-section_div">
+                        <Col sm={4} xs={4} className="market-utilities-section_div">
                             <div className="imageXs">
                                 <Image src={intera.src} width={120}
                                     height={135} className={'img-fluid'} />
@@ -34,7 +34,7 @@ export default function Market() {
                                 cuándo, dónde y cómo quieran.
                             </p>
                         </Col>
-                        <Col sm={4} xs={12} className="market-utilities-section_div">
+                        <Col sm={4} xs={4} className="market-utilities-section_div">
                             <div className="imageXs">
                                 <Image src={toleran.src} width={90}
                                     height={135} className={'img-fluid'} />
@@ -47,7 +47,7 @@ export default function Market() {
                                 procesos ineficientes
                             </p>
                         </Col>
-                        <Col sm={4} xs={12} className="market-utilities-section_div">
+                        <Col sm={4} xs={4} className="market-utilities-section_div">
                             <div className="imageXs">
                                 <Image src={mayoria.src} width={60}
                                     height={135} className={'img-fluid'} />

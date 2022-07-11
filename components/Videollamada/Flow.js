@@ -100,7 +100,6 @@ export default function Market() {
                 <Row>
                     <Col className="p-0">
                         <img src={sistematotemmobie.src} className="img-fluid w-100 mt-5" alt="" />
-
                     </Col>
                 </Row>
             </Container>
