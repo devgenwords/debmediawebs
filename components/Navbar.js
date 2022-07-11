@@ -13,6 +13,7 @@ export default function Home() {
 
     const [expanded, setExpanded] = useState(false);
 
+
     return (
         <>
 
@@ -33,45 +34,45 @@ export default function Home() {
                         <Nav className="ml-auto">
                             <Nav.Link href="/">Home</Nav.Link>
                             <NavDropdown title="Soluciones" id="basic-nav-dropdown">
-                                <NavDropdown.Item>
-                                    <Link className="fulllink" onClick={() => setExpanded(false)} href="/atencion-virtual">
+                                <NavDropdown.Item onClick={() => setExpanded(false)}>
+                                    <Link className="fulllink" href="/atencion-virtual">
                                         Atención virtual
                                     </Link>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)}>
                                     <Link href="/preatendedor">
                                         Chatbot de WhatsApp
                                     </Link>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)}>
                                     <Link href="/fila-virtual">
                                         Fila Virtual
                                     </Link>
 
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)}>
                                     <Link href="/citasonline">
                                         Citas
                                     </Link>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)}>
                                     <Link href="/debq">
                                         Gestion de filas
                                     </Link>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)}>
                                     <Link href="/debsign">
                                         Cartelería digital
 
                                     </Link>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)}>
                                     <Link href="/preatendedor">
                                         Pre atendedor
                                     </Link>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)}>
                                     <Link href="/encuestas">
                                         Encuestas
                                     </Link>
@@ -86,19 +87,19 @@ export default function Home() {
                                         Blog
                                     </Link>
                                 </NavDropdown.Item>
-                                <NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)}>
                                     <Link href="/">
                                         Casos de éxito
                                     </Link>
 
                                 </NavDropdown.Item>
-                                <NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)}>
                                     <Link href="/">
                                         Recursos descargables
                                     </Link>
 
                                 </NavDropdown.Item>
-                                <NavDropdown.Item>
+                                <NavDropdown.Item onClick={() => setExpanded(false)}>
                                     <Link href="/">
                                         Centro de ayuda
                                     </Link>
