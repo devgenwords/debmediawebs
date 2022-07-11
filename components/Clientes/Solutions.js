@@ -177,8 +177,7 @@ export default function Solutions(props) {
 
                                                         {dataJson.map((item, index) => (
                                                             <div className="contentLogo" key={index}>
-                                                                <Image src={`/brandsNew/${item.image.url}`} width={item.image.width}
-                                                                    height={item.image.height} className={'img-fluid'} />
+                                                                <img src={`/brandsNew/${item.image.url}`} alt={item.image.url} className={'img-fluid'} />
                                                             </div>
                                                         ))}
                                                     </Tab.Pane>
