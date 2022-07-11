@@ -47,12 +47,13 @@ nav.navScroll {
 nav.navbar.navbar-expand-lg {
     background-color: #f6f7fb;
     z-index: 1;
-    margin-top: 1rem;
+   
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 
     @media (min-width: 992px) {
         background-color: transparent;
+        margin-top: 1rem;
     }
 }
 
@@ -98,6 +99,22 @@ nav.navbar.navbar-expand-lg {
         margin-left: 0 !important;
     }
 
+    border: 0 !important;
+}
+
+.navbar a.nav-link.active {
+    color: #232C61 !important;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 35, 44, 97.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.navbar-toggler-icon {
+    width: 1.8em !important;
+}
+
+.navbar-toggler {
     border: 0 !important;
 }
 
@@ -152,7 +169,10 @@ nav.navbar.navbar-expand-lg {
     padding: .5em 1.2em !important;
     color: #fff !important;
     border-radius: 20px;
+    text-align: center;
 }
+
+
 
 .ml-auto.navbar-nav a {
     margin-left: 15px;

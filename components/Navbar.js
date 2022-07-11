@@ -3,7 +3,10 @@ import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 import Image from 'next/image'
 import mypic from '../asset/imgs/logo.png'
 import Link from 'next/link'
-export default function Home() {
+import { useRouter } from 'next/router'
+
+
+export default function Home(props) {
     const [scroll, setScroll] = useState(false);
     useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -12,12 +15,11 @@ export default function Home() {
     }, []);
 
     const [expanded, setExpanded] = useState(false);
-
+    const router = useRouter();
+    console.log(router);
 
     return (
         <>
-
-
             <Navbar expanded={expanded} fixed="top" expand="lg" className={scroll ? "navScroll" : ""}>
                 <Container>
                     <Navbar.Brand href="#home">
@@ -31,7 +33,7 @@ export default function Home() {
                     </Navbar.Brand>
                     <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                        <Nav className="ml-auto">
+                        <Nav activeKey={router.pathname} className="ml-auto">
                             <Nav.Link href="/">Home</Nav.Link>
                             <NavDropdown title="Soluciones" id="basic-nav-dropdown">
                                 <NavDropdown.Item onClick={() => setExpanded(false)}>
