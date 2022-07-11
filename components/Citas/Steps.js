@@ -75,7 +75,7 @@ export default function Solutions() {
                             </div>
                             <div className="setps-section_citas_div-img  d-block d-sm-none">
                                 <Image src={check_white.src} width={60}
-                                    height={50} className={'img-fluid'} />
+                                    height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_citas_title">
                                 Evita esperas  <br className="d-none d-sm-block" />innecesarias
@@ -142,8 +142,8 @@ export default function Solutions() {
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
-                                                <Image src={`/citastabs/${item.image.url}`} width={item.image.width}
-                                                    height={item.image.height} className={'img-fluid'} />
+                                     
+                                                    <img src={`/citastabs/${item.image.url}`} alt={item.text} className={'img-fluid'} />
                                             </Col>
                                         </Row>
                                     </Accordion.Body>

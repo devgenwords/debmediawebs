@@ -67,7 +67,7 @@ export default function Solutions() {
                             </div>
                             <div className="setps-section_preatendedor_div-img  d-block d-sm-none">
                                 <Image src={check_white.src} width={60}
-                                    height={50} className={'img-fluid'} />
+                                    height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_preatendedor_title">
                                 Mejora los tiempos

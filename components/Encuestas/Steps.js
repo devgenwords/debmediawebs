@@ -70,7 +70,7 @@ export default function Solutions() {
                             </div>
                             <div className="setps-section_encuestas_div-img  d-block d-sm-none">
                                 <Image src={check_white.src} width={60}
-                                    height={50} className={'img-fluid'} />
+                                    height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_encuestas_title">
                                 Conoce el rendimiento
@@ -98,7 +98,7 @@ export default function Solutions() {
                         <Col className="setps-tabs_content d-none d-sm-block">
                             <Tab.Container id="left-tabs-example" defaultActiveKey="1">
                                 <Row>
-                                    <Col sm={{ span: 6}} >
+                                    <Col sm={{ span: 6 }} >
                                         <Tab.Content>
                                             {dataJson.map((item, index) => (
                                                 <Tab.Pane key={index} eventKey={item.key}>
@@ -106,7 +106,7 @@ export default function Solutions() {
                                                         <Col className="text-center">
                                                             {/* <Image src={`/encuestastabs/${item.image.url}`} width={item.image.width}
                                                                 height={item.image.height} className={'img-fluid'} /> */}
-<img src={`/encuestastabs/${item.image.url}`} alt={item.image.url} className={'img-fluid'} />
+                                                            <img src={`/encuestastabs/${item.image.url}`} alt={item.image.url} className={'img-fluid'} />
                                                         </Col>
 
                                                     </Row>
@@ -140,9 +140,9 @@ export default function Solutions() {
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
-                                                <Image src={`/encuestastabs/${item.image.url}`} width={item.image.width}
-                                                    height={item.image.height} className={'img-fluid'} />
-
+                                                {/* <Image src={`/encuestastabs/${item.image.url}`} width={item.image.width}
+                                                    height={item.image.height} className={'img-fluid'} /> */}
+                                                <img src={`/encuestastabs/${item.image.url}`} alt={item.text} className={'img-fluid'} />
                                             </Col>
                                         </Row>
                                     </Accordion.Body>
