@@ -54,7 +54,7 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-section_title">
-                            Aumenta la productividad<br/> de tus equipos
+                                Aumenta la productividad<br /> de tus equipos
                             </h4>
                         </Col>
                         <Col sm={4} xs={4} className="solutions-section_div">
@@ -133,10 +133,9 @@ export default function Solutions() {
                                     <Accordion.Body>
                                         <Row>
                                             <Col sm={item.sm} xs={item.xs} className="text-center">
-                                                <Image src={`/hometabs/${item.image.url}`} width={item.image.width}
-                                                    height={item.image.height} className={'img-fluid'} />
+                                                <img src={`/hometabs/${item.image.url}`} alt={item.title} className={'img-fluid'} />
                                             </Col>
-                                            <Col  sm={item.sm} xs={item.xs} className="solutions-tabs_content-title">
+                                            <Col sm={item.sm} xs={item.xs} className="solutions-tabs_content-title">
                                                 <h2>
                                                     <b>{item.main}</b>{item.secu}
                                                 </h2>

@@ -15,11 +15,16 @@ import Image from 'next/image'
 
 export default function Solutions(props) {
     const [dataJson, setData] = useState([]);
-    const [selectedCat, setCat] = useState("banca");
+    const [selectedCat, setCat] = useState("all");
 
     useEffect(() => {
-        const result = Data.filter(logo => logo.category === selectedCat);
-        setData(result);
+        if (selectedCat !== "all") {
+            const result = Data.filter(logo => logo.category === selectedCat);
+            setData(result);
+        } else {
+            const result = Data.filter(logo => logo.home === true);
+            setData(result);
+        }
     }, [selectedCat]);
 
     return (
@@ -43,7 +48,7 @@ export default function Solutions(props) {
             <Container fluid className="clients-page mb-5">
                 <Row>
                     <Col className="p-0">
-                        <Tab.Container id="left-tabs-example" defaultActiveKey="banca">
+                        <Tab.Container id="left-tabs-example">
                             <Row>
                                 <Col sm={12}>
                                     <Nav variant="pills" className="flex-column">
@@ -69,7 +74,7 @@ export default function Solutions(props) {
                                             </Col>
                                             <Col className="p-0">
                                                 <Nav.Item className="clients-page_section">
-                                                    <Nav.Link eventKey="salud" className="clients"telcos onClick={() => setCat("salud")}>
+                                                    <Nav.Link eventKey="salud" className="clients" telcos onClick={() => setCat("salud")}>
                                                         <Row className="d-flex justify-content-center">
                                                             <Col xs={12}>
                                                                 <div className="text-center">
@@ -88,7 +93,7 @@ export default function Solutions(props) {
                                             </Col>
                                             <Col className="p-0">
                                                 <Nav.Item className="clients-page_section">
-                                                    <Nav.Link eventKey="gobierno" className="clients"telcos onClick={() => setCat("gobierno")}>
+                                                    <Nav.Link eventKey="gobierno" className="clients" telcos onClick={() => setCat("gobierno")}>
                                                         <Row className="d-flex justify-content-center">
                                                             <Col xs={12}>
                                                                 <div className="text-center">
@@ -107,7 +112,7 @@ export default function Solutions(props) {
                                             </Col>
                                             <Col className="p-0">
                                                 <Nav.Item className="clients-page_section">
-                                                    <Nav.Link eventKey="retail" className="clients"telcos onClick={() => setCat("retail")}>
+                                                    <Nav.Link eventKey="retail" className="clients" telcos onClick={() => setCat("retail")}>
                                                         <Row className="d-flex justify-content-center">
                                                             <Col xs={12}>
                                                                 <div className="text-center">
@@ -127,7 +132,7 @@ export default function Solutions(props) {
                                             </Col>
                                             <Col className="p-0">
                                                 <Nav.Item className="clients-page_section">
-                                                    <Nav.Link eventKey="telcos" className="clients"telcos onClick={() => setCat("telcos")}>
+                                                    <Nav.Link eventKey="telcos" className="clients" telcos onClick={() => setCat("telcos")}>
                                                         <Row className="d-flex justify-content-center">
                                                             <Col xs={12}>
                                                                 <div className="text-center">
@@ -146,7 +151,7 @@ export default function Solutions(props) {
                                             </Col>
                                             <Col className="p-0">
                                                 <Nav.Item className="clients-page_section">
-                                                    <Nav.Link eventKey="utilities" className="clients"telcos onClick={() => setCat("utilities")}>
+                                                    <Nav.Link eventKey="utilities" className="clients" telcos onClick={() => setCat("utilities")}>
                                                         <Row className="d-flex justify-content-center">
                                                             <Col xs={12}>
                                                                 <div className="text-center">
@@ -168,22 +173,37 @@ export default function Solutions(props) {
                                 </Col>
                                 <Container>
                                     <Row>
-                                        <Col sm={12} className="mt-5">
-                                            <Tab.Content className="d-flex">
-                                                <div className="w-100">
-                                                    <Tab.Pane eventKey={selectedCat} className="text-center ">
+                                        {
+                                            selectedCat !== "all" &&
+                                            <>
+                                                <Col sm={12} className="mt-5">
+                                                    <Tab.Content className="d-flex">
+                                                        <div className="w-100">
+                                                            <Tab.Pane eventKey={selectedCat} className="text-center ">
+                                                                {dataJson.map((item, index) => (
+                                                                    <div className="contentLogo" key={index}>
+                                                                        <img src={`/brandsNew/${item.image.url}`} alt={item.image.url} className={'img-fluid'} />
+                                                                    </div>
+                                                                ))}
+                                                            </Tab.Pane>
+                                                        </div>
+                                                    </Tab.Content>
+                                                </Col>
+                                            </>
+                                        }
+                                        {
+                                            selectedCat === "all" &&
+                                            <>
+                                                <Col sm={12} className="mt-5 text-center">
+                                                    {dataJson.map((item, index) => (
+                                                        <div className="contentLogo" key={index}>
+                                                            <img src={`/brandsNew/${item.image.url}`} alt={item.image.url} className={'img-fluid'} />
+                                                        </div>
+                                                    ))}
+                                                </Col>
+                                            </>
+                                        }
 
-
-
-                                                        {dataJson.map((item, index) => (
-                                                            <div className="contentLogo" key={index}>
-                                                                <img src={`/brandsNew/${item.image.url}`} alt={item.image.url} className={'img-fluid'} />
-                                                            </div>
-                                                        ))}
-                                                    </Tab.Pane>
-                                                </div>
-                                            </Tab.Content>
-                                        </Col>
                                     </Row>
                                 </Container>
 

@@ -79,7 +79,7 @@ export default function Brands() {
                                     <div className="services-section_service d-flex justify-content-center">
 
                                         <div className="services-section_service-img">
-                                            <Image src={`/services/${item.image.url}`} width={item.image.width} height={item.image.height} />
+                                            <img src={`/services/${item.image.url}`} width={item.image.width} height={item.image.height} />
                                         </div>
                                         <h4 className="services-section_service-title">{item.name}</h4>
                                         <Link href={item.url} passHref>

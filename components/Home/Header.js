@@ -32,7 +32,7 @@ export default function Header() {
                     <Container>
                         <Row>
                             <Col className="mainTitles">
-                            <span className="header-home_product">Customer Journey Manager</span>
+                                <span className="header-home_product">Customer Journey Manager</span>
                                 <h1 className="header-home_title">
                                     Haz más eficientes tus<br className="d-none d-sm-block" /> canales de atención
                                 </h1>
@@ -40,9 +40,9 @@ export default function Header() {
                                     Software para <b>gestionar la atención<br className="d-none d-sm-block" /> al cliente virtual</b> y presencial.
                                 </p>
                                 <Link href="/contacto">
-                                <button className="header-home_demobutton">
-                                Solicita un demo
-                                </button>
+                                    <button className="header-home_demobutton">
+                                        Solicita un demo
+                                    </button>
                                 </Link>
                             </Col>
                         </Row>
@@ -58,7 +58,7 @@ export default function Header() {
                 </Row>
             </Container>
         </>
-        
+
     );
 }
 
