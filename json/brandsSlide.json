@@ -22,7 +22,7 @@
   {
     "name": "allanz",
     "home": true,
-    "category": "aseguradora",
+    "category": "banca",
     "image": {
       "url": "allianz.png",
       "width": 250,
@@ -42,7 +42,7 @@
   {
     "name": "mapfre",
     "home": true,
-    "category": "aseguradora",
+    "category": "banca",
     "image": {
       "url": "mapfre.png",
       "width": 250,
@@ -62,7 +62,7 @@
   {
     "name": "lacaja",
     "home": true,
-    "category": "aseguradora",
+    "category": "banca",
     "image": {
       "url": "lacaja.png",
       "width": 250,
@@ -132,7 +132,7 @@
   {
     "name": "QBE",
     "home": true,
-    "category": "aseguradora",
+    "category": "banca",
     "image": {
       "url": "QBE.png",
       "width": 250,
@@ -272,7 +272,7 @@
   {
     "name": "sancristobal",
     "home": true,
-    "category": "aseguradora",
+    "category": "banca",
     "image": {
       "url": "sancristobal.png",
       "width": 250,
@@ -493,7 +493,7 @@
   {
     "name": "aca",
     "home": false,
-    "category": "aseguradora",
+    "category": "banca",
     "image": {
       "url": "aca.png",
       "width": 250,
@@ -523,7 +523,7 @@
   {
     "name": "federacionpatronal",
     "home": false,
-    "category": "aseguradora",
+    "category": "banca",
     "image": {
       "url": "federacionpatronal.png",
       "width": 250,
@@ -533,7 +533,7 @@
   {
     "name": "atmseguros",
     "home": false,
-    "category": "aseguradora",
+    "category": "banca",
     "image": {
       "url": "atmseguros.png",
       "width": 250,
@@ -573,7 +573,7 @@
   {
     "name": "nacionalseguros",
     "home": false,
-    "category": "aseguradora",
+    "category": "banca",
     "image": {
       "url": "nacionalseguros.png",
       "width": 250,
