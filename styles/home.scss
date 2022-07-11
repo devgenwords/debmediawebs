@@ -116,7 +116,7 @@
     &_text {
         text-align: center;
         color: #404041;
-        margin-top: 4em;
+        margin-top: 16em;
 
         @media (min-width: 992px) {
             margin-top: 2em;
@@ -137,10 +137,10 @@
 
 .image-container {
     position: absolute;
-    width: 325px;
-    height: 510px;
-    right: 0;
-    bottom: -190px;
+    width: 370px;
+    height: 610px;
+    right: -20px;
+    bottom: -270px;
     z-index: 0;
 
 

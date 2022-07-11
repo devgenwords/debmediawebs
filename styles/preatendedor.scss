@@ -129,12 +129,12 @@
 
 .image-container-preatendedor {
     position: absolute;
-    width: 395px;
-    height: 490px;
+    width: 340px;
+    height: 560px;
     right: 0;
-    bottom: -5px;
+    bottom: -55px;
     z-index: 0;
-
+    
     @media (min-width: 992px) {
         display: block;
         width: 650px;

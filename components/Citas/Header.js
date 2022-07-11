@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
 import mypic from '../../asset/imgs/citas/main.png'
+import mypicxs from '../../asset/imgs/citas/main-citas.png'
 import shape1 from '../../asset/imgs/home/headershape1.svg'
 import shape2 from '../../asset/imgs/home/headershape2.svg'
 import shape3 from '../../asset/imgs/home/headershape3.svg'
@@ -17,7 +18,8 @@ export default function Header() {
             <header>
                 <Container fluid className="citas-home">
                     <div className={'image-container-citas'}>
-                        <Image src={mypic.src} layout="fill" className={'image'} />
+                    <Image src={mypic.src} layout="fill" className={'image d-none d-sm-block'} />
+                        <Image src={mypicxs.src} layout="fill" className={'image d-block d-sm-none'} />
                     </div>
                     <div className="d-none d-sm-block">
                         <img src={shape3.src} className="citas-home_shape3" />
