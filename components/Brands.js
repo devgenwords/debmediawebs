@@ -26,7 +26,8 @@ export default function Brands() {
     const [images, setImages] = useState([]);
 
     useEffect(() => {
-        setImages(BrandsData);
+        const result = BrandsData.filter(logo => logo.home === true);
+        setImages(result);
     }, []);
 
     return (
@@ -38,7 +39,7 @@ export default function Brands() {
                             spaceBetween={20}
                             slidesPerView={2}
                             freeMode={false}
-                            loop={true}
+                            loop={false}
                             pagination={{
                                 clickable: true,
                                 dynamicBullets: true,

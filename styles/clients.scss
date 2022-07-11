@@ -1,0 +1,10 @@
+.clients-header {
+    background-color: #F6F7FB;
+    padding-top: 7em;
+    padding-bottom: 13em;
+
+    @media (min-width: 992px) {
+        padding-top: 7em;
+        padding-bottom: 13em;
+    }
+}

@@ -1,6 +1,18 @@
 [
   {
+    "name": "itau",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "itau.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
     "name": "movistar",
+    "home": true,
+    "category": "telco",
     "image": {
       "url": "movistar.png",
       "width": 250,
@@ -8,55 +20,19 @@
     }
   },
   {
-    "name": "lacaja",
+    "name": "allanz",
+    "home": true,
+    "category": "aseguradora",
     "image": {
-      "url": "lacaja.png",
-      "width": 250,
-      "height": 110
-    }
-  },
-  {
-    "name": "davivienda",
-    "image": {
-      "url": "davivienda.png",
-      "width": 250,
-      "height": 110
-    }
-  },
-  {
-    "name": "coopaca",
-    "image": {
-      "url": "coopaca.png",
-      "width": 250,
-      "height": 110
-    }
-  },
-  {
-    "name": "zurich",
-    "image": {
-      "url": "Zurich-logo.png",
-      "width": 250,
-      "height": 110
-    }
-  },
-  {
-    "name": "aerolineas",
-    "image": {
-      "url": "aerolineasargentinas.png",
-      "width": 250,
-      "height": 110
-    }
-  },
-  {
-    "name": "mapfre",
-    "image": {
-      "url": "mapfre.png",
+      "url": "allianz.png",
       "width": 250,
       "height": 110
     }
   },
   {
     "name": "comeva",
+    "home": true,
+    "category": "banca",
     "image": {
       "url": "comeva.png",
       "width": 250,
@@ -64,7 +40,59 @@
     }
   },
   {
+    "name": "mapfre",
+    "home": true,
+    "category": "aseguradora",
+    "image": {
+      "url": "mapfre.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "davivienda",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "davivienda.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "lacaja",
+    "home": true,
+    "category": "aseguradora",
+    "image": {
+      "url": "lacaja.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "coomeva",
+    "home": true,
+    "category": "salud",
+    "image": {
+      "url": "comeva.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "superviele",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "superviele.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
     "name": "banco-ciudad",
+    "home": true,
+    "category": "banca",
     "image": {
       "url": "bancociudad.png",
       "width": 250,
@@ -72,15 +100,229 @@
     }
   },
   {
-    "name": "almundo",
+    "name": "aerolineas",
+    "home": true,
+    "category": "retail",
     "image": {
-      "url": "almundo.png",
+      "url": "aerolineasargentinas.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "sancorsalud",
+    "home": true,
+    "category": "salud",
+    "image": {
+      "url": "sancorsalud.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "huawei",
+    "home": true,
+    "category": "retail",
+    "image": {
+      "url": "huawei.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "QBE",
+    "home": true,
+    "category": "aseguradora",
+    "image": {
+      "url": "QBE.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "toyota",
+    "home": true,
+    "category": "retail",
+    "image": {
+      "url": "toyota.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "coomeva",
+    "home": true,
+    "category": "salud",
+    "image": {
+      "url": "coomeva.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "WOM",
+    "home": true,
+    "category": "telco",
+    "image": {
+      "url": "wom.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "cocha",
+    "home": true,
+    "category": "retail",
+    "image": {
+      "url": "cocha.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "coopaca",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "coopaca.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "durango",
+    "home": true,
+    "category": "gobierno",
+    "image": {
+      "url": "durango.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "sudameris",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "sudameris.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "Farmacity_logo",
+    "home": true,
+    "category": "retail",
+    "image": {
+      "url": "Farmacity_logo.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "bancopatagonia",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "bancopatagonia.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "comafi",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "comafi.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "barrik",
+    "home": true,
+    "category": "utilities",
+    "image": {
+      "url": "barrik.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "edenor",
+    "home": true,
+    "category": "utilities",
+    "image": {
+      "url": "edenor.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "metrogas",
+    "home": true,
+    "category": "utilities",
+    "image": {
+      "url": "metrogas.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "sancristobal",
+    "home": true,
+    "category": "aseguradora",
+    "image": {
+      "url": "sancristobal.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "sanatorioamericano",
+    "home": true,
+    "category": "salud",
+    "image": {
+      "url": "sanatorioamericano.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "sommiercenter",
+    "home": true,
+    "category": "retail",
+    "image": {
+      "url": "sommiercenter.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "favaloro",
+    "home": true,
+    "category": "salud",
+    "image": {
+      "url": "favaloro-1.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "shopgallery",
+    "home": true,
+    "category": "retail",
+    "image": {
+      "url": "shopgallery.png",
       "width": 250,
       "height": 110
     }
   },
   {
     "name": "onvacation",
+    "home": true,
+    "category": "retail",
     "image": {
       "url": "onvacation.png",
       "width": 250,
@@ -88,11 +330,366 @@
     }
   },
   {
-    "name": "huawei",
+    "name": "credicentro",
+    "home": true,
+    "category": "banca",
     "image": {
-      "url": "huawei.png",
+      "url": "credicentro.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "fondecom",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "fondecom.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "credicentro2",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "credicentro2.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "almundo",
+    "home": false,
+    "category": "retail",
+    "image": {
+      "url": "almundo.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "uade",
+    "home": false,
+    "category": "retail",
+    "image": {
+      "url": "uade.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "s21",
+    "home": false,
+    "category": "retail",
+    "image": {
+      "url": "s21.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "vicentelopez",
+    "home": false,
+    "category": "gobierno",
+    "image": {
+      "url": "vicentelopez.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "omint",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "omint.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "municipalidadcordoba",
+    "home": false,
+    "category": "gobierno",
+    "image": {
+      "url": "municipalidadcordoba.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "tigremunicipio",
+    "home": false,
+    "category": "gobierno",
+    "image": {
+      "url": "tigremunicipio.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "diagnosticoparque",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "diagnosticoparque.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "fleni",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "fleni.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "moreno",
+    "home": false,
+    "category": "gobierno",
+    "image": {
+      "url": "moreno.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "municipodehurlingam",
+    "home": false,
+    "category": "gobierno",
+    "image": {
+      "url": "municipodehurlingam.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "viedma",
+    "home": false,
+    "category": "gobierno",
+    "image": {
+      "url": "viedma.png",
       "width": 250,
       "height": 110
     }
   }
+  ,
+  {
+    "name": "osundr",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "osundr.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "aca",
+    "home": false,
+    "category": "aseguradora",
+    "image": {
+      "url": "aca.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "iosfa",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "iosfa.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "tts",
+    "home": false,
+    "category": "retail",
+    "image": {
+      "url": "tts.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "federacionpatronal",
+    "home": false,
+    "category": "aseguradora",
+    "image": {
+      "url": "federacionpatronal.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "atmseguros",
+    "home": false,
+    "category": "aseguradora",
+    "image": {
+      "url": "atmseguros.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "chistrus",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "chistrus.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "unimossalud",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "unimossalud.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "tropical",
+    "home": false,
+    "category": "retail",
+    "image": {
+      "url": "tropical.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "nacionalseguros",
+    "home": false,
+    "category": "aseguradora",
+    "image": {
+      "url": "nacionalseguros.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "felixbulnes",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "felixbulnes.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "lobernechea",
+    "home": false,
+    "category": "gobierno",
+    "image": {
+      "url": "lobernechea.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "nuevaimperial",
+    "home": false,
+    "category": "gobierno",
+    "image": {
+      "url": "nuevaimperial.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "fricke",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "fricke.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "aguascordobesas",
+    "home": false,
+    "category": "utilities",
+    "image": {
+      "url": "aguascordobesas.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "cmp",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "cmp.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "tesla",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "tesla.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "tesla",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "tesla.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "enersa",
+    "home": false,
+    "category": "utilities",
+    "image": {
+      "url": "enersa.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "selma",
+    "home": false,
+    "category": "retail",
+    "image": {
+      "url": "selma.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "farma24",
+    "home": false,
+    "category": "salud",
+    "image": {
+      "url": "farma24.png",
+      "width": 250,
+      "height": 110
+    }
+  }
+  
+  
 ]
