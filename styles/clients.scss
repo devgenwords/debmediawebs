@@ -4,7 +4,63 @@
     padding-bottom: 13em;
 
     @media (min-width: 992px) {
-        padding-top: 7em;
-        padding-bottom: 13em;
+        padding-top: 12em;
+        padding-bottom: 8em;
     }
+}
+
+.clients-page_section.nav-item a {
+    height: 170px !important;
+    border-radius: 0 !important;
+    padding-top: 35px;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+a#left-tabs-example-tab-banca {
+    background-color: #173EA3;
+}
+
+a#left-tabs-example-tab-salud {
+    background-color: #69B8EF;
+}
+
+a#left-tabs-example-tab-gobierno {
+    background-color: #5826E7;
+}
+
+a#left-tabs-example-tab-retail {
+    background-color: #F48700;
+}
+
+a#left-tabs-example-tab-telcos {
+    background-color: #1B8CF4;
+}
+
+a#left-tabs-example-tab-utilities {
+    background-color: #86BE55;
+}
+
+
+.white {
+    color: #fff !important;
+}
+
+.clients.nav-link.active {
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    height: 200px !important;
+    margin-top: -20px;
+}
+
+.clients-page_section-name  {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.contentLogo {
+    width: 20% !important;
+    display: inline-block;
+    padding: 10px;
 }

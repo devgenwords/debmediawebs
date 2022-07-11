@@ -31,6 +31,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body, html {
+    overflow-x: hidden;
+}
 
 
 nav.navScroll {
@@ -231,3 +234,4 @@ nav.navbar.navbar-expand-lg {
     }
     
 }
+

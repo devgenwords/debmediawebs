@@ -41,11 +41,11 @@ export default function Solutions() {
                             </div>
 
                             <h4 className="setps-section_title">
-                            Haz más eficientes
+                                Haz más eficientes
                                 <br className="d-none d-sm-block" /> tus recursos
                             </h4>
                             <p className="setps-section_parraf">
-                            Para ofrecer un servicio ágil 
+                                Para ofrecer un servicio ágil
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-section_div">
@@ -58,10 +58,10 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_title">
-                            Ofrece una experiencia simple
+                                Ofrece una experiencia simple
                             </h4>
                             <p className="setps-section_parraf">
-                            Sin roces y con menos espera.
+                                Sin roces y con menos espera.
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-section_div">
@@ -74,10 +74,10 @@ export default function Solutions() {
                                     height={50} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-section_title">
-                            Mide indicadores clave
+                                Mide indicadores clave
                             </h4>
                             <p className="setps-section_parraf">
-                            Para gestionar mejor a tus equipos.
+                                Para gestionar mejor a tus equipos.
 
                             </p>
                         </Col>
@@ -101,7 +101,7 @@ export default function Solutions() {
                                                         <Col className="text-center">
                                                             <Image src={`/debqtabs/${item.image.url}`} width={item.image.width}
                                                                 height={item.image.height} className={'img-fluid'} />
-                                                                
+
                                                         </Col>
 
                                                     </Row>
@@ -122,9 +122,9 @@ export default function Solutions() {
                                             ))}
                                         </Nav>
                                         <Link href="/contacto">
-                                        <button className="citas-home_demobutton">
-                                            Solicita una demo
-                                        </button>
+                                            <button className="citas-home_demobutton">
+                                                Solicita una demo
+                                            </button>
                                         </Link>
                                     </Col>
                                 </Row>
@@ -139,8 +139,8 @@ export default function Solutions() {
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
-                                            <Image src={`/debqtabs/${item.image.url}`} width={item.image.width}
-                                                                height={item.image.height} className={'img-fluid'} />
+                                                <Image src={`/debqtabs/${item.image.url}`} width={item.image.width}
+                                                    height={item.image.height} className={'img-fluid'} />
                                             </Col>
                                         </Row>
                                     </Accordion.Body>

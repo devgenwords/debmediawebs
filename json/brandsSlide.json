@@ -12,7 +12,7 @@
   {
     "name": "movistar",
     "home": true,
-    "category": "telco",
+    "category": "telcos",
     "image": {
       "url": "movistar.png",
       "width": 250,
@@ -162,7 +162,7 @@
   {
     "name": "WOM",
     "home": true,
-    "category": "telco",
+    "category": "telcos",
     "image": {
       "url": "wom.png",
       "width": 250,
@@ -636,16 +636,6 @@
     "category": "salud",
     "image": {
       "url": "cmp.png",
-      "width": 250,
-      "height": 110
-    }
-  },
-  {
-    "name": "tesla",
-    "home": false,
-    "category": "salud",
-    "image": {
-      "url": "tesla.png",
       "width": 250,
       "height": 110
     }

@@ -65,7 +65,7 @@ export default function Footer() {
                                 <hr />
                                 <ListGroup className="footer-section_list">
                                     <ListGroup.Item>
-                                        <Link href="/">
+                                        <Link href="/clientes">
                                             Clientes
 
                                         </Link>

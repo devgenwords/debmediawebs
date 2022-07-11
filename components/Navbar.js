@@ -78,7 +78,7 @@ export default function Home() {
                                 </NavDropdown.Item>
 
                             </NavDropdown>
-                            <Nav.Link href="#link">Clientes</Nav.Link>
+                            <Nav.Link href="/clientes">Clientes</Nav.Link>
                             <Nav.Link href="#link">Partners</Nav.Link>
                             <NavDropdown title="Recursos" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="https://debmedia.com/blog/">
