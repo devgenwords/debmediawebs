@@ -19,9 +19,7 @@ export default function Solutions(props) {
 
     useEffect(() => {
         const result = Data.filter(logo => logo.category === selectedCat);
-        console.log(result);
         setData(result);
-        console.log(selectedCat);
     }, [selectedCat]);
 
     return (

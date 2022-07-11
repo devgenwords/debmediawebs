@@ -47,12 +47,12 @@ export default function Modern() {
                                 </Col>
                                 <Col xs="12" className="modern-banca-section_feature-text text-center">
                                     <h5>
-                                    Métricas de <br/>
-performance
+                                        Métricas de <br />
+                                        performance
                                     </h5>
                                     <p>
-                                    Conoce el rendimiento de <br/>
-tus canales de atención.
+                                        Conoce el rendimiento de <br />
+                                        tus canales de atención.
                                     </p>
                                 </Col>
                             </Row>
@@ -65,13 +65,13 @@ tus canales de atención.
                                 </Col>
                                 <Col xs="12" className="modern-banca-section_feature-text text-center">
                                     <h5>
-                                    Comunicación<br/>
-centralizada
+                                        Comunicación<br />
+                                        centralizada
                                     </h5>
                                     <p>
-                                    Envía el mensaje correcto <br/>
-a través de SMS, email, <br/>
-WhatsApp o pantallas.
+                                        Envía el mensaje correcto <br />
+                                        a través de SMS, email, <br />
+                                        WhatsApp o pantallas.
                                     </p>
                                 </Col>
                             </Row>

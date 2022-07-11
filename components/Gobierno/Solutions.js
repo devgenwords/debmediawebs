@@ -5,13 +5,17 @@ import check from '../../asset/imgs/gobierno/check.svg'
 import logosbanca from '../../asset/imgs/gobierno/logos-gob.png'
 import check_white from '../../asset/imgs/home/check-m.svg'
 import Data from '../../json/services-gob.json';
+import Logos from '../../json/brandsSlide.json';
 import Link from 'next/link'
 
 
 export default function Solutions(props) {
     const [dataJson, setData] = useState([]);
+    const [logos, setLogos] = useState([]);
 
     useEffect(() => {
+        const result = Logos.filter(logo => logo.category === "gobierno");
+        setLogos(result);
         setData(Data);
     }, []);
 
@@ -86,8 +90,14 @@ export default function Solutions(props) {
                         </h3>
                     </Col>
                     <Col xs="12" className="d-flex justify-content-center">
-                        <Image src={logosbanca.src} width={1200}
-                            height={300} className={'img-fluid'} />
+                        <Row className="d-flex justify-content-center">
+                            {logos.map((item, index) => (
+                                <Col sm={2} xs={4} key={index} className="mb-2">
+                                    <Image src={`/brandsNew/${item.image.url}`} width={item.image.width}
+                                        height={item.image.height} className={'img-fluid'} />
+                                </Col>
+                            ))}
+                        </Row>
                     </Col>
                 </Row>
             </Container>

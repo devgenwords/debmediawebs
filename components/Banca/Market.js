@@ -21,7 +21,7 @@ export default function Market() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm={4} xs={12} className="market-banca-section_div">
+                        <Col sm={4} xs={4} className="market-banca-section_div">
                             <div className="imageXs">
                                 <Image src={inter.src} width={90}
                                     height={135} className={'img-fluid'} />
@@ -35,7 +35,7 @@ export default function Market() {
                                 cómo quieran.
                             </p>
                         </Col>
-                        <Col sm={4} xs={12} className="market-banca-section_div">
+                        <Col sm={4} xs={4} className="market-banca-section_div">
                             <div className="imageXs">
                                 <Image src={resp.src} width={90}
                                     height={135} className={'img-fluid'} />
@@ -48,7 +48,7 @@ export default function Market() {
                                 rápidas y efectivas.
                             </p>
                         </Col>
-                        <Col sm={4} xs={12} className="market-banca-section_div">
+                        <Col sm={4} xs={4} className="market-banca-section_div">
                             <div className="imageXs">
                                 <Image src={banco.src} width={65}
                                     height={135} className={'img-fluid'} />

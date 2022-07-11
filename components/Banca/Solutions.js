@@ -2,16 +2,20 @@ import React, { useState, useEffect } from "react";
 import { Row, Container, Col, Tab, Nav, Accordion } from "react-bootstrap";
 import Image from 'next/image'
 import check from '../../asset/imgs/banca/check.svg'
-import logosbanca from '../../asset/imgs/banca/logos-banca.png'
 import check_white from '../../asset/imgs/home/check-m.svg'
 import Data from '../../json/services-banca.json';
+import Logos from '../../json/brandsSlide.json';
 import Link from 'next/link'
+
 
 
 export default function Solutions(props) {
     const [dataJson, setData] = useState([]);
+    const [logos, setLogos] = useState([]);
 
     useEffect(() => {
+        const result = Logos.filter(logo => logo.category === "banca");
+        setLogos(result);
         setData(Data);
     }, []);
 
@@ -69,7 +73,7 @@ export default function Solutions(props) {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-indus-section_title">
-                            Mejora su experiencia
+                                Mejora su experiencia
                             </h4>
                             <p>  en cada punto de contacto.</p>
                         </Col>
@@ -85,8 +89,14 @@ export default function Solutions(props) {
                         </h3>
                     </Col>
                     <Col xs="12" className="d-flex justify-content-center">
-                        <Image src={logosbanca.src} width={1200}
-                            height={300} className={'img-fluid'} />
+                        <Row className="d-flex justify-content-center">
+                            {logos.map((item, index) => (
+                                <Col sm={2} xs={4} key={index} className="mb-2">
+                                    <Image src={`/brandsNew/${item.image.url}`} width={item.image.width}
+                                        height={item.image.height} className={'img-fluid'} />
+                                </Col>
+                            ))}
+                        </Row>
                     </Col>
                 </Row>
             </Container>
@@ -120,7 +130,7 @@ export default function Solutions(props) {
                                                 <Tab.Pane key={index} eventKey={item.key}>
                                                     <Row>
                                                         <Col xs="12" className="d-flex justify-content-center solutions-indus-tabs_content-img">
-                                                        <Image src={`/bancatabs/${item.image.url}`} width={item.image.width}
+                                                            <Image src={`/bancatabs/${item.image.url}`} width={item.image.width}
                                                                 height={item.image.height} className={'img-fluid'} />
                                                         </Col>
                                                         <Col xs={{ span: 10, offset: 1 }} className="solutions-indus-tabs_content-text">
@@ -128,9 +138,9 @@ export default function Solutions(props) {
                                                                 <b>{item.main}</b>{item.secu}
                                                             </p>
                                                             <Link href={item.url}>
-                                                            <button>
-                                                                Conoce más
-                                                            </button>
+                                                                <button>
+                                                                    Conoce más
+                                                                </button>
                                                             </Link>
                                                         </Col>
                                                     </Row>
