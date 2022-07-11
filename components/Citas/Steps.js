@@ -93,22 +93,19 @@ export default function Solutions() {
                 </div>
                 <Container>
                     <Row>
-                      
+
 
                         <Col className="setps-tabs_citas_content d-none d-sm-block">
                             <Tab.Container id="left-tabs-example" defaultActiveKey="1">
                                 <Row>
-                                    <Col sm={{ span: 5, offset:1 }} className="mt-5">
+                                    <Col sm={{ span: 5, offset: 1 }} className="mt-5">
                                         <Tab.Content>
                                             {dataJson.map((item, index) => (
                                                 <Tab.Pane key={index} eventKey={item.key}>
                                                     <Row>
                                                         <Col className="text-center">
-                                                            <Image src={`/citastabs/${item.image.url}`} width={item.image.width}
-                                                                height={item.image.height} className={'img-fluid'} />
-
+                                                            <img src={`/citastabs/${item.image.url}`} alt={item.image.url} className={'img-fluid'} />
                                                         </Col>
-
                                                     </Row>
                                                 </Tab.Pane>
                                             ))}
@@ -128,9 +125,9 @@ export default function Solutions() {
                                             ))}
                                         </Nav>
                                         <Link href="/contacto">
-                                        <button className="citas-home_demobutton">
-                                            Solicita una demo
-                                        </button>
+                                            <button className="citas-home_demobutton">
+                                                Solicita una demo
+                                            </button>
                                         </Link>
                                     </Col>
                                 </Row>
@@ -145,8 +142,8 @@ export default function Solutions() {
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
-                                            <Image src={`/citastabs/${item.image.url}`} width={item.image.width}
-                                                                height={item.image.height} className={'img-fluid'} />
+                                                <Image src={`/citastabs/${item.image.url}`} width={item.image.width}
+                                                    height={item.image.height} className={'img-fluid'} />
                                             </Col>
                                         </Row>
                                     </Accordion.Body>

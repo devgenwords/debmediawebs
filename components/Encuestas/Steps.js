@@ -104,9 +104,9 @@ export default function Solutions() {
                                                 <Tab.Pane key={index} eventKey={item.key}>
                                                     <Row>
                                                         <Col className="text-center">
-                                                            <Image src={`/encuestastabs/${item.image.url}`} width={item.image.width}
-                                                                height={item.image.height} className={'img-fluid'} />
-
+                                                            {/* <Image src={`/encuestastabs/${item.image.url}`} width={item.image.width}
+                                                                height={item.image.height} className={'img-fluid'} /> */}
+<img src={`/encuestastabs/${item.image.url}`} alt={item.image.url} className={'img-fluid'} />
                                                         </Col>
 
                                                     </Row>

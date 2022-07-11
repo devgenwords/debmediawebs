@@ -100,9 +100,8 @@ export default function Solutions() {
                                                 <Tab.Pane key={index} eventKey={item.key}>
                                                     <Row>
                                                         <Col className="text-center">
-                                                            <Image src={`/mobiletabs/${item.image.url}`} width={item.image.width}
-                                                                height={item.image.height} className={'img-fluid'} />
 
+                                                            <img src={`/mobiletabs/${item.image.url}`} alt={item.image.url} className={'img-fluid maxH75'} />
                                                         </Col>
 
                                                     </Row>
@@ -121,9 +120,9 @@ export default function Solutions() {
                                             ))}
                                         </Nav>
                                         <Link href="/contacto">
-                                        <button className="citas-home_demobutton">
-                                            Solicita una demo
-                                        </button>
+                                            <button className="citas-home_demobutton">
+                                                Solicita una demo
+                                            </button>
                                         </Link>
                                     </Col>
                                 </Row>
@@ -139,8 +138,8 @@ export default function Solutions() {
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
-                                            <Image src={`/mobiletabs/${item.image.url}`} width={item.image.width}
-                                                                height={item.image.height} className={'img-fluid'} />
+                                                <Image src={`/mobiletabs/${item.image.url}`} width={item.image.width}
+                                                    height={item.image.height} className={'img-fluid'} />
                                             </Col>
                                         </Row>
                                     </Accordion.Body>

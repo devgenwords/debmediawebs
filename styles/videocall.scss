@@ -348,13 +348,15 @@
 }
 
 
-
+.max70 {
+    max-width: 70% !important;
+}
 
 .greyBlock {
-    height: 406px;
+    height: 401px;
     position: absolute;
     background-color: #F6F7FB;
-    bottom: 11%;
+    bottom: 13%;
     z-index: -1;
 
     &_text {

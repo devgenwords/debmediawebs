@@ -104,9 +104,8 @@ export default function Solutions() {
                                                 <Tab.Pane key={index} eventKey={item.key}>
                                                     <Row>
                                                         <Col className="text-center mt-5">
-                                                            <Image src={`/debsigntabs/${item.image.url}`} width={item.image.width}
-                                                                height={item.image.height} className={'img-fluid'} />
 
+                                                            <img src={`/debsigntabs/${item.image.url}`} alt={item.image.url} className={'img-fluid'} />
                                                         </Col>
 
                                                     </Row>
@@ -127,9 +126,9 @@ export default function Solutions() {
                                             ))}
                                         </Nav>
                                         <Link href="/contacto">
-                                        <button className="citas-home_demobutton">
-                                            Solicita una demo
-                                        </button>
+                                            <button className="citas-home_demobutton">
+                                                Solicita una demo
+                                            </button>
                                         </Link>
                                     </Col>
                                 </Row>
@@ -144,8 +143,8 @@ export default function Solutions() {
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
-                                            <Image src={`/debsigntabs/${item.image.url}`} width={item.image.width}
-                                                                height={item.image.height} className={'img-fluid'} />
+                                                <Image src={`/debsigntabs/${item.image.url}`} width={item.image.width}
+                                                    height={item.image.height} className={'img-fluid'} />
                                             </Col>
                                         </Row>
                                     </Accordion.Body>

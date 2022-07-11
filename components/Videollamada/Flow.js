@@ -53,9 +53,8 @@ export default function Market() {
                                 <Accordion.Header className="inter1_button" > <div className="inter1_button-step">{index + 1}</div> {item.text}</Accordion.Header>
                                 <Accordion.Body>
                                     <Row>
-                                        <Col xs={12} className="text-center">as
-                                            <Image src={`/videocalltabs/${item.image.url}`} width={300}
-                                                height={760} className={'img-fluid'} />
+                                        <Col xs={12} className="text-center">
+                                            <img src={`/videocalltabs/${item.image.url}`} className={'img-fluid max70'} />
                                         </Col>
                                     </Row>
                                 </Accordion.Body>

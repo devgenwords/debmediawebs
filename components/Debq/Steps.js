@@ -85,9 +85,9 @@ export default function Solutions() {
                 </Container>
             </Container>
             <Container fluid className="setps-tabs_debq relative">
-                <div className={'setps-tabs_debq_shape1-debq'}>
+                {/* <div className={'setps-tabs_debq_shape1-debq'}>
                     <Image src={shape1.src} layout="fill" className={'left'} />
-                </div>
+                </div> */}
                 <Container>
                     <Row>
                         <Col className="setps-tabs_debq_content d-none d-sm-block">
@@ -99,9 +99,7 @@ export default function Solutions() {
                                                 <Tab.Pane key={index} eventKey={item.key}>
                                                     <Row>
                                                         <Col className="text-center">
-                                                            <Image src={`/debqtabs/${item.image.url}`} width={item.image.width}
-                                                                height={item.image.height} className={'img-fluid'} />
-
+                                                            <img src={`/debqtabs/${item.image.url}`} alt={item.image.url} className={'img-fluid'} />
                                                         </Col>
 
                                                     </Row>

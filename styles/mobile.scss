@@ -378,6 +378,7 @@
             .textStep {
                 display: inline-flex;
                 align-items: center;
+                max-width: 430px;
             }
         }
 
@@ -464,11 +465,10 @@
 }
 
 
-
-button.accordion-button {
-    color: #2F9FEE !important;
-    font-weight: 700;
+.maxH75 {
+    max-height: 445px !important
 }
+
 
 .accordion-item {
     border: 0 !important;
@@ -508,7 +508,7 @@ button.accordion-button {
 .lineSteps-mobile {
     width: 4px;
     background-color: #2F9FEE;
-    height: 300px;
+    height: 320px;
     display: block;
     position: absolute;
     top: 3%;
