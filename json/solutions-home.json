@@ -9,7 +9,9 @@
     "key": "citas", 
     "main": "Permite a tus clientes agendar su cita ",
     "secu": "desde canales digitales y organiza el flujo de clientes que te visitan.",
-    "url": "/citasonline"
+    "url": "/citasonline",
+    "xs": 6,
+    "sm": 6
   },
   {
     "title": "Gestión de filas",
@@ -21,7 +23,9 @@
     "key": "debq", 
     "main": "Mejora la atención y obtén el máximo de tu equipo.  ",
     "secu": "Mide indicadores claves y adopta mejores prácticas.",
-    "url": "/debq"
+    "url": "/debq",
+    "xs": 6,
+    "sm": 6
   },
   {
     "title": "Fila Virtual",
@@ -33,7 +37,9 @@
     "key": "filavirtual", 
     "main": "Deja que tus clientes hagan fila desde su móvil  ",
     "secu": "y reduce el tiempo de espera que permanecen dentro de tu sucursal.",
-    "url": "/fila-virtual"
+    "url": "/fila-virtual",
+    "xs": 6,
+    "sm": 6
   },
   {
     "title": "Cartelería digital",
@@ -45,7 +51,9 @@
     "key": "sign", 
     "main": "Personaliza y administra contenido",
     "secu": " para comunicar a tus clientes los mensajes indicados.",
-    "url": "/debsign"
+    "url": "/debsign",
+    "xs": 12,
+    "sm": 6
   },
   {
     "title": "Atención virtual",
@@ -57,7 +65,9 @@
     "key": "videocall", 
     "main": "Atiende más clientes a través de videollamadas ",
     "secu": " y optimiza el tiempo de tu equipo de trabajo.",
-    "url": "/atencion-virtual"
+    "url": "/atencion-virtual",
+    "xs": 6,
+    "sm": 6
   },
   {
     "title": "Encuestas",
@@ -69,7 +79,9 @@
     "key": "encuestas", 
     "main": "Consigue la opinión de tus clientes al instante ",
     "secu": "de ser atendidos y mide el rendimiento de los colaboladores.",
-    "url": "/encuestas"
+    "url": "/encuestas",
+    "xs": 6,
+    "sm": 6
   },
   {
     "title": "Pre atendedor",
@@ -81,7 +93,9 @@
     "key": "preatendedor", 
     "main": "Encamina a tus clientes para que escojan el canal de atención correcto",
     "secu": "y maximiza su experiencia.",
-    "url": "/preatendedor"
+    "url": "/preatendedor",
+    "xs": 6,
+    "sm": 6
   },
   {
     "title": "Chatbot WhatsApp",
@@ -93,6 +107,8 @@
     "key": "wapp", 
     "main": "Encamina a tus clientes para que escojan el canal de atención correcto ",
     "secu": "y maximiza su experiencia.",
-    "url": "/"
+    "url": "/preatendedor",
+    "xs": 6,
+    "sm": 6
   }
 ]
