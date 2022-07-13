@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
 import api from '../../asset/imgs/home/api.svg'
-import performance from '../../asset/imgs/home/performance.png'
+import performance from '../../asset/imgs/home/performance.svg'
 import channel from '../../asset/imgs/home/channels.svg'
 
 
@@ -56,7 +56,7 @@ export default function Modern() {
                             </Row>
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-end">
-                                    <img src={channel.src} className="img-fluid"  />
+                                    <img src={channel.src} className="img-fluid" />
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
