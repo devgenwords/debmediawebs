@@ -48,14 +48,13 @@ export default function Solutions(props) {
             <Container fluid className="clients-page mb-5">
                 <Row>
                     <Col className="p-0">
-                        <Tab.Container id="left-tabs-example">
                             <Row>
                                 <Col sm={12}>
                                     <Nav variant="pills" className="flex-column">
                                         <Row>
                                             <Col className="p-0">
-                                                <Nav.Item className="clients-page_section banca">
-                                                    <Nav.Link eventKey="banca" className="clients" onClick={() => setCat("banca")}>
+                                                <div className="clients-page_section banca">
+                                                    <div className="clients">
                                                         <Row className="d-flex justify-content-center">
                                                             <Col xs={12}>
                                                                 <div className="text-center">
@@ -69,12 +68,12 @@ export default function Solutions(props) {
                                                                 </div>
                                                             </Col>
                                                         </Row>
-                                                    </Nav.Link>
-                                                </Nav.Item>
+                                                    </div>
+                                                </div>
                                             </Col>
                                             <Col className="p-0">
-                                                <Nav.Item className="clients-page_section">
-                                                    <Nav.Link eventKey="salud" className="clients" telcos onClick={() => setCat("salud")}>
+                                                <div className="clients-page_section salud">
+                                                    <div  className="clients">
                                                         <Row className="d-flex justify-content-center">
                                                             <Col xs={12}>
                                                                 <div className="text-center">
@@ -88,12 +87,12 @@ export default function Solutions(props) {
                                                                 </div>
                                                             </Col>
                                                         </Row>
-                                                    </Nav.Link>
-                                                </Nav.Item>
+                                                    </div>
+                                                </div>
                                             </Col>
                                             <Col className="p-0">
-                                                <Nav.Item className="clients-page_section">
-                                                    <Nav.Link eventKey="gobierno" className="clients" telcos onClick={() => setCat("gobierno")}>
+                                                <div className="clients-page_section gobierno">
+                                                    <div  className="clients">
                                                         <Row className="d-flex justify-content-center">
                                                             <Col xs={12}>
                                                                 <div className="text-center">
@@ -107,12 +106,12 @@ export default function Solutions(props) {
                                                                 </div>
                                                             </Col>
                                                         </Row>
-                                                    </Nav.Link>
-                                                </Nav.Item>
+                                                    </div>
+                                                </div>
                                             </Col>
                                             <Col className="p-0">
-                                                <Nav.Item className="clients-page_section">
-                                                    <Nav.Link eventKey="retail" className="clients" telcos onClick={() => setCat("retail")}>
+                                                <div className="clients-page_section retail">
+                                                    <div  className="clients">
                                                         <Row className="d-flex justify-content-center">
                                                             <Col xs={12}>
                                                                 <div className="text-center">
@@ -127,12 +126,12 @@ export default function Solutions(props) {
                                                                 </div>
                                                             </Col>
                                                         </Row>
-                                                    </Nav.Link>
-                                                </Nav.Item>
+                                                    </div>
+                                                </div>
                                             </Col>
                                             <Col className="p-0">
-                                                <Nav.Item className="clients-page_section">
-                                                    <Nav.Link eventKey="telcos" className="clients" telcos onClick={() => setCat("telcos")}>
+                                                <div className="clients-page_section telcos">
+                                                    <div  className="clients">
                                                         <Row className="d-flex justify-content-center">
                                                             <Col xs={12}>
                                                                 <div className="text-center">
@@ -146,12 +145,12 @@ export default function Solutions(props) {
                                                                 </div>
                                                             </Col>
                                                         </Row>
-                                                    </Nav.Link>
-                                                </Nav.Item>
+                                                    </div>
+                                                </div>
                                             </Col>
                                             <Col className="p-0">
-                                                <Nav.Item className="clients-page_section">
-                                                    <Nav.Link eventKey="utilities" className="clients" telcos onClick={() => setCat("utilities")}>
+                                                <div className="clients-page_section utilities">
+                                                    <div  className="clients">
                                                         <Row className="d-flex justify-content-center">
                                                             <Col xs={12}>
                                                                 <div className="text-center">
@@ -165,34 +164,14 @@ export default function Solutions(props) {
                                                                 </div>
                                                             </Col>
                                                         </Row>
-                                                    </Nav.Link>
-                                                </Nav.Item>
+                                                    </div>
+                                                </div>
                                             </Col>
                                         </Row>
                                     </Nav>
                                 </Col>
                                 <Container>
                                     <Row>
-                                        {
-                                            selectedCat !== "all" &&
-                                            <>
-                                                <Col sm={12} className="mt-5">
-                                                    <Tab.Content className="d-flex">
-                                                        <div className="w-100">
-                                                            <Tab.Pane eventKey={selectedCat} className="text-center ">
-                                                                {dataJson.map((item, index) => (
-                                                                    <div className="contentLogo" key={index}>
-                                                                        <img src={`/brandsNew/${item.image.url}`} alt={item.image.url} className={'img-fluid'} />
-                                                                    </div>
-                                                                ))}
-                                                            </Tab.Pane>
-                                                        </div>
-                                                    </Tab.Content>
-                                                </Col>
-                                            </>
-                                        }
-                                        {
-                                            selectedCat === "all" &&
                                             <>
                                                 <Col sm={12} className="mt-5 text-center">
                                                     {dataJson.map((item, index) => (
@@ -202,13 +181,10 @@ export default function Solutions(props) {
                                                     ))}
                                                 </Col>
                                             </>
-                                        }
-
                                     </Row>
                                 </Container>
 
                             </Row>
-                        </Tab.Container>
                     </Col>
                 </Row>
 

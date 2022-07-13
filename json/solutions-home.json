@@ -60,7 +60,7 @@
     "image": {
       "url": "videocall.png",
       "width": 280,
-      "height": 480
+      "height": 520
     },
     "key": "videocall", 
     "main": "Atiende más clientes a través de videollamadas ",
@@ -73,8 +73,8 @@
     "title": "Encuestas",
     "image": {
       "url": "encuestas.png",
-      "width": 260,
-      "height": 480
+      "width": 280,
+      "height": 520
     },
     "key": "encuestas", 
     "main": "Consigue la opinión de tus clientes al instante ",
@@ -87,8 +87,8 @@
     "title": "Pre atendedor",
     "image": {
       "url": "preatendedor.png",
-      "width": 240,
-      "height": 480
+      "width": 260,
+      "height": 520
     },
     "key": "preatendedor", 
     "main": "Encamina a tus clientes para que escojan el canal de atención correcto",
@@ -101,8 +101,8 @@
     "title": "Chatbot WhatsApp",
     "image": {
       "url": "wapp.png",
-      "width": 320,
-      "height": 480
+      "width": 350,
+      "height": 520
     },
     "key": "wapp", 
     "main": "Encamina a tus clientes para que escojan el canal de atención correcto ",

@@ -46,12 +46,12 @@ a#left-tabs-example-tab-utilities {
     color: #fff !important;
 }
 
-.clients.nav-link.active {
-    -webkit-transition: 0.2s ease-in-out;
-    transition: 0.2s ease-in-out;
-    height: 200px !important;
-    margin-top: -20px;
-}
+// .clients.nav-link.active {
+//     -webkit-transition: 0.2s ease-in-out;
+//     transition: 0.2s ease-in-out;
+//     height: 200px !important;
+//     margin-top: -20px;
+// }
 
 .clients-page_section-name  {
     color: #fff;
@@ -63,4 +63,9 @@ a#left-tabs-example-tab-utilities {
     width: 20% !important;
     display: inline-block;
     padding: 10px;
+}
+
+.clients-page_section {
+    height: 210px;
+    padding-top: 50px;
 }

@@ -111,7 +111,7 @@ export default function Solutions() {
                                                                 <b>{item.main}</b>{item.secu}
                                                             </h2>
                                                             <Link href={item.url}>
-                                                                <button className="header-home_demobutton">
+                                                                <button className="buttonSolutions">
                                                                     Ver más
                                                                 </button>
                                                             </Link>

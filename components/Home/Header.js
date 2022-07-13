@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Row, Container, Col, Modal, Button } from "react-bootstrap";
 import Image from 'next/image'
 import mypic from '../../asset/imgs/home/videoShape.svg'
-import mypicxs from '../../asset/imgs/home/videoShape-xs.svg'
+import mypicxs from '../../asset/imgs/home/videoShape-xs.png'
+import video from '../../asset/imgs/home/viewVideo.png'
 import shape1 from '../../asset/imgs/home/headershape1.svg'
 import shape2 from '../../asset/imgs/home/headershape2.svg'
 import Link from 'next/link'
@@ -16,11 +17,14 @@ export default function Header() {
                 <Container fluid className="header-home">
                     <div className={'image-container'}>
                         <Image src={mypic.src} layout="fill" className={'image d-none d-sm-block'} onClick={() => setModalShow(true)} />
-                        <Image src={mypicxs.src} layout="fill" className={'image d-block d-sm-none'} onClick={() => setModalShow(true)} />
+                        <Image src={mypicxs.src} layout="fill" className={'image d-block d-sm-none'} />
                     </div>
                     {/* <div className="d-none d-sm-block">
                         <img src={shape3.src} className="header-home_shape3" />
                     </div> */}
+                    <div className="d-block d-sm-none"  onClick={() => setModalShow(true)}>
+                        <img src={video.src} className="header-home_mainNoti" />
+                    </div>
                     <div className="d-none d-sm-block">
                         <img src={shape1.src} className="header-home_shape1" />
                         <img src={shape2.src} className="header-home_shape2" />
