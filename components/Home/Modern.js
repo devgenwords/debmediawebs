@@ -23,7 +23,7 @@ export default function Modern() {
                         <Col className="modern-section_div">
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-end">
-                                    <Image src={api.src} width={450}
+                                    <Image src={api.src} width={350}
                                         height={350} />
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">
@@ -51,14 +51,14 @@ export default function Modern() {
 
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={performance.src} width={450}
+                                    <Image src={performance.src} width={350}
                                         height={350} />
                                 </Col>
 
                             </Row>
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-end">
-                                    <Image src={channel.src} width={450}
+                                    <Image src={channel.src} width={350}
                                         height={350} />
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">

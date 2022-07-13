@@ -4,7 +4,8 @@ import Image from 'next/image'
 import flow from '../../asset/imgs/videollamada/flow.png'
 import totem from '../../asset/imgs/videollamada/totem.png'
 import sistema from '../../asset/imgs/videollamada/sistema.png'
-import sistematotemmobie from '../../asset/imgs/videollamada/totemmobile.jpg'
+import sistematotemmobie from '../../asset/imgs/videollamada/totemnew.png'
+import sistemaxs from '../../asset/imgs/videollamada/sistemaxs.jpg'
 
 import Data from '../../json/flow-videocall.json';
 
@@ -97,8 +98,26 @@ export default function Market() {
             </Container>
             <Container className=" d-block d-sm-none">
                 <Row>
-                    <Col className="p-0">
-                        <img src={sistematotemmobie.src} className="img-fluid w-100 mt-5" alt="" />
+                    <Col className="p-0" xs={12}>
+                        <div className="greyBlock">
+                            <div className="greyBlock_text">
+                                <h3>También puedes utilizar el sistema dentro de tus sucursales</h3>
+                                <p><b> Permite a tus clientes conectarse a la videollamada con un representante desde un kiosko</b> para disminuir el tiempo dentro de tus sucursales.
+
+                                </p>
+                            </div>
+                            <img src={sistematotemmobie.src} className="img-fluid w-100" alt="sistematotemmobie" />
+                        </div>
+
+                    </Col>
+                    <Col xs={12} className="blueBlock">
+                        <h2>Aprovecha tus <br />
+                            recursos al máximo.
+                        </h2>
+                        <p>
+                        Permite a tus colaboradores<br/> atender a los clientes <br/>desde cualquier lugar.
+                        </p>
+                        <img src={sistemaxs.src} className="img-fluid w-100 mt-5" alt="sistemaxs" />
                     </Col>
                 </Row>
             </Container>
