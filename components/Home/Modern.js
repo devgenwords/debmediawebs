@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
 import api from '../../asset/imgs/home/api.svg'
-import performance from '../../asset/imgs/home/performance.svg'
+import performance from '../../asset/imgs/home/performance.png'
 import channel from '../../asset/imgs/home/channels.svg'
 
 
@@ -23,8 +23,7 @@ export default function Modern() {
                         <Col className="modern-section_div">
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-end">
-                                    <Image src={api.src} width={350}
-                                        height={350} />
+                                    <img src={api.src} className="img-fluid" />
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
@@ -51,15 +50,13 @@ export default function Modern() {
 
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <Image src={performance.src} width={350}
-                                        height={350} />
+                                    <img src={performance.src} className="img-fluid" />
                                 </Col>
 
                             </Row>
                             <Row>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-end">
-                                    <Image src={channel.src} width={350}
-                                        height={350} />
+                                    <img src={channel.src} className="img-fluid"  />
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-text">
                                     <div>
