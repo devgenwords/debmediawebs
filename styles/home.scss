@@ -140,12 +140,11 @@
 
 .image-container {
     position: absolute;
-    width: 373px;
-    height: 638px;
-    right: -4px;
-    bottom: -280px;
+    width: 360px;
+    height: 600px;
+    right: -15px;
+    bottom: -265px;
     z-index: 0;
-
 
     @media (min-width: 992px) {
         display: block;
