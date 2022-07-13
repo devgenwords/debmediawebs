@@ -142,8 +142,7 @@ export default function Solutions() {
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
-                                     
-                                                    <img src={`/citastabs/${item.image.url}`} alt={item.text} className={'img-fluid'} />
+                                                <img src={`/citastabs/${item.image.url}`} alt={item.text} className={'img-fluid'} />
                                             </Col>
                                         </Row>
                                     </Accordion.Body>

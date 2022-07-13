@@ -31,7 +31,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body, html {
+body,
+html {
     overflow-x: hidden;
 }
 
@@ -47,7 +48,7 @@ nav.navScroll {
 nav.navbar.navbar-expand-lg {
     background-color: #f6f7fb;
     z-index: 1;
-   
+
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 
@@ -110,6 +111,7 @@ nav.navbar.navbar-expand-lg {
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 35, 44, 97.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
+
 .navbar-toggler-icon {
     width: 1.8em !important;
 }
@@ -141,26 +143,50 @@ nav.navbar.navbar-expand-lg {
 }
 
 .inter2_button .inter2_button-step {
-    /* color: red !important; */
     font-size: 1.5rem;
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #29336E;
+    color: #29336E;
     border-radius: 50%;
-    padding-top: 3px;
     font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    max-width: 240px;
+    margin-right: 10px;
 }
 
 .inter2_button .inter2_button-text {
     max-width: 240px;
     height: auto;
-    font-size: 14px;
+    font-size: 1em;
+    color: #404041;
+    text-align: left;
 }
 
-.inter2_button.accordion-header button {
-    background-color: #2F9FEE !important;
+.inter2_button.accordion-header button.accordion-button.collapsed {
+    background-color: #F6F7FB !important;
     border-radius: 40px !important;
+    box-shadow: none;
+}
+
+.intern2 .accordion-button:not(.collapsed) {
+    
+    background-color: #e7f1ff;
+    box-shadow: none;
+    border-radius: 40px !important;
+    background-color: #2F9FEE !important;
+    padding: 1.5rem 1.25rem !important;
+    text-align: left;
+    .inter2_button-text {
+        color: #fff !important;
+    }
+    .inter2_button-step {
+        color: #2F9FEE;
+        border: 1px solid #fff;
+        background-color: #fff;
+
+    }
 }
 
 
@@ -258,6 +284,5 @@ div#basic-navbar-nav .dropdown-item:active {
     .mainTitles {
         margin-left: 3%;
     }
-    
-}
 
+}
