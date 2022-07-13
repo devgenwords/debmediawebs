@@ -36,9 +36,9 @@ export default function Market() {
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-encuestas-section_div">
-                            <div className="imageXs">
+                            <div className="imageXs pt-2">
                                 <Image src={equivo.src} width={70}
-                                    height={135} className={'img-fluid'} />
+                                    height={100} className={'img-fluid'} />
                             </div>
 
                             <h4 className="market-encuestas-section_title">

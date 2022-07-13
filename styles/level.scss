@@ -97,9 +97,11 @@
         p {
             text-align: center;
             color: #fff;
-            margin-top: 2em;
+            margin-top: 1em;
             font-size: 1.1rem;
-
+            @media (min-width: 992px) {
+                margin-top: 2em;
+            }
             b {
                 color: #2F9FEE;
             }
@@ -121,6 +123,7 @@
 
 .level-section_text.greyColor p {
     color: #404041;
+
     b {
         color: #232C61;
     }

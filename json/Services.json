@@ -4,7 +4,7 @@
     "url": "/atencion-virtual",
     "image": {
       "url": "videocall.png",
-      "width": 80,
+      "width": 85,
       "height": 120
     }
   },
@@ -31,7 +31,7 @@
     "url": "/citasonline",
     "image": {
       "url": "citas.png",
-      "width": 120,
+      "width": 125,
       "height": 120
     }
   },
@@ -49,8 +49,8 @@
     "url": "/debsign",
     "image": {
       "url": "debsign.png",
-      "width": 140,
-      "height": 90
+      "width": 145,
+      "height": 100
     }
   },
   {
@@ -58,7 +58,7 @@
     "url": "/preatendedor",
     "image": {
       "url": "pre.png",
-      "width": 70,
+      "width": 67,
       "height": 120
     }
   },

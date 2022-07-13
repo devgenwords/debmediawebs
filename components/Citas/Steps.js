@@ -98,7 +98,7 @@ export default function Solutions() {
                         <Col className="setps-tabs_citas_content d-none d-sm-block">
                             <Tab.Container id="left-tabs-example" defaultActiveKey="1">
                                 <Row>
-                                    <Col sm={{ span: 5, offset: 1 }} className="mt-5">
+                                    <Col sm={{ span: 6 }} className="mt-5">
                                         <Tab.Content>
                                             {dataJson.map((item, index) => (
                                                 <Tab.Pane key={index} eventKey={item.key}>
@@ -148,6 +148,7 @@ export default function Solutions() {
                                     </Accordion.Body>
                                 </Accordion.Item>
                             ))}
+                            
                         </Accordion>
                     </Row>
 

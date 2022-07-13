@@ -16,7 +16,7 @@ export default function Modern() {
                     <Row>
                         <Col className="modern-section_maintitle">
                             <h3 className="text-center">
-                                <b>Agiliza los tiempos de espera </b><br />
+                                <b>Agiliza los tiempos de espera </b><br className="d-none d-sm-block"/>
                                 dentro de tus sucursales
 
                             </h3>

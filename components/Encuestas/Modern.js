@@ -15,7 +15,7 @@ export default function Modern() {
                     <Row>
                         <Col className="modern-section_maintitle">
                             <h3 className="text-center">
-                                <b>Eleva la tasa de respuesta hasta 10 veces </b><br />
+                                <b>Eleva la tasa de respuesta hasta 10 veces </b><br className="d-none d-sm-block" />
                                 luego de prestar la atención
 
                             </h3>

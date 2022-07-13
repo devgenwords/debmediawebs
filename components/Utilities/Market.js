@@ -15,7 +15,7 @@ export default function Market() {
                     <Row>
                         <Col className="market-utilities-section_maintitle">
                             <h3 className="text-center">
-                                Los clientes hoy <b>no se <br />
+                                Los clientes hoy <b><br className="d-block d-sm-none"/>no se <br className="d-none d-sm-block"/>
                                     conforman con cualquier cosa </b>
                             </h3>
                         </Col>
@@ -49,7 +49,7 @@ export default function Market() {
                         </Col>
                         <Col sm={4} xs={4} className="market-utilities-section_div">
                             <div className="imageXs">
-                                <Image src={mayoria.src} width={60}
+                                <Image src={mayoria.src} width={90}
                                     height={135} className={'img-fluid'} />
                             </div>
 

@@ -128,10 +128,10 @@
 
 .image-container-videocall {
     position: absolute;
-    width: 320px;
-    height: 535px;
+    width: 325px;
+    height: 545px;
     right: 0;
-    bottom: -85px;
+    bottom: -90px;
     z-index: 0;
 
     @media (min-width: 992px) {
@@ -371,6 +371,7 @@
         padding-right: 2em;
         margin-top: 4em;
         text-align: center;
+
         @media (min-width: 992px) {
             width: 660px;
             padding: 20px 116px;
@@ -383,6 +384,7 @@
             color: #232C61;
             font-weight: 700;
             font-size: 1.5rem;
+
             @media (min-width: 992px) {
                 font-size: 2rem;
             }

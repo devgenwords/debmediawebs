@@ -393,15 +393,15 @@
     &_title {
         color: #2C89E1;
         font-weight: 600;
-        font-size: 1rem;
+        font-size: 1.4rem;
         span {
             color: #404041 !important;
             font-weight: 400 ;
         }
         @media (min-width: 992px) {
             color: #2C89E1;
-        font-weight: 600;
-        font-size: 1.3rem;
+            font-weight: 600;
+            font-size: 1.3rem;
         }
     }
 
@@ -419,10 +419,9 @@
             }
 
             p {
-                font-size: .8rem;
                 @media (min-width: 992px) {
 
-                font-size: 1rem;
+                font-size: 1.2rem;
                 }
             }
 

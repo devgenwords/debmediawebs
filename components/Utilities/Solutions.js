@@ -84,7 +84,7 @@ export default function Solutions(props) {
                     <Col xs="12" className="solutions-indus-section_maintitle">
                         <h3 className="text-center">
                             <b>Trabajamos con organizaciones </b> <br />
-                            que confían en nuestro software. <br />
+                            que confían en <br className="d-block d -sm-none" />  nuestro software. <br />
                         </h3>
                     </Col>
                     <Col xs="12" className="d-flex justify-content-center">
@@ -104,7 +104,7 @@ export default function Solutions(props) {
                     <Row>
                         <Col className="solutions-indus-tabs_title">
                             <h2>
-                                <b> Personaliza</b>  cada punto de interacción  <br />
+                                <b> Personaliza</b>  cada punto de interacción  <br className="d-none d-sm-none" />
                                  y <b>ofrece una atención omnicanal</b>
                             </h2>
                         </Col>
@@ -166,6 +166,11 @@ export default function Solutions(props) {
                                                 <h2>
                                                     <b>{item.main}</b>{item.secu}
                                                 </h2>
+                                                <Link href={item.url}>
+                                                    <button>
+                                                        Conoce más
+                                                    </button>
+                                                </Link>
                                             </Col>
                                         </Row>
                                     </Accordion.Body>

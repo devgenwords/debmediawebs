@@ -12,11 +12,13 @@ export default function Modern() {
             <Container fluid className="modern-banca-section">
                 <Container>
                     <Row>
-                        <Col className="modern-banca-section_maintitle">
+                    <Col className="modern-banca-section_maintitle">
                             <h3 className="text-center">
-                                <b>  Una solución moderna y escalable</b>
+                                <b>  Una solución moderna y escalable para <br className="d-none d-sm-none" />
+                                    laboratorios, clínicas, farmacias y  hospitales</b>
                                 <br />
-                                para organizaciones del gobierno
+                                Ofrece los canales de atención correctos y compite <br className="d-none d-sm-none" />
+                                con entidades 100 % digitalizadas
                             </h3>
                         </Col>
                     </Row>

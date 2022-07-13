@@ -86,7 +86,7 @@ export default function Solutions(props) {
                     <Col xs="12" className="solutions-indus-section_maintitle">
                         <h3 className="text-center">
                             <b>Trabajamos con organizaciones </b> <br />
-                            que confían en nuestro software. <br />
+                            que confían en <br className="d-block d -sm-none" /> nuestro software. <br />
                         </h3>
                     </Col>
                     <Col xs="12" className="d-flex justify-content-center">
@@ -106,7 +106,7 @@ export default function Solutions(props) {
                     <Row>
                         <Col className="solutions-indus-tabs_title">
                             <h2>
-                                <b> Personaliza</b> cada punto de interacción con <br />
+                                <b> Personaliza</b> cada punto de interacción con <br className="d-none d-sm-none" />
                                 los usuarios y <b>ofrece una atención omnicanal</b>
                             </h2>
                         </Col>
@@ -161,13 +161,17 @@ export default function Solutions(props) {
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
-                                                <Image src={`/bancatabs/${item.image.url}`} width={420}
-                                                    height={270} className={'img-fluid'} />
+                                                <img src={`/bancatabs/${item.image.url}`} alt={item.title} className={'img-fluid'} />
                                             </Col>
                                             <Col xs={12} className="solutions-tabs_content-title">
                                                 <h2>
                                                     <b>{item.main}</b>{item.secu}
                                                 </h2>
+                                                <Link href={item.url}>
+                                                    <button>
+                                                        Conoce más
+                                                    </button>
+                                                </Link>
                                             </Col>
                                         </Row>
                                     </Accordion.Body>

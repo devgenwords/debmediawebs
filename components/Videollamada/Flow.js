@@ -47,15 +47,15 @@ export default function Market() {
                 </Container>
             </Container>
             <Container>
-                <Row className="setps-accordion_content intern1 d-block d-sm-none">
+                <Row className="setps-accordion_content intern2 d-block d-sm-none">
                     <Accordion defaultActiveKey="0">
                         {dataJson.map((item, index) => (
                             <Accordion.Item key={index} eventKey={item.key} className="setps-accordion_content-nav">
-                                <Accordion.Header className="inter1_button" > <div className="inter1_button-step">{index + 1}</div> {item.text}</Accordion.Header>
+                                <Accordion.Header className="inter2_button"><div className="inter2_button-step">{index + 1}</div> <div className="inter2_button-text">{item.text}</div></Accordion.Header>
                                 <Accordion.Body>
                                     <Row>
                                         <Col xs={12} className="text-center">
-                                            <img src={`/videocalltabs/${item.image.url}`} className={'img-fluid max70'} />
+                                            <img src={`/videocalltabs/${item.image.url}`} alt={item.text} className={'img-fluid max70'} />
                                         </Col>
                                     </Row>
                                 </Accordion.Body>
@@ -115,7 +115,7 @@ export default function Market() {
                             recursos al máximo.
                         </h2>
                         <p>
-                        Permite a tus colaboradores<br/> atender a los clientes <br/>desde cualquier lugar.
+                            Permite a tus colaboradores<br /> atender a los clientes <br />desde cualquier lugar.
                         </p>
                         <img src={sistemaxs.src} className="img-fluid w-100 mt-5" alt="sistemaxs" />
                     </Col>

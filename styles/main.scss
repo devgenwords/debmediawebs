@@ -188,7 +188,11 @@ nav.navbar.navbar-expand-lg {
 
     }
 }
-
+.intern2 .accordion-body {
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .demo {
     background-color: #2F9FEE !important;
@@ -285,4 +289,11 @@ div#basic-navbar-nav .dropdown-item:active {
         margin-left: 3%;
     }
 
+}
+
+.imageXs {
+    height: 130px;
+    @media (min-width: 992px) {
+       height: 145px;
+    }
 }

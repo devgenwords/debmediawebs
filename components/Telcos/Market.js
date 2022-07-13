@@ -15,7 +15,7 @@ export default function Market() {
                     <Row>
                         <Col className="market-retail-section_maintitle">
                             <h3 className="text-center">
-                                Los clientes hoy <b>no se <br />
+                                Los clientes hoy <b><br className="d-block d-sm-none"/>no se <br className="d-none d-sm-block"/>
                                     conforman con cualquier cosa </b>
                             </h3>
                         </Col>

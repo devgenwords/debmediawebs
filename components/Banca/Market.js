@@ -16,7 +16,7 @@ export default function Market() {
                         <Col className="market-banca-section_maintitle">
                             <h3 className="text-center">
                                 Los clientes de la banca de hoy <br />
-                                <b>no se conforman con cualquier cosa</b>
+                                <b>no se  <br className="d-block d-sm-none" /> conforman con cualquier cosa</b>
                             </h3>
                         </Col>
                     </Row>

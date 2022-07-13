@@ -15,7 +15,7 @@ export default function Market() {
                     <Row >
                         <Col sm="12" className="flow-encuestas-section_maintitle text-center">
                             <h3>
-                                <b>Crea encuestas en pocos pasos
+                                <b>Crea encuestas 
                                 </b><br />
                                 en pocos pasos
 
