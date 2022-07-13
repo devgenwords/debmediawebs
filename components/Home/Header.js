@@ -3,7 +3,7 @@ import { Row, Container, Col, Modal, Button } from "react-bootstrap";
 import Image from 'next/image'
 import mypic from '../../asset/imgs/home/videoShape.svg'
 import mypicxs from '../../asset/imgs/home/videoShape-xs.png'
-import video from '../../asset/imgs/home/viewVideo.png'
+import video from '../../asset/imgs/home/debq.svg'
 import shape1 from '../../asset/imgs/home/headershape1.svg'
 import shape2 from '../../asset/imgs/home/headershape2.svg'
 import Link from 'next/link'
