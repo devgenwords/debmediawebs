@@ -18,17 +18,17 @@ export default function Modern() {
                 <Container>
                     <Row>
                         <Col sm={12} className="industries-section_mainTitle d-flex align-items-center text-center mb-5">
-                            <h2>Organizaciones de múltiples industrias <br/><b>gestionan la experiencia de los clientes con Debmedia.</b></h2>
+                            <h2>Organizaciones de múltiples industrias <br /><b>gestionan la experiencia de los clientes con Debmedia.</b></h2>
                         </Col>
                         <Col sm={12} className="industries-section_divs">
                             <Row>
                                 <Link href="/bancosyfinanzas">
                                     <Col sm={4} offset={1} xs={12} className="industries-section_divs-indu industries-section_divs-banca">
                                         <div>
-                                        <Image src={banca.src} width={50}
-                                            height={50} className={'img-fluid'} />
+                                            <Image src={banca.src} width={50}
+                                                height={50} className={'img-fluid'} />
                                         </div>
-                                        
+
                                         <h4>
                                             Banca y Seguros
                                         </h4>
@@ -100,9 +100,6 @@ export default function Modern() {
                             </Row>
 
                         </Col>
-
-                    </Row>
-                    <Row>
 
                     </Row>
                 </Container>

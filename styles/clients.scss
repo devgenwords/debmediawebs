@@ -1,11 +1,32 @@
 .clients-header {
     background-color: #F6F7FB;
     padding-top: 7em;
-    padding-bottom: 13em;
+    padding-bottom: 3em;
 
     @media (min-width: 992px) {
-        padding-top: 12em;
-        padding-bottom: 8em;
+        padding-top: 11em;
+        padding-bottom: 10em;
+    }
+
+    h1 {
+        color: #232C61;
+        font-weight: 700;
+        font-size: 1.9rem;
+
+        @media (min-width: 992px) {
+            font-size: 2.4rem;
+
+        }
+    }
+
+    p {
+        color: #404041;
+        font-size: 1.2rem;
+
+        @media (min-width: 992px) {
+            font-size: 1.6rem;
+
+        }
     }
 }
 
@@ -53,7 +74,7 @@ a#left-tabs-example-tab-utilities {
 //     margin-top: -20px;
 // }
 
-.clients-page_section-name  {
+.clients-page_section-name {
     color: #fff;
     font-weight: 700;
     font-size: 1.3rem;
@@ -68,4 +89,34 @@ a#left-tabs-example-tab-utilities {
 .clients-page_section {
     height: 210px;
     padding-top: 50px;
+    cursor: pointer;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+
+}
+
+.min230 {
+    min-height: 230px;
+}
+
+.clients-page_section:hover {
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    height: 230px !important;
+    margin-top: -10px;
+}
+
+.h130 {
+    height: 110px !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90% !important;
+    margin: 0 auto;
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
+
+    h4 {
+        width: 200px;
+    }
 }
