@@ -49,7 +49,7 @@
       "height": 290
     },
     "key": "sign", 
-    "main": "Personaliza y administra contenido",
+    "main": "Personaliza y administra contenido ",
     "secu": " para comunicar a tus clientes los mensajes indicados.",
     "url": "/debsign",
     "xs": 12,
@@ -91,7 +91,7 @@
       "height": 520
     },
     "key": "preatendedor", 
-    "main": "Encamina a tus clientes para que escojan el canal de atención correcto",
+    "main": "Encamina a tus clientes para que escojan el canal de atención correcto ",
     "secu": "y maximiza su experiencia.",
     "url": "/preatendedor",
     "xs": 6,
