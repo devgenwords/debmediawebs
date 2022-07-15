@@ -46,7 +46,7 @@
             position: relative;
             text-align: center;
             margin-top: 2rem;
-            margin-bottom: 2em;
+            margin-bottom: 1.5em;
             font-size: 1.2em;
             @media (min-width: 992px) {
                 position: absolute;
@@ -167,4 +167,19 @@
 
 span.quntity span {
     display: inline-block;
+}
+
+.isoImg {
+    position: relative;
+    left: auto;
+    max-width: 190px !important;
+    margin-bottom: 1em;
+    @media (min-width: 992px) {
+        position: absolute;
+        left: 95px;
+        bottom: 0px;
+        max-width: 250px !important;
+
+    }
+
 }
