@@ -80,7 +80,7 @@ nav.navbar.navbar-expand-lg {
 
 .dropdown-menu {
     position: absolute;
-    z-index: 1 !important;
+    z-index: 100 !important;
     display: none;
     min-width: 10rem;
     padding: 0.7rem 0.9em !important;

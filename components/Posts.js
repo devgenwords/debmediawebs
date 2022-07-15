@@ -26,13 +26,58 @@ const basePath = '/asset/imgs/brands'
 
 export default function Brands(props) {
     const [posts, setPosts] = useState([]);
+    const [title, setTitle] = useState({ title: "", sec: "" });
+
     const r = BlogData;
-    BlogData.forEach((value) => {
-        
-    });
-    
+
+
     useEffect(() => {
-        if(props.indistry) {
+        BlogData.forEach((value) => {
+            if (props.indistry) {
+                console.log(value);
+
+            }
+        });
+
+        if (props.indistry) {
+            switch (props.indistry) {
+                case "banca":
+                    setTitle({
+                        title: `Explora contenidos  \n relacionados al `,
+                        sec: "sector financiero"
+                    });
+                    break;
+                case "salud":
+                    setTitle({
+                        title: `Explora contenidos  \n relacionados al la `,
+                        sec: "industria health"
+                    });
+                    break;
+                case "gobierno":
+                    setTitle({
+                        title: `Explora contenidos  \n relacionados al `,
+                        sec: "sector gubernamental"
+                    });
+                    break;
+                case "retail":
+                    setTitle({
+                        title: `Explora contenidos relacionados al \n`,
+                        sec: "sector retail y de servicios"
+                    });
+                    break;
+                case "telcos":
+                    setTitle({
+                        title: `Explora contenidos relacionados al \n`,
+                        sec: "sector retail y de servicios"
+                    });
+                    break;
+                case "utilities":
+                    setTitle({
+                        title: `Explora contenidos relacionados al \n`,
+                        sec: "sector retail y de servicios"
+                    });
+                    break;
+            }
             const filter = BlogData.filter(post => post.indistry === props.indistry);
             setPosts(filter);
         } else {
@@ -45,8 +90,19 @@ export default function Brands(props) {
     const nextRef = useRef(null);
     return (
         <>
-            <Container fluid className="posts-slider">
+            <Container fluid className={"posts-slider " + (props.indistry ? 'noGrey' : '')}>
                 <Container>
+                    {
+                        props.indistry &&
+                        <Row>
+                            <Col className="text-center posts-slider_title">
+                                <h2>
+                                    {title.title} <b>{title.sec}</b>
+                                </h2>
+                            </Col>
+                        </Row>
+                    }
+
                     <Row>
                         <Col>
                             <Swiper
@@ -94,7 +150,7 @@ export default function Brands(props) {
                                             className="posts-slider_content"
                                         >
                                             <div
-                                                 className={"posts-slider_content-post " + (props.indistry ? item.indistry+'_post' : '')}>
+                                                className={"posts-slider_content-post " + (props.indistry ? item.indistry + '_post' : '')}>
                                                 <div>
                                                     <h1>
                                                         {item.title}

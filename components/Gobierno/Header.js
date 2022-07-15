@@ -18,7 +18,7 @@ export default function Header() {
                         <Row>
                             <Col className="mainTitles">
                                 <h1 className="header-gobierno_title">
-                               <b>Mejora la experiencia<br/> de los ciudadanos</b> dentro y  <br className="d-none d-sm-block" />fuera de las sucursales
+                               <b>Mejora la experiencia<br/> de los ciudadanos</b> dentro y  <br className="d-none d-sm-none" />fuera de las sucursales
                                 </h1>
 
                                 <button className="header-gobierno_demobutton">

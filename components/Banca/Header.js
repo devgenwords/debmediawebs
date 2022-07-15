@@ -22,7 +22,7 @@ export default function Header() {
                         <Row>
                             <Col className="mainTitles">
                                 <h1 className="header-banca_title">
-                               <b> Mejora la experiencia<br/> de los clientes</b> dentro y  <br className="d-none d-sm-block" /> fuera de las sucursales
+                               <b> Mejora la experiencia<br/> de los clientes</b> dentro y  <br className="d-none d-sm-none" /> fuera de las sucursales
                                 </h1>
                                 <Link href="/contacto">
                                 <button className="header-banca_demobutton">
