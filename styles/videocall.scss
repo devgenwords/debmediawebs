@@ -3,7 +3,7 @@
     padding-top: 5em;
     padding-bottom: 5em;
     height: 660px;
-    margin-bottom: 1.5em;
+    margin-bottom: 10em;
     position: relative;
 
     &_mainNoti {
@@ -128,11 +128,11 @@
 
 .image-container-videocall {
     position: absolute;
-    width: 325px;
-    height: 545px;
+    width: 375px;
+    height: 635px;
     right: 0;
-    bottom: -90px;
-    z-index: 0;
+    bottom: -180px;
+    z-index: 3;
 
     @media (min-width: 992px) {
         display: block;
@@ -377,7 +377,7 @@
             padding: 20px 116px;
             margin-top: 3em;
             margin-left: 3em;
-            text-align: right;
+            text-align: left;
         }
 
         h3 {

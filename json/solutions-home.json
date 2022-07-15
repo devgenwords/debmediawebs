@@ -3,6 +3,7 @@
     "title": "Citas online",
     "image": {
       "url": "citas.png",
+      "urlXs": "citas_xs.png",
       "width": 360,
       "height": 400
     },
@@ -10,13 +11,14 @@
     "main": "Permite a tus clientes agendar su cita ",
     "secu": "desde canales digitales y organiza el flujo de clientes que te visitan.",
     "url": "/citasonline",
-    "xs": 6,
+    "xs": 12,
     "sm": 6
   },
   {
     "title": "Gestión de filas",
     "image": {
       "url": "filas_new.png",
+      "urlXs": "filas_new_xs.png",
       "width": 400,
       "height": 500
     },
@@ -24,13 +26,14 @@
     "main": "Mejora la atención y obtén el máximo de tu equipo.  ",
     "secu": "Mide indicadores claves y adopta mejores prácticas.",
     "url": "/debq",
-    "xs": 6,
+    "xs": 12,
     "sm": 6
   },
   {
     "title": "Fila Virtual",
     "image": {
       "url": "fila-virtual_new.png",
+      "urlXs": "fila-virtual_new.png",
       "width": 240,
       "height": 480
     },
@@ -45,6 +48,7 @@
     "title": "Cartelería digital",
     "image": {
       "url": "debsign.png",
+      "urlXs": "debsign.png",
       "width": 380,
       "height": 290
     },
@@ -59,6 +63,7 @@
     "title": "Atención virtual",
     "image": {
       "url": "videocall.png",
+      "urlXs": "videocall.png",
       "width": 280,
       "height": 520
     },
@@ -73,6 +78,7 @@
     "title": "Encuestas",
     "image": {
       "url": "encuestas.png",
+      "urlXs": "encuestas.png",
       "width": 280,
       "height": 520
     },
@@ -87,6 +93,7 @@
     "title": "Pre atendedor",
     "image": {
       "url": "preatendedor.png",
+      "urlXs": "preatendedor.png",
       "width": 260,
       "height": 520
     },
@@ -101,6 +108,7 @@
     "title": "Chatbot WhatsApp",
     "image": {
       "url": "wapp.png",
+      "urlXs": "wapp.png",
       "width": 350,
       "height": 520
     },

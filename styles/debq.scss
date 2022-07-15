@@ -3,7 +3,7 @@
     padding-top: 5em;
     padding-bottom: 5em;
     height: 660px;
-    margin-bottom: 1.5em;
+    margin-bottom: 10em;
     position: relative;
 
     &_mainNoti {
@@ -133,11 +133,11 @@
 
 .image-container-debq {
     position: absolute;
-    width: 315px;
-    height: 542px;
+    width: 375px;
+    height: 625px;
     right: 0;
-    bottom: -95px;
-    z-index: 0;
+    bottom: -175px;
+    z-index: 3;
 
     @media (min-width: 992px) {
         display: block;
@@ -185,7 +185,7 @@
 
         h3 {
             color: #232C61;
-            font-size: 1.8rem;
+            font-size: 1.7rem;
 
             font-weight: 700;
         }

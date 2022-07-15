@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Row, Container, Col, Tab, Nav, Accordion } from "react-bootstrap";
 import Image from 'next/image'
 
-import flow from '../../asset/imgs/preatendedor/flow.png'
+import flow1 from '../../asset/imgs/preatendedor/flow1.png'
+import flow2 from '../../asset/imgs/preatendedor/flow2.png'
 import { useMediaQuery } from 'react-responsive'
 
 
@@ -19,14 +20,17 @@ export default function Flow() {
                                 escojan canal de atención más adecuado
                             </h3>
                         </Col>
-                        <Col sm={{ span: 10, offset: 1 }} className="text-center  mt-5">
-                            {/* <img src={wapp.src} className="img-fluid mt-5" alt="" /> */}
-                            <Image src={flow.src} width={980}
-                                height={660} className={'img-fluid'} />
-                        </Col>
-                        
                     </Row>
-                    
+                    <Row className="text-center mt-5 d-flex justify-content-center reverseXs">
+                        <Col xs="12" sm={{ span: 5 }} className="mt-sm-5 mt-3 mr-sm-2 text-center">
+                            <img src={flow2.src} alt="wapp" className={'img-fluid'} />
+                        </Col>
+                        <Col sm={{ span: 6, offset: 1 }} xs="12">
+                            <img src={flow1.src} alt="wapp" className={'img-fluid'} />
+                        </Col>
+
+                    </Row>
+
                 </Container>
             </Container>
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Gobierno/Header"
 import Market from "../components/Gobierno/Market"
 import Solutions from "../components/Gobierno/Solutions"
-import Modern from "../components/Gobierno/Modern"
+import SpecsIndus from "../components/SpecsIndus"
 import Review from "../components/Review"
 import Partner from "../components/Partner"
 import Level from "../components/Level"
@@ -18,12 +18,12 @@ export default function Gobierno() {
       <Header />
       <Market />
       <Solutions color="gobierno" />
-      <Modern />
+      <SpecsIndus />
       <Review />
       <Partner />
       <Level color="industriasColor" />
       <Contact />
-      <Posts />
+      <Posts indistry="gobierno"/>
     </>
   );
 }

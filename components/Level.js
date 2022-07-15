@@ -18,10 +18,10 @@ export default function Level(props) {
     return (
         <>
             <Col className={props.color === "industriasColor" ? "d-none" : "d-block"}>
-                <img src={top.src} className="img-fluid" alt="" />
+                <img src={top.src} className="lineBlue" alt="line" />
             </Col>
             <Col className={props.color === "industriasColor" ? "d-block" : "d-none"}>
-                <img src={topG.src} className="img-fluid" alt="" />
+                <img src={topG.src} className="img-fluid" alt="line" />
             </Col>
             <Container fluid className={props.color === "industriasColor" ? "level-section greyBk" : "level-section"}>
 

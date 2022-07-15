@@ -24,12 +24,21 @@ SwiperCore.use([Autoplay, FreeMode, Pagination]);
 const basePath = '/asset/imgs/brands'
 
 
-export default function Brands() {
+export default function Brands(props) {
     const [posts, setPosts] = useState([]);
-
+    const r = BlogData;
+    BlogData.forEach((value) => {
+        
+    });
+    
     useEffect(() => {
-        setPosts(BlogData);
-    }, []);
+        if(props.indistry) {
+            const filter = BlogData.filter(post => post.indistry === props.indistry);
+            setPosts(filter);
+        } else {
+            setPosts(BlogData);
+        }
+    }, [props]);
 
 
     const prevRef = useRef(null);
@@ -84,7 +93,8 @@ export default function Brands() {
                                         }}
                                             className="posts-slider_content"
                                         >
-                                            <div className="posts-slider_content-post">
+                                            <div
+                                                 className={"posts-slider_content-post " + (props.indistry ? item.indistry+'_post' : '')}>
                                                 <div>
                                                     <h1>
                                                         {item.title}

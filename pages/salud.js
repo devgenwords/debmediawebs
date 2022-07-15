@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Salud/Header"
 import Market from "../components/Salud/Market"
 import Solutions from "../components/Salud/Solutions"
-import Modern from "../components/Salud/Modern"
+import SpecsIndus from "../components/SpecsIndus"
 import Review from "../components/Review"
 import Partner from "../components/Partner"
 import Level from "../components/Level"
@@ -18,12 +18,12 @@ export default function Salud() {
       <Header />
       <Market />
       <Solutions color="salud" />
-      <Modern />
+      <SpecsIndus />
       <Review />
       <Partner />
       <Level color="industriasColor" />
       <Contact />
-      <Posts />
+      <Posts indistry="salud" />
     </>
   );
 }

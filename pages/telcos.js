@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Telcos/Header"
 import Market from "../components/Telcos/Market"
 import Solutions from "../components/Telcos/Solutions"
-import Modern from "../components/Telcos/Modern"
+import SpecsIndus from "../components/SpecsIndus"
 import Review from "../components/Review"
 import Partner from "../components/Partner"
 import Level from "../components/Level"
@@ -18,12 +18,12 @@ export default function Telcos() {
       <Header />
       <Market />
       <Solutions color="telcos" />
-      <Modern />
+      <SpecsIndus />
       <Review />
       <Partner />
       <Level color="industriasColor" />
       <Contact />
-      <Posts />
+      <Posts indistry="telcos" />
     </>
   );
 }

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Retail/Header"
 import Market from "../components/Retail/Market"
 import Solutions from "../components/Retail/Solutions"
-import Modern from "../components/Retail/Modern"
+import SpecsIndus from "../components/SpecsIndus"
 import Review from "../components/Review"
 import Partner from "../components/Partner"
 import Level from "../components/Level"
@@ -18,12 +18,12 @@ export default function Retail() {
       <Header />
       <Market />
       <Solutions color="retail"/>
-      <Modern />
+      <SpecsIndus />
       <Review />
       <Partner />
       <Level color="industriasColor" />
       <Contact />
-      <Posts />
+      <Posts indistry="retail"/>
     </>
   );
 }

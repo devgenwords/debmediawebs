@@ -10,13 +10,12 @@
 
 .solutions-indus-section {
     margin-top: 2em;
-    background-color: #232C61;
+    background-color: #F6F7FB;
     // border-top-left-radius: 30px;
     // border-top-right-radius: 30px;
     padding-bottom: 1em;
 
     @media (min-width: 992px) {
-        background-color: #F6F7FB;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         padding-bottom: 3em;
@@ -51,23 +50,21 @@
     }
 
     &_title {
-        color: #fff;
+        color: #232C61;
         font-weight: 600;
         font-size: .9rem;
 
         @media (min-width: 992px) {
             font-size: 1.3rem;
-            color: #232C61;
         }
 
     }
 
     p {
-        color: #fff;
+        color: #404041;
         font-size: .9rem;
 
         @media (min-width: 992px) {
-            color: #404041;
             font-size: 1rem;
         }
     }
@@ -368,4 +365,88 @@ button.accordion-button {
     border-radius: 20px;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+.modern-banca-section {
+    @media (min-width: 992px) {
+        padding-left: 10em !important;
+        padding-right: 10em !important;
+        margin-top: 10em;
+        margin-bottom: 5em;
+    }
+
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    &_maintitle {
+        h3 {
+            color: #404041;
+            font-size: 1.7rem;
+
+            @media (min-width: 992px) {
+                font-size: 2.3rem;
+            }
+
+            b {
+                color: #232C61;
+            }
+
+            @media (min-width: 992px) {
+                margin-bottom: 2em;
+                margin-top: 1em;
+            }
+        }
+
+    }
+
+    &_feature {
+        @media (min-width: 992px) {
+            width: 27% !important;
+            margin-right: 2.5%;
+            margin-left: 2.5%;
+        }
+
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-bottom: 1em;
+        margin-top: 2em !important;
+
+        &-img {
+            background-color: #F6F7FB;
+            padding: 1.2em 1em;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        &-text {
+            background-color: #232C61;
+            padding: 1.2em 1em;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            color: #fff;
+            min-height: 135px;
+            @media (min-width: 992px) {
+                min-height: 170px;
+            }
+
+            h5 {
+                font-weight: 700;
+                margin-bottom: 0;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &_title {
+        color: #2C89E1;
+        font-weight: 600;
+        font-size: 1.8rem;
+    }
+
 }

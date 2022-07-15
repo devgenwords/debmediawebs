@@ -3,7 +3,7 @@
     padding-top: 5em;
     padding-bottom: 5em;
     height: 660px;
-    margin-bottom: 1.5em;
+    margin-bottom: 10em;
     position: relative;
 
     &_mainNoti {
@@ -12,7 +12,7 @@
         width: 23%;
         top: 112px;
         max-width: 330px;
-        z-index: 0;
+        z-index: 5;
     }
 
     @media (min-width: 992px) {
@@ -128,11 +128,11 @@
 
 .image-container-citas {
     position: absolute;
-    width: 305px;
-    height: 472px;
+    width: 385px;
+    height: 625px;
     right: 0;
-    bottom: -65px;
-    z-index: 0;
+    bottom: -185px;
+    z-index: 3;
 
     @media (min-width: 992px) {
         display: block;
@@ -362,7 +362,7 @@
             transition: 0.2s ease-in-out;
             cursor: pointer;
             display: flex !important;
-            margin-bottom: 3.2em;
+            margin-bottom: 2em;
             font-size: 1.1rem;
 
             .numberStep {
@@ -388,7 +388,8 @@
             .textStep {
                 display: inline-flex;
                 align-items: center;
-                max-width: 340px;
+                max-width: 300px;
+                padding: 10px 20px;
             }
         }
 
@@ -467,20 +468,10 @@
 }
 
 
-
-
-
-
-
 .accordion-item {
     border: 0 !important;
     background-color: transparent !important;
 }
-
-
-
-
-
 
 .setps-tabs_citas_content-nav.active {
     background-color: transparent !important;
@@ -505,7 +496,7 @@
 .lineSteps-citas {
     width: 4px;
     background-color: #2F9FEE;
-    height: 300px;
+    height: 295px;
     display: block;
     position: absolute;
     top: 19%;
@@ -517,7 +508,7 @@
     @media (min-width: 992px) {
         padding-left: 10em !important;
         padding-right: 10em !important;
-        margin-top: 5em;
+        margin-top: 4em;
         margin-bottom: 5em;
     }
 
@@ -526,20 +517,33 @@
     // background-color: #F6F7FB;
 
     &_text {
+        text-align: center;
         h2 {
             color: #232C61;
             font-weight: 600;
-            font-size: 2rem;
+            font-size: 1.8rem;
             margin-bottom: 0;
-
+            @media (min-width: 992px) {
+                font-size: 2.2rem;
+            }
             span {
-                font-size: 1.9rem;
+                font-size: 1.7rem;
+                @media (min-width: 992px) {
+                    font-size: 1.9rem;
+                }
             }
         }
 
         p {
             color: #404041;
             font-size: 1.6rem;
+            @media (min-width: 992px) {
+                font-size: 1.7rem;
+            }
+        }
+        @media (min-width: 992px) {
+            text-align: center;
+            margin-bottom: 2em;
         }
     }
 

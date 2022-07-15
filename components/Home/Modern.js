@@ -3,6 +3,7 @@ import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
 import api from '../../asset/imgs/home/api.svg'
 import performance from '../../asset/imgs/home/performance.svg'
+import graficos from '../../asset/imgs/home/graficos.svg'
 import channel from '../../asset/imgs/home/channels.svg'
 
 
@@ -50,7 +51,7 @@ export default function Modern() {
 
                                 </Col>
                                 <Col sm={6} xs={12} className="modern-section_div-img d-flex justify-content-center">
-                                    <img src={performance.src} className="img-fluid" />
+                                    <img src={graficos.src} className="img-fluid" />
                                 </Col>
 
                             </Row>

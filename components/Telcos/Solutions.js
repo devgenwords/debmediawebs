@@ -40,7 +40,7 @@ export default function Solutions(props) {
                                     height={100} className={'img-fluid'} />
                             </div>
                             <div className="solutions-indus-section_div-img  d-block d-sm-none">
-                                <Image src={check_white.src} width={60}
+                                <Image src={check.src} width={60}
                                     height={60} className={'img-fluid'} />
                             </div>
 
@@ -55,7 +55,7 @@ export default function Solutions(props) {
                                     height={100} className={'img-fluid'} />
                             </div>
                             <div className="solutions-indus-section_div-img  d-block d-sm-none">
-                                <Image src={check_white.src} width={60}
+                                <Image src={check.src} width={60}
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-indus-section_title">
@@ -70,7 +70,7 @@ export default function Solutions(props) {
                                     height={100} className={'img-fluid'} />
                             </div>
                             <div className="solutions-indus-section_div-img  d-block d-sm-none">
-                                <Image src={check_white.src} width={60}
+                                <Image src={check.src} width={60}
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-indus-section_title">
@@ -86,7 +86,7 @@ export default function Solutions(props) {
                     <Col xs="12" className="solutions-indus-section_maintitle">
                         <h3 className="text-center">
                             <b>Trabajamos con organizaciones </b> <br />
-                            que confían en <br className="d-block d -sm-none" />  nuestro software. <br />
+                            que confían en <br className="d-block d-sm-none" />  nuestro software. <br />
                         </h3>
                     </Col>
                     <Col xs="12" className="d-flex justify-content-center">

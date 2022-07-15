@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 import Image from 'next/image'
-import mypic from '../asset/imgs/logo.png'
+import mypic from '../asset/imgs/logo.svg'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -24,11 +24,13 @@ export default function Home(props) {
                 <Container>
                     <Navbar.Brand href="#home">
                         <Link href="/">
-                            <Image
-                                src={mypic}
-                                alt="Picture of the author"
-                                className="img-fluid"
-                            />
+                            <div className="logoDiv">
+                                <Image
+                                    src={mypic}
+                                    alt="Picture of the author"
+                                    className="img-fluid"
+                                />
+                            </div>
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />

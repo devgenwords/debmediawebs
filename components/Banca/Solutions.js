@@ -40,7 +40,7 @@ export default function Solutions(props) {
                                     height={100} className={'img-fluid'} />
                             </div>
                             <div className="solutions-indus-section_div-img  d-block d-sm-none">
-                                <Image src={check_white.src} width={60}
+                                <Image src={check.src} width={60}
                                     height={60} className={'img-fluid'} />
                             </div>
 
@@ -55,7 +55,7 @@ export default function Solutions(props) {
                                     height={100} className={'img-fluid'} />
                             </div>
                             <div className="solutions-indus-section_div-img  d-block d-sm-none">
-                                <Image src={check_white.src} width={60}
+                                <Image src={check.src} width={60}
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-indus-section_title">
@@ -69,7 +69,7 @@ export default function Solutions(props) {
                                     height={100} className={'img-fluid'} />
                             </div>
                             <div className="solutions-indus-section_div-img  d-block d-sm-none">
-                                <Image src={check_white.src} width={60}
+                                <Image src={check.src} width={60}
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-indus-section_title">
@@ -130,7 +130,7 @@ export default function Solutions(props) {
                                                 <Tab.Pane key={index} eventKey={item.key}>
                                                     <Row>
                                                         <Col xs="12" className="d-flex justify-content-center solutions-indus-tabs_content-img">
-                                                            <Image src={`/bancatabs/${item.image.url}`} width={item.image.width}
+                                                            <img src={`/bancatabs/${item.image.url}`} width={item.image.width}
                                                                 height={item.image.height} className={'img-fluid'} />
                                                         </Col>
                                                         <Col xs={{ span: 10, offset: 1 }} className="solutions-indus-tabs_content-text">

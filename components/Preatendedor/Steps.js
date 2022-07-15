@@ -4,6 +4,9 @@ import Image from 'next/image'
 import check_blue from '../../asset/imgs/home/check_blue.svg'
 import check_white from '../../asset/imgs/home/check-m.svg'
 import wapp from '../../asset/imgs/preatendedor/wapp.png'
+import wapp1 from '../../asset/imgs/preatendedor/wapp1.png'
+import wapp2 from '../../asset/imgs/preatendedor/wapp2.png'
+
 import { useMediaQuery } from 'react-responsive'
 import shape1 from '../../asset/imgs/mobile/shapeTabs.svg'
 
@@ -16,7 +19,7 @@ export default function Solutions() {
                 <Row>
                     <Col className="setps-section_preatendedor_maintitle">
                         <h3 className="text-center">
-                            <b>Direcciona a tus clientes 
+                            <b>Direcciona a tus clientes
                             </b> más rápido <br />al canal de atención indicado
                         </h3>
                     </Col>
@@ -89,12 +92,20 @@ export default function Solutions() {
                                 para que escojan el canal de atención más adecuado
                             </h3>
                         </Col>
-                        <Col sm={{ span: 10, offset: 1 }} className="text-center  mt-5">
-                            {/* <img src={wapp.src} className="img-fluid mt-5" alt="" /> */}
-                            <Image src={wapp.src} width={980}
-                                height={660} className={'img-fluid'} />
+                    </Row>
+                    <Row className="text-center mt-5 d-flex justify-content-center">
+                        <Col sm="5" xs="10">
+                            <img src={wapp1.src} alt="wapp" className={'img-fluid'} />
+                        </Col>
+                        <Col sm="5" xs="10" className="mt-sm-5 mt-3">
+                            <img src={wapp2.src} alt="wapp" className={'img-fluid'} />
                         </Col>
                     </Row>
+                    {/* <Col sm={{ span: 10, offset: 1 }} className="text-center  mt-5">
+                            <Image src={wapp.src} width={980}
+                                height={660} className={'img-fluid'} />
+                        </Col> */}
+
                 </Container>
             </Container>
 

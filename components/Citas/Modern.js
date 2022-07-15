@@ -6,6 +6,7 @@ import spec2 from '../../asset/imgs/citas/spec2.svg'
 import spec3 from '../../asset/imgs/citas/spec3.svg'
 import spec4 from '../../asset/imgs/citas/spec4.svg'
 import spec5 from '../../asset/imgs/citas/spec5.svg'
+import spec6 from '../../asset/imgs/citas/spec6.svg'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -31,18 +32,16 @@ export default function Modern() {
         <>
             <Container fluid className="specs-section_citas">
                 <Container className="d-none d-sm-block">
-                    <Row className=" d-flex justify-content-center">
-                        <Col sm={4} className="d-flex justify-content-center align-items-center">
-                            <Row>
-                                <Col xs={12} className="specs-section_citas_text">
-                                    <div>
-                                        <h2>Diferentes <span>funcionalidades </span></h2>
-                                        <p> para optimizar tu<br />
-                                            modelo de atención</p>
-                                    </div>
-                                </Col>
-                            </Row>
+                    <Row>
+                        <Col xs={12} className="specs-section_citas_text">
+                            <div>
+                                <h2>Múltiples funcionalidades</h2>
+                                <p> para optimizar modelos de atención
+                                </p>
+                            </div>
                         </Col>
+                    </Row>
+                    <Row className=" d-flex justify-content-center">
                         <Col sm={4}>
                             <Row>
                                 <Col xs={12} className="specs-section_citas_div-img d-flex justify-content-center">
@@ -53,12 +52,14 @@ export default function Modern() {
                                 <Col xs={12} className="specs-section_citas_div-text text-center d-flex justify-content-center my-3">
                                     <div>
                                         <h4 className="specs-section_citas_title">
-                                            Integrado al sistema<br /> de gestión de filas
+                                            Integración con el sistema<br /> de gestión de filas.
 
 
                                         </h4>
                                         <p className="specs-section_citas_parraf">
-                                            Uso de algoritmos de llamado y priorización.
+                                            Pata gestionar todo el flujo <br />
+                                            conalgoritmos de llamado <br />
+                                            y priorización.
 
                                         </p>
                                     </div>
@@ -80,7 +81,7 @@ export default function Modern() {
                                             autogestionado.
                                         </h4>
                                         <p className="specs-section_citas_parraf">
-                                            Tus clientes registran su llegada desde móvil, tótem o QR.
+                                            Los clientes pueden registrarse desde su móvil o en el kiosko.
 
 
                                         </p>
@@ -99,12 +100,12 @@ export default function Modern() {
                                 <Col xs={12} className="specs-section_citas_div-text text-center d-flex justify-content-center my-3">
                                     <div>
                                         <h4 className="specs-section_citas_title">
-                                            Recordatorios desde e-mail,
-                                            <br />
-                                            WhatsApp o SMS<br />
+                                            Recordatodios<br /> personalizables enviados <br />
+                                            por mail o SMS.<br />
                                         </h4>
                                         <p className="specs-section_citas_parraf">
-                                            Personalizados con campos dinámicos según la gestión.
+                                            Diseñados como campos dinámicos en función del
+                                            támitey el cliente.
 
 
                                         </p>
@@ -113,6 +114,7 @@ export default function Modern() {
                                 </Col>
                             </Row>
                         </Col>
+
                         <Col sm={4}>
                             <Row>
                                 <Col xs={12} className="specs-section_citas_div-img d-flex justify-content-center">
@@ -126,7 +128,9 @@ export default function Modern() {
                                             Conectado con múltiples <br />trámites o agendas.
                                         </h4>
                                         <p className="specs-section_citas_parraf">
-                                            Define tiempos de tolerancia<br /> por cada uno de ellos.
+                                            Que permiten definir <br />
+                                            tiempos de tolerancia por <br />
+                                            cada tipo de trámite.
 
 
                                         </p>
@@ -158,16 +162,41 @@ export default function Modern() {
                                 </Col>
                             </Row>
                         </Col>
+                        <Col sm={4}>
+                            <Row>
+                                <Col xs={12} className="specs-section_citas_div-img d-flex justify-content-center">
+                                    <Image src={spec6.src} width={200}
+                                        height={250} />
+
+                                </Col>
+                                <Col xs={12} className="specs-section_citas_div-text text-center d-flex justify-content-center my-3">
+                                    <div>
+                                        <h4 className="specs-section_citas_title">
+                                            Un sistema integrado a
+
+
+                                        </h4>
+                                        <p className="specs-section_citas_parraf">
+                                            Outlook y Google Calendar.
+
+                                        </p>
+                                    </div>
+
+                                </Col>
+                            </Row>
+                        </Col>
+
+
 
                     </Row>
                 </Container>
                 <Container className="d-block d-sm-none">
                     <Row>
-                        <Col xs={12} className="specs-section_citas_text">
+                    <Col xs={12} className="specs-section_citas_text">
                             <div>
-                                <h2>Diferentes <span>funcionalidades </span></h2>
-                                <p> para optimizar tu<br />
-                                    modelo de atención</p>
+                                <h2>Múltiples funcionalidades</h2>
+                                <p> para optimizar modelos de atención
+                                </p>
                             </div>
                         </Col>
                     </Row>
@@ -201,19 +230,21 @@ export default function Modern() {
                             <Col sm={4}>
                                 <Row>
                                     <Col xs={12} className="specs-section_citas_div-img d-flex justify-content-center">
-                                        <Image src={spec1.src} width={200}
+                                        <Image src={spec6.src} width={200}
                                             height={250} />
 
                                     </Col>
                                     <Col xs={12} className="specs-section_citas_div-text text-center d-flex justify-content-center my-3">
                                         <div>
                                             <h4 className="specs-section_citas_title">
-                                                Integrado al sistema<br /> de gestión de filas
+                                                Integración con el sistema<br /> de gestión de filas.
 
 
                                             </h4>
                                             <p className="specs-section_citas_parraf">
-                                                Uso de algoritmos de llamado y priorización.
+                                                Pata gestionar todo el flujo <br />
+                                                conalgoritmos de llamado <br />
+                                                y priorización.
 
                                             </p>
                                         </div>
@@ -237,7 +268,7 @@ export default function Modern() {
                                                 autogestionado.
                                             </h4>
                                             <p className="specs-section_citas_parraf">
-                                                Tus clientes registran su llegada desde móvil, tótem o QR.
+                                                Los clientes pueden registrarse desde su móvil o en el kiosko.
 
 
                                             </p>
@@ -258,12 +289,12 @@ export default function Modern() {
                                     <Col xs={12} className="specs-section_citas_div-text text-center d-flex justify-content-center my-3">
                                         <div>
                                             <h4 className="specs-section_citas_title">
-                                                Recordatorios desde e-mail,
-                                                <br />
-                                                WhatsApp o SMS<br />
+                                                Recordatodios<br /> personalizables enviados <br />
+                                                por mail o SMS.<br />
                                             </h4>
                                             <p className="specs-section_citas_parraf">
-                                                Personalizados con campos dinámicos según la gestión.
+                                                Diseñados como campos dinámicos en función del
+                                                támitey el cliente.
 
 
                                             </p>
@@ -287,7 +318,9 @@ export default function Modern() {
                                                 Conectado con múltiples <br />trámites o agendas.
                                             </h4>
                                             <p className="specs-section_citas_parraf">
-                                                Define tiempos de tolerancia<br /> por cada uno de ellos.
+                                                Que permiten definir <br />
+                                                tiempos de tolerancia por <br />
+                                                cada tipo de trámite.
 
 
                                             </p>
@@ -314,6 +347,33 @@ export default function Modern() {
                                             <p className="specs-section_citas_parraf">
                                                 Con el look &amp; feel <br />
                                                 de tu compañía.
+
+                                            </p>
+                                        </div>
+
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </SwiperSlide>
+                        <SwiperSlide >
+                            <Col sm={4}>
+                                <Row>
+                                    <Col xs={12} className="specs-section_citas_div-img d-flex justify-content-center">
+                                        <Image src={spec6.src} width={200}
+                                            height={250} />
+
+                                    </Col>
+                                    <Col xs={12} className="specs-section_citas_div-text text-center d-flex justify-content-center my-3">
+                                        <div>
+                                            <h4 className="specs-section_citas_title">
+                                                Integración con el sistema<br /> de gestión de filas.
+
+
+                                            </h4>
+                                            <p className="specs-section_citas_parraf">
+                                                Pata gestionar todo el flujo <br />
+                                                conalgoritmos de llamado <br />
+                                                y priorización.
 
                                             </p>
                                         </div>

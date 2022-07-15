@@ -3,7 +3,7 @@
     padding-top: 5em;
     padding-bottom: 5em;
     height: 660px;
-    margin-bottom: 1.5em;
+    margin-bottom: 10em;
     position: relative;
 
     @media (min-width: 992px) {
@@ -119,16 +119,16 @@
 
 .image-container-debsign {
     position: absolute;
-    width: 325px;
-    height: 502px;
+    width: 375px;
+    height: 609px;
     right: 0;
-    bottom: -65px;
-    z-index: 0;
+    bottom: -155px;
+    z-index: 3;
 
     @media (min-width: 992px) {
         display: block;
-        width: 670px;
-        height: 815px;
+        width: 705px;
+        height: 860px;
         position: absolute;
         right: 0;
         top: 0;
@@ -357,7 +357,7 @@
             transition: 0.2s ease-in-out;
             cursor: pointer;
             display: flex !important;
-            margin-bottom: 1em;
+            margin-bottom: .3em;
             font-size: 1.1rem;
 
             .numberStep {
@@ -384,6 +384,7 @@
                 display: inline-flex;
                 align-items: center;
                 max-width: 440px;
+                padding: 10px 20px;
             }
         }
 
@@ -462,14 +463,9 @@
 }
 
 
-
 .setps-debsign-accordion_content-nav.accordion-item {
     margin-bottom: 10px;
 }
-
-
-
-
 
 .accordion-item {
     border: 0 !important;
@@ -481,8 +477,6 @@
 }
 
 
-
-
 .setps-debsign-tabs_content-nav.active {
     background-color: transparent !important;
     color: #2F9FEE !important;
@@ -490,6 +484,9 @@
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
+
+
+
 
 .setps-debsign-tabs_content-nav.active .numberStep {
     background-color: #2F9FEE;
@@ -506,7 +503,7 @@
 .lineSteps-debsign {
     width: 4px;
     background-color: #2F9FEE;
-    height: 462px;
+    height: 490px;
     display: block;
     position: absolute;
     top: 16.1%;

@@ -3,7 +3,7 @@
     padding-top: 5em;
     padding-bottom: 5em;
     height: 660px;
-    margin-bottom: 1.5em;
+    margin-bottom: 10em;
     position: relative;
 
     &_mainNoti {
@@ -128,17 +128,16 @@
 
 .image-container-encuestas {
     position: absolute;
-    width: 300px;
-    height: 520px;
+    width: 360px;
+    height: 630px;
     right: 0;
-    bottom: -85px;
-    z-index: 0;
-
+    bottom: -195px;
+    z-index: 3;
 
     @media (min-width: 992px) {
         display: block;
-        width: 675px;
-        height: 815px;
+        width: 755px;
+        height: 950px;
         position: absolute;
         right: 0;
         top: 0;
@@ -206,6 +205,7 @@
         font-size: .8rem;
         font-weight: 600;
         margin-bottom: 2px;
+
         @media (min-width: 992px) {
             font-size: 1.35rem;
 
@@ -292,6 +292,7 @@
             color: #232C61;
         }
     }
+
     &_parraf {
         color: #fff;
         font-weight: 600;
@@ -598,9 +599,27 @@
 
 
 .opinion-encuestas-section {
-    margin-bottom: 3em;
+    margin-bottom: 0;
     margin-top: 3em;
+    padding-bottom: 2em !important;
 
+    @media (min-width: 992px) {
+        margin-bottom: 3em;
+        margin-top: 3em;
+    }
+
+    &_blue {
+        background-color: #232C61;
+        padding-bottom: 2em;
+        padding-top: 2em;
+        text-align: center;
+        h3 {
+            color: #fff;
+            b {
+                color: #2F9FEE;
+            }
+        }
+    }
 
     &_img {
         position: absolute;
@@ -621,8 +640,10 @@
         padding: 1.5em 1.5em;
         display: flex;
         align-items: center;
+
         h3 {
             font-weight: 400;
+
             b {
                 color: #2F9FEE;
             }
@@ -638,18 +659,30 @@
         padding-bottom: 4em;
         height: 825px;
     }
+
     padding-top: 3em;
     padding-bottom: 0em;
 
     background-color: #F8FBFF;
 
     &_maintitle {
-        margin-bottom: 2em;
+        margin-bottom: 1em;
+
+        @media (min-width: 992px) {
+            margin-bottom: 2em;
+        }
 
         h3 {
             color: #404041;
-            font-size: 1.7rem;
-            padding-top: 1em;
+            font-size: 1.5rem;
+            text-align: center;
+
+            @media (min-width: 992px) {
+                color: #404041;
+                font-size: 1.7rem;
+                padding-top: 1em;
+                text-align: left;
+            }
 
             b {
                 color: #232C61;
@@ -701,6 +734,7 @@
 
 .flow-encuestas-section {
     margin-top: 3em;
+
     @media (min-width: 992px) {
         margin-top: 5em;
         margin-bottom: 10em;
@@ -735,8 +769,10 @@
     &_how {
         text-align: center;
         margin-bottom: 1.5em;
+
         figure {
             padding-left: 1.5em;
+
             h5 {
                 color: #2F9FEE;
                 font-weight: 700;

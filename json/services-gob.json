@@ -65,7 +65,7 @@
     "image": {
       "url": "debsign.png",
       "width": 540,
-      "height": 350
+      "height": 380
     },
     "key": "debsign", 
     "main": "Controla lo que comunicas en las sedes y gestiona el contenido de forma centralizada.  ",
