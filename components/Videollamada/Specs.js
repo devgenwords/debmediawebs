@@ -51,12 +51,12 @@ export default function Modern() {
                                 <Col xs={12} className="specs-section_videocall_div-text text-center d-flex justify-content-center my-3">
                                     <div>
                                         <h4 className="specs-section_videocall_title">
-                                            Múltiples viajes del cliente
+                                            Múltiples viajes <br /> del cliente
 
 
                                         </h4>
                                         <p className="specs-section_videocall_parraf">
-                                            Tus clientes pueden iniciar en<br />
+                                            Tus clientes pueden iniciar en
                                             tu web, App o WhatsApp.
 
                                         </p>
@@ -98,10 +98,10 @@ export default function Modern() {
                                 <Col xs={12} className="specs-section_videocall_div-text text-center d-flex justify-content-center my-3">
                                     <div>
                                         <h4 className="specs-section_videocall_title">
-                                            Integración sencilla
+                                            Integración <br/> sencilla
                                         </h4>
                                         <p className="specs-section_videocall_parraf">
-                                            Integrable por API o Iframe.
+                                            Integrable por <br /> API o Iframe.
 
                                         </p>
                                     </div>

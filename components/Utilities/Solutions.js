@@ -159,7 +159,7 @@ export default function Solutions(props) {
                                     <Accordion.Body>
                                         <Row>
                                             <Col xs={12} className="text-center">
-                                                <Image src={`/bancatabs/${item.image.url}`} width={420}
+                                                <Image src={`/utitabs/${item.image.url}`} width={420}
                                                     height={270} className={'img-fluid'} />
                                             </Col>
                                             <Col xs={12} className="solutions-tabs_content-title">
