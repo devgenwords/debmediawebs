@@ -39,7 +39,7 @@ export default function Header() {
                                 atención en <br  className="d-none d-sm-block" /> tus sucursales
                                 </h1>
                                 <p className="debq-home_parraf">
-                                    Sistema de <b>gestión de filas</b>
+                                    Sistema de <b>gestión de colas</b>
                                 </p>
                                 <Link href="/contacto">
                                 <button className="debq-home_demobutton">

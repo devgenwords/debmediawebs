@@ -15,7 +15,7 @@ export default function Market() {
                     <Row>
                         <Col className="market-mobile-section_maintitle text-center">
                             <h3>
-                                Empresas que desconocen cómo optimizar proceos.
+                                Empresas que desconocen cómo optimizar procesos.
                             </h3>
                             <p>Como consecuencia tienen
                             </p>

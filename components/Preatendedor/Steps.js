@@ -88,8 +88,8 @@ export default function Solutions() {
                     <Row>
                         <Col sm="12" className="wapp-preatendedor-section_maintitle">
                             <h3 className="text-center">
-                                <b>A través de WhatsApp direcciona a tus clientes </b><br />
-                                para que escojan el canal de atención más adecuado
+                                <b>Direcciona a tus clientes a través de WhatsApp </b><br />
+                                para que elijan el canal de atención más adecuado
                             </h3>
                         </Col>
                     </Row>

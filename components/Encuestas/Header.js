@@ -36,7 +36,7 @@ export default function Header() {
                                     del equipo
                                 </h1>
                                 <p className="encuestas-home_parraf">
-                                    Sistema de  <b>encuestas automatizas</b>  <br />  dentro del flujo de atención 
+                                    Sistema de  <b>encuestas automatizadas</b>  <br />  dentro del flujo de atención 
                                 </p>
                                 <Link href="/contacto">
                                 <button className="encuestas-home_demobutton">

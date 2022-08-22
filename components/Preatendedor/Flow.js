@@ -16,8 +16,8 @@ export default function Flow() {
                     <Row>
                         <Col sm="12" className="wapp-preatendedor-section_maintitle">
                             <h3 className="text-center">
-                                <b>o a través de Whatsapp direcciónalos</b> para que <br />
-                                escojan canal de atención más adecuado
+                                <b>Implementa un portal de pre atención personalizable</b> que los <br />
+                                guía a la elección de su trámite.
                             </h3>
                         </Col>
                     </Row>

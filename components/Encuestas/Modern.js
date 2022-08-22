@@ -15,9 +15,8 @@ export default function Modern() {
                     <Row>
                         <Col className="modern-section_maintitle">
                             <h3 className="text-center">
-                                <b>Eleva la tasa de respuesta hasta 10 veces </b><br className="d-none d-sm-block" />
-                                luego de prestar la atención
-
+                                <b>Eleva la tasa de respuesta con encuestas de satisfacción</b><br className="d-none d-sm-block" />
+                                hasta 10 veces más.
                             </h3>
                         </Col>
                     </Row>

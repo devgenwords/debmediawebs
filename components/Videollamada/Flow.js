@@ -71,9 +71,8 @@ export default function Market() {
                     </div>
                     <div className="greyBlock">
                         <div className="greyBlock_text">
-                            <h3>También puedes utilizar el sistema dentro de tus sucursales</h3>
-                            <p><b> Permite a tus clientes conectarse a la videollamada con un representante desde un kiosko</b> para disminuir el tiempo dentro de tus sucursales.
-
+                            <h3>Utiliza el sistema de Atención Virtual también dentro de las sucursales.</h3>
+                            <p><b> Tus clientes pueden conectarse a una videollamada con un representante desde un Kiosko </b> y reducir el tiempo que pasan dentro de las sucursales.
                             </p>
                         </div>
                     </div>
@@ -101,10 +100,9 @@ export default function Market() {
                     <Col className="p-0" xs={12}>
                         <div className="greyBlock">
                             <div className="greyBlock_text">
-                                <h3>También puedes utilizar el sistema dentro de tus sucursales</h3>
-                                <p><b> Permite a tus clientes conectarse a la videollamada con un representante desde un kiosko</b> para disminuir el tiempo dentro de tus sucursales.
-
-                                </p>
+                                <h3>Utiliza el sistema de Atención Virtual también dentro de las sucursales.</h3>
+                                <p><b> Tus clientes pueden conectarse a una videollamada con un representante desde un Kiosko </b> y reducir el tiempo que pasan dentro de las sucursales.
+                            </p>
                             </div>
                             <img src={sistematotemmobie.src} className="img-fluid w-100" alt="sistematotemmobie" />
                         </div>

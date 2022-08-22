@@ -60,14 +60,14 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-debsign-section_title">
-                                Transforma la forma <br className="d-none d-sm-block" />
-                                en la que comunicas <br className="d-none d-sm-block" />
-                                los mensajes
+                            Transforma los recursos <br className="d-none d-sm-block" />
+                            Utiliza componentes <br className="d-none d-sm-block" />amigables para el planeta.
+
 
                             </h4>
                             <p className="setps-debsign-section_parraf">
-                                Utiliza componentes amigables
-                                para el planeta
+                            Utiliza componentes amigables para el planeta.
+
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-debsign-section_div">
@@ -83,7 +83,7 @@ export default function Solutions() {
                                 Genera contenido dinámico  <br className="d-none d-sm-block" /> y atractivo para los clientes.
                             </h4>
                             <p className="setps-debsign-section_parraf">
-                                Gana visibilidad en influye en decisiones de compra
+                                Gana visibilidad en influye en decisiones de compra.
                             </p>
                         </Col>
                     </Row>

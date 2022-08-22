@@ -46,7 +46,7 @@ export default function Solutions() {
                                 <br className="d-none d-sm-block" />qué clientes te visitarán.
                             </h4>
                             <p className="setps-section_citas_parraf">
-                                Ofrece una experiencia personalizada y eleva la satisfacción
+                                Ofrece una experiencia personalizada y eleva la satisfacción.
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="setps-section_citas_div">
@@ -114,7 +114,7 @@ export default function Solutions() {
                                     <Col sm={6} className="relative">
                                         <h3 className="text-left mb-4">
                                             <b>Permite a los clientes agendar
-                                            </b> <br />sus citas desde la web
+                                            </b> <br />sus citas online desde la web
                                         </h3>
                                         <span className="lineSteps-citas"></span>
                                         <Nav variant="pills" className="flex-column">

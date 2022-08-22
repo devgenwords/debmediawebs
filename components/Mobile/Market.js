@@ -42,10 +42,10 @@ export default function Market() {
                             </div>
 
                             <h4 className="market-mobile-section_title">
-                                Clientes con incertidumbre
+                            Clientes con incertidumbre
                             </h4>
                             <p className="market-mobile-section_parraf">
-                                sobre el tiempo de espera para ser atendidos.
+                            sobre el tiempo de espera.
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-mobile-section_div">
@@ -55,10 +55,10 @@ export default function Market() {
                             </div>
 
                             <h4 className="market-mobile-section_title">
-                                Altas tasas de abandono
+                            Altas tasas de abandono
                             </h4>
                             <p className="market-mobile-section_parraf">
-                                de clientes insatisfechos sin ser atendidos.
+                            de clientes insatisfechos
                             </p>
                         </Col>
                     </Row>

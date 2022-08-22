@@ -57,8 +57,8 @@ export default function Modern() {
 
                                         </h4>
                                         <p className="specs-section_citas_parraf">
-                                            Pata gestionar todo el flujo <br />
-                                            conalgoritmos de llamado <br />
+                                            Para gestionar todo el flujo <br />
+                                            con algoritmos de llamado <br />
                                             y priorización.
 
                                         </p>
@@ -100,12 +100,12 @@ export default function Modern() {
                                 <Col xs={12} className="specs-section_citas_div-text text-center d-flex justify-content-center my-3">
                                     <div>
                                         <h4 className="specs-section_citas_title">
-                                            Recordatodios<br /> personalizables enviados <br />
+                                            Recordatorios<br /> personalizables enviados <br />
                                             por mail o SMS.<br />
                                         </h4>
                                         <p className="specs-section_citas_parraf">
                                             Diseñados como campos dinámicos en función del
-                                            támitey el cliente.
+                                            támite y el cliente.
 
 
                                         </p>
@@ -128,9 +128,7 @@ export default function Modern() {
                                             Conectado con múltiples <br />trámites o agendas.
                                         </h4>
                                         <p className="specs-section_citas_parraf">
-                                            Que permiten definir <br />
-                                            tiempos de tolerancia por <br />
-                                            cada tipo de trámite.
+                                        Para definir tiempos de <br/>tolerancia por cada uno.
 
 
                                         </p>
@@ -242,8 +240,8 @@ export default function Modern() {
 
                                             </h4>
                                             <p className="specs-section_citas_parraf">
-                                                Pata gestionar todo el flujo <br />
-                                                conalgoritmos de llamado <br />
+                                                Para gestionar todo el flujo <br />
+                                                con algoritmos de llamado <br />
                                                 y priorización.
 
                                             </p>
@@ -289,12 +287,12 @@ export default function Modern() {
                                     <Col xs={12} className="specs-section_citas_div-text text-center d-flex justify-content-center my-3">
                                         <div>
                                             <h4 className="specs-section_citas_title">
-                                                Recordatodios<br /> personalizables enviados <br />
+                                                Recordatorios<br /> personalizables enviados <br />
                                                 por mail o SMS.<br />
                                             </h4>
                                             <p className="specs-section_citas_parraf">
                                                 Diseñados como campos dinámicos en función del
-                                                támitey el cliente.
+                                                támite y el cliente.
 
 
                                             </p>
@@ -318,9 +316,7 @@ export default function Modern() {
                                                 Conectado con múltiples <br />trámites o agendas.
                                             </h4>
                                             <p className="specs-section_citas_parraf">
-                                                Que permiten definir <br />
-                                                tiempos de tolerancia por <br />
-                                                cada tipo de trámite.
+                                            Para definir tiempos de <br/>tolerancia por cada uno.
 
 
                                             </p>
@@ -366,15 +362,12 @@ export default function Modern() {
                                     <Col xs={12} className="specs-section_citas_div-text text-center d-flex justify-content-center my-3">
                                         <div>
                                             <h4 className="specs-section_citas_title">
-                                                Integración con el sistema<br /> de gestión de filas.
+                                            Un sistema integrado a
 
 
                                             </h4>
                                             <p className="specs-section_citas_parraf">
-                                                Pata gestionar todo el flujo <br />
-                                                conalgoritmos de llamado <br />
-                                                y priorización.
-
+                                            Outlook y Google Calendar.
                                             </p>
                                         </div>
 

@@ -28,7 +28,7 @@ export default function Level(props) {
                 <Container>
                     <Row>
                         <Col className={props.color === "industriasColor" ? "level-section_mainTitle mb-4 greyColor" : "level-section_mainTitle mb-4"}>
-                            <h2>Lleva la experiencia de tus <br className="d-none d-sm-block" /> clientes al <b>siguiente nivel</b></h2>
+                            <h2>Mejora la Customer Experience con<br className="d-none d-sm-block" /> la Tecnología de  <b>Debmedia</b></h2>
                         </Col>
                     </Row>
 

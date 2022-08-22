@@ -18,7 +18,7 @@ export default function Modern() {
                 <Container>
                     <Row>
                         <Col sm={12} className="industries-section_mainTitle text-center mb-5">
-                            <h2>Organizaciones de múltiples industrias <br /><b>gestionan la experiencia de los clientes con Debmedia.</b></h2>
+                            <h2>Organizaciones de múltiples industrias <br /><b>gestionan la experiencia del cliente con Debmedia.</b></h2>
                         </Col>
                         <Col sm={12} className="industries-section_divs">
                             <Row>

@@ -35,7 +35,7 @@ export default function Market() {
                         </Col>
                         <Col sm={4} xs={4} className="market-section_div">
                             <div className="imagenXS">
-                                <Image src={stats.src} width={80}
+                                <Image src={stats.src} width={100}
                                     height={135} className={'img-fluid'} />
                             </div>
 

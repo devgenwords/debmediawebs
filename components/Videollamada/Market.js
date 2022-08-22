@@ -16,8 +16,8 @@ export default function Market() {
                     <Row>
                         <Col className="market-videocall-section_maintitle text-center">
                             <h3>
-                                <b>Brinda a tus clientes</b><br />
-                                la experiencia que se merecen
+                                <b>Optimiza la Atención al Cliente </b><br />
+                                Mediante Videollamadas.
                             </h3>
 
                         </Col>

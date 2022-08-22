@@ -15,9 +15,10 @@ export default function Market() {
                     <Row>
                         <Col className="market-mobile-section_maintitle text-center">
                             <h3>
-                                Sin las herramientas adecuadas puede que no<br />
+                            Sin las herramientas adecuadas<br />
                             </h3>
-                            <p>estes comunicado correctamente con tus clientes   </p>
+                            <p>puede que no estés comunicando mensajes correctos
+</p>
                         </Col>
                     </Row>
                     <Row>

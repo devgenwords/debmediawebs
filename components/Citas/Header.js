@@ -38,7 +38,7 @@ export default function Header() {
                                 Ordena el flujo<br className="d-none d-sm-block" /> de clientes<br className="d-none d-sm-block" /> que llegan a <br className="d-none d-sm-block d-xxl-none" />las sucursales
                                 </h1>
                                 <p className="citas-home_parraf">
-                                 <b>Software de citas </b>para empresas con <br/> múltiples trámites y tipos de atención
+                                 <b>Software de citas online </b>para empresas con <br/> múltiples trámites y tipos de atención
                                 </p>
                                 <Link href="/contacto">
                                 <button className="citas-home_demobutton">

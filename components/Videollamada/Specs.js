@@ -30,17 +30,17 @@ export default function Modern() {
         <>
             <Container fluid className="specs-section_videocall">
                 <Container className="d-none d-sm-block">
-                        <Col xs={12} className="d-flex justify-content-center align-items-center">
-                            <Row>
-                                <Col xs={12} className="specs-section_videocall_text">
-                                    <div>
-                                        <h2><b>Ajusta la videollamada </b></h2>
-                                        <p> al flujo de atención de tu empresa</p>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col>
+                    <Col xs={12} className="d-flex justify-content-center align-items-center">
                         <Row>
+                            <Col xs={12} className="specs-section_videocall_text">
+                                <div>
+                                    <h2>¿Cómo funciona el Sistema <br />de <b>Atención Virtual de Debmedia</b>? </h2>
+                                    {/* <p><b> al flujo de atención de tu empresa</b></p> */}
+                                </div>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Row>
                         <Col sm={3}>
                             <Row>
                                 <Col xs={12} className="specs-section_videocall_div-img d-flex justify-content-center">
@@ -98,10 +98,10 @@ export default function Modern() {
                                 <Col xs={12} className="specs-section_videocall_div-text text-center d-flex justify-content-center my-3">
                                     <div>
                                         <h4 className="specs-section_videocall_title">
-                                            Integración <br/> sencilla
+                                            Integración <br /> sencilla
                                         </h4>
                                         <p className="specs-section_videocall_parraf">
-                                            Integrable por <br /> API o Iframe.
+                                            IUna herramienta integrable por API o Iframe
 
                                         </p>
                                     </div>
@@ -119,10 +119,11 @@ export default function Modern() {
                                 <Col xs={12} className="specs-section_videocall_div-text text-center d-flex justify-content-center my-3">
                                     <div>
                                         <h4 className="specs-section_videocall_title">
-                                            Los clientes pueden conectarse
+                                            Los clientes pueden
                                         </h4>
                                         <p className="specs-section_videocall_parraf">
-                                            de forma espontánea o programada
+                                            Conectarse de forma espontánea
+                                            o programada.
 
 
                                         </p>
@@ -131,8 +132,8 @@ export default function Modern() {
                                 </Col>
                             </Row>
                         </Col>
-                        </Row>
-                     
+                    </Row>
+
                 </Container>
                 <Container className="d-block d-sm-none">
                     <Row>
@@ -235,7 +236,7 @@ export default function Modern() {
                                                 Integración sencilla
                                             </h4>
                                             <p className="specs-section_videocall_parraf">
-                                                Integrable por API o Iframe.
+                                                Una herramienta integrable por API o Iframe
 
                                             </p>
                                         </div>
@@ -255,10 +256,11 @@ export default function Modern() {
                                     <Col xs={12} className="specs-section_videocall_div-text text-center d-flex justify-content-center my-3">
                                         <div>
                                             <h4 className="specs-section_videocall_title">
-                                                Los clientes pueden conectarse
+                                                Los clientes pueden
                                             </h4>
                                             <p className="specs-section_videocall_parraf">
-                                                de forma espontánea o programada
+                                                Conectarse de forma espontánea
+                                                o programada.
 
 
                                             </p>

@@ -33,7 +33,7 @@ export default function Market() {
                                 Desconocimiento
                             </h4>
                             <p className="market-citas-section_parraf">
-                                de los clientes y sus necesidades.
+                            de los clientes y las necesidades que tienen.
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-citas-section_div">
