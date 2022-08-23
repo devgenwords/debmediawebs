@@ -71,13 +71,13 @@ export default function Footer() {
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
-                                        <Link href="/">
+                                        <Link href="/nosotros">
                                             Nosotros
 
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
-                                        <Link href="/">
+                                        <Link href="/partners">
                                             Partners
                                         </Link>
                                     </ListGroup.Item>

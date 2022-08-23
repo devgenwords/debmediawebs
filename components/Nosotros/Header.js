@@ -24,7 +24,13 @@ export default function Header() {
                                 <h1 className="header-nosotros_title">
                                Sobre <b> nosotros</b>
                                 </h1>
-                        
+                                <br/>
+                                <p  className="header-nosotros_parraf">
+                                Desde el 2010  <b>mejorando la <br className="d-none d-sm-block"/>
+experiencia</b> de tus clientes.
+
+
+                                </p>
                             </Col>
                         </Row>
                     </Container>
