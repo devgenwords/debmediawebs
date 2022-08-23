@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
 import map from '../asset/imgs/map/map.svg'
-import iso from '../asset/imgs/iso.svg'
+import iso from '../asset/imgs/isonew.svg'
 import left from '../asset/imgs/map/left-map.svg'
 import right from '../asset/imgs/map/right-map.svg'
 import CountUp from "react-countup";
