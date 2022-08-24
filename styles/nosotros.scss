@@ -2,7 +2,7 @@
     background-image: url("../asset/imgs/nosotros/main.jpg");
     padding-top: 5em;
     padding-bottom: 5em;
-    height: 710px;
+    height: 480px;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -144,9 +144,11 @@
     &_maintitle {
         h3 {
             color: #fff;
-            font-size: 2rem;
+            font-size: 1.4rem;
             margin-bottom: 1.2em;
-
+            @media (min-width: 992px) {
+                font-size: 2rem;
+            }
             b {
                 color: #2F9FEE;
             }
@@ -154,7 +156,11 @@
 
         p {
             color: #fff;
-            font-size: 1.1rem;
+            font-size: .9rem;
+            @media (min-width: 992px) {
+                font-size: 1.1rem;
+
+            }
         }
     }
 
@@ -293,9 +299,12 @@
     }
 
     &_act {
-        padding-top: 15em;
+        padding-top: 5em;
         padding-bottom: 5em;
-
+        @media (min-width: 992px) {
+            padding-top: 15em;
+            padding-bottom: 5em;
+        }
         h2 {
             font-size: 2rem;
             color: #404041;

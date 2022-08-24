@@ -33,6 +33,15 @@ export default function SpecsIndus() {
                             </Col>
                         ))}
                     </Row>
+                    <Row>
+                        <Col className="text-center">
+                            <Link href="/">
+                                <button className="citas-home_demobutton">
+                                    Conocenos
+                                </button>
+                            </Link>
+                        </Col>
+                    </Row>
                 </Container>
             </Container>
         </>
