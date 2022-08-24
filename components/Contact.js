@@ -6,7 +6,7 @@ import shape2 from '../asset/imgs/contact/right.svg'
 import HubspotForm from 'react-hubspot-form'
 
 
-export default function Modern() {
+export default function Contact() {
     return (
         <>
             <Container fluid className="contact-section my-5">
