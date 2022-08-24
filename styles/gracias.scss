@@ -9,6 +9,10 @@
         height: 100vh;
 
     }
+    @media (min-width: 1400px) {
+        height: 90vh;
+
+    }
     &-woman {
         right: -50px;
         display: block;
@@ -37,6 +41,7 @@
             z-index: 1;
         }
        
+       
     }
     &_blue {
         color: #fff;
@@ -60,6 +65,12 @@
             bottom: 0;
             right: 0;
             z-index: 0;
+        }
+        @media (min-width: 1400px) {
+            width: 570px;
+            padding-left: 8em;
+    padding-right: 5em;
+    padding-top: 3em;
         }
     }
     
