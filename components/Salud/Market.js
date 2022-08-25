@@ -15,8 +15,9 @@ export default function Market() {
                     <Row>
                         <Col className="market-banca-section_maintitle">
                             <h3 className="text-center">
-                                Los clientes de la banca de hoy <br />
-                                <b>no se conforman con cualquier cosa</b>
+                            Los pacientes actuales
+                                <br /><b>ya no toleran 
+un proceso de atención ineficiente</b>
                             </h3>
                         </Col>
                     </Row>
@@ -28,11 +29,10 @@ export default function Market() {
                             </div>
 
                             <h4 className="market-banca-section_title">
-                                Quieren interactuar
+                            Altos costos en 
                             </h4>
                             <p className="market-banca-section_parraf">
-                                cuándo, dónde y <br />
-                                cómo quieran.
+                            procesos manuales.
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-banca-section_div">
@@ -42,10 +42,10 @@ export default function Market() {
                             </div>
 
                             <h4 className="market-banca-section_title">
-                                Necesitan respuestas
+                            Experiencias frustrantes 
                             </h4>
                             <p className="market-banca-section_parraf">
-                                rápidas y efectivas.
+                            para los pacientes.
                             </p>
                         </Col>
                         <Col sm={4} xs={4} className="market-banca-section_div">

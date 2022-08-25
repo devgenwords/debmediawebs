@@ -18,9 +18,9 @@ export default function Thankyou() {
                 </div>
                 <div className="gracias-section_blue">
                     <h1>
-                        Mientras tanto,<b>te invitamos</b> <br />
+                        Mientras tanto, <br /><b> te invitamos</b> <br />
                         a explorar nuestra <br />
-                        sección de recursos. <b>¡Disfrútalos!</b>
+                        sección de recursos. <br /><b>¡Disfrútalos!</b>
                     </h1>
                     <Link href="/">
                         <button className="citas-home_demobutton">

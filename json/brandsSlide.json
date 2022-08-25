@@ -34,7 +34,7 @@
     "home": true,
     "category": "banca",
     "image": {
-      "url": "comeva.png",
+      "url": "bancoomeva.png",
       "width": 250,
       "height": 110
     }
@@ -154,17 +154,7 @@
     "home": true,
     "category": "salud",
     "image": {
-      "url": "coomeva.png",
-      "width": 250,
-      "height": 110
-    }
-  },
-  {
-    "name": "WOM",
-    "home": true,
-    "category": "telcos",
-    "image": {
-      "url": "wom.png",
+      "url": "bancoomeva.png",
       "width": 250,
       "height": 110
     }
@@ -415,16 +405,6 @@
     "category": "gobierno",
     "image": {
       "url": "municipalidadcordoba.png",
-      "width": 250,
-      "height": 110
-    }
-  },
-  {
-    "name": "tigremunicipio",
-    "home": false,
-    "category": "gobierno",
-    "image": {
-      "url": "tigremunicipio.png",
       "width": 250,
       "height": 110
     }

@@ -26,8 +26,8 @@ export default function Solutions(props) {
                 <Row>
                     <Col className="solutions-indus-section_maintitle">
                         <h3 className="text-center">
-                            <b> Entrega a tus clientes la</b> <br />
-                            atención que se merecen
+                            <b> Ofrece a tus pacientes </b> <br />
+                            la atención que se merecen
                         </h3>
                     </Col>
                 </Row>
@@ -46,9 +46,9 @@ export default function Solutions(props) {
                             </div>
 
                             <h4 className="solutions-indus-section_title">
-                                Integra los canales  <br className="d-none d-sm-block" /> de atención
+                            Procesos digitalizados 
                             </h4>
-                            <p> y ofrece una atención omnicanal</p>
+                            <p>que mejoran su experiencia.</p>
                         </Col>
                         <Col sm={4} xs={4} className="solutions-indus-section_div">
                             <div className="solutions-indus-section_div-img  d-none d-sm-block">
@@ -60,9 +60,9 @@ export default function Solutions(props) {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-indus-section_title">
-                                Optimiza los procesos
+                            Flujos adaptados
                             </h4>
-                            <p>con datos y agiliza la atención</p>
+                            <p>a las necesidades que tienen.</p>
                         </Col>
                         <Col sm={4} xs={4} className="solutions-indus-section_div">
                             <div className="solutions-indus-section_div-img  d-none d-sm-block">
@@ -74,10 +74,10 @@ export default function Solutions(props) {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="solutions-indus-section_title">
-                                Mejora los tiempos
+                            Métricas de performance 
                             </h4>
-                            <p> de respuesta y agiliza <br />
-                                la atención.</p>
+                            <p> para conocer el rendimiento  <br />
+                            del equipo</p>
                         </Col>
                     </Row>
                 </Container>

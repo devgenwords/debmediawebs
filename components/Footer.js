@@ -108,12 +108,12 @@ export default function Footer() {
                                     </ListGroup.Item>
                                     <ListGroup.Item>
                                         <Link href="/salud">
-                                            Salud 
+                                            Salud
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
                                         <Link href="/gobierno">
-                                             Gobierno
+                                            Gobierno
                                         </Link>
                                     </ListGroup.Item>
                                     <ListGroup.Item>
@@ -144,12 +144,18 @@ export default function Footer() {
                         </Row>
                         <Row >
                             <Col xs="12" className="d-flex justify-content-center mt-4">
-                                <img src={face.src} width={50} className="social"
-                                    height={50} alt="facebook" />
-                                <img src={insta.src} width={50}
-                                    height={50} alt="facebook"  className="social"/>
-                                <img src={lkedin.src} width={50}
-                                    height={50} alt="facebook"  className="social"/>
+                                <Link href="https://www.facebook.com/debmedia.corp/">
+                                    <img src={face.src} width={50} className="social"
+                                        height={50} alt="facebook" />
+                                </Link>
+                                <Link href="https://www.instagram.com/wearedebmedia/?hl=es">
+                                    <img src={insta.src} width={50}
+                                        height={50} alt="insta" className="social" />
+                                </Link>
+                                <Link href="https://www.linkedin.com/company/debmedia/mycompany/">
+                                    <img src={lkedin.src} width={50}
+                                        height={50} alt="lkedin" className="social" />
+                                </Link>
                             </Col>
                         </Row>
                     </Container>
