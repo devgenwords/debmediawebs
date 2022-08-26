@@ -18,7 +18,7 @@ export default function Utilities() {
       <Header />
       <Market />
       <Solutions color="utilities" />
-      <SpecsIndus />
+      <SpecsIndus indus="utilites" />
       <Review />
       <Partner />
       <Level color="industriasColor" />

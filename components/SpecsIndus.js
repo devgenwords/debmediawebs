@@ -6,20 +6,63 @@ import metricas from '../asset/imgs/salud/metricas.svg'
 import comu from '../asset/imgs/salud/comu.svg'
 
 
-export default function SpecsIndus() {
+export default function SpecsIndus(props) {
+
+    const TITLES = {
+        banca: {
+            title: ` <h3 className="text-center">
+            <b> Una solución moderna y escalable  <br className="d-none d-sm-none" />
+            para bancos y aseguradoras.</b>
+            <br />
+            Ofrece los canales de atención correctos y compite <br className="d-none d-sm-none" />
+            con entidades 100 % digitalizadas
+        </h3> `
+        },
+        salud: {
+            title: ` <h3 className="text-center">
+            <b>  Una solución moderna y escalable para <br className="d-none d-sm-none" />
+                laboratorios, clínicas, farmacias y  hospitales</b>
+            <br />
+            Ofrece los canales de atención correctos y compite <br className="d-none d-sm-none" />
+            con entidades 100 % digitalizadas
+        </h3> `,
+        },
+        gobierno: {
+            title: ` <h3 className="text-center">
+            <b>  Una solución moderna y escalable</b>
+            <br />
+            para organizaciones del gobierno
+        </h3> `,
+        },
+        retail: {
+            title: ` <h3 className="text-center">
+            <b>  Una solución moderna y escalable</b>
+            <br />
+            para organizaciones del gobierno
+        </h3> `,
+        },
+        telcos: {
+            title: ` <h3 className="text-center">
+            <b>  Una solución moderna y escalable</b>
+            <br />
+            para organizaciones del gobierno
+        </h3> `,
+        },
+        utilities: {
+            title: ` <h3 className="text-center">
+            <b>  Una solución moderna y escalable</b>
+            <br />
+            para organizaciones del gobierno
+        </h3> `,
+        }
+    }
+
     return (
         <>
             <Container fluid className="modern-banca-section">
                 <Container>
                     <Row>
-                        <Col className="modern-banca-section_maintitle">
-                            <h3 className="text-center">
-                                <b>  Una solución moderna y escalable para <br className="d-none d-sm-none" />
-                                    laboratorios, clínicas, farmacias y  hospitales</b>
-                                <br />
-                                Ofrece los canales de atención correctos y compite <br className="d-none d-sm-none" />
-                                con entidades 100 % digitalizadas
-                            </h3>
+                        <Col className="modern-banca-section_maintitle text-center" dangerouslySetInnerHTML={{ __html: TITLES[props.indus].title }}>
                         </Col>
                     </Row>
                     <Row className=" d-flex justify-content-center">

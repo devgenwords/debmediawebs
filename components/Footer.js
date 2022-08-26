@@ -58,6 +58,11 @@ export default function Footer() {
                                             Preatendedor
                                         </Link>
                                     </ListGroup.Item>
+                                    <ListGroup.Item>
+                                        <Link href="/preatendedor">
+                                            Chatbot de WhatsApp 
+                                        </Link>
+                                    </ListGroup.Item>
                                 </ListGroup>
                             </Col>
                             <Col sm="3" xs="6">

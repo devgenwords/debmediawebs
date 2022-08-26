@@ -18,7 +18,7 @@ export default function Retail() {
       <Header />
       <Market />
       <Solutions color="retail"/>
-      <SpecsIndus />
+      <SpecsIndus indus="retail" />
       <Review />
       <Partner />
       <Level color="industriasColor" />

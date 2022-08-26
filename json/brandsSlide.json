@@ -40,6 +40,26 @@
     }
   },
   {
+    "name": "santander",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "santander.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "sura",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "sura.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
     "name": "mapfre",
     "home": true,
     "category": "banca",

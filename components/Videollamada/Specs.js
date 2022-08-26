@@ -101,7 +101,7 @@ export default function Modern() {
                                             Integración <br /> sencilla
                                         </h4>
                                         <p className="specs-section_videocall_parraf">
-                                            IUna herramienta integrable por API o Iframe
+                                            Una herramienta integrable por API o Iframe
 
                                         </p>
                                     </div>

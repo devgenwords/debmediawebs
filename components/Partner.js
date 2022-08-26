@@ -4,6 +4,7 @@ import Image from 'next/image'
 import shape from '../asset/imgs/partner-shape.svg'
 import performance from '../asset/imgs/home/performance.svg'
 import channel from '../asset/imgs/home/channels.svg'
+import Link from 'next/link'
 
 
 export default function Modern() {
@@ -23,7 +24,9 @@ export default function Modern() {
                                 </p>
                             </Col>
                             <Col sm={3} xs={12} className="d-flex justify-content-start justify-content-sm-center align-items-center">
-                                <button className="partner-section_btn">Quiero ser partner</button>
+                                <Link href="/partners">
+                                    <button className="partner-section_btn">Quiero ser partner</button> 
+                                </Link>
                             </Col>
                         </Row>
                     </Col>

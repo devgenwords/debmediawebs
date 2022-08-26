@@ -18,7 +18,7 @@ export default function Gobierno() {
       <Header />
       <Market />
       <Solutions color="gobierno" />
-      <SpecsIndus />
+      <SpecsIndus indus="gobierno" />
       <Review />
       <Partner />
       <Level color="industriasColor" />

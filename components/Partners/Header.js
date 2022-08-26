@@ -38,7 +38,7 @@ export default function Header() {
                                     Conviértete en un<b> Debmedia<br className="d-none d-sm-block" /> Partner</b> y agrega más valor a <br className="d-none d-sm-block" />
                                     tus clientes.
                                 </p>
-                                <Link href="/">
+                                <Link href="/contacto">
                                     <button className="partners-home_demobutton">
                                     Quiero ser partner
                                     </button>

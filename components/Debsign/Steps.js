@@ -60,8 +60,8 @@ export default function Solutions() {
                                     height={60} className={'img-fluid'} />
                             </div>
                             <h4 className="setps-debsign-section_title">
-                            Transforma los recursos <br className="d-none d-sm-block" />
-                            Utiliza componentes <br className="d-none d-sm-block" />amigables para el planeta.
+                            Transforma los recursos. <br className="d-none d-sm-block" />
+                           
 
 
                             </h4>

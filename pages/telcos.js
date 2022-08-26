@@ -18,7 +18,7 @@ export default function Telcos() {
       <Header />
       <Market />
       <Solutions color="telcos" />
-      <SpecsIndus />
+      <SpecsIndus indus="telcos" />
       <Review />
       <Partner />
       <Level color="industriasColor" />

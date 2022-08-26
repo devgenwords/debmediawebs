@@ -18,7 +18,7 @@ export default function Salud() {
       <Header />
       <Market />
       <Solutions color="salud" />
-      <SpecsIndus />
+      <SpecsIndus indus="salud" />
       <Review />
       <Partner />
       <Level color="industriasColor" />

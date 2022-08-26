@@ -18,7 +18,7 @@ export default function Banca() {
       <Header />
       <Market />
       <Solutions color="banca" />
-      <SpecsIndus />
+      <SpecsIndus indus="banca" />
       <Review />
       <Partner />
       <Level color="industriasColor" />
