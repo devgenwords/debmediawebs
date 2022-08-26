@@ -92,13 +92,13 @@ export default function Home(props) {
                                     </Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item onClick={() => setExpanded(false)}>
-                                    <Link href="/">
+                                    <Link href="https://blog.debmedia.com/category/casos-de-exito/">
                                         Casos de éxito
                                     </Link>
 
                                 </NavDropdown.Item>
                                 <NavDropdown.Item onClick={() => setExpanded(false)}>
-                                    <Link href="/">
+                                    <Link href="https://blog.debmedia.com/category/ebooks/">
                                         Recursos descargables
                                     </Link>
 

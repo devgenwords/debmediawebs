@@ -48,7 +48,7 @@ export default function SpecsIndus(props) {
             para organizaciones del gobierno
         </h3> `,
         },
-        utilities: {
+        utilites: {
             title: ` <h3 className="text-center">
             <b>  Una solución moderna y escalable</b>
             <br />
