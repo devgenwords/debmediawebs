@@ -169,16 +169,7 @@
       "height": 110
     }
   },
-  {
-    "name": "coomeva",
-    "home": true,
-    "category": "salud",
-    "image": {
-      "url": "bancoomeva.png",
-      "width": 250,
-      "height": 110
-    }
-  },
+ 
   {
     "name": "cocha",
     "home": true,
@@ -262,7 +253,7 @@
   {
     "name": "nesspreso",
     "home": true,
-    "category": "utilities",
+    "category": "retail",
     "image": {
       "url": "nesspreso.png",
       "width": 250,
