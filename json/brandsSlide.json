@@ -260,6 +260,26 @@
     }
   },
   {
+    "name": "nesspreso",
+    "home": true,
+    "category": "utilities",
+    "image": {
+      "url": "nesspreso.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "bayer",
+    "home": true,
+    "category": "utilities",
+    "image": {
+      "url": "bayer.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
     "name": "edenor",
     "home": true,
     "category": "utilities",
