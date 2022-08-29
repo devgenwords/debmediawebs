@@ -110,6 +110,16 @@
     }
   },
   {
+    "name": "banesco",
+    "home": true,
+    "category": "banca",
+    "image": {
+      "url": "banesco.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
     "name": "banco-ciudad",
     "home": true,
     "category": "banca",
@@ -135,6 +145,16 @@
     "category": "salud",
     "image": {
       "url": "sancorsalud.png",
+      "width": 250,
+      "height": 110
+    }
+  },
+  {
+    "name": "medife",
+    "home": true,
+    "category": "salud",
+    "image": {
+      "url": "medife.png",
       "width": 250,
       "height": 110
     }
@@ -169,7 +189,16 @@
       "height": 110
     }
   },
- 
+  {
+    "name": "palacio-del-hierro",
+    "home": true,
+    "category": "retail",
+    "image": {
+      "url": "palacio-del-hierro.png",
+      "width": 250,
+      "height": 110
+    }
+  },
   {
     "name": "cocha",
     "home": true,
