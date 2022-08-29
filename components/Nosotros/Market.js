@@ -27,7 +27,7 @@ export default function Market() {
                         </Col>
                         <Col className="col-12 text-center mt-4">
                             <img src={celda.src} className="img-fluid d-none d-sm-block" />
-                            <video autoPlay muted loop className="img-fluid d-block d-sm-none" style={{ width: '100%', height: 'auto' }}>
+                            <video autoPlay={true} muted={true} loop className="img-fluid d-block d-sm-none" style={{ width: '100%', height: 'auto' }}>
                                 <source src={`/celdaxs.mp4`} />
                             </video>
                         </Col>
