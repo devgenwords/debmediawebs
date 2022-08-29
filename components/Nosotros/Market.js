@@ -3,6 +3,7 @@ import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
 import celda from '../../asset/imgs/nosotros/celda.svg'
 import celdaxs from '../../asset/imgs/nosotros/celda-xs.svg'
+import video from '../../asset/imgs/nosotros/celda-xs.svg'
 
 
 export default function Market() {
@@ -25,8 +26,10 @@ export default function Market() {
                             </p>
                         </Col>
                         <Col className="col-12 text-center mt-4">
-                            <img src={celda.src} className="img-fluid d-none d-sm-block"/>
-                            <img src={celdaxs.src} className="img-fluid d-block d-sm-none"/>
+                            <img src={celda.src} className="img-fluid d-none d-sm-block" />
+                            <video autoPlay muted loop className="img-fluid d-block d-sm-none" style={{ width: '100%', height: 'auto' }}>
+                                <source src={`/celdaxs.mp4`} />
+                            </video>
                         </Col>
                     </Row>
                 </Container>

@@ -3,7 +3,8 @@ import { Row, Container, Col } from "react-bootstrap";
 import Image from 'next/image'
 import nosotros from '../../asset/imgs/nosotros/group.png'
 import map from '../../asset/imgs/nosotros/map.svg'
-import comu from '../../asset/imgs/salud/comu.svg'
+import Ratio from 'react-bootstrap/Ratio';
+
 
 
 export default function SpecsIndus() {
