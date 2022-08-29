@@ -21,7 +21,7 @@ export default function Map() {
                     <Row>
                         <Col className="map-section_mapcontent text-center">
                             <h3 className="map-section_mapcontent-text">
-                                Debemedia lleva más de 15 años desarrollando software para gestionar la experiencia del cliente.
+                                Debmedia lleva más de 15 años desarrollando software para gestionar la experiencia del cliente.
                             </h3>
                              <img src={iso.src} className="img-fluid isoImg" alt="Iso" />
 

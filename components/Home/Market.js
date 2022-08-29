@@ -43,7 +43,7 @@ export default function Market() {
                                 Procesos
                             </h4>
                             <p className="market-section_parraf">
-                                de atención costos
+                                de atención costosos
 
                             </p>
                         </Col>
