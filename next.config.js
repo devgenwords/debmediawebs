@@ -25,6 +25,11 @@ module.exports = {
         destination: 'https://blog.debmedia.com/:path',
         permanent: true,
       },
+      {
+        source: '/blog',
+        destination: 'https://blog.debmedia.com',
+        permanent: true,
+      },
     ]
   },
 }
