@@ -18,4 +18,13 @@ module.exports = {
   images: {
     domains: ['debmedia.com'],
   },
+  async redirects() {
+    return [
+      {
+        source: '/blog/:path',
+        destination: 'https://blog.debmedia.com/:path',
+        permanent: true,
+      },
+    ]
+  },
 }
