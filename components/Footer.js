@@ -12,6 +12,9 @@ export default function Footer() {
     return (
         <>
             <footer>
+        
+        <meta name="google-site-verification" content="m98CblGomHS30Vj7DPkz3zcbfZZHcYdHR3cdVNsJYs8" />
+        
                 <Container fluid className="footer-section">
                     <Container>
                         <Row>
