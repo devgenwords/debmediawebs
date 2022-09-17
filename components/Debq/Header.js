@@ -15,6 +15,9 @@ export default function Header() {
     return (
         <>
             <header>
+        
+        <meta name="google-site-verification" content="m98CblGomHS30Vj7DPkz3zcbfZZHcYdHR3cdVNsJYs8" />
+        
                 <Container fluid className="debq-home">
                     <div className={'image-container-debq'}>
                     <Image src={mypic.src} layout="fill" className={'image d-none d-sm-block'} />
